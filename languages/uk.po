@@ -1,0 +1,1534 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Тема ТДАТУ\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2015-01-20 22:22:46+00:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Andrii Ryzhkv <andri.ryzhkov@gmail.com>\n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: 404.php:19
+msgid "Oops! Something went wrong here."
+msgstr "Ой! Щось тут пішло не так."
+
+#: 404.php:24
+msgid "Nothing could be found at this location. Maybe try a search?"
+msgstr "Нічого не знайдено в цьому місці. Може скористаєтесь пошуком?"
+
+#: comments.php:40 comments.php:57
+msgid "Comment navigation"
+msgstr "Навігація по коментарям"
+
+#: comments.php:41 comments.php:58
+msgid "&larr; Older Comments"
+msgstr "&larr; Старі коментарі"
+
+#: comments.php:42 comments.php:59
+msgid "Newer Comments &rarr;"
+msgstr "Нові коментарі &rarr;"
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "Коментарі закриті."
+
+#: content-none.php:19
+msgid "Nothing Found"
+msgstr "Нічого не знайдено"
+
+#: content-none.php:25
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Готові публікувати вашу першу публікацію? <a href=\"%1$s\">Початок роботи "
+"тут</a>."
+
+#: content-none.php:29
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"На жаль, нічого не відповідає вашим пошуковим термінам. Будь ласка, "
+"спробуйте ще раз з іншими ключовими словами."
+
+#: content-none.php:34
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Здається, ми не можемо знайти те, що ви шукаєте. Можливо пошук допоможе."
+
+#: content-page.php:25 content-single.php:23
+msgid "Pages:"
+msgstr "Сторінки:"
+
+#: footer.php:44 footer.php:46
+msgid "All rights reserved."
+msgstr "Всі права захищені."
+
+#: footer.php:49
+msgid "Contact Information"
+msgstr "Контактна інформація"
+
+#: footer.php:50
+msgid "Site Map"
+msgstr "Мапа сайту"
+
+#: footer.php:51
+msgid "Terms of Use"
+msgstr "Умови використання"
+
+#: functions.php:53
+msgid "Error locating %s for inclusion"
+msgstr "Помилка при пошуку %s для включення"
+
+#: header.php:32
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+"Ви використовуєте <strong>застарілий</strong> браузер. Будь ласка, <a href="
+"\"http://browsehappy.com/\">поновіть ваш браузер</a>, щоб поліпшити ваш "
+"досвід."
+
+#: header.php:46
+msgid "Tavria State Agrotechnological University"
+msgstr "Таврійський державний агротехнологічний університет"
+
+#: header.php:67
+msgid "Subdivisions"
+msgstr "Підрозділи"
+
+#: header.php:68
+msgid "On-line Services"
+msgstr "Он-лайн служби"
+
+#: header.php:69
+msgid "Sign In"
+msgstr "Вхід"
+
+#. Theme Name of the plugin/theme
+msgid "TSATU"
+msgstr "ТДАТУ"
+
+#: includes/breadcrumb.php:33
+msgid "Archive by category \""
+msgstr "Архів категорії \""
+
+#: includes/breadcrumb.php:81
+msgid "Search results for \""
+msgstr "Результати пошуку для \""
+
+#: includes/breadcrumb.php:83
+msgid "Posts tagged \""
+msgstr "Публікації відмічені \""
+
+#: includes/breadcrumb.php:87
+msgid "Articles posted by "
+msgstr "Статті опубліковані \""
+
+#: includes/breadcrumb.php:89
+msgid "Error 404"
+msgstr "Помилка 404"
+
+#: includes/customizer.php:27
+msgid "Abbreviation"
+msgstr "Абревіатура"
+
+#: includes/customizer.php:34
+msgid "Slider"
+msgstr "Слайдер"
+
+#: includes/customizer.php:44
+msgid "Show slider on front page"
+msgstr "Показувати слайдер на головній сорінці"
+
+#: includes/customizer.php:55 includes/widgets/widget-slider.php:38
+msgid "Number of slides"
+msgstr "Кількість слайдів"
+
+#: includes/customizer.php:62
+msgid "Solial Icons"
+msgstr "Соціальні іконки"
+
+#: includes/customizer.php:63
+msgid ""
+"Enter links to accounts in social networks. If you do not use a certain "
+"network, leave the field empty."
+msgstr ""
+"Введіть посилання на облікові записи в соціальних мережах. Якщо ви не "
+"використовуєте певну мережу, залиште поле порожнім."
+
+#: includes/customizer.php:72
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/customizer.php:83
+msgid "VKontakte"
+msgstr "ВКонтакте"
+
+#: includes/customizer.php:94
+msgid "Twitter"
+msgstr "Twitter"
+
+#: includes/customizer.php:105
+msgid "Google+"
+msgstr "Google+"
+
+#: includes/customizer.php:116
+msgid "Youtube"
+msgstr "Youtube"
+
+#: includes/customizer.php:127
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: includes/customizer.php:138
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: includes/customizer.php:149
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: includes/customizer.php:160
+msgid "RSS"
+msgstr "RSS"
+
+#: includes/customizer.php:171
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: includes/customizer.php:182
+msgid "Flickr"
+msgstr "Flickr"
+
+#: includes/customizer.php:193
+msgid "Instagram"
+msgstr "Instagram"
+
+#: includes/customizer.php:204
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: includes/customizer.php:215
+msgid "Skype"
+msgstr "Skype"
+
+#: includes/customizer.php:226
+msgid "Foursquare"
+msgstr "Foursquare"
+
+#: includes/customizer.php:237
+msgid "SoundCloud"
+msgstr "SoundCloud"
+
+#: includes/customizer.php:248
+msgid "GitHub"
+msgstr "GitHub"
+
+#: includes/extras.php:57
+msgid "Page %s"
+msgstr " Сторінка %s "
+
+#: includes/extras.php:120
+msgid "Read more"
+msgstr "Читайте також"
+
+#: includes/extras.php:132
+msgid "Permalink to %s"
+msgstr "Постійне посилання на %s"
+
+#: includes/extras.php:214
+msgid "Follow us on "
+msgstr "Слідкуйте за нами в "
+
+#: includes/init.php:54
+msgid "Primary Menu"
+msgstr "Головне меню"
+
+#: includes/init.php:95
+msgid "Deafult Sidebar"
+msgstr "Основна бічна панель"
+
+#: includes/init.php:104
+msgid "Page Sidebar"
+msgstr "Бічна панель сторінок"
+
+#: includes/init.php:114 includes/init.php:123 includes/init.php:132
+#: includes/init.php:141
+msgid "Footer"
+msgstr "Нижній колонтитул"
+
+#: includes/post_types/banner_post_type.php:17
+msgid "Banners"
+msgstr "Банери"
+
+#: includes/post_types/banner_post_type.php:18
+msgid "All Banners"
+msgstr "Всі банери"
+
+#: includes/post_types/banner_post_type.php:19
+msgid "View Banner"
+msgstr "Переглянути банер"
+
+#: includes/post_types/banner_post_type.php:20
+msgid "Add New Banner"
+msgstr "Додати новий банер"
+
+#: includes/post_types/banner_post_type.php:21
+#: includes/post_types/slide_post_type.php:21
+#: includes/post_types/tab_post_type.php:21
+msgid "Add New"
+msgstr "Додати новий"
+
+#: includes/post_types/banner_post_type.php:22
+msgid "Edit Banner"
+msgstr "Редагувати банер"
+
+#: includes/post_types/banner_post_type.php:23
+msgid "Update Banner"
+msgstr "Оновити банер"
+
+#: includes/post_types/banner_post_type.php:24
+msgid "Search Banners"
+msgstr "Шукати банер"
+
+#: includes/post_types/banner_post_type.php:25
+msgid "No Banners found"
+msgstr "Жодного банеру не знайдено"
+
+#: includes/post_types/banner_post_type.php:26
+msgid "Not Banners found in Trash"
+msgstr "Жодного банеру в Кошику не знайдено"
+
+#: includes/post_types/banner_post_type.php:29
+msgid "banners"
+msgstr "банери"
+
+#: includes/post_types/banner_post_type.php:30
+msgid "Banner"
+msgstr "Банер"
+
+#: includes/post_types/banner_post_type.php:58
+msgid "Banner details"
+msgstr "Деталі банеру"
+
+#: includes/post_types/banner_post_type.php:72
+msgid "URL:"
+msgstr "Посилання:"
+
+#: includes/post_types/slide_post_type.php:17
+msgid "Slides"
+msgstr "Слайди"
+
+#: includes/post_types/slide_post_type.php:18
+msgid "All Slides"
+msgstr "Всі слайди"
+
+#: includes/post_types/slide_post_type.php:19
+msgid "View Slide"
+msgstr "Переглянути слайд"
+
+#: includes/post_types/slide_post_type.php:20
+msgid "Add New Slide"
+msgstr "Додати новий слайд"
+
+#: includes/post_types/slide_post_type.php:22
+msgid "Edit Slide"
+msgstr "Редагувати слайд"
+
+#: includes/post_types/slide_post_type.php:23
+msgid "Update Slide"
+msgstr "Оновити слайд"
+
+#: includes/post_types/slide_post_type.php:24
+msgid "Search Slides"
+msgstr "Пошук слайдів"
+
+#: includes/post_types/slide_post_type.php:25
+msgid "No Slides found"
+msgstr "Жодного слайду не знайдено"
+
+#: includes/post_types/slide_post_type.php:26
+msgid "Not Slides found in Trash"
+msgstr "Жодного слайду в Кошику не знайдено"
+
+#: includes/post_types/slide_post_type.php:29
+msgid "slides"
+msgstr "слайди"
+
+#: includes/post_types/slide_post_type.php:30
+msgid "Slide"
+msgstr "Слайд"
+
+#: includes/post_types/slide_post_type.php:58
+msgid "Slide details"
+msgstr "Деталі слайду"
+
+#: includes/post_types/slide_post_type.php:72
+msgid "Internal relative URL:"
+msgstr "Внутрішнє відносне посилання:"
+
+#: includes/post_types/tab_post_type.php:17
+msgid "Tabs"
+msgstr "Вкладки"
+
+#: includes/post_types/tab_post_type.php:18
+msgid "All Tabs"
+msgstr "Всі вкладки"
+
+#: includes/post_types/tab_post_type.php:19
+msgid "View Tab"
+msgstr "Переглянути вкладку"
+
+#: includes/post_types/tab_post_type.php:20
+msgid "Add New Tab"
+msgstr "Додати нову вкладку"
+
+#: includes/post_types/tab_post_type.php:22
+msgid "Edit Tab"
+msgstr "Редагувати вкладку"
+
+#: includes/post_types/tab_post_type.php:23
+msgid "Update Tab"
+msgstr "Оновити вкладку"
+
+#: includes/post_types/tab_post_type.php:24
+msgid "Search Tabs"
+msgstr "Шукати вкладку"
+
+#: includes/post_types/tab_post_type.php:25
+msgid "No Tabs found"
+msgstr "Жодної вкладки не знайдено"
+
+#: includes/post_types/tab_post_type.php:26
+msgid "Not Tabs found in Trash"
+msgstr "Жодної вкладки в Кошику не знайдено"
+
+#: includes/post_types/tab_post_type.php:29
+msgid "tabs"
+msgstr "вкладки"
+
+#: includes/post_types/tab_post_type.php:30
+msgid "Tab"
+msgstr "Вкладка"
+
+#: includes/post_types/tab_post_type.php:64
+msgid "Categories"
+msgstr "Категорії"
+
+#: includes/post_types/tab_post_type.php:65
+msgid "All Categories"
+msgstr "Всі категорії"
+
+#: includes/post_types/tab_post_type.php:68
+msgid "New Category Name"
+msgstr "Нова назва категорії"
+
+#: includes/post_types/tab_post_type.php:69
+msgid "Add New Category"
+msgstr "Додати нову категорію"
+
+#: includes/post_types/tab_post_type.php:70
+msgid "Edit Category"
+msgstr "редагувати категорію"
+
+#: includes/post_types/tab_post_type.php:71
+msgid "Update Category"
+msgstr "Оновити категорію"
+
+#: includes/post_types/tab_post_type.php:72
+msgid "Separate categories with commas"
+msgstr "Відокремлюйте категорії комами"
+
+#: includes/post_types/tab_post_type.php:73
+msgid "Search Category"
+msgstr "Шукати категорію"
+
+#: includes/post_types/tab_post_type.php:74
+msgid "Add or remove Categories"
+msgstr "Додати або видалити категорію"
+
+#: includes/post_types/tab_post_type.php:75
+msgid "Choose from the most used categories"
+msgstr "Вибрати серед найбільш вживаних категорій"
+
+#: includes/post_types/tab_post_type.php:76
+msgid "Not Found"
+msgstr "Не знайдено"
+
+#: includes/post_types/tab_post_type.php:97
+msgid "Tab defaults"
+msgstr "Стан за замовчуванням вкладки"
+
+#: includes/post_types/tab_post_type.php:111
+msgid "Active tab"
+msgstr "Активна вкладка"
+
+#: includes/template-tags.php:29
+msgid "Posts navigation"
+msgstr "Навігація публікації"
+
+#: includes/template-tags.php:33
+msgid "Older posts"
+msgstr "Старі публікації"
+
+#: includes/template-tags.php:37
+msgid "Newer posts"
+msgstr "Нові публікації"
+
+#: includes/template-tags.php:64
+msgid "Post navigation"
+msgstr "Навігація публікації"
+
+#. translators: used between list items, there is a space after the comma
+#: includes/template-tags.php:108 includes/template-tags.php:114
+msgid ", "
+msgstr ", "
+
+#: includes/template-tags.php:110
+msgid "Posted in %1$s"
+msgstr "Опубліковано в %1$s"
+
+#: includes/template-tags.php:116
+msgid "Tagged %1$s"
+msgstr "Відмічено %1$s"
+
+#: includes/template-tags.php:122
+msgid "Leave a comment"
+msgstr "Залишити коментар"
+
+#: includes/template-tags.php:122
+msgid "1 Comment"
+msgstr "1 коментар"
+
+#: includes/template-tags.php:122
+msgid "% Comments"
+msgstr "% коментарів"
+
+#: includes/template-tags.php:126
+msgid "Edit"
+msgstr "Редагувати"
+
+#: includes/template-tags.php:143
+msgid "Category: %s"
+msgstr "Категорія: %s"
+
+#: includes/template-tags.php:145
+msgid "Tag: %s"
+msgstr "Теґ: %s"
+
+#: includes/template-tags.php:147
+msgid "Author: %s"
+msgstr "Автор: %s"
+
+#: includes/template-tags.php:149
+msgid "Year: %s"
+msgstr "Рік: %s"
+
+#: includes/template-tags.php:151
+msgid "Month: %s"
+msgstr "Місяць: %s"
+
+#: includes/template-tags.php:153
+msgid "Day: %s"
+msgstr "День: %s"
+
+#: includes/template-tags.php:175
+msgid "Archives: %s"
+msgstr "Архіви: %s"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: includes/template-tags.php:179
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: includes/template-tags.php:181
+msgid "Archives"
+msgstr "Архіви"
+
+#: includes/widgets/widget-banner.php:11
+msgid "Add banners to the page"
+msgstr "Додати банери на сторінку"
+
+#: includes/widgets/widget-banner.php:12
+msgid "Banner (TSATU)"
+msgstr "Банер (ТДАТУ)"
+
+#: includes/widgets/widget-banner.php:55 includes/widgets/widget-cta.php:78
+#: includes/widgets/widget-department.php:67
+#: includes/widgets/widget-service.php:55
+#: includes/widgets/widget-social.php:43 includes/widgets/widget-tabs.php:61
+msgid "Title:"
+msgstr "Назва:"
+
+#: includes/widgets/widget-cta.php:23
+msgid "Add a Call to action box"
+msgstr "Додати текст заклику до дії"
+
+#: includes/widgets/widget-cta.php:24
+msgid "Call to Action (TSATU)"
+msgstr "Заклик до дії (ТДАТУ)"
+
+#: includes/widgets/widget-cta.php:81
+#: includes/widgets/widget-department.php:70
+msgid "Image URL:"
+msgstr "Посилання зображення:"
+
+#: includes/widgets/widget-cta.php:84
+msgid "Call text:"
+msgstr "Текст заклику:"
+
+#: includes/widgets/widget-cta.php:87
+#: includes/widgets/widget-department.php:76
+msgid "Button Text:"
+msgstr "Текст кнопки:"
+
+#: includes/widgets/widget-cta.php:90
+#: includes/widgets/widget-department.php:79
+msgid "Button URL:"
+msgstr "Посилання кнопки:"
+
+#: includes/widgets/widget-department.php:12
+msgid "Add a department welcome screen"
+msgstr "Додає екран вітання кафедри"
+
+#: includes/widgets/widget-department.php:13
+msgid "Department Welcome (TSATU)"
+msgstr "Вітання кафедри (ТДАТУ)"
+
+#: includes/widgets/widget-department.php:73
+msgid "Welcome text:"
+msgstr "Текст вітання:"
+
+#: includes/widgets/widget-pagenav.php:9
+msgid "List of correspoding pages"
+msgstr "Список відповідних сторінок"
+
+#: includes/widgets/widget-pagenav.php:10
+msgid "Pages Sidebar (TSATU)"
+msgstr "Сайдбар сторінки (ТДАТУ)"
+
+#: includes/widgets/widget-pagenav.php:71
+msgid "Exclude:"
+msgstr "Виключити:"
+
+#: includes/widgets/widget-pagenav.php:73
+msgid "Page IDs, separated by commas."
+msgstr "Ідентифікатори сторінки, розділені комами."
+
+#: includes/widgets/widget-recent-posts.php:9
+msgid "Recent post from some category"
+msgstr "Останні публікації з певної категорії"
+
+#: includes/widgets/widget-recent-posts.php:10
+msgid "Recent Posts (TSATU)"
+msgstr "Останні публікації (ТДАТУ)"
+
+#: includes/widgets/widget-recent-posts.php:16
+#: includes/widgets/widget-recent-posts.php:144
+msgid "Category"
+msgstr "Категорія"
+
+#: includes/widgets/widget-recent-posts.php:89
+msgid "View All News"
+msgstr "Переглянути всі новини"
+
+#: includes/widgets/widget-recent-posts.php:128
+msgid "Recent Posts"
+msgstr "Останні публікації"
+
+#: includes/widgets/widget-recent-posts.php:136
+#: includes/widgets/widget-shortlink.php:54
+msgid "Title"
+msgstr "Заголовок"
+
+#: includes/widgets/widget-recent-posts.php:150
+msgid "Columns for featured post"
+msgstr "Стовпців для головної публікації"
+
+#: includes/widgets/widget-recent-posts.php:155
+msgid "Set \"0\" to disable featured post."
+msgstr "Щоб виключити головну публікацію введіть \"0\"."
+
+#: includes/widgets/widget-recent-posts.php:160
+msgid "Number of columns"
+msgstr "Кількість стовпців"
+
+#: includes/widgets/widget-recent-posts.php:169
+msgid "Number of rows"
+msgstr "Кількість рядків"
+
+#: includes/widgets/widget-service.php:10
+msgid "Service item with url"
+msgstr "Служба з посиланням"
+
+#: includes/widgets/widget-service.php:11
+msgid "Service (TSATU)"
+msgstr "Служба (ТДАТУ)"
+
+#: includes/widgets/widget-service.php:48
+msgid "Service"
+msgstr "Служба"
+
+#: includes/widgets/widget-service.php:63
+msgid "Icon:"
+msgstr "Іконка:"
+
+#: includes/widgets/widget-service.php:72
+msgid "Link:"
+msgstr "Посилання:"
+
+#: includes/widgets/widget-shortlink.php:10
+#: includes/widgets/widget-shortlink.php:45
+msgid "Shortlink"
+msgstr "Корисне посилання"
+
+#: includes/widgets/widget-shortlink.php:11
+msgid "Shortlink (TSATU)"
+msgstr "Корисне посилання (ТДАТУ)"
+
+#: includes/widgets/widget-shortlink.php:17
+msgid "Shortlink Title"
+msgstr "Назва короткого посилання"
+
+#: includes/widgets/widget-shortlink.php:18
+#: includes/widgets/widget-shortlink.php:62
+msgid "Icon"
+msgstr "Іконка"
+
+#: includes/widgets/widget-shortlink.php:19
+#: includes/widgets/widget-shortlink.php:74
+msgid "Link"
+msgstr "Посилання"
+
+#: includes/widgets/widget-shortlink.php:69
+msgid "Name of Font Awesome icon."
+msgstr "Назва іконки Font Awesome."
+
+#: includes/widgets/widget-slider.php:11
+msgid "Add slider to the page"
+msgstr "Додає слайдер на сторінку"
+
+#: includes/widgets/widget-slider.php:12
+msgid "Slider (TSATU)"
+msgstr "Слайдер (ТДАТУ)"
+
+#: includes/widgets/widget-social.php:10
+msgid "Social icons list"
+msgstr "Список іконок соціальних мереж"
+
+#: includes/widgets/widget-social.php:11
+msgid "Social icons (TSATU)"
+msgstr "Соціальні іконки (ТДАТУ)"
+
+#: includes/widgets/widget-social.php:39
+msgid "Follow us"
+msgstr "Ми в соцмережах"
+
+#: includes/widgets/widget-tabs.php:11
+msgid "Add tabs to the page"
+msgstr "Додає вкладки на сторінку"
+
+#: includes/widgets/widget-tabs.php:12
+msgid "Tabs (TSATU)"
+msgstr "Вкладки (ТДАТУ)"
+
+#: includes/widgets/widget-thumbnail.php:10
+msgid "Thumbnail for current post or page"
+msgstr "Мініатюра для поточної публікації або сторінки"
+
+#: includes/widgets/widget-thumbnail.php:11
+msgid "Thumbnail (TSATU)"
+msgstr "Мініатюра (ТДАТУ)"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "Результати пошуку для: %s"
+
+#: searchform.php:15
+msgid "Search"
+msgstr "Пошук"
+
+#. Theme URI of the plugin/theme
+msgid "https://github.com/andriiryzhkov/tsatu/"
+msgstr "https://github.com/andriiryzhkov/tsatu/"
+
+#. Description of the plugin/theme
+msgid ""
+"Official theme for websites of Tavria State Agrotechnological University"
+msgstr ""
+"Офіційна тема оформлення веб-сайтів Таврійського державного "
+"агротехнологічного університету"
+
+#. Author of the plugin/theme
+msgid "Andrii Ryzhkov"
+msgstr "Андрій Рижков"
+
+#. Author URI of the plugin/theme
+msgid "https://github.com/andriiryzhkov/"
+msgstr "https://github.com/andriiryzhkov/"
+
+#. Template Name of the plugin/theme
+msgid "Full Page"
+msgstr "Повна сторінка"
+
+#: comments.php:33
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s комент до &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s коменти до &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s коментів до &ldquo;%2$s&rdquo;"
+
+#: includes/post_types/banner_post_type.php:15
+msgctxt "Post Type General Name"
+msgid "Banners"
+msgstr "Банери"
+
+#: includes/post_types/slide_post_type.php:15
+msgctxt "Post Type General Name"
+msgid "Slides"
+msgstr "Слайди"
+
+#: includes/post_types/tab_post_type.php:15
+msgctxt "Post Type General Name"
+msgid "Tabs"
+msgstr "Вкладки"
+
+#: includes/post_types/banner_post_type.php:16
+msgctxt "Post Type Singular Name"
+msgid "Banner"
+msgstr "Банер"
+
+#: includes/post_types/slide_post_type.php:16
+msgctxt "Post Type Singular Name"
+msgid "Slide"
+msgstr "Слайд"
+
+#: includes/post_types/tab_post_type.php:16
+msgctxt "Post Type Singular Name"
+msgid "Tab"
+msgstr "Вкладка"
+
+#: includes/post_types/tab_post_type.php:62
+msgctxt "Taxonomy General Name"
+msgid "Categories"
+msgstr "Категорії"
+
+#: includes/post_types/tab_post_type.php:63
+msgctxt "Taxonomy Singular Name"
+msgid "Category"
+msgstr "Категорія"
+
+#: includes/template-tags.php:149
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: includes/template-tags.php:151
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: includes/template-tags.php:153
+msgctxt "daily archives date format"
+msgid "j F Y"
+msgstr "j F Y"
+
+#: includes/template-tags.php:156
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Примітка"
+
+#: includes/template-tags.php:158
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Галерея"
+
+#: includes/template-tags.php:160
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Зображення"
+
+#: includes/template-tags.php:162
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Відео"
+
+#: includes/template-tags.php:164
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Цитата"
+
+#: includes/template-tags.php:166
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Посилання"
+
+#: includes/template-tags.php:168
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Статус"
+
+#: includes/template-tags.php:170
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Аудіо"
+
+#: includes/template-tags.php:172
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Чат"
+
+#~ msgctxt "daily archives date format"
+#~ msgid "F j, Y"
+#~ msgstr "F j, Y"
+
+#~ msgid "Sidebar"
+#~ msgstr "Бічна панель"
+
+#~ msgid "Meta"
+#~ msgstr "Мета"
+
+#~ msgid "Latest Posts"
+#~ msgstr "Останні публікації"
+
+#~ msgid "Posts tagged \"%s\""
+#~ msgstr "Публікації відмічені \"%s\""
+
+#~ msgid "Search Results for %s"
+#~ msgstr "Результати пошуку для %s"
+
+#~ msgid "Theme Activation"
+#~ msgstr "Активація теми"
+
+#~ msgid "%s Theme Activation"
+#~ msgstr "Активація теми %s"
+
+#~ msgid ""
+#~ "These settings are optional and should usually be used only on a fresh "
+#~ "installation"
+#~ msgstr ""
+#~ "Ці параметри є необов'язковими і зазвичай слід використовувати тільки на "
+#~ "новій установці"
+
+#~ msgid "Create static front page?"
+#~ msgstr "Створити статичну головну сторінку?"
+
+#~ msgid "Yes"
+#~ msgstr "Так"
+
+#~ msgid "No"
+#~ msgstr "Ні"
+
+#~ msgid "Create a page called Home and set it to be the static front page"
+#~ msgstr ""
+#~ "Створити сторінку з назвою Home та призначити її статичною сторінкою"
+
+#~ msgid "Change permalink structure?"
+#~ msgstr "Змінити структуру постійних посилань?"
+
+#~ msgid "Update permalink structure?"
+#~ msgstr "Оновити структуру постійних посилань?"
+
+#~ msgid "Change permalink structure to /&#37;postname&#37;/"
+#~ msgstr "Змінити структуру постійних посилань на /&#37;postname&#37;/"
+
+#~ msgid "Create navigation menu?"
+#~ msgstr "Створити меню навігації?"
+
+#~ msgid "Create the Primary Navigation menu and set the location"
+#~ msgstr "Створити Головне меню та визначити місце"
+
+#~ msgid "Add pages to menu?"
+#~ msgstr "Додати сторінки до меню?"
+
+#~ msgid "Add all current published pages to the Primary Navigation"
+#~ msgstr "Додати всі поточні сторінки до Головного меню"
+
+#~ msgid "Home"
+#~ msgstr "Головна сторінка"
+
+#~ msgid "Primary Navigation"
+#~ msgstr "Головне меню"
+
+#~ msgid "One"
+#~ msgstr "Один"
+
+#~ msgid "Two"
+#~ msgstr "Два"
+
+#~ msgid "Three"
+#~ msgstr "Три"
+
+#~ msgid "Four"
+#~ msgstr "Чотири"
+
+#~ msgid "Five"
+#~ msgstr "П'ять"
+
+#~ msgid "Front Page"
+#~ msgstr "Головна сторінка"
+
+#~ msgid "General"
+#~ msgstr "Загальні"
+
+#~ msgid "Show customizable widget areas on Front Page"
+#~ msgstr "Показати настроювані області віджетів на головій сторінці"
+
+#~ msgid "Widget Area "
+#~ msgstr "Область віджетів "
+
+#~ msgid "Posts"
+#~ msgstr "Публікації"
+
+#~ msgid "Pages"
+#~ msgstr "Сторінки"
+
+#~ msgid "Front Page Area "
+#~ msgstr "Область головної сторінки "
+
+#~ msgid "Courses"
+#~ msgstr "Дисципліни"
+
+#~ msgid "All Courses"
+#~ msgstr "Всі дисципліни"
+
+#~ msgid "View Course"
+#~ msgstr "Переглянути дисципліну"
+
+#~ msgid "Add New Course"
+#~ msgstr "Додати нову дисципліну"
+
+#~ msgid "Edit Course"
+#~ msgstr "Редагувати дисципліну"
+
+#~ msgid "Update Course"
+#~ msgstr "Оновити дисципліну"
+
+#~ msgid "Search Courses"
+#~ msgstr "Шукати дисципліну"
+
+#~ msgid "No Courses found"
+#~ msgstr "Жодної дисципліни не знайдено"
+
+#~ msgid "Not Courses found in Trash"
+#~ msgstr "Жодної дисципліни в Кошику не знайдено"
+
+#~ msgid "course"
+#~ msgstr "дисципліна"
+
+#~ msgid "Course"
+#~ msgstr "Дисципліна"
+
+#~ msgid "Lecture"
+#~ msgstr "Провідний викладач"
+
+#~ msgid "Not selected"
+#~ msgstr "Не вибрано"
+
+#~ msgid "Links"
+#~ msgstr "Посилання"
+
+#~ msgid "Separate links with commas"
+#~ msgstr "Відокремлюйте посилання комами"
+
+#~ msgid "Majors"
+#~ msgstr "Напрямки"
+
+#~ msgid "All Majors"
+#~ msgstr "Всі напрямки"
+
+#~ msgid "New Major Name"
+#~ msgstr "Нова назва напрямку"
+
+#~ msgid "Add New Major"
+#~ msgstr "Додати новий напрямок"
+
+#~ msgid "Edit Major"
+#~ msgstr "Редагувати напрямок"
+
+#~ msgid "Update Major"
+#~ msgstr "Оновити напрямок"
+
+#~ msgid "Separate majors with commas"
+#~ msgstr "Відокремлюйте напрямки комами"
+
+#~ msgid "Search Majors"
+#~ msgstr "Шукати напрямок"
+
+#~ msgid "Add or remove majors"
+#~ msgstr "Додати або видалити напрямок"
+
+#~ msgid "Choose from the most used majors"
+#~ msgstr "Вибрати серед найбільш вживаних напрямків"
+
+#~ msgid "Levels"
+#~ msgstr "ОКР"
+
+#~ msgid "All Levels"
+#~ msgstr "Всі ОКР"
+
+#~ msgid "New Level Name"
+#~ msgstr "Нова назва ОКР"
+
+#~ msgid "Add New Level"
+#~ msgstr "Додати новий ОКР"
+
+#~ msgid "Edit Level"
+#~ msgstr "Редагувати ОКР"
+
+#~ msgid "Update Level"
+#~ msgstr "Оновити ОКР"
+
+#~ msgid "Separate levels with commas"
+#~ msgstr "Відокремлюйте ОКР комами"
+
+#~ msgid "Search Levels"
+#~ msgstr "Шукати ОКР"
+
+#~ msgid "Add or remove levels"
+#~ msgstr "Додати або видалити ОКР"
+
+#~ msgid "Choose from the most used levels"
+#~ msgstr "Вибрати серед найбільш вживаних ОКР"
+
+#~ msgid "Years"
+#~ msgstr "Курси"
+
+#~ msgid "All Years"
+#~ msgstr "Всі курси"
+
+#~ msgid "New Year Name"
+#~ msgstr "Нова назва курсу"
+
+#~ msgid "Add New Year"
+#~ msgstr "Додати новий курс"
+
+#~ msgid "Edit Year"
+#~ msgstr "Редагувати курс"
+
+#~ msgid "Update Year"
+#~ msgstr "Оновити курс"
+
+#~ msgid "Separate years with commas"
+#~ msgstr "Відокремлюйте курси комами"
+
+#~ msgid "Search Years"
+#~ msgstr "Шукати курс"
+
+#~ msgid "Add or remove years"
+#~ msgstr "Додати або видалити курс"
+
+#~ msgid "Choose from the most used years"
+#~ msgstr "Вибрати серед найбільш вживаних курсів"
+
+#~ msgid "courses"
+#~ msgstr "дисципліни"
+
+#~ msgid "Lecture:"
+#~ msgstr "Провідний викладач:"
+
+#~ msgid "Moodle link:"
+#~ msgstr "Moodle посилання:"
+
+#~ msgid "Faculties"
+#~ msgstr "Співробітники"
+
+#~ msgid "Parent Profile:"
+#~ msgstr "Батьківський профіль"
+
+#~ msgid "All Faculties"
+#~ msgstr "Всі співробітники"
+
+#~ msgid "View Profile"
+#~ msgstr "Переглянути профіль"
+
+#~ msgid "Add New Profile"
+#~ msgstr "Додати новий профіль"
+
+#~ msgid "Edit Profile"
+#~ msgstr "Редагувати профіль"
+
+#~ msgid "Update Profile"
+#~ msgstr "Оновити профіль"
+
+#~ msgid "Search Profiles"
+#~ msgstr "Шукати профілі"
+
+#~ msgid "No Profiles found"
+#~ msgstr "Не знайдено жодного профілю"
+
+#~ msgid "Not Profiles found in Trash"
+#~ msgstr "Жодного профілю в Кошику не знайдено"
+
+#~ msgid "faculties"
+#~ msgstr "співробітники"
+
+#~ msgid "Faculty and Staff"
+#~ msgstr "Співробітники"
+
+#~ msgid "Faculty Profile details"
+#~ msgstr "Деталі профілю співробітника"
+
+#~ msgid "Contact Details"
+#~ msgstr "Контактна інформація"
+
+#~ msgid "Office:"
+#~ msgstr "Кабінет:"
+
+#~ msgid "Phone number:"
+#~ msgstr "Номер телефону:"
+
+#~ msgid "Email:"
+#~ msgstr "Електронна пошта:"
+
+#~ msgid "Moodle:"
+#~ msgstr "Moodle:"
+
+#~ msgid "Social Networks"
+#~ msgstr "Соціальні мережі"
+
+#~ msgid "Facebook:"
+#~ msgstr "Facebook:"
+
+#~ msgid "Google Plus:"
+#~ msgstr "Google Plus:"
+
+#~ msgid "Twitter:"
+#~ msgstr "Twitter:"
+
+#~ msgid "LinkedIn:"
+#~ msgstr "LinkedIn:"
+
+#~ msgid "Positions"
+#~ msgstr "Посади"
+
+#~ msgid "All Positions"
+#~ msgstr "Всі посади"
+
+#~ msgid "New Position Name"
+#~ msgstr "Нова назва посади"
+
+#~ msgid "Add New Position"
+#~ msgstr "Додати нову посаду"
+
+#~ msgid "Edit Position"
+#~ msgstr "Редагувати посаду"
+
+#~ msgid "Update Position"
+#~ msgstr "Оновити посаду"
+
+#~ msgid "Separate positions with commas"
+#~ msgstr "Відокремлюйте посади комами"
+
+#~ msgid "Search Position"
+#~ msgstr "Пошук посад"
+
+#~ msgid "Add or remove Positions"
+#~ msgstr "Додати або видалити посаду"
+
+#~ msgid "Choose from the most used positions"
+#~ msgstr "Вибрати серед найбільш вживаних посад"
+
+#~ msgid "Degrees"
+#~ msgstr "Ступені"
+
+#~ msgid "All Degrees"
+#~ msgstr "Всі ступені"
+
+#~ msgid "New Degree Name"
+#~ msgstr "Нова назва ступеню"
+
+#~ msgid "Add New Degree"
+#~ msgstr "Додати нову ступінь"
+
+#~ msgid "Edit Degree"
+#~ msgstr "Редагувати ступінь"
+
+#~ msgid "Update Degree"
+#~ msgstr "Оновити ступінь"
+
+#~ msgid "Separate degrees with commas"
+#~ msgstr "Відокремлюйте ступені комами"
+
+#~ msgid "Search Degree"
+#~ msgstr "Шукати ступені"
+
+#~ msgid "Add or remove Degrees"
+#~ msgstr "Додати або видалити ступінь"
+
+#~ msgid "Choose from the most used degrees"
+#~ msgstr "Вибрати серед найбільш вживаних ступеней"
+
+#~ msgid "Titles"
+#~ msgstr "Звання"
+
+#~ msgid "All Titles"
+#~ msgstr "Всі звання"
+
+#~ msgid "New Title Name"
+#~ msgstr "Нова назва звання"
+
+#~ msgid "Add New Title"
+#~ msgstr "Додати нове звання"
+
+#~ msgid "Edit Title"
+#~ msgstr "Редагувати звання"
+
+#~ msgid "Update Title"
+#~ msgstr "Оновити звання"
+
+#~ msgid "Separate titles with commas"
+#~ msgstr "Відокремлюйте звання комами"
+
+#~ msgid "Search Titles"
+#~ msgstr "Шукати звання"
+
+#~ msgid "Add or remove titles"
+#~ msgstr "Додати або видалити звання"
+
+#~ msgid "Choose from the most used titles"
+#~ msgstr "Вибрати серед найбільш вживаних звань"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Courses"
+#~ msgstr "Дисципліни"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Faculties"
+#~ msgstr "Співробітники"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "Course"
+#~ msgstr "Дисципліна"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "Faculty"
+#~ msgstr "Співробітник"
+
+#~ msgctxt "Taxonomy General Name"
+#~ msgid "Major"
+#~ msgstr "Напрямок"
+
+#~ msgctxt "Taxonomy General Name"
+#~ msgid "Level"
+#~ msgstr "ОКР"
+
+#~ msgctxt "Taxonomy General Name"
+#~ msgid "Year"
+#~ msgstr "Курс"
+
+#~ msgctxt "Taxonomy General Name"
+#~ msgid "Positions"
+#~ msgstr "Посади"
+
+#~ msgctxt "Taxonomy General Name"
+#~ msgid "Degrees"
+#~ msgstr "Ступені"
+
+#~ msgctxt "Taxonomy General Name"
+#~ msgid "Title"
+#~ msgstr "Звання"
+
+#~ msgctxt "Taxonomy Singular Name"
+#~ msgid "Major"
+#~ msgstr "Напрямок"
+
+#~ msgctxt "Taxonomy Singular Name"
+#~ msgid "Level"
+#~ msgstr "ОКР"
+
+#~ msgctxt "Taxonomy Singular Name"
+#~ msgid "Year"
+#~ msgstr "Курс"
+
+#~ msgctxt "Taxonomy Singular Name"
+#~ msgid "Position"
+#~ msgstr "Посада"
+
+#~ msgctxt "Taxonomy Singular Name"
+#~ msgid "Degree"
+#~ msgstr "Ступінь"
+
+#~ msgctxt "Taxonomy Singular Name"
+#~ msgid "Title"
+#~ msgstr "Звання"
+
+#~ msgid "Sorry, but the page you were trying to view does not exist."
+#~ msgstr "Вибачте, але сторінка, яку ви намагаєтеся переглянути, не існує."
+
+#~ msgid "It looks like this was the result of either:"
+#~ msgstr "Схоже, це сталось через:"
+
+#~ msgid "a mistyped address"
+#~ msgstr "неправильно введену адресу"
+
+#~ msgid "an out-of-date link"
+#~ msgstr "застаріле посилання"
+
+#~ msgid "Sorry, no results were found."
+#~ msgstr "Вибачте, результатів не знайдено."
+
+#~ msgid "&larr; Older posts"
+#~ msgstr "&larr; Старі публікації"
+
+#~ msgid "Newer posts &rarr;"
+#~ msgstr "Нові публікації &rarr;"
+
+#~ msgid "&larr; Older comments"
+#~ msgstr "&larr; Старі коментарі"
+
+#~ msgid "Newer comments &rarr;"
+#~ msgstr "Нові коментарі &rarr;"
+
+#~ msgid "Folow us in social networks:"
+#~ msgstr "Ми в соціальних мережах:"
+
+#~ msgid "TSATU Main Site"
+#~ msgstr "Головний сайт ТДАТУ"
+
+#~ msgid "INFORMATION FOR..."
+#~ msgstr "ІНФОРМАЦІЯ..."
+
+#~ msgid "View All Events"
+#~ msgstr "Показати всі події"
+
+#~ msgid "There are no upcoming events at this time."
+#~ msgstr "Наразі немає майбутніх подій."
+
+#~ msgctxt "comments title"
+#~ msgid "One response to &ldquo;%2$s&rdquo;"
+#~ msgid_plural "%1$s responses to &ldquo;%2$s&rdquo;"
+#~ msgstr[0] "%1$s відповідь на &ldquo;%2$s&rdquo;"
+#~ msgstr[1] "%1$s відповіді на &ldquo;%2$s&rdquo;"
+#~ msgstr[2] "%1$s відповідей на &ldquo;%2$s&rdquo;"
+
+#~ msgid "Address"
+#~ msgstr "Адреса"
+
+#~ msgid "Phone"
+#~ msgstr "Телефон"
+
+#~ msgid "Fax"
+#~ msgstr "Факс"
+
+#~ msgid "Email"
+#~ msgstr "Електронна пошта"
+
+#~ msgid "Events"
+#~ msgstr "Події"
+
+#~ msgid ""
+#~ "Roots is a WordPress starter theme based on HTML5 Boilerplate & "
+#~ "Bootstrap. <a href=\"https://github.com/roots/roots/contributors"
+#~ "\">Contribute on GitHub</a>"
+#~ msgstr ""
+#~ "Roots - це стартова тема для WordPress заснована на HTML5 Boilerplate та "
+#~ "Bootstrap. <a href=\"https://github.com/roots/roots/contributors"
+#~ "\">Долучайтесь на GitHub</a>"
+
+#~ msgid "banner"
+#~ msgstr "банер"
+
+#~ msgid "slide"
+#~ msgstr "слайд"
+
+#~ msgid "tab"
+#~ msgstr "вкладка"
+
+#~ msgid "Secondary Navigation"
+#~ msgstr "Другорядне меню"
+
+#~ msgid "Information Navigation"
+#~ msgstr "Інформаційне меню"
+
+#~ msgid "Custom Template"
+#~ msgstr "Власний шаблон"
+
+#~ msgid "Show social icons in header"
+#~ msgstr "Показувати іконки соціальних мереж в заголовку"
+
+#~ msgid "To search type and hit enter"
+#~ msgstr "Для пошуку введіть текст та натисніть Enter"
+
+#~ msgid "Limit Posts Number"
+#~ msgstr "Ліміт кількості публікацій"
+
+#~ msgid "Service item with link"
+#~ msgstr "Служба з посиланням"
+
+#~ msgid "Recent News"
+#~ msgstr "Останні новини"
+
+#~ msgid "Service Title"
+#~ msgstr "Назва служби"
+
+#~ msgid "Call to Action"
+#~ msgstr "Заклик до дії"
+
+#~ msgid "Title "
+#~ msgstr "Заголовок"
+
+#~ msgid "By"
+#~ msgstr " "
+
+#~ msgid "Search for:"
+#~ msgstr "Пошук для:"
+
+#~ msgid "Remove"
+#~ msgstr "Вилучити"
+
+#~ msgid "Background"
+#~ msgstr "Фон"
+
+#~ msgid "No file chosen"
+#~ msgstr "Не вибрано жодного файлу"
+
+#~ msgid "Layout"
+#~ msgstr "Макет"
+
+#~ msgid "Column"
+#~ msgstr "Стовпець"
+
+#~ msgid "Social Widget (TSATU)"
+#~ msgstr "Соціальний віджет (ТДАТУ)"
+
+#~ msgid "Primary"
+#~ msgstr "Головний"
+
+#~ msgid "Continued"
+#~ msgstr "Продовження"
+
+#~ msgid "Daily Archives: %s"
+#~ msgstr "Архіви за днями: %s"
+
+#~ msgid "Monthly Archives: %s"
+#~ msgstr "Архіви за місяцями: %s"
+
+#~ msgid "Yearly Archives: %s"
+#~ msgstr "Архіви за роками: %s"
+
+#~ msgid "Author Archives: %s"
+#~ msgstr "Архіви за авторами: %s"
+
+#~ msgid "Roots Starter Theme"
+#~ msgstr "Стартова тема Roots"
+
+#~ msgid "http://roots.io/starter-theme/"
+#~ msgstr "http://roots.io/starter-theme/"
+
+#~ msgid "Roots"
+#~ msgstr "Roots"
+
+#~ msgid "http://roots.io/"
+#~ msgstr "http://roots.io/"

@@ -1,0 +1,92 @@
+/********************/
+/* EXPANDABLE LIST  */
+/********************/
+#listContainer{
+  margin-top:15px;
+}
+
+#pagenav {
+    position: relative;
+    padding-left: 0;
+    margin-left: -20px;
+    margin-right: 25px;
+    a {
+        color: @text-color;
+    }
+    a:hover {
+        color: @link-color;
+    }
+    .current_page_item {
+        > a {
+            color: @link-color;
+        }
+        > a:hover {
+            color: @link-hover-color;
+        }
+    }
+    ul, li {
+        list-style: none;
+        position: relative;
+        margin:0;
+        padding:0;
+        cursor: pointer;
+    }
+    p {
+        margin:0;
+        display:block;
+    }
+    p:hover {
+        background-color:#121212;
+    }
+    li {
+        //line-height:180%;
+        margin-top: 10px;
+        text-indent:0px;
+        background-position: 1px 8px;
+        padding-left: 20px;
+        background-repeat: no-repeat;
+    }
+    /* Collapsed state for list element */
+    .collapsed:after {
+        content: "\f105"; //"\f0da";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: inherit;
+        position: absolute;
+        top: 0;
+        right: -20px;
+    }
+    /* Expanded state for list element
+    /* NOTE: This class must be located UNDER the collapsed one */
+    .expanded:after {
+        content: "\f107"; //"\f0d7";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: inherit;
+        position: absolute;
+        top: 0;
+        right: -20px;
+}
+    clear: both;
+}
+
+.listControl{
+  margin-bottom: 15px;
+
+    a {
+        border: 1px solid #555555;
+        color: #555555;
+        cursor: pointer;
+        height: 1.5em;
+        line-height: 1.5em;
+        margin-right: 5px;
+        padding: 4px 10px;
+    }
+    a:hover {
+        background-color:#555555;
+        color:#222222;
+        font-weight:normal;
+    }
+}

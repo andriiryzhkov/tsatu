@@ -1,0 +1,54 @@
+// Service Widget
+.service {
+    min-height: 50px;
+    width: 100%;
+    position: relative;
+    display: block;
+    padding: 15px;
+    margin: 10px 0;
+    color: @headings-color;
+    //background-color: lighten(@navbar-inverse-bg, 3%);
+    font-family: @headings-font-family;
+    font-size: 34px;
+    //font-weight: bold;
+    //letter-spacing: 2px;
+    //text-transform: uppercase;
+    text-align: left;
+    //border-left: solid 6px @navbar-default-bg;
+    //border-top: solid 1px lighten(@navbar-inverse-bg, 3%);
+    //border-right: solid 1px lighten(@navbar-inverse-bg, 3%);
+    //border-bottom: solid 1px lighten(@navbar-inverse-bg, 3%);
+
+    &:hover, &:focus {
+        //background-color: lighten(@navbar-inverse-bg, 6%);
+        color: @navbar-default-bg;
+    }
+
+    .service-icon {
+        padding: 6px 6px 6px 8px;
+        font-size: 40px;
+        color: @brand-primary;
+        float: left;
+        border-radius: 15px;
+        //border: solid 2px @brand-primary;
+    }
+    .service-title {
+        padding-left: 80px;
+        line-height: 1.1;
+    }
+}
+
+@media only screen and (max-width: @screen-lg-min) {
+
+    .service {
+        font-size: 28px;
+
+        .service-icon {
+            font-size: 28px;
+        }
+        .service-title {
+            padding-left: 50px;
+        }
+    }
+
+}

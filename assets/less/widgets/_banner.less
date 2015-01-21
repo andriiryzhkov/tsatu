@@ -1,0 +1,38 @@
+.widget_banner {
+    position: relative;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    
+    > a {
+        display: inline-block;
+
+        .banner-item {
+            position: relative;
+            width: 252px;
+            height: 62px;
+            padding: 3px 10px;
+            margin: 10px 10px;
+            //display: block;
+            border: solid 1px @gray-lighter;
+
+            .banner-title {
+                line-height: 1.2;
+                text-align: left;
+                vertical-align: text-top;
+                width: 170px;
+            }
+
+            img {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: 60px;
+                height: 60px;
+            }
+
+        }
+
+    }
+    
+}

@@ -1,0 +1,37 @@
+// Shortlink Widget
+.shortlink {
+    width: 100%;
+    position: relative;
+    display: block;
+    padding: 5px;
+    padding-left: 20px;
+    margin: 7px 0;
+    border-radius: 4px;
+    color: @text-color;
+    background-color: #fff;
+    font-size: ceil((@font-size-base * 1.1));
+    text-align: left;
+    border: solid 1px @brand-primary;
+
+    &:hover, &:focus {
+        background-color: @text-color;
+        color: #fff;
+        border: solid 1px @text-color;
+    }
+
+    .shortlink-icon {
+        float: left;
+        width: 2em;
+    }
+    .shortlink-title {
+        //padding-left: 60px;
+        //line-height: 1.1;
+    }
+
+}
+
+.footer-area {
+    .shortlink {
+        border: none;
+    }
+}

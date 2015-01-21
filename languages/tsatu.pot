@@ -1,0 +1,871 @@
+# Copyright (C) 2015 Andrii Ryzhkov
+# This file is distributed under the GNU General Public License v2.
+msgid ""
+msgstr ""
+"Project-Id-Version: TSATU 0.1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2015-01-20 23:11:18+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
+
+#: 404.php:19
+msgid "Oops! Something went wrong here."
+msgstr ""
+
+#: 404.php:24
+msgid "Nothing could be found at this location. Maybe try a search?"
+msgstr ""
+
+#: comments.php:40 comments.php:57
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:41 comments.php:58
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:42 comments.php:59
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr ""
+
+#: content-none.php:19
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:25
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:29
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:34
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-page.php:25 content-single.php:23
+msgid "Pages:"
+msgstr ""
+
+#: footer.php:44 footer.php:46
+msgid "All rights reserved."
+msgstr ""
+
+#: footer.php:49
+msgid "Contact Information"
+msgstr ""
+
+#: footer.php:50
+msgid "Site Map"
+msgstr ""
+
+#: footer.php:51
+msgid "Terms of Use"
+msgstr ""
+
+#: functions.php:53
+msgid "Error locating %s for inclusion"
+msgstr ""
+
+#: header.php:32
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a "
+"href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+"experience."
+msgstr ""
+
+#: header.php:46
+msgid "Tavria State Agrotechnological University"
+msgstr ""
+
+#: header.php:67
+msgid "Subdivisions"
+msgstr ""
+
+#: header.php:68
+msgid "On-line Services"
+msgstr ""
+
+#: header.php:69
+msgid "Sign In"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "TSATU"
+msgstr ""
+
+#: includes/breadcrumb.php:33
+msgid "Archive by category \""
+msgstr ""
+
+#: includes/breadcrumb.php:81
+msgid "Search results for \""
+msgstr ""
+
+#: includes/breadcrumb.php:83
+msgid "Posts tagged \""
+msgstr ""
+
+#: includes/breadcrumb.php:87
+msgid "Articles posted by "
+msgstr ""
+
+#: includes/breadcrumb.php:89
+msgid "Error 404"
+msgstr ""
+
+#: includes/customizer.php:27
+msgid "Abbreviation"
+msgstr ""
+
+#: includes/customizer.php:34
+msgid "Slider"
+msgstr ""
+
+#: includes/customizer.php:43
+msgid "Show slider on front page"
+msgstr ""
+
+#: includes/customizer.php:53 includes/widgets/widget-slider.php:38
+msgid "Number of slides"
+msgstr ""
+
+#: includes/customizer.php:60
+msgid "Solial Icons"
+msgstr ""
+
+#: includes/customizer.php:61
+msgid ""
+"Enter links to accounts in social networks. If you do not use a certain "
+"network, leave the field empty."
+msgstr ""
+
+#: includes/customizer.php:70
+msgid "Facebook"
+msgstr ""
+
+#: includes/customizer.php:81
+msgid "VKontakte"
+msgstr ""
+
+#: includes/customizer.php:92
+msgid "Twitter"
+msgstr ""
+
+#: includes/customizer.php:103
+msgid "Google+"
+msgstr ""
+
+#: includes/customizer.php:114
+msgid "Youtube"
+msgstr ""
+
+#: includes/customizer.php:125
+msgid "Vimeo"
+msgstr ""
+
+#: includes/customizer.php:136
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/customizer.php:147
+msgid "Pinterest"
+msgstr ""
+
+#: includes/customizer.php:158
+msgid "RSS"
+msgstr ""
+
+#: includes/customizer.php:169
+msgid "Tumblr"
+msgstr ""
+
+#: includes/customizer.php:180
+msgid "Flickr"
+msgstr ""
+
+#: includes/customizer.php:191
+msgid "Instagram"
+msgstr ""
+
+#: includes/customizer.php:202
+msgid "Dribbble"
+msgstr ""
+
+#: includes/customizer.php:213
+msgid "Skype"
+msgstr ""
+
+#: includes/customizer.php:224
+msgid "Foursquare"
+msgstr ""
+
+#: includes/customizer.php:235
+msgid "SoundCloud"
+msgstr ""
+
+#: includes/customizer.php:246
+msgid "GitHub"
+msgstr ""
+
+#: includes/extras.php:57
+msgid "Page %s"
+msgstr ""
+
+#: includes/extras.php:120
+msgid "Read more"
+msgstr ""
+
+#: includes/extras.php:132
+msgid "Permalink to %s"
+msgstr ""
+
+#: includes/extras.php:214
+msgid "Follow us on "
+msgstr ""
+
+#: includes/init.php:54
+msgid "Primary Menu"
+msgstr ""
+
+#: includes/init.php:95
+msgid "Deafult Sidebar"
+msgstr ""
+
+#: includes/init.php:104
+msgid "Page Sidebar"
+msgstr ""
+
+#: includes/init.php:114 includes/init.php:123 includes/init.php:132
+#: includes/init.php:141
+msgid "Footer"
+msgstr ""
+
+#: includes/post_types/banner_post_type.php:17
+msgid "Banners"
+msgstr ""
+
+#: includes/post_types/banner_post_type.php:18
+msgid "All Banners"
+msgstr ""
+
+#: includes/post_types/banner_post_type.php:19
+msgid "View Banner"
+msgstr ""
+
+#: includes/post_types/banner_post_type.php:20
+msgid "Add New Banner"
+msgstr ""
+
+#: includes/post_types/banner_post_type.php:21
+#: includes/post_types/slide_post_type.php:21
+#: includes/post_types/tab_post_type.php:21
+msgid "Add New"
+msgstr ""
+
+#: includes/post_types/banner_post_type.php:22
+msgid "Edit Banner"
+msgstr ""
+
+#: includes/post_types/banner_post_type.php:23
+msgid "Update Banner"
+msgstr ""
+
+#: includes/post_types/banner_post_type.php:24
+msgid "Search Banners"
+msgstr ""
+
+#: includes/post_types/banner_post_type.php:25
+msgid "No Banners found"
+msgstr ""
+
+#: includes/post_types/banner_post_type.php:26
+msgid "Not Banners found in Trash"
+msgstr ""
+
+#: includes/post_types/banner_post_type.php:29
+msgid "banners"
+msgstr ""
+
+#: includes/post_types/banner_post_type.php:30
+msgid "Banner"
+msgstr ""
+
+#: includes/post_types/banner_post_type.php:58
+msgid "Banner details"
+msgstr ""
+
+#: includes/post_types/banner_post_type.php:72
+msgid "URL:"
+msgstr ""
+
+#: includes/post_types/slide_post_type.php:17
+msgid "Slides"
+msgstr ""
+
+#: includes/post_types/slide_post_type.php:18
+msgid "All Slides"
+msgstr ""
+
+#: includes/post_types/slide_post_type.php:19
+msgid "View Slide"
+msgstr ""
+
+#: includes/post_types/slide_post_type.php:20
+msgid "Add New Slide"
+msgstr ""
+
+#: includes/post_types/slide_post_type.php:22
+msgid "Edit Slide"
+msgstr ""
+
+#: includes/post_types/slide_post_type.php:23
+msgid "Update Slide"
+msgstr ""
+
+#: includes/post_types/slide_post_type.php:24
+msgid "Search Slides"
+msgstr ""
+
+#: includes/post_types/slide_post_type.php:25
+msgid "No Slides found"
+msgstr ""
+
+#: includes/post_types/slide_post_type.php:26
+msgid "Not Slides found in Trash"
+msgstr ""
+
+#: includes/post_types/slide_post_type.php:29
+msgid "slides"
+msgstr ""
+
+#: includes/post_types/slide_post_type.php:30
+msgid "Slide"
+msgstr ""
+
+#: includes/post_types/slide_post_type.php:58
+msgid "Slide details"
+msgstr ""
+
+#: includes/post_types/slide_post_type.php:72
+msgid "Internal relative URL:"
+msgstr ""
+
+#: includes/post_types/tab_post_type.php:17
+msgid "Tabs"
+msgstr ""
+
+#: includes/post_types/tab_post_type.php:18
+msgid "All Tabs"
+msgstr ""
+
+#: includes/post_types/tab_post_type.php:19
+msgid "View Tab"
+msgstr ""
+
+#: includes/post_types/tab_post_type.php:20
+msgid "Add New Tab"
+msgstr ""
+
+#: includes/post_types/tab_post_type.php:22
+msgid "Edit Tab"
+msgstr ""
+
+#: includes/post_types/tab_post_type.php:23
+msgid "Update Tab"
+msgstr ""
+
+#: includes/post_types/tab_post_type.php:24
+msgid "Search Tabs"
+msgstr ""
+
+#: includes/post_types/tab_post_type.php:25
+msgid "No Tabs found"
+msgstr ""
+
+#: includes/post_types/tab_post_type.php:26
+msgid "Not Tabs found in Trash"
+msgstr ""
+
+#: includes/post_types/tab_post_type.php:29
+msgid "tabs"
+msgstr ""
+
+#: includes/post_types/tab_post_type.php:30
+msgid "Tab"
+msgstr ""
+
+#: includes/post_types/tab_post_type.php:64
+msgid "Categories"
+msgstr ""
+
+#: includes/post_types/tab_post_type.php:65
+msgid "All Categories"
+msgstr ""
+
+#: includes/post_types/tab_post_type.php:68
+msgid "New Category Name"
+msgstr ""
+
+#: includes/post_types/tab_post_type.php:69
+msgid "Add New Category"
+msgstr ""
+
+#: includes/post_types/tab_post_type.php:70
+msgid "Edit Category"
+msgstr ""
+
+#: includes/post_types/tab_post_type.php:71
+msgid "Update Category"
+msgstr ""
+
+#: includes/post_types/tab_post_type.php:72
+msgid "Separate categories with commas"
+msgstr ""
+
+#: includes/post_types/tab_post_type.php:73
+msgid "Search Category"
+msgstr ""
+
+#: includes/post_types/tab_post_type.php:74
+msgid "Add or remove Categories"
+msgstr ""
+
+#: includes/post_types/tab_post_type.php:75
+msgid "Choose from the most used categories"
+msgstr ""
+
+#: includes/post_types/tab_post_type.php:76
+msgid "Not Found"
+msgstr ""
+
+#: includes/post_types/tab_post_type.php:97
+msgid "Tab defaults"
+msgstr ""
+
+#: includes/post_types/tab_post_type.php:111
+msgid "Active tab"
+msgstr ""
+
+#: includes/template-tags.php:29
+msgid "Posts navigation"
+msgstr ""
+
+#: includes/template-tags.php:33
+msgid "Older posts"
+msgstr ""
+
+#: includes/template-tags.php:37
+msgid "Newer posts"
+msgstr ""
+
+#: includes/template-tags.php:64
+msgid "Post navigation"
+msgstr ""
+
+#: includes/template-tags.php:108 includes/template-tags.php:114
+#. translators: used between list items, there is a space after the comma
+msgid ", "
+msgstr ""
+
+#: includes/template-tags.php:110
+msgid "Posted in %1$s"
+msgstr ""
+
+#: includes/template-tags.php:116
+msgid "Tagged %1$s"
+msgstr ""
+
+#: includes/template-tags.php:122
+msgid "Leave a comment"
+msgstr ""
+
+#: includes/template-tags.php:122
+msgid "1 Comment"
+msgstr ""
+
+#: includes/template-tags.php:122
+msgid "% Comments"
+msgstr ""
+
+#: includes/template-tags.php:126
+msgid "Edit"
+msgstr ""
+
+#: includes/template-tags.php:143
+msgid "Category: %s"
+msgstr ""
+
+#: includes/template-tags.php:145
+msgid "Tag: %s"
+msgstr ""
+
+#: includes/template-tags.php:147
+msgid "Author: %s"
+msgstr ""
+
+#: includes/template-tags.php:149
+msgid "Year: %s"
+msgstr ""
+
+#: includes/template-tags.php:151
+msgid "Month: %s"
+msgstr ""
+
+#: includes/template-tags.php:153
+msgid "Day: %s"
+msgstr ""
+
+#: includes/template-tags.php:175
+msgid "Archives: %s"
+msgstr ""
+
+#: includes/template-tags.php:179
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: includes/template-tags.php:181
+msgid "Archives"
+msgstr ""
+
+#: includes/widgets/widget-banner.php:11
+msgid "Add banners to the page"
+msgstr ""
+
+#: includes/widgets/widget-banner.php:12
+msgid "Banner (TSATU)"
+msgstr ""
+
+#: includes/widgets/widget-banner.php:55 includes/widgets/widget-cta.php:78
+#: includes/widgets/widget-department.php:67
+#: includes/widgets/widget-service.php:55 includes/widgets/widget-social.php:43
+#: includes/widgets/widget-tabs.php:61
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/widget-cta.php:23
+msgid "Add a Call to action box"
+msgstr ""
+
+#: includes/widgets/widget-cta.php:24
+msgid "Call to Action (TSATU)"
+msgstr ""
+
+#: includes/widgets/widget-cta.php:81 includes/widgets/widget-department.php:70
+msgid "Image URL:"
+msgstr ""
+
+#: includes/widgets/widget-cta.php:84
+msgid "Call text:"
+msgstr ""
+
+#: includes/widgets/widget-cta.php:87 includes/widgets/widget-department.php:76
+msgid "Button Text:"
+msgstr ""
+
+#: includes/widgets/widget-cta.php:90 includes/widgets/widget-department.php:79
+msgid "Button URL:"
+msgstr ""
+
+#: includes/widgets/widget-department.php:12
+msgid "Add a department welcome screen"
+msgstr ""
+
+#: includes/widgets/widget-department.php:13
+msgid "Department Welcome (TSATU)"
+msgstr ""
+
+#: includes/widgets/widget-department.php:73
+msgid "Welcome text:"
+msgstr ""
+
+#: includes/widgets/widget-pagenav.php:9
+msgid "List of correspoding pages"
+msgstr ""
+
+#: includes/widgets/widget-pagenav.php:10
+msgid "Pages Sidebar (TSATU)"
+msgstr ""
+
+#: includes/widgets/widget-pagenav.php:71
+msgid "Exclude:"
+msgstr ""
+
+#: includes/widgets/widget-pagenav.php:73
+msgid "Page IDs, separated by commas."
+msgstr ""
+
+#: includes/widgets/widget-recent-posts.php:9
+msgid "Recent post from some category"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts.php:10
+msgid "Recent Posts (TSATU)"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts.php:16
+#: includes/widgets/widget-recent-posts.php:144
+msgid "Category"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts.php:89
+msgid "View All News"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts.php:128
+msgid "Recent Posts"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts.php:136
+#: includes/widgets/widget-shortlink.php:54
+msgid "Title"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts.php:150
+msgid "Columns for featured post"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts.php:155
+msgid "Set \"0\" to disable featured post."
+msgstr ""
+
+#: includes/widgets/widget-recent-posts.php:160
+msgid "Number of columns"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts.php:169
+msgid "Number of rows"
+msgstr ""
+
+#: includes/widgets/widget-service.php:10
+msgid "Service item with url"
+msgstr ""
+
+#: includes/widgets/widget-service.php:11
+msgid "Service (TSATU)"
+msgstr ""
+
+#: includes/widgets/widget-service.php:48
+msgid "Service"
+msgstr ""
+
+#: includes/widgets/widget-service.php:63
+msgid "Icon:"
+msgstr ""
+
+#: includes/widgets/widget-service.php:72
+msgid "Link:"
+msgstr ""
+
+#: includes/widgets/widget-shortlink.php:10
+#: includes/widgets/widget-shortlink.php:45
+msgid "Shortlink"
+msgstr ""
+
+#: includes/widgets/widget-shortlink.php:11
+msgid "Shortlink (TSATU)"
+msgstr ""
+
+#: includes/widgets/widget-shortlink.php:17
+msgid "Shortlink Title"
+msgstr ""
+
+#: includes/widgets/widget-shortlink.php:18
+#: includes/widgets/widget-shortlink.php:62
+msgid "Icon"
+msgstr ""
+
+#: includes/widgets/widget-shortlink.php:19
+#: includes/widgets/widget-shortlink.php:74
+msgid "Link"
+msgstr ""
+
+#: includes/widgets/widget-shortlink.php:69
+msgid "Name of Font Awesome icon."
+msgstr ""
+
+#: includes/widgets/widget-slider.php:11
+msgid "Add slider to the page"
+msgstr ""
+
+#: includes/widgets/widget-slider.php:12
+msgid "Slider (TSATU)"
+msgstr ""
+
+#: includes/widgets/widget-social.php:10
+msgid "Social icons list"
+msgstr ""
+
+#: includes/widgets/widget-social.php:11
+msgid "Social icons (TSATU)"
+msgstr ""
+
+#: includes/widgets/widget-social.php:39
+msgid "Follow us"
+msgstr ""
+
+#: includes/widgets/widget-tabs.php:11
+msgid "Add tabs to the page"
+msgstr ""
+
+#: includes/widgets/widget-tabs.php:12
+msgid "Tabs (TSATU)"
+msgstr ""
+
+#: includes/widgets/widget-thumbnail.php:10
+msgid "Thumbnail for current post or page"
+msgstr ""
+
+#: includes/widgets/widget-thumbnail.php:11
+msgid "Thumbnail (TSATU)"
+msgstr ""
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:15
+msgid "Search"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://github.com/andriiryzhkov/tsatu/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Official theme for websites of Tavria State Agrotechnological University"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Andrii Ryzhkov"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://github.com/andriiryzhkov/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Page"
+msgstr ""
+
+#: comments.php:33
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/post_types/banner_post_type.php:15
+msgctxt "Post Type General Name"
+msgid "Banners"
+msgstr ""
+
+#: includes/post_types/slide_post_type.php:15
+msgctxt "Post Type General Name"
+msgid "Slides"
+msgstr ""
+
+#: includes/post_types/tab_post_type.php:15
+msgctxt "Post Type General Name"
+msgid "Tabs"
+msgstr ""
+
+#: includes/post_types/banner_post_type.php:16
+msgctxt "Post Type Singular Name"
+msgid "Banner"
+msgstr ""
+
+#: includes/post_types/slide_post_type.php:16
+msgctxt "Post Type Singular Name"
+msgid "Slide"
+msgstr ""
+
+#: includes/post_types/tab_post_type.php:16
+msgctxt "Post Type Singular Name"
+msgid "Tab"
+msgstr ""
+
+#: includes/post_types/tab_post_type.php:62
+msgctxt "Taxonomy General Name"
+msgid "Categories"
+msgstr ""
+
+#: includes/post_types/tab_post_type.php:63
+msgctxt "Taxonomy Singular Name"
+msgid "Category"
+msgstr ""
+
+#: includes/template-tags.php:149
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: includes/template-tags.php:151
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: includes/template-tags.php:153
+msgctxt "daily archives date format"
+msgid "j F Y"
+msgstr ""
+
+#: includes/template-tags.php:156
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: includes/template-tags.php:158
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: includes/template-tags.php:160
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: includes/template-tags.php:162
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: includes/template-tags.php:164
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: includes/template-tags.php:166
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: includes/template-tags.php:168
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: includes/template-tags.php:170
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: includes/template-tags.php:172
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""

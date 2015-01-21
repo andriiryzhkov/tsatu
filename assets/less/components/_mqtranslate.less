@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 груд 2014, 12:56:29
+    Author     : Andrii
+*/
+
+.site-language {
+    display: inline-block;
+    float: right;
+    //margin: 20px 20px 10px 5px;
+    //padding: ((@navbar-height - 12) / 2) @navbar-padding-horizontal;
+    //padding: ((@line-height-computed - 12) / 2) 10px;
+    padding: ((floor((@font-size-small * @line-height-base)) - 12) / 2) 0;
+    margin-left: 5px;
+    border: none;
+
+    li {
+        margin-left: 8px;
+        list-style-type: none;
+        float: left;
+    }
+
+}
+
+.qtrans_language_chooser {
+    padding-left: 0;
+
+    li:hover {
+        .box-shadow(2px 2px 2px rgba(0,0,0,.3));
+        -o-transition:.4s;
+        -ms-transition:.4s;
+        -moz-transition:.4s;
+        -webkit-transition:.4s;
+        transition:.4s;
+    }
+}

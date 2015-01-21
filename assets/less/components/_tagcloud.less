@@ -1,0 +1,30 @@
+.tagcloud {
+    a {
+        display: inline;
+        padding: .2em .6em .3em;
+        font-size: 75% !important;
+        font-weight: bold;
+        line-height: 1;
+        color: lighten(@text-color, 20%);
+        background-color: transparent;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+        border-radius: .25em;
+        border: solid 1px lighten(@text-color, 20%);
+
+        &:hover,
+        &:focus {
+            color: @link-color;
+            border: solid 1px @link-color;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        &:empty {
+            display: none;
+        }
+
+    }
+}
+

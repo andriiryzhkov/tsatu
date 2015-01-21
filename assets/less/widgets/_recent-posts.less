@@ -1,0 +1,79 @@
+/* Recent Post widgets */
+
+
+.recent-posts-wrapper {
+
+    .news {
+        
+        display: block;
+        margin-bottom: 20px;
+        
+        .news-image {
+            display: block;
+
+            img {
+                .img-responsive;
+                //opacity: 1;
+                -webkit-transition: box-shadow 0.5s;
+                -moz-transition: box-shadow 0.5s;
+                -o-transition: box-shadow 0.5s;
+                transition: box-shadow 0.4s;
+            }
+
+            img:hover {
+                .box-shadow(2px 2px 2px rgba(0,0,0,.3));
+                //opacity: 0.8 ! important;
+            }
+
+        }
+
+        .news-content {
+
+            .title {
+                display: block;
+                font-family: @headings-font-family;
+                font-size: @font-size-h4;
+                line-height: @headings-line-height;
+                font-weight: @headings-font-weight;
+                margin: 5px 0 10px 0;
+                
+
+                &:hover {
+                    //color: @link-color;
+                }
+            }
+
+            .date {
+                position: relative;
+                display: block;
+                margin-bottom: 10px;
+                //left: 0;
+                //bottom: 10px;
+                background-color: #fff;
+                color: @gray-light;
+                //z-index: 1010;
+                font-size: 14px;
+                text-transform: uppercase;
+            }
+
+            > .excerpt {
+                display: block;
+            }
+
+            a {
+                color: @link-color;
+            }
+
+            a:hover {
+                color: @link-hover-color;
+            }
+            
+        }
+        
+    }
+    
+    .widget-link {
+        font-weight: bold;
+    }
+
+}
