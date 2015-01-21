@@ -20,7 +20,6 @@ module.exports = function (grunt) {
         'assets/vendor/bootstrap/js/affix.js',
         'assets/vendor/jquery/dist/jquery.js',
         'assets/vendor/flexslider/jquery.flexslider.js',
-        //'assets/vendor/bootstrap-hover-dropdown/bootstrap-hover-dropdown.js',
         'assets/js/plugins/*.js',
         'assets/js/_*.js'
     ];
@@ -183,9 +182,9 @@ module.exports = function (grunt) {
         makepot: {
             target: {
                 options: {
-                    domainPath: '/languages/', // Where to save the POT file.
-                    potFilename: 'tsatu.pot', // Name of the POT file.
-                    type: 'wp-theme' // Type of project (wp-plugin or wp-theme).
+                    domainPath: '/languages/',
+                    potFilename: 'tsatu.pot',
+                    type: 'wp-theme'
                 }
             }
         },
