@@ -205,7 +205,9 @@ module.exports = function (grunt) {
                         'assets/img/**',
                         'assets/js/scripts.js',
                         'assets/js/scripts.min.js',
-                        'assets/js/theme-customizer.js',
+                        'assets/js/customizer.js',
+                        'assets/js/skip-link-focus-fix.js',
+                        'assets/js/vendor/modernizr.min.js',
                         'languages/*',
                         'includes/**'
                     ],

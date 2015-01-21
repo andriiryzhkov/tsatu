@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TSATU 0.1.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
-"POT-Creation-Date: 2015-01-20 23:11:18+00:00\n"
+"POT-Creation-Date: 2015-01-21 11:32:23+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -255,209 +255,209 @@ msgstr ""
 msgid "Footer"
 msgstr ""
 
-#: includes/post_types/banner_post_type.php:17
+#: includes/post_types/banner_post_type.php:21
 msgid "Banners"
 msgstr ""
 
-#: includes/post_types/banner_post_type.php:18
+#: includes/post_types/banner_post_type.php:22
 msgid "All Banners"
 msgstr ""
 
-#: includes/post_types/banner_post_type.php:19
+#: includes/post_types/banner_post_type.php:23
 msgid "View Banner"
 msgstr ""
 
-#: includes/post_types/banner_post_type.php:20
+#: includes/post_types/banner_post_type.php:24
 msgid "Add New Banner"
 msgstr ""
 
-#: includes/post_types/banner_post_type.php:21
-#: includes/post_types/slide_post_type.php:21
-#: includes/post_types/tab_post_type.php:21
+#: includes/post_types/banner_post_type.php:25
+#: includes/post_types/slide_post_type.php:25
+#: includes/post_types/tab_post_type.php:25
 msgid "Add New"
 msgstr ""
 
-#: includes/post_types/banner_post_type.php:22
+#: includes/post_types/banner_post_type.php:26
 msgid "Edit Banner"
 msgstr ""
 
-#: includes/post_types/banner_post_type.php:23
+#: includes/post_types/banner_post_type.php:27
 msgid "Update Banner"
 msgstr ""
 
-#: includes/post_types/banner_post_type.php:24
+#: includes/post_types/banner_post_type.php:28
 msgid "Search Banners"
 msgstr ""
 
-#: includes/post_types/banner_post_type.php:25
+#: includes/post_types/banner_post_type.php:29
 msgid "No Banners found"
 msgstr ""
 
-#: includes/post_types/banner_post_type.php:26
+#: includes/post_types/banner_post_type.php:30
 msgid "Not Banners found in Trash"
 msgstr ""
 
-#: includes/post_types/banner_post_type.php:29
+#: includes/post_types/banner_post_type.php:33
 msgid "banners"
 msgstr ""
 
-#: includes/post_types/banner_post_type.php:30
+#: includes/post_types/banner_post_type.php:34
 msgid "Banner"
 msgstr ""
 
-#: includes/post_types/banner_post_type.php:58
+#: includes/post_types/banner_post_type.php:62
 msgid "Banner details"
 msgstr ""
 
-#: includes/post_types/banner_post_type.php:72
+#: includes/post_types/banner_post_type.php:76
 msgid "URL:"
 msgstr ""
 
-#: includes/post_types/slide_post_type.php:17
+#: includes/post_types/slide_post_type.php:21
 msgid "Slides"
 msgstr ""
 
-#: includes/post_types/slide_post_type.php:18
+#: includes/post_types/slide_post_type.php:22
 msgid "All Slides"
 msgstr ""
 
-#: includes/post_types/slide_post_type.php:19
+#: includes/post_types/slide_post_type.php:23
 msgid "View Slide"
 msgstr ""
 
-#: includes/post_types/slide_post_type.php:20
+#: includes/post_types/slide_post_type.php:24
 msgid "Add New Slide"
 msgstr ""
 
-#: includes/post_types/slide_post_type.php:22
+#: includes/post_types/slide_post_type.php:26
 msgid "Edit Slide"
 msgstr ""
 
-#: includes/post_types/slide_post_type.php:23
+#: includes/post_types/slide_post_type.php:27
 msgid "Update Slide"
 msgstr ""
 
-#: includes/post_types/slide_post_type.php:24
+#: includes/post_types/slide_post_type.php:28
 msgid "Search Slides"
 msgstr ""
 
-#: includes/post_types/slide_post_type.php:25
+#: includes/post_types/slide_post_type.php:29
 msgid "No Slides found"
 msgstr ""
 
-#: includes/post_types/slide_post_type.php:26
+#: includes/post_types/slide_post_type.php:30
 msgid "Not Slides found in Trash"
 msgstr ""
 
-#: includes/post_types/slide_post_type.php:29
+#: includes/post_types/slide_post_type.php:33
 msgid "slides"
 msgstr ""
 
-#: includes/post_types/slide_post_type.php:30
+#: includes/post_types/slide_post_type.php:34
 msgid "Slide"
 msgstr ""
 
-#: includes/post_types/slide_post_type.php:58
+#: includes/post_types/slide_post_type.php:62
 msgid "Slide details"
 msgstr ""
 
-#: includes/post_types/slide_post_type.php:72
+#: includes/post_types/slide_post_type.php:76
 msgid "Internal relative URL:"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:17
+#: includes/post_types/tab_post_type.php:21
 msgid "Tabs"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:18
+#: includes/post_types/tab_post_type.php:22
 msgid "All Tabs"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:19
+#: includes/post_types/tab_post_type.php:23
 msgid "View Tab"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:20
+#: includes/post_types/tab_post_type.php:24
 msgid "Add New Tab"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:22
+#: includes/post_types/tab_post_type.php:26
 msgid "Edit Tab"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:23
+#: includes/post_types/tab_post_type.php:27
 msgid "Update Tab"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:24
+#: includes/post_types/tab_post_type.php:28
 msgid "Search Tabs"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:25
+#: includes/post_types/tab_post_type.php:29
 msgid "No Tabs found"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:26
+#: includes/post_types/tab_post_type.php:30
 msgid "Not Tabs found in Trash"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:29
+#: includes/post_types/tab_post_type.php:33
 msgid "tabs"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:30
+#: includes/post_types/tab_post_type.php:34
 msgid "Tab"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:64
+#: includes/post_types/tab_post_type.php:68
 msgid "Categories"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:65
+#: includes/post_types/tab_post_type.php:69
 msgid "All Categories"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:68
+#: includes/post_types/tab_post_type.php:72
 msgid "New Category Name"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:69
+#: includes/post_types/tab_post_type.php:73
 msgid "Add New Category"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:70
+#: includes/post_types/tab_post_type.php:74
 msgid "Edit Category"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:71
+#: includes/post_types/tab_post_type.php:75
 msgid "Update Category"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:72
+#: includes/post_types/tab_post_type.php:76
 msgid "Separate categories with commas"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:73
+#: includes/post_types/tab_post_type.php:77
 msgid "Search Category"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:74
+#: includes/post_types/tab_post_type.php:78
 msgid "Add or remove Categories"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:75
+#: includes/post_types/tab_post_type.php:79
 msgid "Choose from the most used categories"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:76
+#: includes/post_types/tab_post_type.php:80
 msgid "Not Found"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:97
+#: includes/post_types/tab_post_type.php:101
 msgid "Tab defaults"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:111
+#: includes/post_types/tab_post_type.php:115
 msgid "Active tab"
 msgstr ""
 
@@ -543,42 +543,42 @@ msgstr ""
 msgid "Archives"
 msgstr ""
 
-#: includes/widgets/widget-banner.php:11
+#: includes/widgets/widget-banner.php:16
 msgid "Add banners to the page"
 msgstr ""
 
-#: includes/widgets/widget-banner.php:12
+#: includes/widgets/widget-banner.php:17
 msgid "Banner (TSATU)"
 msgstr ""
 
-#: includes/widgets/widget-banner.php:55 includes/widgets/widget-cta.php:78
+#: includes/widgets/widget-banner.php:60 includes/widgets/widget-cta.php:73
 #: includes/widgets/widget-department.php:67
-#: includes/widgets/widget-service.php:55 includes/widgets/widget-social.php:43
-#: includes/widgets/widget-tabs.php:61
+#: includes/widgets/widget-service.php:61 includes/widgets/widget-social.php:48
+#: includes/widgets/widget-tabs.php:66
 msgid "Title:"
 msgstr ""
 
-#: includes/widgets/widget-cta.php:23
+#: includes/widgets/widget-cta.php:18
 msgid "Add a Call to action box"
 msgstr ""
 
-#: includes/widgets/widget-cta.php:24
+#: includes/widgets/widget-cta.php:19
 msgid "Call to Action (TSATU)"
 msgstr ""
 
-#: includes/widgets/widget-cta.php:81 includes/widgets/widget-department.php:70
+#: includes/widgets/widget-cta.php:76 includes/widgets/widget-department.php:70
 msgid "Image URL:"
 msgstr ""
 
-#: includes/widgets/widget-cta.php:84
+#: includes/widgets/widget-cta.php:79
 msgid "Call text:"
 msgstr ""
 
-#: includes/widgets/widget-cta.php:87 includes/widgets/widget-department.php:76
+#: includes/widgets/widget-cta.php:82 includes/widgets/widget-department.php:76
 msgid "Button Text:"
 msgstr ""
 
-#: includes/widgets/widget-cta.php:90 includes/widgets/widget-department.php:79
+#: includes/widgets/widget-cta.php:85 includes/widgets/widget-department.php:79
 msgid "Button URL:"
 msgstr ""
 
@@ -594,108 +594,104 @@ msgstr ""
 msgid "Welcome text:"
 msgstr ""
 
-#: includes/widgets/widget-pagenav.php:9
+#: includes/widgets/widget-pagenav.php:16
 msgid "List of correspoding pages"
 msgstr ""
 
-#: includes/widgets/widget-pagenav.php:10
+#: includes/widgets/widget-pagenav.php:17
 msgid "Pages Sidebar (TSATU)"
 msgstr ""
 
-#: includes/widgets/widget-pagenav.php:71
+#: includes/widgets/widget-pagenav.php:69
 msgid "Exclude:"
 msgstr ""
 
-#: includes/widgets/widget-pagenav.php:73
+#: includes/widgets/widget-pagenav.php:71
 msgid "Page IDs, separated by commas."
 msgstr ""
 
-#: includes/widgets/widget-recent-posts.php:9
+#: includes/widgets/widget-recent-posts.php:16
 msgid "Recent post from some category"
 msgstr ""
 
-#: includes/widgets/widget-recent-posts.php:10
+#: includes/widgets/widget-recent-posts.php:17
 msgid "Recent Posts (TSATU)"
 msgstr ""
 
-#: includes/widgets/widget-recent-posts.php:16
-#: includes/widgets/widget-recent-posts.php:144
+#: includes/widgets/widget-recent-posts.php:23
+#: includes/widgets/widget-recent-posts.php:151
 msgid "Category"
 msgstr ""
 
-#: includes/widgets/widget-recent-posts.php:89
+#: includes/widgets/widget-recent-posts.php:96
 msgid "View All News"
 msgstr ""
 
-#: includes/widgets/widget-recent-posts.php:128
-msgid "Recent Posts"
-msgstr ""
-
-#: includes/widgets/widget-recent-posts.php:136
-#: includes/widgets/widget-shortlink.php:54
+#: includes/widgets/widget-recent-posts.php:143
+#: includes/widgets/widget-shortlink.php:57
 msgid "Title"
 msgstr ""
 
-#: includes/widgets/widget-recent-posts.php:150
+#: includes/widgets/widget-recent-posts.php:157
 msgid "Columns for featured post"
 msgstr ""
 
-#: includes/widgets/widget-recent-posts.php:155
+#: includes/widgets/widget-recent-posts.php:162
 msgid "Set \"0\" to disable featured post."
 msgstr ""
 
-#: includes/widgets/widget-recent-posts.php:160
+#: includes/widgets/widget-recent-posts.php:167
 msgid "Number of columns"
 msgstr ""
 
-#: includes/widgets/widget-recent-posts.php:169
+#: includes/widgets/widget-recent-posts.php:176
 msgid "Number of rows"
 msgstr ""
 
-#: includes/widgets/widget-service.php:10
+#: includes/widgets/widget-service.php:16
 msgid "Service item with url"
 msgstr ""
 
-#: includes/widgets/widget-service.php:11
+#: includes/widgets/widget-service.php:17
 msgid "Service (TSATU)"
 msgstr ""
 
-#: includes/widgets/widget-service.php:48
+#: includes/widgets/widget-service.php:54
 msgid "Service"
 msgstr ""
 
-#: includes/widgets/widget-service.php:63
+#: includes/widgets/widget-service.php:69
 msgid "Icon:"
 msgstr ""
 
-#: includes/widgets/widget-service.php:72
+#: includes/widgets/widget-service.php:78
 msgid "Link:"
 msgstr ""
 
-#: includes/widgets/widget-shortlink.php:10
-#: includes/widgets/widget-shortlink.php:45
+#: includes/widgets/widget-shortlink.php:16
+#: includes/widgets/widget-shortlink.php:48
 msgid "Shortlink"
 msgstr ""
 
-#: includes/widgets/widget-shortlink.php:11
+#: includes/widgets/widget-shortlink.php:17
 msgid "Shortlink (TSATU)"
 msgstr ""
 
-#: includes/widgets/widget-shortlink.php:17
+#: includes/widgets/widget-shortlink.php:23
 msgid "Shortlink Title"
 msgstr ""
 
-#: includes/widgets/widget-shortlink.php:18
-#: includes/widgets/widget-shortlink.php:62
+#: includes/widgets/widget-shortlink.php:24
+#: includes/widgets/widget-shortlink.php:65
 msgid "Icon"
 msgstr ""
 
-#: includes/widgets/widget-shortlink.php:19
-#: includes/widgets/widget-shortlink.php:74
+#: includes/widgets/widget-shortlink.php:25
+#: includes/widgets/widget-shortlink.php:77
 msgid "Link"
 msgstr ""
 
-#: includes/widgets/widget-shortlink.php:69
+#: includes/widgets/widget-shortlink.php:72
 msgid "Name of Font Awesome icon."
 msgstr ""
 
@@ -707,31 +703,31 @@ msgstr ""
 msgid "Slider (TSATU)"
 msgstr ""
 
-#: includes/widgets/widget-social.php:10
+#: includes/widgets/widget-social.php:16
 msgid "Social icons list"
 msgstr ""
 
-#: includes/widgets/widget-social.php:11
+#: includes/widgets/widget-social.php:17
 msgid "Social icons (TSATU)"
 msgstr ""
 
-#: includes/widgets/widget-social.php:39
+#: includes/widgets/widget-social.php:44
 msgid "Follow us"
 msgstr ""
 
-#: includes/widgets/widget-tabs.php:11
+#: includes/widgets/widget-tabs.php:16
 msgid "Add tabs to the page"
 msgstr ""
 
-#: includes/widgets/widget-tabs.php:12
+#: includes/widgets/widget-tabs.php:17
 msgid "Tabs (TSATU)"
 msgstr ""
 
-#: includes/widgets/widget-thumbnail.php:10
+#: includes/widgets/widget-thumbnail.php:16
 msgid "Thumbnail for current post or page"
 msgstr ""
 
-#: includes/widgets/widget-thumbnail.php:11
+#: includes/widgets/widget-thumbnail.php:17
 msgid "Thumbnail (TSATU)"
 msgstr ""
 
@@ -770,42 +766,42 @@ msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/post_types/banner_post_type.php:15
+#: includes/post_types/banner_post_type.php:19
 msgctxt "Post Type General Name"
 msgid "Banners"
 msgstr ""
 
-#: includes/post_types/slide_post_type.php:15
+#: includes/post_types/slide_post_type.php:19
 msgctxt "Post Type General Name"
 msgid "Slides"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:15
+#: includes/post_types/tab_post_type.php:19
 msgctxt "Post Type General Name"
 msgid "Tabs"
 msgstr ""
 
-#: includes/post_types/banner_post_type.php:16
+#: includes/post_types/banner_post_type.php:20
 msgctxt "Post Type Singular Name"
 msgid "Banner"
 msgstr ""
 
-#: includes/post_types/slide_post_type.php:16
+#: includes/post_types/slide_post_type.php:20
 msgctxt "Post Type Singular Name"
 msgid "Slide"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:16
+#: includes/post_types/tab_post_type.php:20
 msgctxt "Post Type Singular Name"
 msgid "Tab"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:62
+#: includes/post_types/tab_post_type.php:66
 msgctxt "Taxonomy General Name"
 msgid "Categories"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:63
+#: includes/post_types/tab_post_type.php:67
 msgctxt "Taxonomy Singular Name"
 msgid "Category"
 msgstr ""
