@@ -258,9 +258,13 @@ if (!function_exists('the_terms_list')) {
 if (!function_exists('get_network_bloginfo')) {
 
     function get_network_bloginfo($show) {
-        switch_to_blog(1);
-        $output = get_bloginfo($show);
-        restore_current_blog();
+        if (is_multisite()) {
+            switch_to_blog(1);
+            $output = get_bloginfo($show);
+            restore_current_blog();
+        } else{
+            $output = get_bloginfo($show);
+        }
         return $output;
     }
 }
