@@ -1,0 +1,79 @@
+/**
+ * TSATU theme modifications to the Events Calendar
+ *
+ */
+
+/* Tribe Template */
+#tribe-events-pg-template {
+	max-width: 100%;
+}
+
+.tribe-events-page-template .col-md-8 {
+  width: 100%;
+}
+
+/* Tribe Theme Color */
+#tribe-events-content .tribe-events-tooltip h4,
+#tribe_events_filters_wrapper .tribe_events_slider_val,
+.single-tribe_events a.tribe-events-ical, 
+.single-tribe_events a.tribe-events-gcal {
+	color: #0ea474;
+}
+
+.tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"], 
+.tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"] > a,
+#tribe_events_filters_wrapper input[type=submit],
+.tribe-events-button,
+#tribe-events .tribe-events-button,
+.tribe-events-button.tribe-inactive,
+#tribe-events .tribe-events-button:hover,
+.tribe-events-button:hover,
+.tribe-events-button.tribe-active:hover {
+	background-color: #0ea474;
+}
+
+#tribe_events_filters_wrapper input[type=submit]:hover,
+.tribe-events-button.tribe-active:hover {
+	background-color: #c96b16;
+}
+
+
+#tribe_events_filters_wrapper h3 span:after { 	
+	border-top-color: #0ea474;
+}
+
+#tribe_events_filters_wrapper .tribe_events_filter_item.closed h3 span:after {
+	border-left-color: #0ea474;
+}
+
+.single-tribe_events a.tribe-events-ical, 
+.single-tribe_events a.tribe-events-ical:hover, 
+.single-tribe_events a.tribe-events-gcal, 
+.single-tribe_events a.tribe-events-gcal:hover {
+	color: #0ea474;
+}
+
+.tribe-events-list-widget .vcalendar {
+	padding-left: 0px;
+}
+.tribe-events-list-widget .entry-title {
+	margin-bottom: 5px;
+}
+
+.tribe-events-list-widget .duration {
+	font-weight: normal;
+	padding-left: 33px;
+}
+
+
+.tribe-events-list-widget .entry-title:before {
+	content: "\f073";  
+	font-family: FontAwesome;
+    font-size: 18pt;  
+    //color: #6f6f6f;  
+    float: left;  
+    position: relative;  
+    top: -2px;
+    padding-right: 10px;
+}
+
