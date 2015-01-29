@@ -1,6 +1,6 @@
 .home {
-    .hentry {
-        margin-top: 40px;
+    .main {
+        margin-top: 27px;
     }
 }
 
@@ -29,6 +29,17 @@
 
         img:hover {
             .box-shadow(2px 2px 2px rgba(0,0,0,.3));
+        }
+
+        .entry-date {
+            position: absolute;
+            left: @grid-gutter-width / 2;
+            bottom: 5px;
+            padding: 1px 10px;
+            background-color: rgba(0,0,0,.2);
+            color: #fff;
+            //font-size: @font-size-small;
+            font-weight: bold;
         }
     }
     .entry-title {

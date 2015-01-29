@@ -12,12 +12,12 @@ $(function prepareList() {
 	}).addClass('collapsed').removeClass('expanded').children('ul').hide();
 
         //Expand current page
-        $('.current_page_ancestor').addClass('expanded');
-        $('.current_page_ancestor').parent().show('medium');
-        $('.current_page_item').parent().show('medium');
-        if ($('.current_page_item').children('ul').length > 0) {
-            $('.current_page_item').addClass('expanded');
-            $('.current_page_item').children().show('medium');
+        $('#pagenav').find('.current_page_ancestor').addClass('expanded');
+        $('#pagenav').find('.current_page_ancestor').parent().show('medium');
+        $('#pagenav').find('.current_page_item').parent().show('medium');
+        if ($('#pagenav').find('.current_page_item').children('ul').length > 0) {
+            $('#pagenav').find('.current_page_item').addClass('expanded');
+            $('#pagenav').find('.current_page_item').children().show('medium');
         }
  
 	//Hack to add links inside the cv

@@ -46,8 +46,12 @@ if (!function_exists('tsatu_setup')) :
          * @link http://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
          */
         add_theme_support('post-thumbnails');
-        add_image_size('tsatu-posts', 555, 327, true);
-        add_image_size('tsatu-single', 848, 500, true);
+        add_image_size('tsatu-large', 850, 500, true);
+        add_image_size('tsatu-medium', 330, 195, true);
+        add_image_size('tsatu-small', 100, 100, true);
+
+        // Decrease WordPress JPEG Image Compression
+        add_filter('jpeg_quality', function($arg){return 80;});
 
         // This theme uses wp_nav_menu() in one location.
         register_nav_menus(array(
@@ -111,7 +115,7 @@ function tsatu_widgets_init() {
 
   //Footer
     register_sidebar(array(
-        'name'          => sprintf(__('Footer', 'tsatu'), ' 1/4'),
+        'name'          => sprintf(__('Footer %s', 'tsatu'), ' 1/4'),
         'id'            => 'sidebar-footer-1',
         'before_widget' => '<aside id="%1$s" class="widget %2$s">',
         'after_widget'  => '</aside>',
@@ -120,7 +124,7 @@ function tsatu_widgets_init() {
     ));
 
     register_sidebar(array(
-        'name'          => sprintf(__('Footer', 'tsatu'), ' 2/4'),
+        'name'          => sprintf(__('Footer %s', 'tsatu'), ' 2/4'),
         'id'            => 'sidebar-footer-2',
         'before_widget' => '<aside id="%1$s" class="widget %2$s">',
         'after_widget'  => '</aside>',
@@ -129,7 +133,7 @@ function tsatu_widgets_init() {
     ));
 
     register_sidebar(array(
-        'name'          => sprintf(__('Footer', 'tsatu'), ' 3/4'),
+        'name'          => sprintf(__('Footer %s', 'tsatu'), ' 3/4'),
         'id'            => 'sidebar-footer-3',
         'before_widget' => '<aside id="%1$s" class="widget %2$s">',
         'after_widget'  => '</aside>',
@@ -138,7 +142,7 @@ function tsatu_widgets_init() {
     ));
 
     register_sidebar(array(
-        'name'          => sprintf(__('Footer', 'tsatu'), ' 4/4'),
+        'name'          => sprintf(__('Footer %s', 'tsatu'), ' 4/4'),
         'id'            => 'sidebar-footer-4',
         'before_widget' => '<aside id="%1$s" class="widget %2$s">',
         'after_widget'  => '</aside>',
@@ -147,6 +151,8 @@ function tsatu_widgets_init() {
     ));
 
     //Widgets
+    unregister_widget('WP_Widget_Recent_Posts');
+
     register_widget( 'TSATU_Recent_Posts_Widget' );
     register_widget( 'TSATU_Service_Widget' );
     register_widget( 'TSATU_Social_Widget' );

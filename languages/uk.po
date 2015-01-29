@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Тема ТДАТУ\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
-"POT-Creation-Date: 2015-01-22 10:41:01+00:00\n"
+"POT-Creation-Date: 2015-01-26 12:36:11+00:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Andrii Ryzhkv <andri.ryzhkov@gmail.com>\n"
 "Language-Team: \n"
@@ -85,7 +85,11 @@ msgstr "Мапа сайту"
 msgid "Terms of Use"
 msgstr "Умови використання"
 
-#: functions.php:53
+#: footer.php:60
+msgid "Back to top"
+msgstr "Повернутись вгору"
+
+#: functions.php:58 includes/shortcodes.php:38
 msgid "Error locating %s for inclusion"
 msgstr "Помилка при пошуку %s для включення"
 
@@ -98,45 +102,403 @@ msgstr ""
 "\"http://browsehappy.com/\">поновіть ваш браузер</a>, щоб поліпшити ваш "
 "досвід."
 
-#: header.php:46
+#: header.php:49
 msgid "Tavria State Agrotechnological University"
 msgstr "Таврійський державний агротехнологічний університет"
 
-#: header.php:67
+#: header.php:68
 msgid "Subdivisions"
 msgstr "Підрозділи"
 
-#: header.php:68
+#: header.php:69
 msgid "On-line Services"
 msgstr "Он-лайн служби"
 
-#: header.php:69
+#: header.php:70
 msgid "Sign In"
 msgstr "Вхід"
+
+#: includes/activation.php:28 includes/activation.php:29
+msgid "Theme Activation"
+msgstr "Активація теми"
+
+#: includes/activation.php:50
+msgid "%s Theme Activation"
+msgstr "Активація теми %s"
+
+#: includes/activation.php:52
+msgid ""
+"These settings are optional and should usually be used only on a fresh "
+"installation"
+msgstr ""
+"Ці параметри є необов'язковими і зазвичай слід використовувати тільки на "
+"новій установці"
+
+#: includes/activation.php:59 includes/activation.php:62
+msgid "Create static front page?"
+msgstr "Створити статичну головну сторінку?"
+
+#: includes/activation.php:64 includes/activation.php:76
+#: includes/activation.php:88 includes/activation.php:100
+msgid "Yes"
+msgstr "Так"
+
+#: includes/activation.php:65 includes/activation.php:77
+#: includes/activation.php:89 includes/activation.php:101
+msgid "No"
+msgstr "Ні"
+
+#: includes/activation.php:67
+msgid "Create a page called Home and set it to be the static front page"
+msgstr "Створити сторінку з назвою Home та призначити її статичною сторінкою"
+
+#: includes/activation.php:71
+msgid "Change permalink structure?"
+msgstr "Змінити структуру постійних посилань?"
+
+#: includes/activation.php:74
+msgid "Update permalink structure?"
+msgstr "Оновити структуру постійних посилань?"
+
+#: includes/activation.php:79
+msgid "Change permalink structure to /&#37;postname&#37;/"
+msgstr "Змінити структуру постійних посилань на /&#37;postname&#37;/"
+
+#: includes/activation.php:83 includes/activation.php:86
+msgid "Create navigation menu?"
+msgstr "Створити меню навігації?"
+
+#: includes/activation.php:91
+msgid "Create the Primary Navigation menu and set the location"
+msgstr "Створити Головне меню та визначити місце"
+
+#: includes/activation.php:95 includes/activation.php:98
+msgid "Add pages to menu?"
+msgstr "Додати сторінки до меню?"
+
+#: includes/activation.php:103
+msgid "Add all current published pages to the Primary Navigation"
+msgstr "Додати всі поточні сторінки до Головного меню"
+
+#: includes/activation.php:126 includes/activation.php:147
+msgid "Home"
+msgstr "Головна сторінка"
+
+#: includes/activation.php:173 includes/activation.php:176
+#: includes/activation.php:190
+msgid "Primary Navigation"
+msgstr "Головне меню"
 
 #. Theme Name of the plugin/theme
 msgid "TSATU"
 msgstr "ТДАТУ"
 
-#: includes/breadcrumb.php:33
+#: includes/breadcrumb.php:31
 msgid "Archive by category \""
 msgstr "Архів категорії \""
 
-#: includes/breadcrumb.php:81
+#: includes/breadcrumb.php:79
 msgid "Search results for \""
 msgstr "Результати пошуку для \""
 
-#: includes/breadcrumb.php:83
+#: includes/breadcrumb.php:81
 msgid "Posts tagged \""
 msgstr "Публікації відмічені \""
 
-#: includes/breadcrumb.php:87
+#: includes/breadcrumb.php:85
 msgid "Articles posted by "
 msgstr "Статті опубліковані \""
 
-#: includes/breadcrumb.php:89
+#: includes/breadcrumb.php:87
 msgid "Error 404"
 msgstr "Помилка 404"
+
+#: includes/class-tgm-plugin-activation.php:161 includes/plugins.php:72
+msgid "Install Required Plugins"
+msgstr "Встановіть необхідні плаґіни"
+
+#: includes/class-tgm-plugin-activation.php:162 includes/plugins.php:73
+msgid "Install Plugins"
+msgstr "Встановити плаґіни"
+
+#: includes/class-tgm-plugin-activation.php:163 includes/plugins.php:74
+msgid "Installing Plugin: %s"
+msgstr "Встановити плаґін: %s"
+
+#: includes/class-tgm-plugin-activation.php:164
+msgid "Something went wrong."
+msgstr "Щось пішло не так."
+
+#: includes/class-tgm-plugin-activation.php:165 includes/plugins.php:76
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Ця тема потребує наступного плаґіну: %1$s."
+msgstr[1] "Ця тема потребує наступних плаґінів: %1$s."
+msgstr[2] "Ця тема потребує наступних плаґінів: %1$s."
+
+#: includes/class-tgm-plugin-activation.php:166 includes/plugins.php:77
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Ця тема рекомендує наступний плагін: %1$s."
+msgstr[1] "Ця тема рекомендує наступні плагіни: %1$s."
+msgstr[2] "Ця тема рекомендує наступні плагіни: %1$s."
+
+#: includes/class-tgm-plugin-activation.php:167 includes/plugins.php:78
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+"Вибачте, але ви не маєте правильного дозволу для установки плаґіну %s. Для "
+"допомоги в установці плаґіну, зверніться до адміністратора цього сайту."
+msgstr[1] ""
+"Вибачте, але ви не маєте правильного дозволу для установки плаґінів %s. Для "
+"допомоги в установці плаґінів, зверніться до адміністратора цього сайту."
+msgstr[2] ""
+"Вибачте, але ви не маєте правильного дозволу для установки плаґінів %s. Для "
+"допомоги в установці плаґінів, зверніться до адміністратора цього сайту."
+
+#: includes/class-tgm-plugin-activation.php:168 includes/plugins.php:79
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/class-tgm-plugin-activation.php:169 includes/plugins.php:80
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/class-tgm-plugin-activation.php:170 includes/plugins.php:81
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/class-tgm-plugin-activation.php:171 includes/plugins.php:82
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/class-tgm-plugin-activation.php:172 includes/plugins.php:83
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/class-tgm-plugin-activation.php:173 includes/plugins.php:84
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Встановити плаґін"
+msgstr[1] "Встановити плаґіни"
+msgstr[2] "Встановити плаґіни"
+
+#: includes/class-tgm-plugin-activation.php:174 includes/plugins.php:85
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Активувати плаґін"
+msgstr[1] "Активувати плаґіни"
+msgstr[2] "Активувати плаґіни"
+
+#: includes/class-tgm-plugin-activation.php:175 includes/plugins.php:86
+msgid "Return to Required Plugins Installer"
+msgstr "Повернутись до встановлювача необхідних плаґінів"
+
+#: includes/class-tgm-plugin-activation.php:176
+msgid "Return to the dashboard"
+msgstr "Повернутися до Майстерні"
+
+#: includes/class-tgm-plugin-activation.php:177
+#: includes/class-tgm-plugin-activation.php:1939 includes/plugins.php:87
+msgid "Plugin activated successfully."
+msgstr "Плаґін успішно активовано."
+
+#: includes/class-tgm-plugin-activation.php:178
+#: includes/class-tgm-plugin-activation.php:1630
+msgid "The following plugin was activated successfully:"
+msgstr "Наступні плаґіни були успішно активовані:"
+
+#: includes/class-tgm-plugin-activation.php:179
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:180
+msgid "Dismiss this notice"
+msgstr "Прибрати це повідомлення"
+
+#: includes/class-tgm-plugin-activation.php:531
+#: includes/class-tgm-plugin-activation.php:2156
+msgid "Return to the Dashboard"
+msgstr "Повернутися до Майстерні"
+
+#: includes/class-tgm-plugin-activation.php:1166
+msgid "Private Repository"
+msgstr "Приватне сховище"
+
+#: includes/class-tgm-plugin-activation.php:1169
+msgid "Pre-Packaged"
+msgstr "Попередньо упаковані"
+
+#: includes/class-tgm-plugin-activation.php:1174
+msgid "WordPress Repository"
+msgstr "Сховище WordPress"
+
+#: includes/class-tgm-plugin-activation.php:1177
+msgid "Required"
+msgstr "Обов'язковий"
+
+#: includes/class-tgm-plugin-activation.php:1177
+msgid "Recommended"
+msgstr "Рекомендований"
+
+#: includes/class-tgm-plugin-activation.php:1180
+msgid "Not Installed"
+msgstr "Не встановлений"
+
+#: includes/class-tgm-plugin-activation.php:1182
+msgid "Installed But Not Activated"
+msgstr "Встановлений але не активований"
+
+#: includes/class-tgm-plugin-activation.php:1287
+#: includes/class-tgm-plugin-activation.php:1395
+msgid "Install"
+msgstr "Встановити"
+
+#: includes/class-tgm-plugin-activation.php:1309
+#: includes/class-tgm-plugin-activation.php:1396
+msgid "Activate"
+msgstr "Активувати"
+
+#: includes/class-tgm-plugin-activation.php:1358
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1374
+msgid "Plugin"
+msgstr "Плаґін"
+
+#: includes/class-tgm-plugin-activation.php:1375
+msgid "Source"
+msgstr "Джерело"
+
+#: includes/class-tgm-plugin-activation.php:1376
+msgid "Type"
+msgstr "Тип"
+
+#: includes/class-tgm-plugin-activation.php:1377
+msgid "Status"
+msgstr "Статус"
+
+#: includes/class-tgm-plugin-activation.php:1922
+msgid "Install package not available."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1923
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1924
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1925
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1926
+msgid "Plugin install failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1927
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1938
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2052
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2053
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2053
+#: includes/class-tgm-plugin-activation.php:2062
+msgid "Show Details"
+msgstr "Показати деталі"
+
+#: includes/class-tgm-plugin-activation.php:2053
+#: includes/class-tgm-plugin-activation.php:2062
+msgid "Hide Details"
+msgstr "Приховати деталі"
+
+#: includes/class-tgm-plugin-activation.php:2054
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2055
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2059
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2060
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2061
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2062
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2063
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2064
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
 
 #: includes/customizer.php:27
 msgid "Abbreviation"
@@ -234,21 +596,74 @@ msgstr "SoundCloud"
 msgid "GitHub"
 msgstr "GitHub"
 
-#: includes/extras.php:57
+#: includes/extras.php:55
 msgid "Page %s"
 msgstr " Сторінка %s "
 
-#: includes/extras.php:120
+#: includes/extras.php:119
 msgid "Read more"
 msgstr "Читайте також"
 
-#: includes/extras.php:132
+#: includes/extras.php:131
 msgid "Permalink to %s"
 msgstr "Постійне посилання на %s"
 
-#: includes/extras.php:214
+#: includes/extras.php:211
 msgid "Follow us on "
 msgstr "Слідкуйте за нами в "
+
+#: includes/homelayout.php:31 includes/homelayout.php:124
+msgid "One"
+msgstr "Один"
+
+#: includes/homelayout.php:32 includes/homelayout.php:125
+msgid "Two"
+msgstr "Два"
+
+#: includes/homelayout.php:33 includes/homelayout.php:126
+msgid "Three"
+msgstr "Три"
+
+#: includes/homelayout.php:34 includes/homelayout.php:127
+msgid "Four"
+msgstr "Чотири"
+
+#: includes/homelayout.php:35 includes/homelayout.php:128
+msgid "Five"
+msgstr "П'ять"
+
+#: includes/homelayout.php:41
+msgid "Front Page"
+msgstr "Головна сторінка"
+
+#: includes/homelayout.php:45
+msgid "General"
+msgstr "Загальні"
+
+#: includes/homelayout.php:57
+msgid "Show customizable widget areas on Front Page"
+msgstr "Показати настроювані області віджетів на головій сторінці"
+
+#: includes/homelayout.php:69
+msgid "Remove content of the static page"
+msgstr "Вилучити вміст статичної сторінки"
+
+#: includes/homelayout.php:78
+msgid "Widget Area %s"
+msgstr "Область віджетів %s"
+
+#: includes/homelayout.php:89 includes/shortcodes/tinymce/grid.php:134
+#: includes/widgets/widget-recent-posts.php:167
+msgid "Number of columns"
+msgstr "Кількість стовпців"
+
+#: includes/homelayout.php:105
+msgid "Widget Area %1$s - %2$s/6"
+msgstr "Область віджетів %1$s - %2$s/6"
+
+#: includes/homelayout.php:140
+msgid "Front Page Area %1$s - %2$s/%3$s"
+msgstr "Область головної сторінки %1$s - %2$s/%3$s"
 
 #: includes/init.php:54
 msgid "Primary Menu"
@@ -264,8 +679,20 @@ msgstr "Бічна панель сторінок"
 
 #: includes/init.php:114 includes/init.php:123 includes/init.php:132
 #: includes/init.php:141
-msgid "Footer"
-msgstr "Нижній колонтитул"
+msgid "Footer %s"
+msgstr "Нижній колонтитул %s"
+
+#: includes/plugins.php:27
+msgid "TSATU Educational Tools"
+msgstr "ТДАТУ Освітні утиліти"
+
+#: includes/plugins.php:75
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/plugins.php:88
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
 
 #: includes/post_types/banner_post_type.php:21
 msgid "Banners"
@@ -473,6 +900,58 @@ msgstr "Стан за замовчуванням вкладки"
 msgid "Active tab"
 msgstr "Активна вкладка"
 
+#: includes/shortcodes/shortcode_cta.php:15
+msgid "Call to Action"
+msgstr "Заклик до дії"
+
+#: includes/shortcodes/shortcode_cta.php:16
+msgid "Button"
+msgstr "Кнопка"
+
+#: includes/shortcodes/shortcode_map.php:136
+msgid "No location found for the entered address."
+msgstr ""
+
+#: includes/shortcodes/shortcode_map.php:138
+msgid "Invalid request. Address is missing"
+msgstr ""
+
+#: includes/shortcodes/shortcode_map.php:140
+msgid "Something went wrong while retrieving your map."
+msgstr ""
+
+#: includes/shortcodes/shortcode_map.php:143
+msgid "Unable to contact Google API service."
+msgstr ""
+
+#: includes/shortcodes/tinymce/grid.php:97
+msgid "Text..."
+msgstr "Текст..."
+
+#: includes/shortcodes/tinymce/grid.php:120
+msgid "Click to edit"
+msgstr "Клацніть, щоб змінити"
+
+#: includes/shortcodes/tinymce/grid.php:144
+msgid "Input number from 1 - 12"
+msgstr "Введіть число від 1-12"
+
+#: includes/shortcodes/tinymce/grid.php:150
+msgid "Grid"
+msgstr "Сітка"
+
+#: includes/shortcodes/tinymce/grid.php:165
+msgid "Offset"
+msgstr "Зсув"
+
+#: includes/shortcodes/tinymce/grid.php:181
+msgid "Preview"
+msgstr "Попередній перегляд"
+
+#: includes/shortcodes/tinymce/grid.php:185
+msgid "Insert"
+msgstr "Вставити"
+
 #: includes/template-tags.php:29
 msgid "Posts navigation"
 msgstr "Навігація публікації"
@@ -654,10 +1133,6 @@ msgstr "Стовпців для головної публікації"
 #: includes/widgets/widget-recent-posts.php:162
 msgid "Set \"0\" to disable featured post."
 msgstr "Щоб виключити головну публікацію введіть \"0\"."
-
-#: includes/widgets/widget-recent-posts.php:167
-msgid "Number of columns"
-msgstr "Кількість стовпців"
 
 #: includes/widgets/widget-recent-posts.php:176
 msgid "Number of rows"
@@ -885,6 +1360,12 @@ msgctxt "post format archive title"
 msgid "Chats"
 msgstr "Чат"
 
+#~ msgid "Footer"
+#~ msgstr "Нижній колонтитул"
+
+#~ msgid "Text"
+#~ msgstr "Текст"
+
 #~ msgid "Recent Posts"
 #~ msgstr "Останні публікації"
 
@@ -906,83 +1387,6 @@ msgstr "Чат"
 
 #~ msgid "Search Results for %s"
 #~ msgstr "Результати пошуку для %s"
-
-#~ msgid "Theme Activation"
-#~ msgstr "Активація теми"
-
-#~ msgid "%s Theme Activation"
-#~ msgstr "Активація теми %s"
-
-#~ msgid ""
-#~ "These settings are optional and should usually be used only on a fresh "
-#~ "installation"
-#~ msgstr ""
-#~ "Ці параметри є необов'язковими і зазвичай слід використовувати тільки на "
-#~ "новій установці"
-
-#~ msgid "Create static front page?"
-#~ msgstr "Створити статичну головну сторінку?"
-
-#~ msgid "Yes"
-#~ msgstr "Так"
-
-#~ msgid "No"
-#~ msgstr "Ні"
-
-#~ msgid "Create a page called Home and set it to be the static front page"
-#~ msgstr ""
-#~ "Створити сторінку з назвою Home та призначити її статичною сторінкою"
-
-#~ msgid "Change permalink structure?"
-#~ msgstr "Змінити структуру постійних посилань?"
-
-#~ msgid "Update permalink structure?"
-#~ msgstr "Оновити структуру постійних посилань?"
-
-#~ msgid "Change permalink structure to /&#37;postname&#37;/"
-#~ msgstr "Змінити структуру постійних посилань на /&#37;postname&#37;/"
-
-#~ msgid "Create navigation menu?"
-#~ msgstr "Створити меню навігації?"
-
-#~ msgid "Create the Primary Navigation menu and set the location"
-#~ msgstr "Створити Головне меню та визначити місце"
-
-#~ msgid "Add pages to menu?"
-#~ msgstr "Додати сторінки до меню?"
-
-#~ msgid "Add all current published pages to the Primary Navigation"
-#~ msgstr "Додати всі поточні сторінки до Головного меню"
-
-#~ msgid "Home"
-#~ msgstr "Головна сторінка"
-
-#~ msgid "Primary Navigation"
-#~ msgstr "Головне меню"
-
-#~ msgid "One"
-#~ msgstr "Один"
-
-#~ msgid "Two"
-#~ msgstr "Два"
-
-#~ msgid "Three"
-#~ msgstr "Три"
-
-#~ msgid "Four"
-#~ msgstr "Чотири"
-
-#~ msgid "Five"
-#~ msgstr "П'ять"
-
-#~ msgid "Front Page"
-#~ msgstr "Головна сторінка"
-
-#~ msgid "General"
-#~ msgstr "Загальні"
-
-#~ msgid "Show customizable widget areas on Front Page"
-#~ msgstr "Показати настроювані області віджетів на головій сторінці"
 
 #~ msgid "Widget Area "
 #~ msgstr "Область віджетів "
@@ -1471,9 +1875,6 @@ msgstr "Чат"
 
 #~ msgid "Service Title"
 #~ msgstr "Назва служби"
-
-#~ msgid "Call to Action"
-#~ msgstr "Заклик до дії"
 
 #~ msgid "Title "
 #~ msgstr "Заголовок"

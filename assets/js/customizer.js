@@ -5,7 +5,61 @@
  */
 
 ( function( $ ) {
-	// Site title and description.
+	// Widget area 1.
+	wp.customize( 'tsatu_columns_1', function( value ) {
+		value.bind( function( to ) {
+			switch ( to ) {
+				case 0:
+					$( '#customize-control-tsatu_home_area_1_1' ).css( { 'display': 'list-item' } );
+					$( '#customize-control-tsatu_home_area_1_2' ).css( { 'display': 'none' } );
+					$( '#customize-control-tsatu_home_area_1_3' ).css( { 'display': 'none' } );
+					$( '#customize-control-tsatu_home_area_1_4' ).css( { 'display': 'none' } );
+					$( '#customize-control-tsatu_home_area_1_5' ).css( { 'display': 'none' } );
+					$( '#customize-control-tsatu_home_area_1_6' ).css( { 'display': 'none' } );
+					break;
+				case 1:
+					$( '#customize-control-tsatu_home_area_1_1' ).css( { 'display': 'list-item' } );
+					$( '#customize-control-tsatu_home_area_1_2' ).css( { 'display': 'list-item' } );
+					$( '#customize-control-tsatu_home_area_1_3' ).css( { 'display': 'none' } );
+					$( '#customize-control-tsatu_home_area_1_4' ).css( { 'display': 'none' } );
+					$( '#customize-control-tsatu_home_area_1_5' ).css( { 'display': 'none' } );
+					$( '#customize-control-tsatu_home_area_1_6' ).css( { 'display': 'none' } );
+					break;
+				case 2:
+					$( '#customize-control-tsatu_home_area_1_1' ).css( { 'display': 'list-item' } );
+					$( '#customize-control-tsatu_home_area_1_2' ).css( { 'display': 'list-item' } );
+					$( '#customize-control-tsatu_home_area_1_3' ).css( { 'display': 'list-item' } );
+					$( '#customize-control-tsatu_home_area_1_4' ).css( { 'display': 'none' } );
+					$( '#customize-control-tsatu_home_area_1_5' ).css( { 'display': 'none' } );
+					$( '#customize-control-tsatu_home_area_1_6' ).css( { 'display': 'none' } );
+					break;
+				case 3:
+					$( '#customize-control-tsatu_home_area_1_1' ).css( { 'display': 'list-item' } );
+					$( '#customize-control-tsatu_home_area_1_2' ).css( { 'display': 'list-item' } );
+					$( '#customize-control-tsatu_home_area_1_3' ).css( { 'display': 'list-item' } );
+					$( '#customize-control-tsatu_home_area_1_4' ).css( { 'display': 'list-item' } );
+					$( '#customize-control-tsatu_home_area_1_5' ).css( { 'display': 'none' } );
+					$( '#customize-control-tsatu_home_area_1_6' ).css( { 'display': 'none' } );
+					break;
+				case 4:
+					$( '#customize-control-tsatu_home_area_1_1' ).css( { 'display': 'list-item' } );
+					$( '#customize-control-tsatu_home_area_1_2' ).css( { 'display': 'list-item' } );
+					$( '#customize-control-tsatu_home_area_1_3' ).css( { 'display': 'list-item' } );
+					$( '#customize-control-tsatu_home_area_1_4' ).css( { 'display': 'list-item' } );
+					$( '#customize-control-tsatu_home_area_1_5' ).css( { 'display': 'list-item' } );
+					$( '#customize-control-tsatu_home_area_1_6' ).css( { 'display': 'none' } );
+					break;
+				case 5:
+					$( '#customize-control-tsatu_home_area_1_1' ).css( { 'display': 'list-item' } );
+					$( '#customize-control-tsatu_home_area_1_2' ).css( { 'display': 'list-item' } );
+					$( '#customize-control-tsatu_home_area_1_3' ).css( { 'display': 'list-item' } );
+					$( '#customize-control-tsatu_home_area_1_4' ).css( { 'display': 'list-item' } );
+					$( '#customize-control-tsatu_home_area_1_5' ).css( { 'display': 'list-item' } );
+					$( '#customize-control-tsatu_home_area_1_6' ).css( { 'display': 'list-item' } );
+					break;
+			}
+		} );
+	} );
 	wp.customize( 'blogname', function( value ) {
 		value.bind( function( to ) {
 			$( '.site-title a' ).text( to );

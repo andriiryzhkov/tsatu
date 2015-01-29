@@ -15,6 +15,12 @@ get_header(); ?>
 
     <?php if (have_posts()) : ?>
 
+        <?php if (!is_front_page() && is_home()) : ?>
+            <header class="page-header">
+                <?php echo '<h1 class="page-title">' . get_the_title(get_option('page_for_posts')) . '</h1>'; ?>
+            </header><!-- .page-header -->
+        <?php endif; ?>
+
         <?php /* Start the Loop */ ?>
         <?php while (have_posts()) : the_post(); ?>
 
@@ -29,7 +35,6 @@ get_header(); ?>
 
         <?php endwhile; ?>
 
-        <?php //tsatu_content_nav( 'nav-below' ); ?>
         <?php tsatu_posts_navigation(); ?>
 
     <?php else : ?>

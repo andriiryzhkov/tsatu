@@ -32,8 +32,8 @@ Developed by Andrii Ryzhkov - https://github.com/andriiryzhkov
 
 4. Bootstrap
 
- * Bootstrap v3.3.1 (http://getbootstrap.com)
- * Copyright 2011-2014 Twitter, Inc.
+ * Bootstrap (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
 
 5. wp_bootstrap_navwalker
@@ -49,6 +49,19 @@ Developed by Andrii Ryzhkov - https://github.com/andriiryzhkov
 
  * Font Awesome (http://fontawesome.io/)
  * Licensed under  SIL OFL 1.1 (http://scripts.sil.org/OFL)
+
+8. Bootstrap Shortcodes
+
+ * Wordpress plugin to add shortcodes for Twitter Bootstrap 3.0 (https://wordpress.org/plugins/bootstrap-shortcodes/)
+ * Copyright 2014 TheWebSho
+ * Licensed under GPLv2 (http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+
+9. TGM Plugin Activation
+
+ * Plugin installation and activation for WordPress themes (https://github.com/thomasgriffin/TGM-Plugin-Activation)
+ * Copyright 2012 Thomas Griffin
+ * Licensed under GPLv2 (http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+
 
 
 *************************************************************

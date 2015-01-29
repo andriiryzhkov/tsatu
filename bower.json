@@ -1,6 +1,6 @@
 {
   "name": "tsatu",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "homepage": "",
   "authors": [
     "Andrii Ryzhkov <andrii.ryzhkov@gmail.com>"
@@ -13,12 +13,11 @@
     "assets/vendor"
   ],
   "dependencies": {
-    "modernizr": "2.8.2",
-    "jquery": "1.11.1",
-    "bootstrap": "3.3.1",
+    "modernizr": "2.8.3",
+    "jquery": "1.11.2",
+    "bootstrap": "3.3.2",
     "respond": "1.4.2",
-    "fontawesome": "~4.2.0",
-    "flexslider": "*",
-    "bootstrap-hover-dropdown": "~2.0.11"
+    "fontawesome": "~4.3.0",
+    "flexslider": "*"
   }
 }

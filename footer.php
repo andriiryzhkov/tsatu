@@ -39,11 +39,12 @@ if (!defined('ABSPATH')) {
   <div class="container ">
   	<div class="row">
             <div class="col-md-6 col-xs-12">
-                <?php if (is_multisite() && (get_current_blog_id() != 1)) : ?>
-                <div class="footer-copyright">&copy; <?php echo date("Y") ?>. <a href="<?php echo esc_url(network_site_url('/')); ?>"><?php echo get_network_bloginfo('name') ?></a>. 
-                        <a href="<?php echo esc_url(home_url('/')); ?>"><?php echo bloginfo('name') ?></a>. <?php _e('All rights reserved.', 'tsatu'); ?></div>
-                <?php else : ?>
+                <?php if (is_main_site()) : ?>
                     <div class="footer-copyright">&copy; <?php echo date("Y") ?>. <a href="<?php echo esc_url(home_url('/')); ?>"><?php echo bloginfo('name') ?></a>. <?php _e('All rights reserved.', 'tsatu'); ?></div>
+                <?php else : ?>
+                    <div class="footer-copyright">&copy; <?php echo date("Y") ?>. <a href="<?php echo esc_url(network_site_url('/')); ?>"><?php echo get_network_bloginfo('name') ?></a>.
+                        <a href="<?php echo esc_url(home_url('/')); ?>"><?php echo bloginfo('name') ?></a>. <?php _e('All rights reserved.', 'tsatu'); ?>
+                    </div>
                 <?php endif; ?>
                 <div class="footer-menu">
                     <a href="<?php echo network_site_url('/contact/'); ?>"><?php _e('Contact Information', 'tsatu'); ?></a>
@@ -57,7 +58,7 @@ if (!defined('ABSPATH')) {
         </div>
   </div>
   <!-- Return to Top -->
-  <a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a>    
+  <a href="javascript:" id="return-to-top" title="<?php _e('Back to top', 'tsatu'); ?>"><i class="fa fa-chevron-up"></i></a>
 </footer>
 
 <?php wp_footer(); ?>

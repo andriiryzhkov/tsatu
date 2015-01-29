@@ -34,46 +34,56 @@ if (!defined('ABSPATH')) {
 <![endif]-->
 
 <header class="site-header" role="banner">
-    <!-- Logo -->
-    <div class="container logo">
+    <!-- Branding -->
+    <div class="container">
         <div class="row">
-            <div class="branding col-md-1">
-                <a href="<?php echo esc_url(network_site_url('/')); ?>"><img src="<?php echo get_template_directory_uri() ?>/assets/img/logo.png"></a>
+
+            <div class="col-sm-12 col-md-9 col-lg-8">
+                <div class="branding branding-logo">
+                    <a href="<?php echo esc_url(network_site_url('/')); ?>"><img src="<?php echo get_template_directory_uri() ?>/assets/img/logo.png"></a>
+                </div>
+
+                <div class="branding branding-title">
+                    <?php if (is_main_site()) : ?>
+                        <a href="<?php echo esc_url(home_url('/')); ?>">
+                            <?php _e('Tavria State Agrotechnological University', 'tsatu'); ?>
+                        </a>
+                    <?php else : ?>
+                        <a href="<?php echo esc_url(home_url('/')); ?>">
+                            <div class="branding-division">
+                                <?php bloginfo('name'); ?>
+                            </div>
+                            <div class="branding-child-title">
+                                <?php echo get_network_bloginfo('name'); ?>
+                            </div>
+                        </a>
+                <?php endif; ?>
+                </div>
             </div>
-            <div class="branding col-md-7">
-                <?php if (!is_child_theme()) : ?>
-                    <a class="name" href="<?php echo esc_url(home_url('/')); ?>">
-                        <?php _e('Tavria State Agrotechnological University', 'tsatu'); ?>
-                    </a>
-                <?php else : ?>
-                    <a href="<?php echo esc_url(home_url('/')); ?>">
-                        <div class="name-dep">
-                            <?php bloginfo('name'); ?>
-                        </div>
-                        <div class="name-main">
-                            <?php echo get_network_bloginfo('name'); ?>
-                        </div>
-                    </a>
-            <?php endif; ?>
-            </div>
-            <div class="col-md-3 col-md-offset-1">
+            <!-- Top menu -->
+            <div class="col-sm-12 col-md-3 col-lg-4">
                 <div class="row">
-                    <?php if (function_exists('qtrans_generateLanguageSelectCode')) : // mqTranslate language select ?>
-                        <div class="site-language">
-                            <?php echo qtrans_generateLanguageSelectCode('image'); ?>
+                    <div class="top-nav col-xs-6 col-sm-6 col-md-12">
+                        <div class="top-nav-items">
+                            <a href="<?php echo network_site_url('/pidrozdily/'); ?>" title="<?php _e('Subdivisions', 'tsatu'); ?>"><i class="fa fa-sitemap"></i></a>
+                            <a href="<?php echo network_site_url('/online/'); ?>" title="<?php _e('On-line Services', 'tsatu'); ?>"><i class="fa fa-cogs"></i></a>
+                            <a href="<?php echo home_url('/wp-login.php'); ?>" title="<?php _e('Sign In', 'tsatu'); ?>"><i class="fa fa-sign-in"></i></a>
                         </div>
-                    <?php endif; // end mqTranslate  ?>
-                    <div class="minor">
-                        <a href="<?php echo network_site_url('/pidrozdily/'); ?>"><?php _e('Subdivisions', 'tsatu'); ?></a>
-                        <a href="<?php echo network_site_url('/online/'); ?>"><?php _e('On-line Services', 'tsatu'); ?></a>
-                        <a href="<?php echo home_url('/wp-login.php'); ?>"><?php _e('Sign In', 'tsatu'); ?></a>
+                        <ul class="top-nav-language">
+                            <?php pll_the_languages(array('show_flags' => 1,'show_names' => 0));?>
+                        </ul>
+                        <?php if (function_exists('qtrans_generateLanguageSelectCode')) : // mqTranslate language select ?>
+                            <div class="top-nav-language">
+                                <?php echo qtrans_generateLanguageSelectCode('image'); ?>
+                            </div>
+                        <?php endif; // end mqTranslate  ?>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-12">
+                        <?php get_search_form(); ?>
                     </div>
                 </div>
-                <div class="row">
-                    <?php get_search_form(); ?>
-                </div>
             </div>
-        </div>
+        </div> <!-- End branding -->
     </div>
     <!-- Header primary menu -->
     <nav class="navbar navbar-default">
@@ -94,7 +104,7 @@ if (!defined('ABSPATH')) {
                          wp_nav_menu(array(
                              'theme_location' => 'primary',
                              'depth' => 3,
-                             'walker' => new wp_bootstrap_navwalker(),
+                             'walker' => new TSATU_Nav_Walker(),
                              'menu_class' => 'nav navbar-nav'
                          ));
 
@@ -106,18 +116,14 @@ if (!defined('ABSPATH')) {
 </header>
 <!-- Front page -->
 <?php
-if (function_exists('tsatu_slider') && is_front_page() && !is_child_theme() && get_theme_mod('show_slider') == 1) {
+if (function_exists('tsatu_slider') && is_front_page() && is_main_site() && get_theme_mod('show_slider') == 1) {
     tsatu_slider(get_theme_mod('num_slides'));
 }
 ?>
 <!-- Main container -->
 <div class="wrap container"  role="document">
 <?php // substitute the class "container-fluid" below if you want a wider content area ?>
-    <?php
-    if (!is_home() && !is_front_page()) {
-        tsatu_breadcrumb();
-    }
-    ?>
+    <?php //tsatu_breadcrumb(); ?>
     <div class="content row">
         <div id="content" class="main">
 

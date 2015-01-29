@@ -21,7 +21,7 @@ jQuery(document).ready(function ($) {
             pauseOnHover: false, //Boolean: Pause the slideshow when hovering over slider, then resume when no longer hovering
             pauseInvisible: true, //{NEW} Boolean: Pause the slideshow when tab is invisible, resume when visible. Provides better UX, lower CPU usage.
             useCSS: true, //{NEW} Boolean: Slider will use CSS3 transitions if available
-            touch: true  //{NEW} Boolean: Allow touch swipe navigation of the slider on touch-enabled devices
+            touch: true,  //{NEW} Boolean: Allow touch swipe navigation of the slider on touch-enabled devices
         });
         $('#slider-widget').flexslider({
             animation: "fade", //String: Select your animation type, "fade" or "slide"

@@ -25,7 +25,7 @@ module.exports = function (grunt) {
     ];
 
     grunt.initConfig({
-        pkg:    grunt.file.readJSON( 'package.json' ),
+        pkg: grunt.file.readJSON('package.json'),
         jshint: {
             options: {
                 jshintrc: '.jshintrc'
@@ -74,25 +74,34 @@ module.exports = function (grunt) {
             },
         },
         copy: {
-            glyphicons: {
+            fonts: {
                 expand: true,
                 flatten: true,
-                src: ['assets/vendor/bootstrap/fonts/*'],
+                src: [
+                    'assets/vendor/bootstrap/fonts/*',
+                    'assets/vendor/fontawesome/fonts/*',
+                    'assets/vendor/flexslider/fonts/*'
+                ],
                 dest: 'assets/fonts'
             },
-            font_awesome: {
+            tinymce_css: {
                 expand: true,
                 flatten: true,
-                src: ['assets/vendor/fontawesome/fonts/*'],
-                dest: 'assets/fonts'
+                src: [
+                    'assets/vendor/bootstrap/dist/css/bootstrap.min.css'
+                ],
+                dest: 'includes/shortcodes/tinymce/css'
             },
-            flexslider: {
+            tinymce_js: {
                 expand: true,
                 flatten: true,
-                src: ['assets/vendor/flexslider/fonts/*'],
-                dest: 'assets/fonts'
-            }
+                src: [
+                    'assets/vendor/bootstrap/dist/js/bootstrap.min.js',
+                    'assets/vendor/jquery/dist/jquery.min.js',
 
+                ],
+                dest: 'includes/shortcodes/tinymce/js'
+            }
         },
         uglify: {
             dist: {
@@ -146,7 +155,7 @@ module.exports = function (grunt) {
                     }
                 },
                 files: {
-                    'lib/scripts.php': 'assets/{css,js}/{main,scripts}.min.{css,js}'
+                    'includes/scripts.php': 'assets/{css,js}/{main,scripts}.min.{css,js}'
                 }
             }
         },
@@ -194,24 +203,26 @@ module.exports = function (grunt) {
                     archive: 'release/tsatu-<%= pkg.version %>.zip'
                 },
                 files: [
-                    {src: [
-                        '*.php',
-                        '*.css',
-                        '*.md',
-                        'screenshot.png',
-                        'assets/manifest.json',
-                        'assets/css/*.css',
-                        'assets/fonts/*',
-                        'assets/img/**',
-                        'assets/js/scripts.js',
-                        'assets/js/scripts.min.js',
-                        'assets/js/customizer.js',
-                        'assets/js/skip-link-focus-fix.js',
-                        'assets/js/vendor/modernizr.min.js',
-                        'languages/*',
-                        'includes/**'
-                    ],
-                    dest: 'tsatu/'}
+                    {
+                        src: [
+                            '*.php',
+                            '*.css',
+                            '*.md',
+                            'screenshot.png',
+                            'assets/manifest.json',
+                            'assets/css/*.css',
+                            'assets/fonts/*',
+                            'assets/img/**',
+                            'assets/js/scripts.js',
+                            'assets/js/scripts.min.js',
+                            'assets/js/customizer.js',
+                            'assets/js/skip-link-focus-fix.js',
+                            'assets/js/vendor/modernizr.min.js',
+                            'languages/*',
+                            'includes/**'
+                        ],
+                        dest: 'tsatu/'
+                    }
                 ]
             }
         }
@@ -237,5 +248,10 @@ module.exports = function (grunt) {
         'modernizr',
         'makepot',
         'version'
+    ]);
+    grunt.registerTask('release', [
+        'dev',
+        'build',
+        'compress'
     ]);
 };

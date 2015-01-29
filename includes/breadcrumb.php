@@ -1,8 +1,6 @@
 <?php
 /**
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Breadcrumbs for pages
  * 
  * @package tsatu
  */
@@ -16,7 +14,7 @@ function tsatu_breadcrumb() {
     $home = __('TSATU', 'tsatu'); // text for the 'Home' link
     $before = '<li class="active">'; // tag before the current crumb
     $after = '</li>'; // tag after the current crumb
-    if (!is_home() && !is_front_page() || is_paged()) {
+    if (!is_front_page() || is_paged()) {
         echo '<ul class="breadcrumb">';
         global $post;
         $homeLink = home_url();

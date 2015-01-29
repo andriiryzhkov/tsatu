@@ -25,6 +25,7 @@
 .footer-area {
     .widget {
         h3 {
+            font-size: @font-size-h4;
             margin-bottom: 0;
             padding-bottom: 5px;
         }
@@ -46,120 +47,4 @@
         }
     }
 
-}
-
-
-// Default wodgets
-.widget_rss {
-    > h3 {
-        a {
-            color: @headings-color;
-        }
-
-        a:hover {
-            color: @link-color;
-        }
-
-        img {
-            display: none;
-        }
-    }
-
-    ul{
-        padding-left: 0;
-
-        li {
-            list-style-type: none;
-            margin-bottom: 20px;
-
-            > a {
-                display: block;
-                font-family: @headings-font-family;
-                line-height: @headings-line-height;
-                font-weight: @headings-font-weight;
-                font-size: @font-size-h4;
-                margin-bottom: 10px;
-
-            }
-
-            .rss-date {
-                display: block;
-                color: @gray-light;
-                margin-bottom: 10px;
-            }
-
-            .rssSummary {
-                display: block;
-                margin-bottom: 10px;
-            }
-
-            cite {
-                display: block;
-                margin-bottom: 10px;
-            }
-        }
-    }
-}
-
-.widget_archive,
-.widget_categories,
-.widget_meta,
-.widget_pages,
-.widget_recent_entries,
-.widget_nav_menu,
-.widget_recent_comments {
-
-    > ul {
-        margin-left: -20px;
-    }
-
-    ul{
-        padding-left: 20px;
-
-        li {
-            list-style-type: none;
-            margin-top: 8px;
-        }
-    }
-
-    select {
-        width: 100%;
-    }
-}
-
-/* calendar widget */
-#wp-calendar {
-    border-collapse: collapse;
-    width:100%;
-    border:none;
-
-    td, th {
-        text-align:center;
-    }
-    caption {
-        color: @headings-color;
-        font-family: @headings-font-family;
-        font-size: @font-size-h3;
-        text-align: center;
-        padding: 0;
-        margin-bottom: 10px;
-        line-height: 39px;
-    }
-    thead, tfoot {
-        line-height:33px;
-        background:#eee;
-    }
-    tbody {
-        line-height:33px;
-    }
-    #prev, #next {
-        padding:0 10px;
-        background:#eee;
-    }
-    #prev {
-        text-align:left;
-    }
-    #next {
-        text-align:right;
-    }
 }

@@ -21,20 +21,25 @@ if (!defined('ABSPATH')) {
  * @link https://github.com/roots/roots/pull/1042
  */
 $tsatu_includes = array(
-    'includes/init.php',           // Theme init
-    'includes/sidebar.php',        // Sidebar class
-    'includes/config.php',         // Configuration
-    'includes/scripts.php',        // Scripts and stylesheets
-    'includes/customizer.php',     // Customizer additions
-    'includes/navwalker.php',      // Custom nav modifications
-    'includes/template-tags.php',  // Custom template tags for this theme
-    'includes/extras.php',         // Custom functions that act independently of the theme templates
-    'includes/breadcrumb.php',     // Navigation breadcrumb function
-    'includes/jetpack.php',        // Jetpack compatibility file
-    'includes/translit.php',       // Cyr to Lat titles
-    'includes/post_types/banner_post_type.php',        // Banners
-    'includes/post_types/slide_post_type.php',         // Slies
-    'includes/post_types/tab_post_type.php',           // Tabs
+    'includes/init.php',                        // Theme init
+    'includes/sidebar.php',                     // Sidebar class
+    'includes/config.php',                      // Configuration
+    'includes/scripts.php',                     // Scripts and stylesheets
+    'includes/activation.php',                  // Theme activation
+    'includes/customizer.php',                  // Customizer additions
+    'includes/navwalker.php',                   // Custom nav modifications
+    'includes/template-tags.php',               // Custom template tags for this theme
+    'includes/extras.php',                      // Custom functions that act independently of the theme templates
+    'includes/breadcrumb.php',                  // Navigation breadcrumb function
+    'includes/jetpack.php',                     // Jetpack compatibility file
+    'includes/translit.php',                    // Cyr to Lat titles
+    'includes/shortcodes.php',                  // Shortcodes declarations
+//    'includes/homelayout.php',                  // Custom front page with customizable widget areas
+    'includes/class-tgm-plugin-activation.php', // Plugin installation and activation for WordPress themes
+    'includes/plugins.php',                     // Register the required plugins
+    'includes/post_types/banner_post_type.php', // Banners
+    'includes/post_types/slide_post_type.php',  // Slies
+    'includes/post_types/tab_post_type.php',    // Tabs
     'includes/widgets/widget-recent-posts.php', // Recent Posts Widget
     'includes/widgets/widget-service.php',      // Sevice Widget
     'includes/widgets/widget-pagenav.php',      // Page Sidebar Navigation Widget

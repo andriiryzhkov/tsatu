@@ -1,9 +1,18 @@
-div.sharedaddy div.sd-block {
-	border: none;
-	padding: 0;
-        
-        .sd-title {
-            border-top: none;
-            font-size: @font-size-base;
-        }
+div.sharedaddy {
+  display: block;
+  margin: 40px 0;
+
+  div.sd-block {
+    display: block;
+    border: none;
+    padding: 0;
+
+    .sd-title {
+      font-size: @font-size-base;
+
+      &:before {
+        display: none;
+      }
+    }
+  }
 }

@@ -2,8 +2,6 @@
 /**
  * Custom functions that act independently of the theme templates
  *
- * Eventually, some of the functionality here could be replaced by core features
- *
  * @package tsatu
  */
 
@@ -82,15 +80,16 @@ function tsatu_login_logo() {
     ?>
     <style type="text/css">
         body.login div#login h1 a {
-            background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/img/site-login-logo.png);
+            background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/img/login-logo.png);
             padding-bottom: 20px;
         }
     </style>
 <?php
 }
+add_action('login_enqueue_scripts', 'tsatu_login_logo');
 
 /**
- * Returns a new WP_Query with related posts.
+ * Returns related posts.
  */
 function tsatu_related_posts() {
     $post = get_post();
@@ -146,36 +145,34 @@ if (!function_exists('tsatu_slider')) :
      * Featured image slider, displayed on front page for static page and blog
      */
     function tsatu_slider($count = 3, $id = 'slider') {
-        $slider = '<ul class="slides">';
 
         $query = new WP_Query(array('post_type' => 'slide', 'posts_per_page' => $count));
         if ($query->have_posts()) :
+            echo '<div id="' . $id . '" class="flexslider">';
+            echo '<ul class="slides">';
             while ($query->have_posts()) : $query->the_post();
                 global $more;
                 $more = 0;
-                $slider .= '<li>';
-                if ((function_exists('has_post_thumbnail')) && ( has_post_thumbnail() )) :
-                    $slider .= get_the_post_thumbnail();
-                endif;
+                echo '<li>';
+                if ((function_exists('has_post_thumbnail')) && ( has_post_thumbnail() )) {
+                    echo get_the_post_thumbnail();
+                }
+                echo '<div class="flex-caption">';
+                echo '<a href="' . esc_html(get_post_meta(get_the_ID(), 'slide_url', true)) . '">';
+                if (get_the_title() != '') {
+                    echo '<h2 class="entry-title">' . get_the_title() . '</h2>';
+                }
+                if (get_the_excerpt() != '') {
+                    echo '<div class="excerpt">' . get_the_excerpt() . '</div>';
+                }
+                echo '</a>';
+                echo '</div>';
 
-                $slider .= '<div class="flex-caption">';
-                $slider .= '<a href="' . esc_html(get_post_meta(get_the_ID(), 'slide_url', true)) . '">';
-                if (get_the_title() != '')
-                    $slider .= '<h2 class="entry-title">' . get_the_title() . '</h2>';
-                if (get_the_excerpt() != '')
-                    $slider .= '<div class="excerpt">' . get_the_excerpt() . '</div>';
-                $slider .= '</a>';
-                $slider .= '</div>';
-
+                echo '</li>';
             endwhile;
+            echo '</ul>';
+            echo '</div>';
         endif;
-
-        $slider .= '</li>';
-        $slider .= '</ul>';
-
-        echo '<div id="' . $id . '" class="flexslider">';
-        echo $slider;
-        echo '</div>';
     }
 
 endif;
@@ -220,6 +217,9 @@ if (!function_exists('tsatu_social')) :
 
 endif;
 
+/**
+ * Add qTranslate to custom taxonomies
+ */
 
 function qtranslate_edit_taxonomies(){
    $args=array(
@@ -243,7 +243,9 @@ function qtranslate_edit_taxonomies(){
 add_action('admin_init', 'qtranslate_edit_taxonomies');
 
 if (!function_exists('the_terms_list')) {
-
+    /**
+     * Returns list of terms for custom taxonomy
+     */
     function the_terms_list($post_id, $taxonomy) {
         $terms = get_the_terms($post_id, $taxonomy); 
         if (!empty($terms) && !is_wp_error($terms)) {
@@ -256,7 +258,9 @@ if (!function_exists('the_terms_list')) {
 }
 
 if (!function_exists('get_network_bloginfo')) {
-
+    /**
+     * Gets the bloginfo for the site in multisite setup
+     */
     function get_network_bloginfo($show) {
         if (is_multisite()) {
             switch_to_blog(1);

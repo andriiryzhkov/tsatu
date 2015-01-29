@@ -1,34 +1,46 @@
+@banner-margin: 7px;
+
 .widget_banner {
-    position: relative;
+    //position: relative;
     display: block;
-    text-align: center;
-    vertical-align: middle;
+    font-size: @font-size-small;
+    text-align: left;
+    vertical-align: top;
+    margin: 0 -@banner-margin;
     
     > a {
         display: inline-block;
+        color: @text-color;
+        vertical-align: top;
+        margin: @banner-margin;
+
+        &:hover {
+            color: @link-color;
+        }
 
         .banner-item {
+            .well;
             position: relative;
-            width: 252px;
-            height: 62px;
+            width: 270px;
+            height: 40px;
             padding: 3px 10px;
-            margin: 10px 10px;
-            //display: block;
-            border: solid 1px @gray-lighter;
+            margin: 0;
+            //border: solid 1px @gray-lighter;
 
             .banner-title {
                 line-height: 1.2;
                 text-align: left;
                 vertical-align: text-top;
-                width: 170px;
+                width: 200px;
             }
 
             img {
                 position: absolute;
-                bottom: 0;
-                right: 0;
-                width: 60px;
-                height: 60px;
+                bottom: 1px;
+                right: 1px;
+                width: 36px;
+                height: 36px;
+                .img-rounded;
             }
 
         }

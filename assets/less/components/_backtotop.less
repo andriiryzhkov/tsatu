@@ -3,26 +3,16 @@
     bottom: 20px;
     right: 20px;
     color: #fff;
-    background: @brand-primary;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
-    filter: alpha(opacity=70);
-    -moz-opacity: 0.7;
-    -khtml-opacity: 0.7;
-    opacity: 0.7;
+    //background: @brand-primary;
+    background: @gray;
+    .opacity(0.7);
     width: 50px;
     height: 50px;
     display: block;
     text-decoration: none;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
     border-radius: 4px;
-    //border: solid 2px #fff;
     display: none;
-    -webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    .transition(all 0.3s ease);
     .box-shadow(2px 2px 3px rgba(0,0,0,.3));
 
     i {
@@ -32,23 +22,15 @@
         left: 14px;
         top: 12px;
         font-size: 22px;
-        -webkit-transition: all 0.3s ease;
-        -moz-transition: all 0.3s ease;
-        -ms-transition: all 0.3s ease;
-        -o-transition: all 0.3s ease;
-        transition: all 0.3s ease;
+        .transition(all 0.3s ease);
     }
 
     &:hover {
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
-        filter: alpha(opacity=90);
-        -moz-opacity: 0.9;
-        -khtml-opacity: 0.9;
-        opacity: 0.9;
+        .opacity(0.9);
 
         i {
             color: #fff;
-            top: 5px;
+            //top: 5px;
         }
     }
 }
