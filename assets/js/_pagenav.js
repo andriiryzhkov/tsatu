@@ -1,7 +1,12 @@
-//Adapted from http://jasalguero.com/ledld/development/web/expandable-list/
-/**************************************************************/
-/* Prepares the cv to be dynamically expandable/collapsible   */
-/**************************************************************/
+/*
+ * Page navigation
+ *
+ * Adapted from http://jasalguero.com/ledld/development/web/expandable-list/
+ */
+
+/*
+ * Prepares the cv to be dynamically expandable/collapsible
+ */
 $(function prepareList() {
 	$('#pagenav').find('li:has(ul)').unbind('click').click(function(event) {
 		if(this === event.target) {
@@ -36,10 +41,9 @@ $(function prepareList() {
 	});
 });
 
-
-/**************************************************************/
-/* Functions to execute on loading the document               */
-/**************************************************************/
+/*
+ * Functions to execute on loading the document
+ */
 $(document).ready( function() {
     prepareList();
 });

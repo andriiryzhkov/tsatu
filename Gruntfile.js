@@ -208,6 +208,7 @@ module.exports = function (grunt) {
                             '*.php',
                             '*.css',
                             '*.md',
+                            'favicon.ico',
                             'screenshot.png',
                             'assets/manifest.json',
                             'assets/css/*.css',
@@ -219,7 +220,8 @@ module.exports = function (grunt) {
                             'assets/js/skip-link-focus-fix.js',
                             'assets/js/vendor/modernizr.min.js',
                             'languages/*',
-                            'includes/**'
+                            'includes/**',
+                            'tribe-events/**'
                         ],
                         dest: 'tsatu/'
                     }

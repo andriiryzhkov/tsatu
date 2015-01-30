@@ -16,67 +16,74 @@ if (!defined('ABSPATH')) {
  * @param array $classes Classes for the body element.
  * @return array
  */
-function tsatu_body_classes( $classes ) {
-	// Adds a class of group-blog to blogs with more than 1 published author.
-	if ( is_multi_author() ) {
-		$classes[] = 'group-blog';
-	}
+function tsatu_body_classes($classes)
+{
+    // Adds a class of group-blog to blogs with more than 1 published author.
+    if (is_multi_author()) {
+        $classes[] = 'group-blog';
+    }
 
-	return $classes;
+    return $classes;
 }
-add_filter( 'body_class', 'tsatu_body_classes' );
 
-if ( version_compare( $GLOBALS['wp_version'], '4.1', '<' ) ) :
-	/**
-	 * Filters wp_title to print a neat <title> tag based on what is being viewed.
-	 *
-	 * @param string $title Default title text for current view.
-	 * @param string $sep Optional separator.
-	 * @return string The filtered title.
-	 */
-	function tsatu_wp_title( $title, $sep ) {
-		if ( is_feed() ) {
-			return $title;
-		}
+add_filter('body_class', 'tsatu_body_classes');
 
-		global $page, $paged;
+if (version_compare($GLOBALS['wp_version'], '4.1', '<')) :
+    /**
+     * Filters wp_title to print a neat <title> tag based on what is being viewed.
+     *
+     * @param string $title Default title text for current view.
+     * @param string $sep Optional separator.
+     * @return string The filtered title.
+     */
+    function tsatu_wp_title($title, $sep)
+    {
+        if (is_feed()) {
+            return $title;
+        }
 
-		// Add the blog name
-		$title .= get_bloginfo( 'name', 'display' );
+        global $page, $paged;
 
-		// Add the blog description for the home/front page.
-		$site_description = get_bloginfo( 'description', 'display' );
-		if ( $site_description && ( is_home() || is_front_page() ) ) {
-			$title .= " $sep $site_description";
-		}
+        // Add the blog name
+        $title .= get_bloginfo('name', 'display');
 
-		// Add a page number if necessary:
-		if ( ( $paged >= 2 || $page >= 2 ) && ! is_404() ) {
-			$title .= " $sep " . sprintf( __( 'Page %s', 'tsatu' ), max( $paged, $page ) );
-		}
+        // Add the blog description for the home/front page.
+        $site_description = get_bloginfo('description', 'display');
+        if ($site_description && (is_home() || is_front_page())) {
+            $title .= " $sep $site_description";
+        }
 
-		return $title;
-	}
-	add_filter( 'wp_title', 'tsatu_wp_title', 10, 2 );
+        // Add a page number if necessary:
+        if (($paged >= 2 || $page >= 2) && !is_404()) {
+            $title .= " $sep " . sprintf(__('Page %s', 'tsatu'), max($paged, $page));
+        }
 
-	/**
-	 * Title shim for sites older than WordPress 4.1.
-	 *
-	 * @link https://make.wordpress.org/core/2014/10/29/title-tags-in-4-1/
-	 * @todo Remove this function when WordPress 4.3 is released.
-	 */
-	function tsatu_render_title() {
-		?>
-		<title><?php wp_title( '|', true, 'right' ); ?></title>
-		<?php
-	}
-	add_action( 'wp_head', 'tsatu_render_title' );
+        return $title;
+    }
+
+    add_filter('wp_title', 'tsatu_wp_title', 10, 2);
+
+    /**
+     * Title shim for sites older than WordPress 4.1.
+     *
+     * @link https://make.wordpress.org/core/2014/10/29/title-tags-in-4-1/
+     * @todo Remove this function when WordPress 4.3 is released.
+     */
+    function tsatu_render_title()
+    {
+        ?>
+        <title><?php wp_title('|', true, 'right'); ?></title>
+    <?php
+    }
+
+    add_action('wp_head', 'tsatu_render_title');
 endif;
 
 /**
  * Login Logo
  */
-function tsatu_login_logo() {
+function tsatu_login_logo()
+{
     ?>
     <style type="text/css">
         body.login div#login h1 a {
@@ -86,12 +93,14 @@ function tsatu_login_logo() {
     </style>
 <?php
 }
+
 add_action('login_enqueue_scripts', 'tsatu_login_logo');
 
 /**
  * Returns related posts.
  */
-function tsatu_related_posts() {
+function tsatu_related_posts()
+{
     $post = get_post();
 
     $args = array(
@@ -117,9 +126,10 @@ function tsatu_related_posts() {
     if ($related_posts->have_posts()) : ?>
         <div class="related-posts">
             <h3 class="related-posts-title"><?php _e('Read more', 'tsatu'); ?></h3>
+
             <div class="row">
                 <?php while ($related_posts->have_posts()) : $related_posts->the_post(); ?>
-                    <div class="col-md-4">  
+                    <div class="col-md-4">
                         <article id="post-<?php the_ID(); ?>">
                             <a href="<?php the_permalink(); ?>">
                                 <?php if (has_post_thumbnail()) : ?>
@@ -128,7 +138,9 @@ function tsatu_related_posts() {
                                     </div>
                                 <?php endif; ?>
                                 <header>
-                                    <div class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php echo esc_attr(sprintf(__('Permalink to %s', 'tsatu'), the_title_attribute('echo=0'))); ?>" rel="bookmark"><?php the_title(); ?></a></div>
+                                    <div class="entry-title"><a href="<?php the_permalink(); ?>"
+                                                                title="<?php echo esc_attr(sprintf(__('Permalink to %s', 'tsatu'), the_title_attribute('echo=0'))); ?>"
+                                                                rel="bookmark"><?php the_title(); ?></a></div>
                                 </header>
                             </a>
                         </article>
@@ -136,7 +148,7 @@ function tsatu_related_posts() {
                 <?php endwhile; ?>
             </div>
         </div>
-    <?php wp_reset_postdata(); ?>
+        <?php wp_reset_postdata(); ?>
     <?php endif;
 }
 
@@ -144,7 +156,8 @@ if (!function_exists('tsatu_slider')) :
     /**
      * Featured image slider, displayed on front page for static page and blog
      */
-    function tsatu_slider($count = 3, $id = 'slider') {
+    function tsatu_slider($count = 3, $id = 'slider')
+    {
 
         $query = new WP_Query(array('post_type' => 'slide', 'posts_per_page' => $count));
         if ($query->have_posts()) :
@@ -154,7 +167,7 @@ if (!function_exists('tsatu_slider')) :
                 global $more;
                 $more = 0;
                 echo '<li>';
-                if ((function_exists('has_post_thumbnail')) && ( has_post_thumbnail() )) {
+                if ((function_exists('has_post_thumbnail')) && (has_post_thumbnail())) {
                     echo get_the_post_thumbnail();
                 }
                 echo '<div class="flex-caption">';
@@ -181,7 +194,8 @@ if (!function_exists('tsatu_social')) :
     /**
      * Display social links in footer and widgets if enabled
      */
-    function tsatu_social() {
+    function tsatu_social()
+    {
         $services = array(
             'facebook' => 'Facebok',
             'vk' => 'VKontakte',
@@ -217,37 +231,14 @@ if (!function_exists('tsatu_social')) :
 
 endif;
 
-/**
- * Add qTranslate to custom taxonomies
- */
-
-function qtranslate_edit_taxonomies(){
-   $args=array(
-      'public' => true ,
-      '_builtin' => false
-   );
-   $output = 'object'; // or objects
-   $operator = 'and'; // 'and' or 'or'
-
-   $taxonomies = get_taxonomies($args,$output,$operator); 
-
-   if  ($taxonomies) {
-     foreach ($taxonomies  as $taxonomy ) {
-         add_action( $taxonomy->name.'_add_form', 'qtrans_modifyTermFormFor');
-         add_action( $taxonomy->name.'_edit_form', 'qtrans_modifyTermFormFor');        
-
-     }
-   }
-
-}
-add_action('admin_init', 'qtranslate_edit_taxonomies');
 
 if (!function_exists('the_terms_list')) {
     /**
      * Returns list of terms for custom taxonomy
      */
-    function the_terms_list($post_id, $taxonomy) {
-        $terms = get_the_terms($post_id, $taxonomy); 
+    function the_terms_list($post_id, $taxonomy)
+    {
+        $terms = get_the_terms($post_id, $taxonomy);
         if (!empty($terms) && !is_wp_error($terms)) {
             foreach ($terms as $term) {
                 $terms_list .= '<div>' . $term->name . '</div>';
@@ -261,14 +252,65 @@ if (!function_exists('get_network_bloginfo')) {
     /**
      * Gets the bloginfo for the site in multisite setup
      */
-    function get_network_bloginfo($show) {
+    function get_network_bloginfo($show)
+    {
         if (is_multisite()) {
             switch_to_blog(1);
             $output = get_bloginfo($show);
+            if (function_exists('pll_')) {
+                $output = pll__($output);
+            }
             restore_current_blog();
-        } else{
+        } else {
             $output = get_bloginfo($show);
         }
         return $output;
     }
 }
+
+if (function_exists('pll_default_language')) {
+    /**
+     * Display the default language post if the translation does not exists (Polylang)
+     */
+    add_filter('pre_get_posts', 'get_default_language_posts');
+    function get_default_language_posts($query)
+    {
+        if ($query->is_main_query() && function_exists('pll_default_language') && !is_admin()) {
+            $terms = get_terms('post_translations'); //polylang stores translated post IDs in a serialized array in the description field of this custom taxonomy
+            $defLang = pll_default_language(); //default lanuage of the blog
+            $curLang = pll_current_language(); //current selected language requested on the broswer
+            $filterPostIDs = array();
+            foreach ($terms as $translation) {
+                $transPost = unserialize($translation->description);
+                //if the current language is not the default, lets pick up the default language post
+                if ($defLang != $curLang) $filterPostIDs[] = $transPost[$defLang];
+            }
+            if ($defLang != $curLang) {
+                $query->set('lang', $defLang . ',' . $curLang);  //select both default and current language post
+                $query->set('post__not_in', $filterPostIDs); // remove the duplicate post in the default language
+            }
+        }
+        return $query;
+    }
+}
+
+if (!function_exists('tsatu_home_url')) {
+    /**
+     * Display the home page url in current language (Polylang)
+     */
+    function tsatu_home_url($blog_id = null) {
+
+        if (!function_exists('pll_home_url'))
+            return esc_url(get_home_url( $blog_id, '/' ));
+
+        if (!is_multisite() || ($blog_id == null))
+            return esc_url(pll_home_url());
+
+        switch_to_blog($blog_id);
+        $url = pll_home_url();
+        restore_current_blog();
+
+        return esc_url($url);
+    }
+}
+

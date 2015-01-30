@@ -32,29 +32,27 @@ if (!defined('ABSPATH')) {
 <?php _e('You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.', 'tsatu'); ?>
     </div>
 <![endif]-->
-
 <header class="site-header" role="banner">
     <!-- Branding -->
     <div class="container">
         <div class="row">
-
             <div class="col-sm-12 col-md-9 col-lg-8">
                 <div class="branding branding-logo">
-                    <a href="<?php echo esc_url(network_site_url('/')); ?>"><img src="<?php echo get_template_directory_uri() ?>/assets/img/logo.png"></a>
+                    <a href="<?php echo tsatu_home_url(1); ?>"><img src="<?php echo get_template_directory_uri() ?>/assets/img/logo.png"></a>
                 </div>
-
                 <div class="branding branding-title">
                     <?php if (is_main_site()) : ?>
-                        <a href="<?php echo esc_url(home_url('/')); ?>">
-                            <?php _e('Tavria State Agrotechnological University', 'tsatu'); ?>
+                        <a href="<?php echo tsatu_home_url(); ?>">
+                            <?php bloginfo('name'); ?>
                         </a>
                     <?php else : ?>
-                        <a href="<?php echo esc_url(home_url('/')); ?>">
+                        <a href="<?php echo tsatu_home_url(); ?>">
                             <div class="branding-division">
                                 <?php bloginfo('name'); ?>
                             </div>
                             <div class="branding-child-title">
-                                <?php echo get_network_bloginfo('name'); ?>
+                                <?php //echo get_network_bloginfo('name'); ?>
+                                <?php _e('Tavria State Agrotechnological University', 'tsatu'); ?>
                             </div>
                         </a>
                 <?php endif; ?>
@@ -64,19 +62,23 @@ if (!defined('ABSPATH')) {
             <div class="col-sm-12 col-md-3 col-lg-4">
                 <div class="row">
                     <div class="top-nav col-xs-6 col-sm-6 col-md-12">
-                        <div class="top-nav-items">
-                            <a href="<?php echo network_site_url('/pidrozdily/'); ?>" title="<?php _e('Subdivisions', 'tsatu'); ?>"><i class="fa fa-sitemap"></i></a>
-                            <a href="<?php echo network_site_url('/online/'); ?>" title="<?php _e('On-line Services', 'tsatu'); ?>"><i class="fa fa-cogs"></i></a>
-                            <a href="<?php echo home_url('/wp-login.php'); ?>" title="<?php _e('Sign In', 'tsatu'); ?>"><i class="fa fa-sign-in"></i></a>
-                        </div>
-                        <ul class="top-nav-language">
-                            <?php pll_the_languages(array('show_flags' => 1,'show_names' => 0));?>
-                        </ul>
-                        <?php if (function_exists('qtrans_generateLanguageSelectCode')) : // mqTranslate language select ?>
-                            <div class="top-nav-language">
-                                <?php echo qtrans_generateLanguageSelectCode('image'); ?>
-                            </div>
-                        <?php endif; // end mqTranslate  ?>
+                        <nav  class="navbar navbar-inverse navbar-top" role="navigation">
+                            <ul class="nav navbar-nav navbar-right">
+                                <?php if (function_exists('pll_the_languages')) {
+                                    pll_the_languages(array('show_flags' => 1, 'show_names' => 0));
+                                } ?>
+                            </ul>
+                            <?php if (is_multisite() && (get_current_blog_id() != 1)) {switch_to_blog(1);}
+                            if (has_nav_menu('top')) :
+                                wp_nav_menu(array(
+                                    'theme_location' => 'top',
+                                    'depth' => 1,
+                                    'walker' => new TSATU_Nav_Walker(),
+                                    'menu_class' => 'nav navbar-nav navbar-right'
+                                ));
+                            endif;
+                            if (is_multisite()) {restore_current_blog();} ?>
+                        </nav>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-12">
                         <?php get_search_form(); ?>
@@ -123,7 +125,6 @@ if (function_exists('tsatu_slider') && is_front_page() && is_main_site() && get_
 <!-- Main container -->
 <div class="wrap container"  role="document">
 <?php // substitute the class "container-fluid" below if you want a wider content area ?>
-    <?php //tsatu_breadcrumb(); ?>
     <div class="content row">
         <div id="content" class="main">
 

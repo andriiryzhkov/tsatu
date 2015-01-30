@@ -40,7 +40,7 @@ tinymce.addI18n('uk',{
 "Content": "Вміст",
 "Call to Action": "Заклик до дії",
 "Insert call to action": "Вставити заклик до дії",
-"": "",
+"Widget": "Віджет",
 "": "",
 "": "",
 "": "",

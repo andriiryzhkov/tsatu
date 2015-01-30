@@ -1,0 +1,19 @@
+<wpml-config>
+
+    <custom-types>
+        <custom-type translate="1">banner</custom-type>
+        <custom-type translate="1">slide</custom-type>
+        <custom-type translate="1">tab</custom-type>
+    </custom-types>
+
+    <taxonomies>
+        <taxonomy translate="1">tab_category</taxonomy>
+    </taxonomies>
+
+    <admin-texts>
+        <key name="blogname" />
+    </admin-texts>
+
+</wpml-config>
+
+

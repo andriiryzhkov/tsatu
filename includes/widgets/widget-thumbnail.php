@@ -14,7 +14,7 @@ class TSATU_Thumbnail_Widget extends WP_Widget {
 
     public function __construct() {
         $widget_ops = array('classname' => 'widget_thumbnail', 'description' => __("Thumbnail for current post or page", 'tsatu'));
-        parent::__construct('widget_thumbnail', __('Thumbnail (TSATU)', 'tsatu'), $widget_ops);
+        parent::__construct('tsatu-thumbnail', __('Thumbnail', 'tsatu'), $widget_ops);
     }
 
     function widget($args, $instance) {

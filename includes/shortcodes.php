@@ -31,6 +31,7 @@ $tsatu_shortcode_includes = array(
     'includes/shortcodes/shortcode_cta.php',
     'includes/shortcodes/shortcode_map.php',
     'includes/shortcodes/shortcode_table.php',
+    'includes/shortcodes/shortcode_widget.php',
 );
 
 foreach ($tsatu_shortcode_includes as $file) {

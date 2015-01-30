@@ -14,7 +14,7 @@ class TSATU_Tabs_Widget extends WP_Widget {
 
     function __construct() {
         $widget_ops = array('classname' => 'widget_tabs', 'description' => __('Add tabs to the page', 'tsatu'));
-        parent::__construct('widget_tabs', __('Tabs (TSATU)', 'tsatu'), $widget_ops);
+        parent::__construct('tsatu-tabs', __('Tabs', 'tsatu'), $widget_ops);
     }
 
     function widget($args, $instance) {

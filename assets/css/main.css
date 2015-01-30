@@ -4765,33 +4765,33 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #cccccc;
 }
 .navbar-inverse {
-  background-color: #eeeeee;
-  border-color: #eeeeee;
+  background-color: transparent;
+  border-color: transparent;
 }
 .navbar-inverse .navbar-brand {
-  color: #333333;
+  color: #555555;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-  color: #ffffff;
+  color: #555555;
   background-color: transparent;
 }
 .navbar-inverse .navbar-text {
-  color: #333333;
+  color: #555555;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #333333;
+  color: #555555;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #0ea474;
-  background-color: #eeeeee;
+  color: #555555;
+  background-color: transparent;
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #ffffff;
-  background-color: #d5d5d5;
+  color: #555555;
+  background-color: transparent;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
@@ -4807,38 +4807,38 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   background-color: transparent;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
-  background-color: #333333;
+  background-color: #555555;
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  border-color: #dddddd;
+  border-color: rgba(0, 0, 0, 0);
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #d5d5d5;
-  color: #ffffff;
+  background-color: transparent;
+  color: #555555;
 }
 @media (max-width: 767px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
-    border-color: #eeeeee;
+    border-color: transparent;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
-    background-color: #eeeeee;
+    background-color: transparent;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-    color: #333333;
+    color: #555555;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #0ea474;
-    background-color: #eeeeee;
+    color: #555555;
+    background-color: transparent;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ffffff;
-    background-color: #d5d5d5;
+    color: #555555;
+    background-color: transparent;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
@@ -4848,17 +4848,17 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   }
 }
 .navbar-inverse .navbar-link {
-  color: #333333;
+  color: #555555;
 }
 .navbar-inverse .navbar-link:hover {
-  color: #0ea474;
+  color: #555555;
 }
 .navbar-inverse .btn-link {
-  color: #333333;
+  color: #555555;
 }
 .navbar-inverse .btn-link:hover,
 .navbar-inverse .btn-link:focus {
-  color: #0ea474;
+  color: #555555;
 }
 .navbar-inverse .btn-link[disabled]:hover,
 fieldset[disabled] .navbar-inverse .btn-link:hover,
@@ -6901,7 +6901,59 @@ button.close {
 .navbar-inverse .comment-form input[type="email"],
 .navbar-inverse .comment-form input[type="url"],
 .navbar-inverse .comment-form textarea {
-  color: #333333;
+  color: #555555;
+}
+.navbar-top {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  width: 100%;
+  min-height: 0;
+}
+.navbar-top .navbar-nav {
+  margin-left: 0;
+  margin-right: 0;
+}
+.navbar-top .navbar-nav > li > a {
+  padding-top: 0;
+  padding-bottom: 0;
+  color: #555555;
+  font-size: 19px;
+}
+.navbar-top .navbar-nav > li > a:hover {
+  color: #555555;
+}
+.navbar-top .navbar-nav > li.active > a {
+  color: #555555;
+}
+.navbar-top .navbar-nav > li.active > a:hover {
+  color: #555555;
+}
+.navbar-top .navbar-nav > li.lang-item > a {
+  padding-left: 10px;
+  padding-right: 0;
+}
+.navbar-footer {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  min-height: 0;
+}
+.navbar-footer .navbar-nav > li > a {
+  padding-top: 0;
+  padding-bottom: 0;
+  color: #fff;
+  text-decoration: underline;
+}
+.navbar-footer .navbar-nav > li > a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.navbar-footer .navbar-nav > li.active > a {
+  color: #fff;
+  text-decoration: underline;
+}
+.navbar-footer .navbar-nav > li.active > a:hover {
+  color: #fff;
+  text-decoration: none;
 }
 .navbar .dropdown-menu {
   border-radius: 0;
@@ -7597,17 +7649,6 @@ select.comment-form textarea:focus {
   padding-right: 0;
   background-color: transparent;
 }
-/*
- * jQuery FlexSlider v2.2.0
- * http://www.woothemes.com/flexslider/
- *
- * Copyright 2012 WooThemes
- * Free to use under the GPLv2 license.
- * http://www.gnu.org/licenses/gpl-2.0.html
- *
- * Contributing author: Ville Ristimäki (@villeristi)
- *
- */
 /* ====================================================================================================================
  * FONT-FACE
  * ====================================================================================================================*/
@@ -9719,7 +9760,8 @@ html[xmlns] .flexslider .slides {
 .fa-medium:before {
   content: "\f23a";
 }
-.main {
+.wrap {
+  margin-top: 40px;
   margin-bottom: 30px;
 }
 .screen-reader-text {
@@ -9800,15 +9842,6 @@ figure.alignnone {
     padding-left: 40px;
   }
 }
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 28 груд 2014, 16:19:49
-    Author     : Andrii
-*/
 #footer-area .social-icons a {
   margin-right: 7px;
   background-color: transparent;
@@ -10117,7 +10150,6 @@ div.sharedaddy div.sd-block .sd-title:before {
 .site-header .top-nav {
   margin: 10px 0;
   color: #444444;
-  text-align: right;
 }
 .site-header .top-nav a,
 .site-header .top-nav a:hover,
@@ -10241,15 +10273,6 @@ div.sharedaddy div.sd-block .sd-title:before {
 .page article {
   margin-bottom: 0;
 }
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 27 груд 2014, 16:51:16
-    Author     : Andrii
-*/
 .home-section {
   margin-top: 30px;
   margin-bottom: 5px;
@@ -10259,78 +10282,6 @@ and open the template in the editor.
 }
 .home-section .widget h3 {
   font-size: 39px;
-}
-/*
-Copyright (C) 2015 Andrii
-
-This program is free software; you can redistribute it and/or
-modify it under the terms of the GNU General Public License
-as published by the Free Software Foundation; either version 2
-of the License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program; if not, write to the Free Software
-Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
-*/
-/* 
-    Created on : 16 січ 2015, 19:23:09
-    Author     : Andrii
-*/
-.type-faculty.hentry .entry-title {
-  font-size: 24px;
-}
-.faculty-info td {
-  padding: 5px 10px;
-  text-align: left;
-  vertical-align: text-top;
-}
-.faculty-info td.head {
-  font-weight: bold;
-}
-.faculty-info td .faculty-contacts {
-  margin: 5px 25px 5px 0;
-  display: inline-block;
-}
-.faculty-info td .faculty-contacts > i {
-  margin-right: 10px;
-  display: inline-block;
-}
-/*
-Copyright (C) 2015 Andrii
-
-This program is free software; you can redistribute it and/or
-modify it under the terms of the GNU General Public License
-as published by the Free Software Foundation; either version 2
-of the License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program; if not, write to the Free Software
-Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
-*/
-/* 
-    Created on : 16 січ 2015, 15:47:02
-    Author     : Andrii
-*/
-.course-info td {
-  padding: 10px;
-  text-align: left;
-  vertical-align: text-top;
-}
-.course-info td.head {
-  font-weight: bold;
-}
-.home .main {
-  margin-top: 27px;
 }
 .hentry {
   position: relative;

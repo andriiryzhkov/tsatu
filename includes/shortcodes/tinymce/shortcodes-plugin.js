@@ -464,6 +464,17 @@
                                 }
                             }
                         ]
+                    },
+                    {
+                        text: 'Widget',
+                        onclick: function() {
+                            tinymce.activeEditor.windowManager.open({
+                                title: 'Widget',
+                                url: url + '/widget.php',
+                                width: 500,
+                                height: 580
+                            });
+                        }
                     }
                 ]
             });

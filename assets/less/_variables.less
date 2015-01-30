@@ -1,3 +1,4 @@
+//
 // Variables
 //
 // Based on Bootswatch Paper 3.3.1
@@ -398,28 +399,53 @@
 
 // Inverted navbar
 // Reset inverted navbar basics
-@navbar-inverse-color:                      @gray-dark;
-@navbar-inverse-bg:                         @gray-lighter;
-@navbar-inverse-border:                     @gray-lighter;
+@navbar-inverse-color:                      @text-color;
+@navbar-inverse-bg:                         transparent;
+@navbar-inverse-border:                     transparent;
 
 // Inverted navbar links
-@navbar-inverse-link-color:                 @gray-dark;
-@navbar-inverse-link-hover-color:           @navbar-default-bg;
-@navbar-inverse-link-hover-bg:              @navbar-inverse-bg;
-@navbar-inverse-link-active-color:          #fff;
-@navbar-inverse-link-active-bg:             darken(@navbar-inverse-bg, 10%);
+@navbar-inverse-link-color:                 @navbar-inverse-color;
+@navbar-inverse-link-hover-color:           @navbar-inverse-color;
+@navbar-inverse-link-hover-bg:              transparent;
+@navbar-inverse-link-active-color:          @navbar-inverse-color;
+@navbar-inverse-link-active-bg:             transparent;
 @navbar-inverse-link-disabled-color:        #444;
 @navbar-inverse-link-disabled-bg:           transparent;
 
 // Inverted navbar brand label
-@navbar-inverse-brand-color:                @navbar-inverse-link-color;
-@navbar-inverse-brand-hover-color:          #fff;
+@navbar-inverse-brand-color:                @navbar-inverse-color;
+@navbar-inverse-brand-hover-color:          @navbar-inverse-color;
 @navbar-inverse-brand-hover-bg:             transparent;
 
 // Inverted navbar toggle
 @navbar-inverse-toggle-hover-bg:            transparent;
 @navbar-inverse-toggle-icon-bar-bg:         @navbar-inverse-color;
 @navbar-inverse-toggle-border-color:        transparent;
+
+////Inverted navbar
+////Reset inverted navbar basics
+//@navbar-inverse-color:                      @gray-dark;
+//@navbar-inverse-bg:                         @gray-lighter;
+//@navbar-inverse-border:                     @gray-lighter;
+//
+//// Inverted navbar links
+//@navbar-inverse-link-color:                 @gray-dark;
+//@navbar-inverse-link-hover-color:           @navbar-default-bg;
+//@navbar-inverse-link-hover-bg:              @navbar-inverse-bg;
+//@navbar-inverse-link-active-color:          #fff;
+//@navbar-inverse-link-active-bg:             darken(@navbar-inverse-bg, 10%);
+//@navbar-inverse-link-disabled-color:        #444;
+//@navbar-inverse-link-disabled-bg:           transparent;
+//
+//// Inverted navbar brand label
+//@navbar-inverse-brand-color:                @navbar-inverse-link-color;
+//@navbar-inverse-brand-hover-color:          #fff;
+//@navbar-inverse-brand-hover-bg:             transparent;
+//
+//// Inverted navbar toggle
+//@navbar-inverse-toggle-hover-bg:            transparent;
+//@navbar-inverse-toggle-icon-bar-bg:         @navbar-inverse-color;
+//@navbar-inverse-toggle-border-color:        transparent;
 
 
 //== Navs

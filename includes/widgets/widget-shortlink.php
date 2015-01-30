@@ -14,7 +14,7 @@ class TSATU_Shortlink_Widget extends WP_Widget {
 
     public function __construct() {
             $widget_ops = array('classname' => 'widget_shortlink', 'description' => __( 'Shortlink', 'tsatu') );
-            parent::__construct('widget_shortlink', __( 'Shortlink (TSATU)', 'tsatu'), $widget_ops);
+            parent::__construct('tsatu-shortlink', __( 'Shortlink', 'tsatu'), $widget_ops);
     }
 
 

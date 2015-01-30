@@ -14,7 +14,7 @@ class TSATU_Service_Widget extends WP_Widget {
 
     public function __construct() {
         $widget_ops = array('classname' => 'widget_service', 'description' => __("Service item with url", 'tsatu'));
-        parent::__construct('widget_service', __('Service (TSATU)', 'tsatu'), $widget_ops);
+        parent::__construct('tsatu-service', __('Service', 'tsatu'), $widget_ops);
     }
 
     function widget($args, $instance) {

@@ -1,4 +1,6 @@
-// Slider functions
+/*
+ * Slider functions
+ */
 jQuery(document).ready(function ($) {
     $(window).load(function () {
         $('#slider').flexslider({

@@ -14,7 +14,7 @@ class TSATU_Banner_Widget extends WP_Widget {
 
     function __construct() {
         $widget_ops = array('classname' => 'widget_banner', 'description' => __('Add banners to the page', 'tsatu'));
-        parent::__construct('widget_banner', __('Banner (TSATU)', 'tsatu'), $widget_ops);
+        parent::__construct('tsatu-banner', __('Banner', 'tsatu'), $widget_ops);
     }
 
     function widget($args, $instance) {

@@ -14,7 +14,7 @@ class TSATU_Pagenav_Widget extends WP_Widget {
 
     public function __construct() {
         $widget_ops = array('classname' => 'widget_pagenav', 'description' => __('List of correspoding pages', 'tsatu'));
-        parent::__construct('widget_pagenav', __('Pages Sidebar (TSATU)', 'tsatu'), $widget_ops);
+        parent::__construct('tsatu-pagenav', __('Pages Navigation', 'tsatu'), $widget_ops);
     }
 
     public function widget($args, $instance) {

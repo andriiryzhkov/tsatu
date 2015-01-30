@@ -58,6 +58,13 @@ if (!function_exists('tsatu_setup')) :
             'primary' => __('Primary Menu', 'tsatu'),
         ));
 
+        //if (is_main_site()) {
+            register_nav_menus(array(
+                'footer' => __('Footer Menu', 'tsatu'),
+                'top' => __('Top Menu', 'tsatu'),
+            ));
+        //}
+
         /*
          * Switch default core markup for search form, comment form, and comments
          * to output valid HTML5.

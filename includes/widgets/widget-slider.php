@@ -9,7 +9,7 @@ class TSATU_Slider_Widget extends WP_Widget {
 
     function __construct() {
         $widget_ops = array('classname' => 'widget_slider', 'description' => __('Add slider to the page', 'tsatu'));
-        parent::__construct('widget_slider', __('Slider (TSATU)', 'tsatu'), $widget_ops);
+        parent::__construct('tsatu-slider', __('Slider', 'tsatu'), $widget_ops);
     }
 
     function widget($args, $instance) {

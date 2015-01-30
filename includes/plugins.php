@@ -32,8 +32,8 @@ function tsatu_register_required_plugins() {
         ),
         // Plugins from the WordPress Plugin Repository.
         array(
-            'name' => 'mqTranslate',
-            'slug' => 'mqtranslate',
+            'name' => 'Polylang',
+            'slug' => 'polylang',
             'required' => true,
         ),
         array(

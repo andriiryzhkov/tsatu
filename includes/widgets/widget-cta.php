@@ -16,7 +16,7 @@ class TSATU_CTA_Widget extends WP_Widget {
 
     function __construct() {
         $widget_ops = array('classname' => 'widget_cta jumbotron', 'description' => __('Add a Call to action box', 'tsatu'));
-        parent::__construct('widget_cta', __('Call to Action (TSATU)', 'tsatu'), $widget_ops);
+        parent::__construct('tsatu-cta', __('Call to Action', 'tsatu'), $widget_ops);
     }
 
     function widget($args, $instance) {

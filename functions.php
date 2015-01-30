@@ -30,11 +30,9 @@ $tsatu_includes = array(
     'includes/navwalker.php',                   // Custom nav modifications
     'includes/template-tags.php',               // Custom template tags for this theme
     'includes/extras.php',                      // Custom functions that act independently of the theme templates
-    'includes/breadcrumb.php',                  // Navigation breadcrumb function
     'includes/jetpack.php',                     // Jetpack compatibility file
     'includes/translit.php',                    // Cyr to Lat titles
     'includes/shortcodes.php',                  // Shortcodes declarations
-//    'includes/homelayout.php',                  // Custom front page with customizable widget areas
     'includes/class-tgm-plugin-activation.php', // Plugin installation and activation for WordPress themes
     'includes/plugins.php',                     // Register the required plugins
     'includes/post_types/banner_post_type.php', // Banners

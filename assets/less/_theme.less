@@ -1,3 +1,4 @@
+//
 // TSATU theme customization
 //
 // Based on Bootswatch Paper 3.3.1
@@ -35,6 +36,73 @@
     &-inverse {
         .form-control {
             color: @navbar-inverse-color;
+        }
+    }
+
+    &-top {
+        .box-shadow(none);
+        width: 100%;
+        min-height: 0;
+
+        .navbar-nav {
+            margin-left: 0;
+            margin-right: 0;
+
+            > li {
+                > a {
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    color: @text-color;
+                    font-size: @font-size-large;
+                }
+                > a:hover {
+                    color: @text-color;
+                }
+            }
+            > li.active {
+                > a {
+                    color: @text-color;
+                }
+                > a:hover {
+                    color: @text-color;
+                }
+            }
+
+            > li.lang-item > a {
+                padding-left: 10px;
+                padding-right: 0;
+            }
+        }
+    }
+
+    &-footer {
+        .box-shadow(none);
+        min-height: 0;
+
+        .navbar-nav {
+
+            > li {
+                > a {
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    color: #fff;
+                    text-decoration: underline;
+                }
+                > a:hover {
+                    color: #fff;
+                    text-decoration: none;
+                }
+            }
+            > li.active {
+                > a {
+                    color: #fff;
+                    text-decoration: underline;
+                }
+                > a:hover {
+                    color: #fff;
+                    text-decoration: none;
+                }
+            }
         }
     }
 

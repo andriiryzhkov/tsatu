@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TSATU 0.2.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
-"POT-Creation-Date: 2015-01-28 16:18:12+00:00\n"
+"POT-Creation-Date: 2015-01-30 15:09:53+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,278 +13,226 @@ msgstr ""
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "X-Generator: grunt-wp-i18n 0.4.9\n"
 
-#: 404.php:19 release/tsatu-0.2.0/tsatu/404.php:19
+#: 404.php:19 release/tsatu/404.php:19
 msgid "Oops! Something went wrong here."
 msgstr ""
 
-#: 404.php:24 release/tsatu-0.2.0/tsatu/404.php:24
+#: 404.php:24 release/tsatu/404.php:24
 msgid "Nothing could be found at this location. Maybe try a search?"
 msgstr ""
 
-#: comments.php:40 comments.php:57 release/tsatu-0.2.0/tsatu/comments.php:40
-#: release/tsatu-0.2.0/tsatu/comments.php:57
+#: comments.php:40 comments.php:57 release/tsatu/comments.php:40
+#: release/tsatu/comments.php:57
 msgid "Comment navigation"
 msgstr ""
 
-#: comments.php:41 comments.php:58 release/tsatu-0.2.0/tsatu/comments.php:41
-#: release/tsatu-0.2.0/tsatu/comments.php:58
+#: comments.php:41 comments.php:58 release/tsatu/comments.php:41
+#: release/tsatu/comments.php:58
 msgid "&larr; Older Comments"
 msgstr ""
 
-#: comments.php:42 comments.php:59 release/tsatu-0.2.0/tsatu/comments.php:42
-#: release/tsatu-0.2.0/tsatu/comments.php:59
+#: comments.php:42 comments.php:59 release/tsatu/comments.php:42
+#: release/tsatu/comments.php:59
 msgid "Newer Comments &rarr;"
 msgstr ""
 
-#: comments.php:69 release/tsatu-0.2.0/tsatu/comments.php:69
+#: comments.php:69 release/tsatu/comments.php:69
 msgid "Comments are closed."
 msgstr ""
 
-#: content-none.php:19 release/tsatu-0.2.0/tsatu/content-none.php:19
+#: content-none.php:19 release/tsatu/content-none.php:19
 msgid "Nothing Found"
 msgstr ""
 
-#: content-none.php:25 release/tsatu-0.2.0/tsatu/content-none.php:25
+#: content-none.php:25 release/tsatu/content-none.php:25
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
-#: content-none.php:29 release/tsatu-0.2.0/tsatu/content-none.php:29
+#: content-none.php:29 release/tsatu/content-none.php:29
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
 msgstr ""
 
-#: content-none.php:34 release/tsatu-0.2.0/tsatu/content-none.php:34
+#: content-none.php:34 release/tsatu/content-none.php:34
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
 
-#: content-page.php:25 content-single.php:23
-#: release/tsatu-0.2.0/tsatu/content-page.php:25
-#: release/tsatu-0.2.0/tsatu/content-single.php:23
+#: content-page.php:25 content-single.php:23 release/tsatu/content-page.php:25
+#: release/tsatu/content-single.php:23
 msgid "Pages:"
 msgstr ""
 
-#: footer.php:44 footer.php:46 release/tsatu-0.2.0/tsatu/footer.php:44
-#: release/tsatu-0.2.0/tsatu/footer.php:46
+#: footer.php:43 footer.php:46 release/tsatu/footer.php:43
+#: release/tsatu/footer.php:46
 msgid "All rights reserved."
 msgstr ""
 
-#: footer.php:49 release/tsatu-0.2.0/tsatu/footer.php:49
-msgid "Contact Information"
-msgstr ""
-
-#: footer.php:50 release/tsatu-0.2.0/tsatu/footer.php:50
-msgid "Site Map"
-msgstr ""
-
-#: footer.php:51 release/tsatu-0.2.0/tsatu/footer.php:51
-msgid "Terms of Use"
-msgstr ""
-
-#: footer.php:60 release/tsatu-0.2.0/tsatu/footer.php:60
+#: footer.php:76 release/tsatu/footer.php:80
 msgid "Back to top"
 msgstr ""
 
-#: functions.php:58 includes/shortcodes.php:38
-#: release/tsatu-0.2.0/tsatu/functions.php:58
-#: release/tsatu-0.2.0/tsatu/includes/shortcodes.php:38
+#: functions.php:56 includes/shortcodes.php:39 release/tsatu/functions.php:56
+#: release/tsatu/includes/shortcodes.php:39
 msgid "Error locating %s for inclusion"
 msgstr ""
 
-#: header.php:32 release/tsatu-0.2.0/tsatu/header.php:32
+#: header.php:32 header0.php:32 release/tsatu/header.php:32
 msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a "
 "href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
 "experience."
 msgstr ""
 
-#: header.php:49 release/tsatu-0.2.0/tsatu/header.php:49
+#: header.php:46 header0.php:49 release/tsatu/header.php:49
 msgid "Tavria State Agrotechnological University"
 msgstr ""
 
-#: header.php:68 release/tsatu-0.2.0/tsatu/header.php:68
+#: header0.php:68 release/tsatu/header.php:68
 msgid "Subdivisions"
 msgstr ""
 
-#: header.php:69 release/tsatu-0.2.0/tsatu/header.php:69
+#: header0.php:69 release/tsatu/header.php:69
 msgid "On-line Services"
 msgstr ""
 
-#: header.php:70 release/tsatu-0.2.0/tsatu/header.php:70
+#: header0.php:70 release/tsatu/header.php:70
 msgid "Sign In"
 msgstr ""
 
 #: includes/activation.php:28 includes/activation.php:29
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:28
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:29
+#: release/tsatu/includes/activation.php:28
+#: release/tsatu/includes/activation.php:29
 msgid "Theme Activation"
 msgstr ""
 
-#: includes/activation.php:50
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:50
+#: includes/activation.php:50 release/tsatu/includes/activation.php:50
 msgid "%s Theme Activation"
 msgstr ""
 
-#: includes/activation.php:52
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:52
+#: includes/activation.php:52 release/tsatu/includes/activation.php:52
 msgid ""
 "These settings are optional and should usually be used only on a fresh "
 "installation"
 msgstr ""
 
 #: includes/activation.php:59 includes/activation.php:62
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:59
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:62
+#: release/tsatu/includes/activation.php:59
+#: release/tsatu/includes/activation.php:62
 msgid "Create static front page?"
 msgstr ""
 
 #: includes/activation.php:64 includes/activation.php:76
 #: includes/activation.php:88 includes/activation.php:100
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:64
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:76
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:88
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:100
+#: release/tsatu/includes/activation.php:64
+#: release/tsatu/includes/activation.php:76
+#: release/tsatu/includes/activation.php:88
+#: release/tsatu/includes/activation.php:100
 msgid "Yes"
 msgstr ""
 
 #: includes/activation.php:65 includes/activation.php:77
 #: includes/activation.php:89 includes/activation.php:101
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:65
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:77
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:89
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:101
+#: release/tsatu/includes/activation.php:65
+#: release/tsatu/includes/activation.php:77
+#: release/tsatu/includes/activation.php:89
+#: release/tsatu/includes/activation.php:101
 msgid "No"
 msgstr ""
 
-#: includes/activation.php:67
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:67
+#: includes/activation.php:67 release/tsatu/includes/activation.php:67
 msgid "Create a page called Home and set it to be the static front page"
 msgstr ""
 
-#: includes/activation.php:71
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:71
+#: includes/activation.php:71 release/tsatu/includes/activation.php:71
 msgid "Change permalink structure?"
 msgstr ""
 
-#: includes/activation.php:74
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:74
+#: includes/activation.php:74 release/tsatu/includes/activation.php:74
 msgid "Update permalink structure?"
 msgstr ""
 
-#: includes/activation.php:79
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:79
+#: includes/activation.php:79 release/tsatu/includes/activation.php:79
 msgid "Change permalink structure to /&#37;postname&#37;/"
 msgstr ""
 
 #: includes/activation.php:83 includes/activation.php:86
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:83
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:86
+#: release/tsatu/includes/activation.php:83
+#: release/tsatu/includes/activation.php:86
 msgid "Create navigation menu?"
 msgstr ""
 
-#: includes/activation.php:91
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:91
+#: includes/activation.php:91 release/tsatu/includes/activation.php:91
 msgid "Create the Primary Navigation menu and set the location"
 msgstr ""
 
 #: includes/activation.php:95 includes/activation.php:98
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:95
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:98
+#: release/tsatu/includes/activation.php:95
+#: release/tsatu/includes/activation.php:98
 msgid "Add pages to menu?"
 msgstr ""
 
-#: includes/activation.php:103
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:103
+#: includes/activation.php:103 release/tsatu/includes/activation.php:103
 msgid "Add all current published pages to the Primary Navigation"
 msgstr ""
 
 #: includes/activation.php:126 includes/activation.php:147
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:126
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:147
+#: release/tsatu/includes/activation.php:126
+#: release/tsatu/includes/activation.php:147
 msgid "Home"
 msgstr ""
 
 #: includes/activation.php:173 includes/activation.php:176
-#: includes/activation.php:190
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:173
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:176
-#: release/tsatu-0.2.0/tsatu/includes/activation.php:190
+#: includes/activation.php:190 release/tsatu/includes/activation.php:173
+#: release/tsatu/includes/activation.php:176
+#: release/tsatu/includes/activation.php:190
 msgid "Primary Navigation"
 msgstr ""
 
-#. Theme Name of the plugin/theme
-msgid "TSATU"
-msgstr ""
-
-#: includes/breadcrumb.php:31
-#: release/tsatu-0.2.0/tsatu/includes/breadcrumb.php:31
-msgid "Archive by category \""
-msgstr ""
-
-#: includes/breadcrumb.php:79
-#: release/tsatu-0.2.0/tsatu/includes/breadcrumb.php:79
-msgid "Search results for \""
-msgstr ""
-
-#: includes/breadcrumb.php:81
-#: release/tsatu-0.2.0/tsatu/includes/breadcrumb.php:81
-msgid "Posts tagged \""
-msgstr ""
-
-#: includes/breadcrumb.php:85
-#: release/tsatu-0.2.0/tsatu/includes/breadcrumb.php:85
-msgid "Articles posted by "
-msgstr ""
-
-#: includes/breadcrumb.php:87
-#: release/tsatu-0.2.0/tsatu/includes/breadcrumb.php:87
-msgid "Error 404"
-msgstr ""
-
 #: includes/class-tgm-plugin-activation.php:161 includes/plugins.php:72
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:161
-#: release/tsatu-0.2.0/tsatu/includes/plugins.php:72
+#: release/tsatu/includes/class-tgm-plugin-activation.php:161
+#: release/tsatu/includes/plugins.php:72
 msgid "Install Required Plugins"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:162 includes/plugins.php:73
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:162
-#: release/tsatu-0.2.0/tsatu/includes/plugins.php:73
+#: release/tsatu/includes/class-tgm-plugin-activation.php:162
+#: release/tsatu/includes/plugins.php:73
 msgid "Install Plugins"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:163 includes/plugins.php:74
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:163
-#: release/tsatu-0.2.0/tsatu/includes/plugins.php:74
+#: release/tsatu/includes/class-tgm-plugin-activation.php:163
+#: release/tsatu/includes/plugins.php:74
 msgid "Installing Plugin: %s"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:164
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:164
+#: release/tsatu/includes/class-tgm-plugin-activation.php:164
 msgid "Something went wrong."
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:165 includes/plugins.php:76
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:165
-#: release/tsatu-0.2.0/tsatu/includes/plugins.php:76
+#: release/tsatu/includes/class-tgm-plugin-activation.php:165
+#: release/tsatu/includes/plugins.php:76
 msgid "This theme requires the following plugin: %1$s."
 msgid_plural "This theme requires the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
 #: includes/class-tgm-plugin-activation.php:166 includes/plugins.php:77
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:166
-#: release/tsatu-0.2.0/tsatu/includes/plugins.php:77
+#: release/tsatu/includes/class-tgm-plugin-activation.php:166
+#: release/tsatu/includes/plugins.php:77
 msgid "This theme recommends the following plugin: %1$s."
 msgid_plural "This theme recommends the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
 #: includes/class-tgm-plugin-activation.php:167 includes/plugins.php:78
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:167
-#: release/tsatu-0.2.0/tsatu/includes/plugins.php:78
+#: release/tsatu/includes/class-tgm-plugin-activation.php:167
+#: release/tsatu/includes/plugins.php:78
 msgid ""
 "Sorry, but you do not have the correct permissions to install the %s "
 "plugin. Contact the administrator of this site for help on getting the "
@@ -297,24 +245,24 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: includes/class-tgm-plugin-activation.php:168 includes/plugins.php:79
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:168
-#: release/tsatu-0.2.0/tsatu/includes/plugins.php:79
+#: release/tsatu/includes/class-tgm-plugin-activation.php:168
+#: release/tsatu/includes/plugins.php:79
 msgid "The following required plugin is currently inactive: %1$s."
 msgid_plural "The following required plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
 #: includes/class-tgm-plugin-activation.php:169 includes/plugins.php:80
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:169
-#: release/tsatu-0.2.0/tsatu/includes/plugins.php:80
+#: release/tsatu/includes/class-tgm-plugin-activation.php:169
+#: release/tsatu/includes/plugins.php:80
 msgid "The following recommended plugin is currently inactive: %1$s."
 msgid_plural "The following recommended plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
 #: includes/class-tgm-plugin-activation.php:170 includes/plugins.php:81
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:170
-#: release/tsatu-0.2.0/tsatu/includes/plugins.php:81
+#: release/tsatu/includes/class-tgm-plugin-activation.php:170
+#: release/tsatu/includes/plugins.php:81
 msgid ""
 "Sorry, but you do not have the correct permissions to activate the %s "
 "plugin. Contact the administrator of this site for help on getting the "
@@ -327,8 +275,8 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: includes/class-tgm-plugin-activation.php:171 includes/plugins.php:82
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:171
-#: release/tsatu-0.2.0/tsatu/includes/plugins.php:82
+#: release/tsatu/includes/class-tgm-plugin-activation.php:171
+#: release/tsatu/includes/plugins.php:82
 msgid ""
 "The following plugin needs to be updated to its latest version to ensure "
 "maximum compatibility with this theme: %1$s."
@@ -339,8 +287,8 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: includes/class-tgm-plugin-activation.php:172 includes/plugins.php:83
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:172
-#: release/tsatu-0.2.0/tsatu/includes/plugins.php:83
+#: release/tsatu/includes/class-tgm-plugin-activation.php:172
+#: release/tsatu/includes/plugins.php:83
 msgid ""
 "Sorry, but you do not have the correct permissions to update the %s plugin. "
 "Contact the administrator of this site for help on getting the plugin "
@@ -353,1145 +301,1036 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: includes/class-tgm-plugin-activation.php:173 includes/plugins.php:84
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:173
-#: release/tsatu-0.2.0/tsatu/includes/plugins.php:84
+#: release/tsatu/includes/class-tgm-plugin-activation.php:173
+#: release/tsatu/includes/plugins.php:84
 msgid "Begin installing plugin"
 msgid_plural "Begin installing plugins"
 msgstr[0] ""
 msgstr[1] ""
 
 #: includes/class-tgm-plugin-activation.php:174 includes/plugins.php:85
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:174
-#: release/tsatu-0.2.0/tsatu/includes/plugins.php:85
+#: release/tsatu/includes/class-tgm-plugin-activation.php:174
+#: release/tsatu/includes/plugins.php:85
 msgid "Begin activating plugin"
 msgid_plural "Begin activating plugins"
 msgstr[0] ""
 msgstr[1] ""
 
 #: includes/class-tgm-plugin-activation.php:175 includes/plugins.php:86
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:175
-#: release/tsatu-0.2.0/tsatu/includes/plugins.php:86
+#: release/tsatu/includes/class-tgm-plugin-activation.php:175
+#: release/tsatu/includes/plugins.php:86
 msgid "Return to Required Plugins Installer"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:176
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:176
+#: release/tsatu/includes/class-tgm-plugin-activation.php:176
 msgid "Return to the dashboard"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:177
 #: includes/class-tgm-plugin-activation.php:1939 includes/plugins.php:87
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:177
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:1939
-#: release/tsatu-0.2.0/tsatu/includes/plugins.php:87
+#: release/tsatu/includes/class-tgm-plugin-activation.php:177
+#: release/tsatu/includes/class-tgm-plugin-activation.php:1939
+#: release/tsatu/includes/plugins.php:87
 msgid "Plugin activated successfully."
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:178
 #: includes/class-tgm-plugin-activation.php:1630
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:178
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:1630
+#: release/tsatu/includes/class-tgm-plugin-activation.php:178
+#: release/tsatu/includes/class-tgm-plugin-activation.php:1630
 msgid "The following plugin was activated successfully:"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:179
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:179
+#: release/tsatu/includes/class-tgm-plugin-activation.php:179
 msgid "All plugins installed and activated successfully. %1$s"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:180
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:180
+#: release/tsatu/includes/class-tgm-plugin-activation.php:180
 msgid "Dismiss this notice"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:531
 #: includes/class-tgm-plugin-activation.php:2156
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:531
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:2156
+#: release/tsatu/includes/class-tgm-plugin-activation.php:531
+#: release/tsatu/includes/class-tgm-plugin-activation.php:2156
 msgid "Return to the Dashboard"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:1166
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:1166
+#: release/tsatu/includes/class-tgm-plugin-activation.php:1166
 msgid "Private Repository"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:1169
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:1169
+#: release/tsatu/includes/class-tgm-plugin-activation.php:1169
 msgid "Pre-Packaged"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:1174
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:1174
+#: release/tsatu/includes/class-tgm-plugin-activation.php:1174
 msgid "WordPress Repository"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:1177
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:1177
+#: release/tsatu/includes/class-tgm-plugin-activation.php:1177
 msgid "Required"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:1177
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:1177
+#: release/tsatu/includes/class-tgm-plugin-activation.php:1177
 msgid "Recommended"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:1180
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:1180
+#: release/tsatu/includes/class-tgm-plugin-activation.php:1180
 msgid "Not Installed"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:1182
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:1182
+#: release/tsatu/includes/class-tgm-plugin-activation.php:1182
 msgid "Installed But Not Activated"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:1287
 #: includes/class-tgm-plugin-activation.php:1395
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:1287
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:1395
+#: release/tsatu/includes/class-tgm-plugin-activation.php:1287
+#: release/tsatu/includes/class-tgm-plugin-activation.php:1395
 msgid "Install"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:1309
 #: includes/class-tgm-plugin-activation.php:1396
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:1309
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:1396
+#: release/tsatu/includes/class-tgm-plugin-activation.php:1309
+#: release/tsatu/includes/class-tgm-plugin-activation.php:1396
 msgid "Activate"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:1358
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:1358
+#: release/tsatu/includes/class-tgm-plugin-activation.php:1358
 msgid ""
 "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
 "Dashboard\">Return to the Dashboard</a>"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:1374
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:1374
+#: release/tsatu/includes/class-tgm-plugin-activation.php:1374
 msgid "Plugin"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:1375
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:1375
+#: release/tsatu/includes/class-tgm-plugin-activation.php:1375
 msgid "Source"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:1376
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:1376
+#: release/tsatu/includes/class-tgm-plugin-activation.php:1376
 msgid "Type"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:1377
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:1377
+#: release/tsatu/includes/class-tgm-plugin-activation.php:1377
 msgid "Status"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:1922
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:1922
+#: release/tsatu/includes/class-tgm-plugin-activation.php:1922
 msgid "Install package not available."
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:1923
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:1923
+#: release/tsatu/includes/class-tgm-plugin-activation.php:1923
 msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:1924
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:1924
+#: release/tsatu/includes/class-tgm-plugin-activation.php:1924
 msgid "Unpacking the package&#8230;"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:1925
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:1925
+#: release/tsatu/includes/class-tgm-plugin-activation.php:1925
 msgid "Installing the plugin&#8230;"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:1926
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:1926
+#: release/tsatu/includes/class-tgm-plugin-activation.php:1926
 msgid "Plugin install failed."
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:1927
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:1927
+#: release/tsatu/includes/class-tgm-plugin-activation.php:1927
 msgid "Plugin installed successfully."
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:1938
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:1938
+#: release/tsatu/includes/class-tgm-plugin-activation.php:1938
 msgid "Plugin activation failed."
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:2052
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:2052
+#: release/tsatu/includes/class-tgm-plugin-activation.php:2052
 msgid ""
 "The installation and activation process is starting. This process may take "
 "a while on some hosts, so please be patient."
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:2053
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:2053
+#: release/tsatu/includes/class-tgm-plugin-activation.php:2053
 msgid "%1$s installed and activated successfully."
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:2053
 #: includes/class-tgm-plugin-activation.php:2062
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:2053
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:2062
+#: release/tsatu/includes/class-tgm-plugin-activation.php:2053
+#: release/tsatu/includes/class-tgm-plugin-activation.php:2062
 msgid "Show Details"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:2053
 #: includes/class-tgm-plugin-activation.php:2062
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:2053
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:2062
+#: release/tsatu/includes/class-tgm-plugin-activation.php:2053
+#: release/tsatu/includes/class-tgm-plugin-activation.php:2062
 msgid "Hide Details"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:2054
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:2054
+#: release/tsatu/includes/class-tgm-plugin-activation.php:2054
 msgid "All installations and activations have been completed."
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:2055
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:2055
+#: release/tsatu/includes/class-tgm-plugin-activation.php:2055
 msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:2059
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:2059
+#: release/tsatu/includes/class-tgm-plugin-activation.php:2059
 msgid ""
 "The installation process is starting. This process may take a while on some "
 "hosts, so please be patient."
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:2060
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:2060
+#: release/tsatu/includes/class-tgm-plugin-activation.php:2060
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:2061
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:2061
+#: release/tsatu/includes/class-tgm-plugin-activation.php:2061
 msgid "The installation of %1$s failed."
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:2062
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:2062
+#: release/tsatu/includes/class-tgm-plugin-activation.php:2062
 msgid "%1$s installed successfully."
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:2063
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:2063
+#: release/tsatu/includes/class-tgm-plugin-activation.php:2063
 msgid "All installations have been completed."
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:2064
-#: release/tsatu-0.2.0/tsatu/includes/class-tgm-plugin-activation.php:2064
+#: release/tsatu/includes/class-tgm-plugin-activation.php:2064
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
-#: includes/customizer.php:27
-#: release/tsatu-0.2.0/tsatu/includes/customizer.php:27
+#: includes/customizer.php:27 release/tsatu/includes/customizer.php:27
 msgid "Abbreviation"
 msgstr ""
 
-#: includes/customizer.php:34
-#: release/tsatu-0.2.0/tsatu/includes/customizer.php:34
+#: includes/customizer.php:34 includes/widgets/widget-slider.php:12
+#: release/tsatu/includes/customizer.php:34
+#: release/tsatu/includes/widgets/widget-slider.php:12
 msgid "Slider"
 msgstr ""
 
-#: includes/customizer.php:43
-#: release/tsatu-0.2.0/tsatu/includes/customizer.php:43
+#: includes/customizer.php:43 release/tsatu/includes/customizer.php:43
 msgid "Show slider on front page"
 msgstr ""
 
 #: includes/customizer.php:53 includes/widgets/widget-slider.php:38
-#: release/tsatu-0.2.0/tsatu/includes/customizer.php:53
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-slider.php:38
+#: release/tsatu/includes/customizer.php:53
+#: release/tsatu/includes/widgets/widget-slider.php:38
 msgid "Number of slides"
 msgstr ""
 
-#: includes/customizer.php:60
-#: release/tsatu-0.2.0/tsatu/includes/customizer.php:60
+#: includes/customizer.php:60 release/tsatu/includes/customizer.php:60
 msgid "Solial Icons"
 msgstr ""
 
-#: includes/customizer.php:61
-#: release/tsatu-0.2.0/tsatu/includes/customizer.php:61
+#: includes/customizer.php:61 release/tsatu/includes/customizer.php:61
 msgid ""
 "Enter links to accounts in social networks. If you do not use a certain "
 "network, leave the field empty."
 msgstr ""
 
-#: includes/customizer.php:70
-#: release/tsatu-0.2.0/tsatu/includes/customizer.php:70
+#: includes/customizer.php:70 release/tsatu/includes/customizer.php:70
 msgid "Facebook"
 msgstr ""
 
-#: includes/customizer.php:81
-#: release/tsatu-0.2.0/tsatu/includes/customizer.php:81
+#: includes/customizer.php:81 release/tsatu/includes/customizer.php:81
 msgid "VKontakte"
 msgstr ""
 
-#: includes/customizer.php:92
-#: release/tsatu-0.2.0/tsatu/includes/customizer.php:92
+#: includes/customizer.php:92 release/tsatu/includes/customizer.php:92
 msgid "Twitter"
 msgstr ""
 
-#: includes/customizer.php:103
-#: release/tsatu-0.2.0/tsatu/includes/customizer.php:103
+#: includes/customizer.php:103 release/tsatu/includes/customizer.php:103
 msgid "Google+"
 msgstr ""
 
-#: includes/customizer.php:114
-#: release/tsatu-0.2.0/tsatu/includes/customizer.php:114
+#: includes/customizer.php:114 release/tsatu/includes/customizer.php:114
 msgid "Youtube"
 msgstr ""
 
-#: includes/customizer.php:125
-#: release/tsatu-0.2.0/tsatu/includes/customizer.php:125
+#: includes/customizer.php:125 release/tsatu/includes/customizer.php:125
 msgid "Vimeo"
 msgstr ""
 
-#: includes/customizer.php:136
-#: release/tsatu-0.2.0/tsatu/includes/customizer.php:136
+#: includes/customizer.php:136 release/tsatu/includes/customizer.php:136
 msgid "LinkedIn"
 msgstr ""
 
-#: includes/customizer.php:147
-#: release/tsatu-0.2.0/tsatu/includes/customizer.php:147
+#: includes/customizer.php:147 release/tsatu/includes/customizer.php:147
 msgid "Pinterest"
 msgstr ""
 
-#: includes/customizer.php:158
-#: release/tsatu-0.2.0/tsatu/includes/customizer.php:158
+#: includes/customizer.php:158 release/tsatu/includes/customizer.php:158
 msgid "RSS"
 msgstr ""
 
-#: includes/customizer.php:169
-#: release/tsatu-0.2.0/tsatu/includes/customizer.php:169
+#: includes/customizer.php:169 release/tsatu/includes/customizer.php:169
 msgid "Tumblr"
 msgstr ""
 
-#: includes/customizer.php:180
-#: release/tsatu-0.2.0/tsatu/includes/customizer.php:180
+#: includes/customizer.php:180 release/tsatu/includes/customizer.php:180
 msgid "Flickr"
 msgstr ""
 
-#: includes/customizer.php:191
-#: release/tsatu-0.2.0/tsatu/includes/customizer.php:191
+#: includes/customizer.php:191 release/tsatu/includes/customizer.php:191
 msgid "Instagram"
 msgstr ""
 
-#: includes/customizer.php:202
-#: release/tsatu-0.2.0/tsatu/includes/customizer.php:202
+#: includes/customizer.php:202 release/tsatu/includes/customizer.php:202
 msgid "Dribbble"
 msgstr ""
 
-#: includes/customizer.php:213
-#: release/tsatu-0.2.0/tsatu/includes/customizer.php:213
+#: includes/customizer.php:213 release/tsatu/includes/customizer.php:213
 msgid "Skype"
 msgstr ""
 
-#: includes/customizer.php:224
-#: release/tsatu-0.2.0/tsatu/includes/customizer.php:224
+#: includes/customizer.php:224 release/tsatu/includes/customizer.php:224
 msgid "Foursquare"
 msgstr ""
 
-#: includes/customizer.php:235
-#: release/tsatu-0.2.0/tsatu/includes/customizer.php:235
+#: includes/customizer.php:235 release/tsatu/includes/customizer.php:235
 msgid "SoundCloud"
 msgstr ""
 
-#: includes/customizer.php:246
-#: release/tsatu-0.2.0/tsatu/includes/customizer.php:246
+#: includes/customizer.php:246 release/tsatu/includes/customizer.php:246
 msgid "GitHub"
 msgstr ""
 
-#: includes/extras.php:55 release/tsatu-0.2.0/tsatu/includes/extras.php:55
+#: includes/extras.php:55 release/tsatu/includes/extras.php:55
 msgid "Page %s"
 msgstr ""
 
-#: includes/extras.php:119 release/tsatu-0.2.0/tsatu/includes/extras.php:119
+#: includes/extras.php:119 release/tsatu/includes/extras.php:119
 msgid "Read more"
 msgstr ""
 
-#: includes/extras.php:131 release/tsatu-0.2.0/tsatu/includes/extras.php:131
+#: includes/extras.php:131 release/tsatu/includes/extras.php:131
 msgid "Permalink to %s"
 msgstr ""
 
-#: includes/extras.php:211 release/tsatu-0.2.0/tsatu/includes/extras.php:211
+#: includes/extras.php:211 release/tsatu/includes/extras.php:211
 msgid "Follow us on "
 msgstr ""
 
-#: includes/homelayout.php:31 includes/homelayout.php:130
-#: release/tsatu-0.2.0/tsatu/includes/homelayout.php:31
-#: release/tsatu-0.2.0/tsatu/includes/homelayout.php:124
-msgid "One"
-msgstr ""
-
-#: includes/homelayout.php:32 includes/homelayout.php:131
-#: release/tsatu-0.2.0/tsatu/includes/homelayout.php:32
-#: release/tsatu-0.2.0/tsatu/includes/homelayout.php:125
-msgid "Two"
-msgstr ""
-
-#: includes/homelayout.php:33 includes/homelayout.php:132
-#: release/tsatu-0.2.0/tsatu/includes/homelayout.php:33
-#: release/tsatu-0.2.0/tsatu/includes/homelayout.php:126
-msgid "Three"
-msgstr ""
-
-#: includes/homelayout.php:34 includes/homelayout.php:133
-#: release/tsatu-0.2.0/tsatu/includes/homelayout.php:34
-#: release/tsatu-0.2.0/tsatu/includes/homelayout.php:127
-msgid "Four"
-msgstr ""
-
-#: includes/homelayout.php:35 includes/homelayout.php:134
-#: release/tsatu-0.2.0/tsatu/includes/homelayout.php:35
-#: release/tsatu-0.2.0/tsatu/includes/homelayout.php:128
-msgid "Five"
-msgstr ""
-
-#: includes/homelayout.php:41
-#: release/tsatu-0.2.0/tsatu/includes/homelayout.php:41
-msgid "Front Page"
-msgstr ""
-
-#: includes/homelayout.php:45
-#: release/tsatu-0.2.0/tsatu/includes/homelayout.php:45
-msgid "General"
-msgstr ""
-
-#: includes/homelayout.php:57
-#: release/tsatu-0.2.0/tsatu/includes/homelayout.php:57
-msgid "Show customizable widget areas on Front Page"
-msgstr ""
-
-#: includes/homelayout.php:69
-#: release/tsatu-0.2.0/tsatu/includes/homelayout.php:69
-msgid "Remove content of the static page"
-msgstr ""
-
-#: includes/homelayout.php:78
-#: release/tsatu-0.2.0/tsatu/includes/homelayout.php:78
-msgid "Widget Area %s"
-msgstr ""
-
-#: includes/homelayout.php:89 includes/shortcodes/tinymce/grid.php:134
-#: release/tsatu-0.2.0/tsatu/includes/homelayout.php:89
-#: release/tsatu-0.2.0/tsatu/includes/shortcodes/tinymce/grid.php:134
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-recent-posts.php:162
-msgid "Number of columns"
-msgstr ""
-
-#: includes/homelayout.php:105
-#: release/tsatu-0.2.0/tsatu/includes/homelayout.php:105
-msgid "Widget Area %1$s - %2$s/6"
-msgstr ""
-
-#: includes/homelayout.php:146
-#: release/tsatu-0.2.0/tsatu/includes/homelayout.php:140
-msgid "Front Page Area %1$s - %2$s/%3$s"
-msgstr ""
-
-#: includes/init.php:58 release/tsatu-0.2.0/tsatu/includes/init.php:58
+#: includes/init.php:58 release/tsatu/includes/init.php:58
 msgid "Primary Menu"
 msgstr ""
 
-#: includes/init.php:99 release/tsatu-0.2.0/tsatu/includes/init.php:99
+#: includes/init.php:63 release/tsatu/includes/init.php:59
+msgid "Footer Menu"
+msgstr ""
+
+#: includes/init.php:64
+msgid "Top Menu"
+msgstr ""
+
+#: includes/init.php:106 release/tsatu/includes/init.php:100
 msgid "Deafult Sidebar"
 msgstr ""
 
-#: includes/init.php:108 release/tsatu-0.2.0/tsatu/includes/init.php:108
+#: includes/init.php:115 release/tsatu/includes/init.php:109
 msgid "Page Sidebar"
 msgstr ""
 
-#: includes/init.php:118 includes/init.php:127 includes/init.php:136
-#: includes/init.php:145 release/tsatu-0.2.0/tsatu/includes/init.php:118
-#: release/tsatu-0.2.0/tsatu/includes/init.php:127
-#: release/tsatu-0.2.0/tsatu/includes/init.php:136
-#: release/tsatu-0.2.0/tsatu/includes/init.php:145
+#: includes/init.php:125 includes/init.php:134 includes/init.php:143
+#: includes/init.php:152 release/tsatu/includes/init.php:119
+#: release/tsatu/includes/init.php:128 release/tsatu/includes/init.php:137
+#: release/tsatu/includes/init.php:146
 msgid "Footer %s"
 msgstr ""
 
-#: includes/plugins.php:27 release/tsatu-0.2.0/tsatu/includes/plugins.php:27
+#: includes/plugins.php:27 release/tsatu/includes/plugins.php:27
 msgid "TSATU Educational Tools"
 msgstr ""
 
-#: includes/plugins.php:75 release/tsatu-0.2.0/tsatu/includes/plugins.php:75
+#: includes/plugins.php:75 release/tsatu/includes/plugins.php:75
 msgid "Something went wrong with the plugin API."
 msgstr ""
 
-#: includes/plugins.php:88 release/tsatu-0.2.0/tsatu/includes/plugins.php:88
+#: includes/plugins.php:88 release/tsatu/includes/plugins.php:88
 msgid "All plugins installed and activated successfully. %s"
 msgstr ""
 
 #: includes/post_types/banner_post_type.php:21
-#: release/tsatu-0.2.0/tsatu/includes/post_types/banner_post_type.php:21
+#: release/tsatu/includes/post_types/banner_post_type.php:21
 msgid "Banners"
 msgstr ""
 
 #: includes/post_types/banner_post_type.php:22
-#: release/tsatu-0.2.0/tsatu/includes/post_types/banner_post_type.php:22
+#: release/tsatu/includes/post_types/banner_post_type.php:22
 msgid "All Banners"
 msgstr ""
 
 #: includes/post_types/banner_post_type.php:23
-#: release/tsatu-0.2.0/tsatu/includes/post_types/banner_post_type.php:23
+#: release/tsatu/includes/post_types/banner_post_type.php:23
 msgid "View Banner"
 msgstr ""
 
 #: includes/post_types/banner_post_type.php:24
-#: release/tsatu-0.2.0/tsatu/includes/post_types/banner_post_type.php:24
+#: release/tsatu/includes/post_types/banner_post_type.php:24
 msgid "Add New Banner"
 msgstr ""
 
 #: includes/post_types/banner_post_type.php:25
 #: includes/post_types/slide_post_type.php:25
 #: includes/post_types/tab_post_type.php:25
-#: release/tsatu-0.2.0/tsatu/includes/post_types/banner_post_type.php:25
-#: release/tsatu-0.2.0/tsatu/includes/post_types/slide_post_type.php:25
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:25
+#: release/tsatu/includes/post_types/banner_post_type.php:25
+#: release/tsatu/includes/post_types/slide_post_type.php:25
+#: release/tsatu/includes/post_types/tab_post_type.php:25
 msgid "Add New"
 msgstr ""
 
 #: includes/post_types/banner_post_type.php:26
-#: release/tsatu-0.2.0/tsatu/includes/post_types/banner_post_type.php:26
+#: release/tsatu/includes/post_types/banner_post_type.php:26
 msgid "Edit Banner"
 msgstr ""
 
 #: includes/post_types/banner_post_type.php:27
-#: release/tsatu-0.2.0/tsatu/includes/post_types/banner_post_type.php:27
+#: release/tsatu/includes/post_types/banner_post_type.php:27
 msgid "Update Banner"
 msgstr ""
 
 #: includes/post_types/banner_post_type.php:28
-#: release/tsatu-0.2.0/tsatu/includes/post_types/banner_post_type.php:28
+#: release/tsatu/includes/post_types/banner_post_type.php:28
 msgid "Search Banners"
 msgstr ""
 
 #: includes/post_types/banner_post_type.php:29
-#: release/tsatu-0.2.0/tsatu/includes/post_types/banner_post_type.php:29
+#: release/tsatu/includes/post_types/banner_post_type.php:29
 msgid "No Banners found"
 msgstr ""
 
 #: includes/post_types/banner_post_type.php:30
-#: release/tsatu-0.2.0/tsatu/includes/post_types/banner_post_type.php:30
+#: release/tsatu/includes/post_types/banner_post_type.php:30
 msgid "Not Banners found in Trash"
 msgstr ""
 
 #: includes/post_types/banner_post_type.php:33
-#: release/tsatu-0.2.0/tsatu/includes/post_types/banner_post_type.php:33
+#: release/tsatu/includes/post_types/banner_post_type.php:33
 msgid "banners"
 msgstr ""
 
 #: includes/post_types/banner_post_type.php:34
-#: release/tsatu-0.2.0/tsatu/includes/post_types/banner_post_type.php:34
+#: includes/widgets/widget-banner.php:17
+#: release/tsatu/includes/post_types/banner_post_type.php:34
+#: release/tsatu/includes/widgets/widget-banner.php:17
 msgid "Banner"
 msgstr ""
 
 #: includes/post_types/banner_post_type.php:62
-#: release/tsatu-0.2.0/tsatu/includes/post_types/banner_post_type.php:62
+#: release/tsatu/includes/post_types/banner_post_type.php:62
 msgid "Banner details"
 msgstr ""
 
 #: includes/post_types/banner_post_type.php:76
-#: release/tsatu-0.2.0/tsatu/includes/post_types/banner_post_type.php:76
+#: release/tsatu/includes/post_types/banner_post_type.php:76
 msgid "URL:"
 msgstr ""
 
 #: includes/post_types/slide_post_type.php:21
-#: release/tsatu-0.2.0/tsatu/includes/post_types/slide_post_type.php:21
+#: release/tsatu/includes/post_types/slide_post_type.php:21
 msgid "Slides"
 msgstr ""
 
 #: includes/post_types/slide_post_type.php:22
-#: release/tsatu-0.2.0/tsatu/includes/post_types/slide_post_type.php:22
+#: release/tsatu/includes/post_types/slide_post_type.php:22
 msgid "All Slides"
 msgstr ""
 
 #: includes/post_types/slide_post_type.php:23
-#: release/tsatu-0.2.0/tsatu/includes/post_types/slide_post_type.php:23
+#: release/tsatu/includes/post_types/slide_post_type.php:23
 msgid "View Slide"
 msgstr ""
 
 #: includes/post_types/slide_post_type.php:24
-#: release/tsatu-0.2.0/tsatu/includes/post_types/slide_post_type.php:24
+#: release/tsatu/includes/post_types/slide_post_type.php:24
 msgid "Add New Slide"
 msgstr ""
 
 #: includes/post_types/slide_post_type.php:26
-#: release/tsatu-0.2.0/tsatu/includes/post_types/slide_post_type.php:26
+#: release/tsatu/includes/post_types/slide_post_type.php:26
 msgid "Edit Slide"
 msgstr ""
 
 #: includes/post_types/slide_post_type.php:27
-#: release/tsatu-0.2.0/tsatu/includes/post_types/slide_post_type.php:27
+#: release/tsatu/includes/post_types/slide_post_type.php:27
 msgid "Update Slide"
 msgstr ""
 
 #: includes/post_types/slide_post_type.php:28
-#: release/tsatu-0.2.0/tsatu/includes/post_types/slide_post_type.php:28
+#: release/tsatu/includes/post_types/slide_post_type.php:28
 msgid "Search Slides"
 msgstr ""
 
 #: includes/post_types/slide_post_type.php:29
-#: release/tsatu-0.2.0/tsatu/includes/post_types/slide_post_type.php:29
+#: release/tsatu/includes/post_types/slide_post_type.php:29
 msgid "No Slides found"
 msgstr ""
 
 #: includes/post_types/slide_post_type.php:30
-#: release/tsatu-0.2.0/tsatu/includes/post_types/slide_post_type.php:30
+#: release/tsatu/includes/post_types/slide_post_type.php:30
 msgid "Not Slides found in Trash"
 msgstr ""
 
 #: includes/post_types/slide_post_type.php:33
-#: release/tsatu-0.2.0/tsatu/includes/post_types/slide_post_type.php:33
+#: release/tsatu/includes/post_types/slide_post_type.php:33
 msgid "slides"
 msgstr ""
 
 #: includes/post_types/slide_post_type.php:34
-#: release/tsatu-0.2.0/tsatu/includes/post_types/slide_post_type.php:34
+#: release/tsatu/includes/post_types/slide_post_type.php:34
 msgid "Slide"
 msgstr ""
 
 #: includes/post_types/slide_post_type.php:62
-#: release/tsatu-0.2.0/tsatu/includes/post_types/slide_post_type.php:62
+#: release/tsatu/includes/post_types/slide_post_type.php:62
 msgid "Slide details"
 msgstr ""
 
 #: includes/post_types/slide_post_type.php:76
-#: release/tsatu-0.2.0/tsatu/includes/post_types/slide_post_type.php:76
+#: release/tsatu/includes/post_types/slide_post_type.php:76
 msgid "Internal relative URL:"
 msgstr ""
 
-#: includes/post_types/tab_post_type.php:21
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:21
+#: includes/post_types/tab_post_type.php:21 includes/widgets/widget-tabs.php:17
+#: release/tsatu/includes/post_types/tab_post_type.php:21
+#: release/tsatu/includes/widgets/widget-tabs.php:17
 msgid "Tabs"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:22
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:22
+#: release/tsatu/includes/post_types/tab_post_type.php:22
 msgid "All Tabs"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:23
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:23
+#: release/tsatu/includes/post_types/tab_post_type.php:23
 msgid "View Tab"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:24
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:24
+#: release/tsatu/includes/post_types/tab_post_type.php:24
 msgid "Add New Tab"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:26
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:26
+#: release/tsatu/includes/post_types/tab_post_type.php:26
 msgid "Edit Tab"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:27
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:27
+#: release/tsatu/includes/post_types/tab_post_type.php:27
 msgid "Update Tab"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:28
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:28
+#: release/tsatu/includes/post_types/tab_post_type.php:28
 msgid "Search Tabs"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:29
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:29
+#: release/tsatu/includes/post_types/tab_post_type.php:29
 msgid "No Tabs found"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:30
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:30
+#: release/tsatu/includes/post_types/tab_post_type.php:30
 msgid "Not Tabs found in Trash"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:33
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:33
+#: release/tsatu/includes/post_types/tab_post_type.php:33
 msgid "tabs"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:34
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:34
+#: release/tsatu/includes/post_types/tab_post_type.php:34
 msgid "Tab"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:68
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:68
+#: release/tsatu/includes/post_types/tab_post_type.php:68
 msgid "Categories"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:69
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:69
+#: release/tsatu/includes/post_types/tab_post_type.php:69
 msgid "All Categories"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:72
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:72
+#: release/tsatu/includes/post_types/tab_post_type.php:72
 msgid "New Category Name"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:73
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:73
+#: release/tsatu/includes/post_types/tab_post_type.php:73
 msgid "Add New Category"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:74
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:74
+#: release/tsatu/includes/post_types/tab_post_type.php:74
 msgid "Edit Category"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:75
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:75
+#: release/tsatu/includes/post_types/tab_post_type.php:75
 msgid "Update Category"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:76
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:76
+#: release/tsatu/includes/post_types/tab_post_type.php:76
 msgid "Separate categories with commas"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:77
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:77
+#: release/tsatu/includes/post_types/tab_post_type.php:77
 msgid "Search Category"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:78
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:78
+#: release/tsatu/includes/post_types/tab_post_type.php:78
 msgid "Add or remove Categories"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:79
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:79
+#: release/tsatu/includes/post_types/tab_post_type.php:79
 msgid "Choose from the most used categories"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:80
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:80
+#: release/tsatu/includes/post_types/tab_post_type.php:80
 msgid "Not Found"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:101
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:101
+#: release/tsatu/includes/post_types/tab_post_type.php:101
 msgid "Tab defaults"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:115
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:115
+#: release/tsatu/includes/post_types/tab_post_type.php:115
 msgid "Active tab"
 msgstr ""
 
-#: includes/shortcodes/shortcode_cta.php:15
-#: release/tsatu-0.2.0/tsatu/includes/shortcodes/shortcode_cta.php:15
+#: includes/shortcodes/shortcode_cta.php:15 includes/widgets/widget-cta.php:19
+#: release/tsatu/includes/shortcodes/shortcode_cta.php:15
+#: release/tsatu/includes/widgets/widget-cta.php:19
 msgid "Call to Action"
 msgstr ""
 
 #: includes/shortcodes/shortcode_cta.php:16
-#: release/tsatu-0.2.0/tsatu/includes/shortcodes/shortcode_cta.php:16
+#: release/tsatu/includes/shortcodes/shortcode_cta.php:16
 msgid "Button"
 msgstr ""
 
 #: includes/shortcodes/shortcode_map.php:136
-#: release/tsatu-0.2.0/tsatu/includes/shortcodes/shortcode_map.php:136
+#: release/tsatu/includes/shortcodes/shortcode_map.php:136
 msgid "No location found for the entered address."
 msgstr ""
 
 #: includes/shortcodes/shortcode_map.php:138
-#: release/tsatu-0.2.0/tsatu/includes/shortcodes/shortcode_map.php:138
+#: release/tsatu/includes/shortcodes/shortcode_map.php:138
 msgid "Invalid request. Address is missing"
 msgstr ""
 
 #: includes/shortcodes/shortcode_map.php:140
-#: release/tsatu-0.2.0/tsatu/includes/shortcodes/shortcode_map.php:140
+#: release/tsatu/includes/shortcodes/shortcode_map.php:140
 msgid "Something went wrong while retrieving your map."
 msgstr ""
 
 #: includes/shortcodes/shortcode_map.php:143
-#: release/tsatu-0.2.0/tsatu/includes/shortcodes/shortcode_map.php:143
+#: release/tsatu/includes/shortcodes/shortcode_map.php:143
 msgid "Unable to contact Google API service."
 msgstr ""
 
+#: includes/shortcodes/shortcode_widget.php:138
+#: release/tsatu/includes/shortcodes/shortcode_widget.php:138
+msgid "Arbitrary"
+msgstr ""
+
+#: includes/shortcodes/shortcode_widget.php:140
+#: release/tsatu/includes/shortcodes/shortcode_widget.php:140
+msgid "This widget area can be used for [widget] shortcode."
+msgstr ""
+
+#: includes/shortcodes/shortcode_widget.php:154
+#: release/tsatu/includes/shortcodes/shortcode_widget.php:154
+msgid "Shortcode"
+msgstr ""
+
+#: includes/shortcodes/shortcode_widget.php:154
+#: release/tsatu/includes/shortcodes/shortcode_widget.php:154
+msgid "Please save this first."
+msgstr ""
+
 #: includes/shortcodes/tinymce/grid.php:97
-#: release/tsatu-0.2.0/tsatu/includes/shortcodes/tinymce/grid.php:97
+#: release/tsatu/includes/shortcodes/tinymce/grid.php:97
 msgid "Text..."
 msgstr ""
 
 #: includes/shortcodes/tinymce/grid.php:120
-#: release/tsatu-0.2.0/tsatu/includes/shortcodes/tinymce/grid.php:120
+#: release/tsatu/includes/shortcodes/tinymce/grid.php:120
 msgid "Click to edit"
 msgstr ""
 
+#: includes/shortcodes/tinymce/grid.php:134
+#: release/tsatu/includes/shortcodes/tinymce/grid.php:134
+msgid "Number of columns"
+msgstr ""
+
 #: includes/shortcodes/tinymce/grid.php:144
-#: release/tsatu-0.2.0/tsatu/includes/shortcodes/tinymce/grid.php:144
+#: release/tsatu/includes/shortcodes/tinymce/grid.php:144
 msgid "Input number from 1 - 12"
 msgstr ""
 
 #: includes/shortcodes/tinymce/grid.php:150
-#: release/tsatu-0.2.0/tsatu/includes/shortcodes/tinymce/grid.php:150
+#: release/tsatu/includes/shortcodes/tinymce/grid.php:150
 msgid "Grid"
 msgstr ""
 
 #: includes/shortcodes/tinymce/grid.php:165
-#: release/tsatu-0.2.0/tsatu/includes/shortcodes/tinymce/grid.php:165
+#: release/tsatu/includes/shortcodes/tinymce/grid.php:165
 msgid "Offset"
 msgstr ""
 
 #: includes/shortcodes/tinymce/grid.php:181
-#: release/tsatu-0.2.0/tsatu/includes/shortcodes/tinymce/grid.php:181
+#: release/tsatu/includes/shortcodes/tinymce/grid.php:181
 msgid "Preview"
 msgstr ""
 
 #: includes/shortcodes/tinymce/grid.php:185
-#: release/tsatu-0.2.0/tsatu/includes/shortcodes/tinymce/grid.php:185
+#: release/tsatu/includes/shortcodes/tinymce/grid.php:185
 msgid "Insert"
 msgstr ""
 
-#: includes/template-tags.php:29
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:29
+#: includes/template-tags.php:29 release/tsatu/includes/template-tags.php:29
 msgid "Posts navigation"
 msgstr ""
 
-#: includes/template-tags.php:33
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:33
+#: includes/template-tags.php:33 release/tsatu/includes/template-tags.php:33
 msgid "Older posts"
 msgstr ""
 
-#: includes/template-tags.php:37
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:37
+#: includes/template-tags.php:37 release/tsatu/includes/template-tags.php:37
 msgid "Newer posts"
 msgstr ""
 
-#: includes/template-tags.php:64
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:64
+#: includes/template-tags.php:64 release/tsatu/includes/template-tags.php:64
 msgid "Post navigation"
 msgstr ""
 
 #: includes/template-tags.php:108 includes/template-tags.php:114
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:108
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:114
+#: release/tsatu/includes/template-tags.php:108
+#: release/tsatu/includes/template-tags.php:114
 #. translators: used between list items, there is a space after the comma
 msgid ", "
 msgstr ""
 
-#: includes/template-tags.php:110
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:110
+#: includes/template-tags.php:110 release/tsatu/includes/template-tags.php:110
 msgid "Posted in %1$s"
 msgstr ""
 
-#: includes/template-tags.php:116
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:116
+#: includes/template-tags.php:116 release/tsatu/includes/template-tags.php:116
 msgid "Tagged %1$s"
 msgstr ""
 
-#: includes/template-tags.php:122
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:122
+#: includes/template-tags.php:122 release/tsatu/includes/template-tags.php:122
 msgid "Leave a comment"
 msgstr ""
 
-#: includes/template-tags.php:122
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:122
+#: includes/template-tags.php:122 release/tsatu/includes/template-tags.php:122
 msgid "1 Comment"
 msgstr ""
 
-#: includes/template-tags.php:122
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:122
+#: includes/template-tags.php:122 release/tsatu/includes/template-tags.php:122
 msgid "% Comments"
 msgstr ""
 
-#: includes/template-tags.php:126
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:126
+#: includes/template-tags.php:126 release/tsatu/includes/template-tags.php:126
 msgid "Edit"
 msgstr ""
 
-#: includes/template-tags.php:143
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:143
+#: includes/template-tags.php:143 release/tsatu/includes/template-tags.php:143
 msgid "Category: %s"
 msgstr ""
 
-#: includes/template-tags.php:145
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:145
+#: includes/template-tags.php:145 release/tsatu/includes/template-tags.php:145
 msgid "Tag: %s"
 msgstr ""
 
-#: includes/template-tags.php:147
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:147
+#: includes/template-tags.php:147 release/tsatu/includes/template-tags.php:147
 msgid "Author: %s"
 msgstr ""
 
-#: includes/template-tags.php:149
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:149
+#: includes/template-tags.php:149 release/tsatu/includes/template-tags.php:149
 msgid "Year: %s"
 msgstr ""
 
-#: includes/template-tags.php:151
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:151
+#: includes/template-tags.php:151 release/tsatu/includes/template-tags.php:151
 msgid "Month: %s"
 msgstr ""
 
-#: includes/template-tags.php:153
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:153
+#: includes/template-tags.php:153 release/tsatu/includes/template-tags.php:153
 msgid "Day: %s"
 msgstr ""
 
-#: includes/template-tags.php:175
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:175
+#: includes/template-tags.php:175 release/tsatu/includes/template-tags.php:175
 msgid "Archives: %s"
 msgstr ""
 
-#: includes/template-tags.php:179
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:179
+#: includes/template-tags.php:179 release/tsatu/includes/template-tags.php:179
 #. translators: 1: Taxonomy singular name, 2: Current taxonomy term
 msgid "%1$s: %2$s"
 msgstr ""
 
-#: includes/template-tags.php:181
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:181
+#: includes/template-tags.php:181 release/tsatu/includes/template-tags.php:181
 msgid "Archives"
 msgstr ""
 
 #: includes/widgets/widget-banner.php:16
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-banner.php:16
+#: release/tsatu/includes/widgets/widget-banner.php:16
 msgid "Add banners to the page"
-msgstr ""
-
-#: includes/widgets/widget-banner.php:17
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-banner.php:17
-msgid "Banner (TSATU)"
 msgstr ""
 
 #: includes/widgets/widget-banner.php:60 includes/widgets/widget-cta.php:73
 #: includes/widgets/widget-department.php:67
 #: includes/widgets/widget-service.php:61 includes/widgets/widget-social.php:48
 #: includes/widgets/widget-tabs.php:66
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-banner.php:60
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-cta.php:73
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-department.php:67
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-service.php:61
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-social.php:48
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-tabs.php:66
+#: release/tsatu/includes/widgets/widget-banner.php:60
+#: release/tsatu/includes/widgets/widget-cta.php:73
+#: release/tsatu/includes/widgets/widget-department.php:67
+#: release/tsatu/includes/widgets/widget-service.php:61
+#: release/tsatu/includes/widgets/widget-social.php:48
+#: release/tsatu/includes/widgets/widget-tabs.php:66
 msgid "Title:"
 msgstr ""
 
 #: includes/widgets/widget-cta.php:18
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-cta.php:18
+#: release/tsatu/includes/widgets/widget-cta.php:18
 msgid "Add a Call to action box"
 msgstr ""
 
-#: includes/widgets/widget-cta.php:19
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-cta.php:19
-msgid "Call to Action (TSATU)"
-msgstr ""
-
 #: includes/widgets/widget-cta.php:76 includes/widgets/widget-department.php:70
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-cta.php:76
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-department.php:70
+#: release/tsatu/includes/widgets/widget-cta.php:76
+#: release/tsatu/includes/widgets/widget-department.php:70
 msgid "Image URL:"
 msgstr ""
 
 #: includes/widgets/widget-cta.php:79
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-cta.php:79
+#: release/tsatu/includes/widgets/widget-cta.php:79
 msgid "Call text:"
 msgstr ""
 
 #: includes/widgets/widget-cta.php:82 includes/widgets/widget-department.php:76
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-cta.php:82
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-department.php:76
+#: release/tsatu/includes/widgets/widget-cta.php:82
+#: release/tsatu/includes/widgets/widget-department.php:76
 msgid "Button Text:"
 msgstr ""
 
 #: includes/widgets/widget-cta.php:85 includes/widgets/widget-department.php:79
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-cta.php:85
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-department.php:79
+#: release/tsatu/includes/widgets/widget-cta.php:85
+#: release/tsatu/includes/widgets/widget-department.php:79
 msgid "Button URL:"
 msgstr ""
 
 #: includes/widgets/widget-department.php:12
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-department.php:12
+#: release/tsatu/includes/widgets/widget-department.php:12
 msgid "Add a department welcome screen"
 msgstr ""
 
 #: includes/widgets/widget-department.php:13
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-department.php:13
-msgid "Department Welcome (TSATU)"
+#: release/tsatu/includes/widgets/widget-department.php:13
+msgid "Department Welcome"
 msgstr ""
 
 #: includes/widgets/widget-department.php:73
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-department.php:73
+#: release/tsatu/includes/widgets/widget-department.php:73
 msgid "Welcome text:"
 msgstr ""
 
 #: includes/widgets/widget-pagenav.php:16
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-pagenav.php:16
+#: release/tsatu/includes/widgets/widget-pagenav.php:16
 msgid "List of correspoding pages"
 msgstr ""
 
 #: includes/widgets/widget-pagenav.php:17
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-pagenav.php:17
-msgid "Pages Sidebar (TSATU)"
+#: release/tsatu/includes/widgets/widget-pagenav.php:17
+msgid "Pages Navigation"
 msgstr ""
 
 #: includes/widgets/widget-pagenav.php:69
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-pagenav.php:69
+#: release/tsatu/includes/widgets/widget-pagenav.php:69
 msgid "Exclude:"
 msgstr ""
 
 #: includes/widgets/widget-pagenav.php:71
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-pagenav.php:71
+#: release/tsatu/includes/widgets/widget-pagenav.php:71
 msgid "Page IDs, separated by commas."
 msgstr ""
 
 #: includes/widgets/widget-recent-posts.php:38
+#: release/tsatu/includes/widgets/widget-recent-posts.php:38
 msgid "Recent Posts"
 msgstr ""
 
 #: includes/widgets/widget-recent-posts.php:95
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-recent-posts.php:96
+#: release/tsatu/includes/widgets/widget-recent-posts.php:95
 msgid "View All News"
 msgstr ""
 
 #: includes/widgets/widget-service.php:16
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-service.php:16
+#: release/tsatu/includes/widgets/widget-service.php:16
 msgid "Service item with url"
 msgstr ""
 
 #: includes/widgets/widget-service.php:17
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-service.php:17
-msgid "Service (TSATU)"
-msgstr ""
-
 #: includes/widgets/widget-service.php:54
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-service.php:54
+#: release/tsatu/includes/widgets/widget-service.php:17
+#: release/tsatu/includes/widgets/widget-service.php:54
 msgid "Service"
 msgstr ""
 
 #: includes/widgets/widget-service.php:69
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-service.php:69
+#: release/tsatu/includes/widgets/widget-service.php:69
 msgid "Icon:"
 msgstr ""
 
 #: includes/widgets/widget-service.php:78
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-service.php:78
+#: release/tsatu/includes/widgets/widget-service.php:78
 msgid "Link:"
 msgstr ""
 
 #: includes/widgets/widget-shortlink.php:16
+#: includes/widgets/widget-shortlink.php:17
 #: includes/widgets/widget-shortlink.php:48
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-shortlink.php:16
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-shortlink.php:48
+#: release/tsatu/includes/widgets/widget-shortlink.php:16
+#: release/tsatu/includes/widgets/widget-shortlink.php:17
+#: release/tsatu/includes/widgets/widget-shortlink.php:48
 msgid "Shortlink"
 msgstr ""
 
-#: includes/widgets/widget-shortlink.php:17
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-shortlink.php:17
-msgid "Shortlink (TSATU)"
-msgstr ""
-
 #: includes/widgets/widget-shortlink.php:23
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-shortlink.php:23
+#: release/tsatu/includes/widgets/widget-shortlink.php:23
 msgid "Shortlink Title"
 msgstr ""
 
 #: includes/widgets/widget-shortlink.php:24
 #: includes/widgets/widget-shortlink.php:65
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-shortlink.php:24
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-shortlink.php:65
+#: release/tsatu/includes/widgets/widget-shortlink.php:24
+#: release/tsatu/includes/widgets/widget-shortlink.php:65
 msgid "Icon"
 msgstr ""
 
 #: includes/widgets/widget-shortlink.php:25
 #: includes/widgets/widget-shortlink.php:77
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-shortlink.php:25
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-shortlink.php:77
+#: release/tsatu/includes/widgets/widget-shortlink.php:25
+#: release/tsatu/includes/widgets/widget-shortlink.php:77
 msgid "Link"
 msgstr ""
 
 #: includes/widgets/widget-shortlink.php:57
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-recent-posts.php:142
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-shortlink.php:57
+#: release/tsatu/includes/widgets/widget-shortlink.php:57
 msgid "Title"
 msgstr ""
 
 #: includes/widgets/widget-shortlink.php:72
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-shortlink.php:72
+#: release/tsatu/includes/widgets/widget-shortlink.php:72
 msgid "Name of Font Awesome icon."
 msgstr ""
 
 #: includes/widgets/widget-slider.php:11
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-slider.php:11
+#: release/tsatu/includes/widgets/widget-slider.php:11
 msgid "Add slider to the page"
 msgstr ""
 
-#: includes/widgets/widget-slider.php:12
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-slider.php:12
-msgid "Slider (TSATU)"
-msgstr ""
-
 #: includes/widgets/widget-social.php:16
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-social.php:16
+#: release/tsatu/includes/widgets/widget-social.php:16
 msgid "Social icons list"
 msgstr ""
 
 #: includes/widgets/widget-social.php:17
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-social.php:17
-msgid "Social icons (TSATU)"
+#: release/tsatu/includes/widgets/widget-social.php:17
+msgid "Social icons"
 msgstr ""
 
 #: includes/widgets/widget-social.php:44
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-social.php:44
+#: release/tsatu/includes/widgets/widget-social.php:44
 msgid "Follow us"
 msgstr ""
 
 #: includes/widgets/widget-tabs.php:16
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-tabs.php:16
+#: release/tsatu/includes/widgets/widget-tabs.php:16
 msgid "Add tabs to the page"
 msgstr ""
 
-#: includes/widgets/widget-tabs.php:17
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-tabs.php:17
-msgid "Tabs (TSATU)"
-msgstr ""
-
 #: includes/widgets/widget-thumbnail.php:16
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-thumbnail.php:16
+#: release/tsatu/includes/widgets/widget-thumbnail.php:16
 msgid "Thumbnail for current post or page"
 msgstr ""
 
 #: includes/widgets/widget-thumbnail.php:17
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-thumbnail.php:17
-msgid "Thumbnail (TSATU)"
+#: release/tsatu/includes/widgets/widget-thumbnail.php:17
+msgid "Thumbnail"
 msgstr ""
 
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-recent-posts.php:16
-msgid "Recent post from some category"
+#: release/tsatu/footer.php:69
+msgid "Contact Information"
 msgstr ""
 
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-recent-posts.php:17
-msgid "Recent Posts (TSATU)"
+#: release/tsatu/footer.php:70
+msgid "Site Map"
 msgstr ""
 
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-recent-posts.php:152
-msgid "Columns for featured post"
+#: release/tsatu/footer.php:71
+msgid "Terms of Use"
 msgstr ""
 
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-recent-posts.php:157
-msgid "Set \"0\" to disable featured post."
-msgstr ""
-
-#: release/tsatu-0.2.0/tsatu/includes/widgets/widget-recent-posts.php:171
-msgid "Number of rows"
-msgstr ""
-
-#: release/tsatu-0.2.0/tsatu/search.php:18 search.php:18
+#: release/tsatu/search.php:18 search.php:18
 msgid "Search Results for: %s"
 msgstr ""
 
-#: release/tsatu-0.2.0/tsatu/searchform.php:15 searchform.php:15
+#: release/tsatu/searchform.php:15 searchform.php:15
 msgid "Search"
 msgstr ""
 
@@ -1501,6 +1340,10 @@ msgstr ""
 
 #: tribe-events/views/widgets/list-widget.php:70
 msgid "There are no upcoming events at this time."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "TSATU"
 msgstr ""
 
 #. Theme URI of the plugin/theme
@@ -1523,7 +1366,7 @@ msgstr ""
 msgid "Full Page"
 msgstr ""
 
-#: comments.php:33 release/tsatu-0.2.0/tsatu/comments.php:33
+#: comments.php:33 release/tsatu/comments.php:33
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
@@ -1531,121 +1374,109 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: includes/post_types/banner_post_type.php:19
-#: release/tsatu-0.2.0/tsatu/includes/post_types/banner_post_type.php:19
+#: release/tsatu/includes/post_types/banner_post_type.php:19
 msgctxt "Post Type General Name"
 msgid "Banners"
 msgstr ""
 
 #: includes/post_types/slide_post_type.php:19
-#: release/tsatu-0.2.0/tsatu/includes/post_types/slide_post_type.php:19
+#: release/tsatu/includes/post_types/slide_post_type.php:19
 msgctxt "Post Type General Name"
 msgid "Slides"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:19
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:19
+#: release/tsatu/includes/post_types/tab_post_type.php:19
 msgctxt "Post Type General Name"
 msgid "Tabs"
 msgstr ""
 
 #: includes/post_types/banner_post_type.php:20
-#: release/tsatu-0.2.0/tsatu/includes/post_types/banner_post_type.php:20
+#: release/tsatu/includes/post_types/banner_post_type.php:20
 msgctxt "Post Type Singular Name"
 msgid "Banner"
 msgstr ""
 
 #: includes/post_types/slide_post_type.php:20
-#: release/tsatu-0.2.0/tsatu/includes/post_types/slide_post_type.php:20
+#: release/tsatu/includes/post_types/slide_post_type.php:20
 msgctxt "Post Type Singular Name"
 msgid "Slide"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:20
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:20
+#: release/tsatu/includes/post_types/tab_post_type.php:20
 msgctxt "Post Type Singular Name"
 msgid "Tab"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:66
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:66
+#: release/tsatu/includes/post_types/tab_post_type.php:66
 msgctxt "Taxonomy General Name"
 msgid "Categories"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:67
-#: release/tsatu-0.2.0/tsatu/includes/post_types/tab_post_type.php:67
+#: release/tsatu/includes/post_types/tab_post_type.php:67
 msgctxt "Taxonomy Singular Name"
 msgid "Category"
 msgstr ""
 
-#: includes/template-tags.php:149
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:149
+#: includes/template-tags.php:149 release/tsatu/includes/template-tags.php:149
 msgctxt "yearly archives date format"
 msgid "Y"
 msgstr ""
 
-#: includes/template-tags.php:151
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:151
+#: includes/template-tags.php:151 release/tsatu/includes/template-tags.php:151
 msgctxt "monthly archives date format"
 msgid "F Y"
 msgstr ""
 
-#: includes/template-tags.php:153
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:153
+#: includes/template-tags.php:153 release/tsatu/includes/template-tags.php:153
 msgctxt "daily archives date format"
 msgid "j F Y"
 msgstr ""
 
-#: includes/template-tags.php:156
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:156
+#: includes/template-tags.php:156 release/tsatu/includes/template-tags.php:156
 msgctxt "post format archive title"
 msgid "Asides"
 msgstr ""
 
-#: includes/template-tags.php:158
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:158
+#: includes/template-tags.php:158 release/tsatu/includes/template-tags.php:158
 msgctxt "post format archive title"
 msgid "Galleries"
 msgstr ""
 
-#: includes/template-tags.php:160
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:160
+#: includes/template-tags.php:160 release/tsatu/includes/template-tags.php:160
 msgctxt "post format archive title"
 msgid "Images"
 msgstr ""
 
-#: includes/template-tags.php:162
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:162
+#: includes/template-tags.php:162 release/tsatu/includes/template-tags.php:162
 msgctxt "post format archive title"
 msgid "Videos"
 msgstr ""
 
-#: includes/template-tags.php:164
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:164
+#: includes/template-tags.php:164 release/tsatu/includes/template-tags.php:164
 msgctxt "post format archive title"
 msgid "Quotes"
 msgstr ""
 
-#: includes/template-tags.php:166
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:166
+#: includes/template-tags.php:166 release/tsatu/includes/template-tags.php:166
 msgctxt "post format archive title"
 msgid "Links"
 msgstr ""
 
-#: includes/template-tags.php:168
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:168
+#: includes/template-tags.php:168 release/tsatu/includes/template-tags.php:168
 msgctxt "post format archive title"
 msgid "Statuses"
 msgstr ""
 
-#: includes/template-tags.php:170
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:170
+#: includes/template-tags.php:170 release/tsatu/includes/template-tags.php:170
 msgctxt "post format archive title"
 msgid "Audio"
 msgstr ""
 
-#: includes/template-tags.php:172
-#: release/tsatu-0.2.0/tsatu/includes/template-tags.php:172
+#: includes/template-tags.php:172 release/tsatu/includes/template-tags.php:172
 msgctxt "post format archive title"
 msgid "Chats"
 msgstr ""

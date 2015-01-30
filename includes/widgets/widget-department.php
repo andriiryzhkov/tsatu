@@ -10,7 +10,7 @@ class TSATU_Department_Widget extends WP_Widget {
 
     function __construct() {
         $widget_ops = array('classname' => 'widget_department well', 'description' => __('Add a department welcome screen', 'tsatu'));
-        parent::__construct('widget_department', __('Department Welcome (TSATU)', 'tsatu'), $widget_ops);
+        parent::__construct('tsatu-department', __('Department Welcome', 'tsatu'), $widget_ops);
     }
 
     function widget($args, $instance) {

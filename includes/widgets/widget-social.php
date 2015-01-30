@@ -14,7 +14,7 @@ class TSATU_Social_Widget extends WP_Widget {
 
     function __construct() {
         $widget_ops = array('classname' => 'widget_social', 'description' => __("Social icons list", 'tsatu'));
-        parent::__construct('tsatu-social', __('Social icons (TSATU)', 'tsatu'), $widget_ops);
+        parent::__construct('tsatu-social', __('Social icons', 'tsatu'), $widget_ops);
     }
 
     function widget($args, $instance) {

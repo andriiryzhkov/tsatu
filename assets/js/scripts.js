@@ -13779,23 +13779,9 @@ return jQuery;
   };
 })(jQuery);
 ;/* 
- * Copyright (C) 2015 Andrii
- *
- * This program is free software; you can redistribute it and/or
- * modify it under the terms of the GNU General Public License
- * as published by the Free Software Foundation; either version 2
- * of the License, or (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program; if not, write to the Free Software
- * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+ * Back to top script
  */
-// ===== Scroll to Top ==== 
+
 $(window).scroll(function() {
     if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
         $('#return-to-top').fadeIn(200);    // Fade in the arrow
@@ -13807,7 +13793,9 @@ $('#return-to-top').click(function() {      // When arrow is clicked
     $('body,html').animate({
         scrollTop : 0                       // Scroll to top of body
     }, 500);
-});;// Slider functions
+});;/*
+ * Slider functions
+ */
 jQuery(document).ready(function ($) {
     $(window).load(function () {
         $('#slider').flexslider({
@@ -13855,10 +13843,15 @@ jQuery(document).ready(function ($) {
             touch: true  //{NEW} Boolean: Allow touch swipe navigation of the slider on touch-enabled devices
         });
     });
-});;//Adapted from http://jasalguero.com/ledld/development/web/expandable-list/
-/**************************************************************/
-/* Prepares the cv to be dynamically expandable/collapsible   */
-/**************************************************************/
+});;/*
+ * Page navigation
+ *
+ * Adapted from http://jasalguero.com/ledld/development/web/expandable-list/
+ */
+
+/*
+ * Prepares the cv to be dynamically expandable/collapsible
+ */
 $(function prepareList() {
 	$('#pagenav').find('li:has(ul)').unbind('click').click(function(event) {
 		if(this === event.target) {
@@ -13893,10 +13886,9 @@ $(function prepareList() {
 	});
 });
 
-
-/**************************************************************/
-/* Functions to execute on loading the document               */
-/**************************************************************/
+/*
+ * Functions to execute on loading the document
+ */
 $(document).ready( function() {
     prepareList();
 });;( function() {
