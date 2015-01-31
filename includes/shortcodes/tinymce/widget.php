@@ -27,7 +27,7 @@ header('Content-Type: text/html; charset=' . get_bloginfo('charset'));
     </script>
     <style type="text/css">
         .widget-title h4 {
-            margin: 10px;
+            margin: 10px 0;
             padding: 15px;
             line-height: 1;
             overflow: hidden;
@@ -46,14 +46,24 @@ header('Content-Type: text/html; charset=' . get_bloginfo('charset'));
             -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.04);
             box-shadow: 0 1px 1px rgba(0,0,0,0.04);
         }
+        .in-widget-title {
+            color: #666;
+        }
+
     </style>
 </head>
 
 <body>
     <div id="tsatu-wrapper" class="widgets">
+        <p><?php _e('Choose widget you want to insert.', 'tsatu'); ?></p>
         <?php $widgets = get_option('sidebars_widgets');
-        foreach($widgets['arbitrary'] as $widget) {
-            echo '<div id="' . $widget . '" class="widget-title"><h4>' . $widget . '</h4></div>';
+        foreach($widgets['arbitrary'] as $id) {
+            $widget_options = get_option('widget_' . preg_replace( '/-[0-9]+$/', '', $id ));
+            $widget_number = $wp_registered_widgets[$id]['params'][0]['number'];
+            $widget_title = $widget_options[$widget_number]['title'];
+            $widget_title = $widget_title != '' ? ': ' . $widget_title : '';
+            echo '<div id="' . $id . '" class="widget-title"><h4>' . $wp_registered_widgets[$id]['name']
+                . '<span class="in-widget-title">' . $widget_title . '</span></h4></div>';
         } ?>
     </div>
 </body>

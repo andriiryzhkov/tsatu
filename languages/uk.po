@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Тема ТДАТУ\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
-"POT-Creation-Date: 2015-01-30 14:19:26+00:00\n"
+"POT-Creation-Date: 2015-01-31 10:29:15+00:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Andrii Ryzhkv <andri.ryzhkov@gmail.com>\n"
 "Language-Team: \n"
@@ -73,12 +73,16 @@ msgstr ""
 msgid "Pages:"
 msgstr "Сторінки:"
 
-#: footer.php:43 footer.php:46 release/tsatu/footer.php:43
+#: footer.php:44 footer.php:49 release/tsatu/footer.php:43
 #: release/tsatu/footer.php:46
 msgid "All rights reserved."
 msgstr "Всі права захищені."
 
-#: footer.php:76 release/tsatu/footer.php:80
+#: footer.php:48 header.php:55 release/tsatu/header.php:49
+msgid "Tavria State Agrotechnological University"
+msgstr "Таврійський державний агротехнологічний університет"
+
+#: footer.php:81 release/tsatu/footer.php:80
 msgid "Back to top"
 msgstr "Повернутись вгору"
 
@@ -87,7 +91,7 @@ msgstr "Повернутись вгору"
 msgid "Error locating %s for inclusion"
 msgstr "Помилка при пошуку %s для включення"
 
-#: header.php:32 header0.php:32 release/tsatu/header.php:32
+#: header.php:32 release/tsatu/header.php:32
 msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
@@ -95,22 +99,6 @@ msgstr ""
 "Ви використовуєте <strong>застарілий</strong> браузер. Будь ласка, <a href="
 "\"http://browsehappy.com/\">поновіть ваш браузер</a>, щоб поліпшити ваш "
 "досвід."
-
-#: header.php:49 header0.php:49 release/tsatu/header.php:49
-msgid "Tavria State Agrotechnological University"
-msgstr "Таврійський державний агротехнологічний університет"
-
-#: header0.php:68 release/tsatu/header.php:68
-msgid "Subdivisions"
-msgstr "Підрозділи"
-
-#: header0.php:69 release/tsatu/header.php:69
-msgid "On-line Services"
-msgstr "Он-лайн служби"
-
-#: header0.php:70 release/tsatu/header.php:70
-msgid "Sign In"
-msgstr "Вхід"
 
 #: includes/activation.php:28 includes/activation.php:29
 #: release/tsatu/includes/activation.php:28
@@ -666,19 +654,19 @@ msgstr "SoundCloud"
 msgid "GitHub"
 msgstr "GitHub"
 
-#: includes/extras.php:55 release/tsatu/includes/extras.php:55
+#: includes/extras.php:58 release/tsatu/includes/extras.php:55
 msgid "Page %s"
 msgstr " Сторінка %s "
 
-#: includes/extras.php:119 release/tsatu/includes/extras.php:119
+#: includes/extras.php:128 release/tsatu/includes/extras.php:119
 msgid "Read more"
 msgstr "Читайте також"
 
-#: includes/extras.php:131 release/tsatu/includes/extras.php:131
+#: includes/extras.php:142 release/tsatu/includes/extras.php:131
 msgid "Permalink to %s"
 msgstr "Постійне посилання на %s"
 
-#: includes/extras.php:211 release/tsatu/includes/extras.php:211
+#: includes/extras.php:225 release/tsatu/includes/extras.php:211
 msgid "Follow us on "
 msgstr "Слідкуйте за нами в "
 
@@ -1075,6 +1063,10 @@ msgstr "Попередній перегляд"
 msgid "Insert"
 msgstr "Вставити"
 
+#: includes/shortcodes/tinymce/widget.php:58
+msgid "Choose widget you want to insert."
+msgstr "Виберіть віджет який ви хочете вставити."
+
 #: includes/template-tags.php:29 release/tsatu/includes/template-tags.php:29
 msgid "Posts navigation"
 msgstr "Навігація публікації"
@@ -1359,6 +1351,18 @@ msgstr "Мапа сайту"
 #: release/tsatu/footer.php:71
 msgid "Terms of Use"
 msgstr "Умови використання"
+
+#: release/tsatu/header.php:68
+msgid "Subdivisions"
+msgstr "Підрозділи"
+
+#: release/tsatu/header.php:69
+msgid "On-line Services"
+msgstr "Он-лайн служби"
+
+#: release/tsatu/header.php:70
+msgid "Sign In"
+msgstr "Вхід"
 
 #: release/tsatu/search.php:18 search.php:18
 msgid "Search Results for: %s"
