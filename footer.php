@@ -45,7 +45,7 @@ if (!defined('ABSPATH')) {
                     </div>
                 <?php else : ?>
                     <div class="footer-copyright">&copy; <?php echo date("Y") ?>. <a
-                            href="<?php echo tsatu_home_url(1); ?>"><?php //echo get_network_bloginfo('name') ?><?php _e('Tavria State Agrotechnological University', 'tsatu'); ?></a>.
+                            href="<?php echo tsatu_home_url(1); ?>"><?php echo get_network_bloginfo('name') ?></a>.
                         <a href="<?php echo tsatu_home_url(); ?>"><?php echo bloginfo('name') ?></a>. <?php _e('All rights reserved.', 'tsatu'); ?>
                     </div>
                 <?php endif; ?>

@@ -248,6 +248,15 @@ if (!function_exists('the_terms_list')) {
     }
 }
 
+function tsatu_change_language( $locale )
+{
+    global $locale;
+    $locale = pll_current_language('locale');
+    return $locale; }
+add_filter( 'locale', 'tsatu_change_language');
+
+
+
 if (!function_exists('get_network_bloginfo')) {
     /**
      * Gets the bloginfo for the site in multisite setup
@@ -257,9 +266,6 @@ if (!function_exists('get_network_bloginfo')) {
         if (is_multisite()) {
             switch_to_blog(1);
             $output = get_bloginfo($show);
-            if (function_exists('pll_')) {
-                $output = pll__($output);
-            }
             restore_current_blog();
         } else {
             $output = get_bloginfo($show);
@@ -314,3 +320,8 @@ if (!function_exists('tsatu_home_url')) {
     }
 }
 
+add_filter('pll_admin_preferred_language', 'my_preferred_language');
+function my_preferred_language($lang) {
+    global $polylang;
+    return $polylang->model->get_language('uk');
+}

@@ -34,6 +34,77 @@ if (!defined('ABSPATH')) {
 <![endif]-->
 <header class="site-header" role="banner">
     <!-- Branding -->
+    <!-- Top menu -->
+    <nav class="navbar navbar-inverse navbar-top">
+        <div class="container">
+            <div class="row">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="top-navbar" role="navigation">
+                    <?php
+                    // Info menu of main site
+                    if (is_multisite() && (get_current_blog_id() != 1)) {
+                        switch_to_blog(1);
+                        if (has_nav_menu('info')) {
+                            wp_nav_menu(array(
+                                'theme_location' => 'info',
+                                'depth' => 1,
+                                'walker' => new TSATU_Nav_Walker(),
+                                'menu_class' => 'nav navbar-nav navbar-left'
+                            ));
+                        }
+                        restore_current_blog();
+                    }
+                    // Info menu of current site
+                    if (has_nav_menu('info')) {
+                        wp_nav_menu(array(
+                            'theme_location' => 'info',
+                            'depth' => 1,
+                            'walker' => new TSATU_Nav_Walker(),
+                            'menu_class' => 'nav navbar-nav navbar-left'
+                        ));
+                    }
+                    ?>
+                    <div>
+                        <ul class="nav navbar-nav navbar-right navbar-lang">
+                            <?php if (function_exists('pll_the_languages')) {
+                                pll_the_languages(array('show_flags' => 1, 'show_names' => 0));
+                            } ?>
+                        </ul>
+                    </div>
+                    <?php
+                    // Top menu of main site
+                    if (is_multisite() && (get_current_blog_id() != 1)) {
+                        switch_to_blog(1);
+                        if (has_nav_menu('top')) {
+                            wp_nav_menu(array(
+                                'theme_location' => 'top',
+                                'depth' => 1,
+                                'walker' => new TSATU_Nav_Walker(),
+                                'menu_class' => 'nav navbar-nav navbar-right'
+                            ));
+                        }
+                        restore_current_blog();}
+                    // Top menu of current site
+                    if (has_nav_menu('top')) {
+                        wp_nav_menu(array(
+                            'theme_location' => 'top',
+                            'depth' => 1,
+                            'walker' => new TSATU_Nav_Walker(),
+                            'menu_class' => 'nav navbar-nav navbar-right'
+                        ));
+                    }
+                    ?>
+                </div>
+            </div>
+        </div>
+    </nav>
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-9 col-lg-8">
@@ -47,49 +118,25 @@ if (!defined('ABSPATH')) {
                         </a>
                     <?php else : ?>
                         <a href="<?php echo tsatu_home_url(); ?>">
-                            <div class="branding-division">
+                            <div class="branding-division<?php if (mb_strlen(get_bloginfo('name'), 'UTF-8') > 35 ) echo '-long'; ?>">
                                 <?php bloginfo('name'); ?>
                             </div>
                             <div class="branding-child-title">
-                                <?php //echo get_network_bloginfo('name'); ?>
-                                <?php _e('Tavria State Agrotechnological University', 'tsatu'); ?>
+                                <?php echo get_network_bloginfo('name'); ?>
                             </div>
                         </a>
                 <?php endif; ?>
                 </div>
             </div>
-            <!-- Top menu -->
             <div class="col-sm-12 col-md-3 col-lg-4">
-                <div class="row">
-                    <div class="top-nav col-xs-6 col-sm-6 col-md-12">
-                        <nav  class="navbar navbar-inverse navbar-top" role="navigation">
-                            <ul class="nav navbar-nav navbar-right">
-                                <?php if (function_exists('pll_the_languages')) {
-                                    pll_the_languages(array('show_flags' => 1, 'show_names' => 0));
-                                } ?>
-                            </ul>
-                            <?php if (is_multisite() && (get_current_blog_id() != 1)) {switch_to_blog(1);}
-                            if (has_nav_menu('top')) :
-                                wp_nav_menu(array(
-                                    'theme_location' => 'top',
-                                    'depth' => 1,
-                                    'walker' => new TSATU_Nav_Walker(),
-                                    'menu_class' => 'nav navbar-nav navbar-right'
-                                ));
-                            endif;
-                            if (is_multisite()) {restore_current_blog();} ?>
-                        </nav>
-                    </div>
-                    <div class="col-xs-6 col-sm-6 col-md-12">
-                        <?php get_search_form(); ?>
-                    </div>
-                </div>
+                <?php get_search_form(); ?>
             </div>
         </div> <!-- End branding -->
     </div>
     <!-- Header primary menu -->
     <nav class="navbar navbar-default">
         <div class="container">
+            <div class="row">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed"
                         data-toggle="collapse" data-target="#primary-navbar">
@@ -112,6 +159,7 @@ if (!defined('ABSPATH')) {
 
                      endif;
                      ?>
+            </div>
             </div>
         </div>
     </nav>

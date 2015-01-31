@@ -62,6 +62,7 @@ if (!function_exists('tsatu_setup')) :
             register_nav_menus(array(
                 'footer' => __('Footer Menu', 'tsatu'),
                 'top' => __('Top Menu', 'tsatu'),
+                'info' => __('Information Menu', 'tsatu'),
             ));
         //}
 

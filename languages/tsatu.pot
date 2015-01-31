@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TSATU 0.2.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
-"POT-Creation-Date: 2015-01-31 10:29:15+00:00\n"
+"POT-Creation-Date: 2015-01-31 21:12:27+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -68,10 +68,6 @@ msgstr ""
 #: footer.php:44 footer.php:49 release/tsatu/footer.php:43
 #: release/tsatu/footer.php:46
 msgid "All rights reserved."
-msgstr ""
-
-#: footer.php:48 header.php:55 release/tsatu/header.php:49
-msgid "Tavria State Agrotechnological University"
 msgstr ""
 
 #: footer.php:81 release/tsatu/footer.php:80
@@ -652,16 +648,20 @@ msgstr ""
 msgid "Top Menu"
 msgstr ""
 
-#: includes/init.php:106 release/tsatu/includes/init.php:100
+#: includes/init.php:65
+msgid "Information Menu"
+msgstr ""
+
+#: includes/init.php:107 release/tsatu/includes/init.php:100
 msgid "Deafult Sidebar"
 msgstr ""
 
-#: includes/init.php:115 release/tsatu/includes/init.php:109
+#: includes/init.php:116 release/tsatu/includes/init.php:109
 msgid "Page Sidebar"
 msgstr ""
 
-#: includes/init.php:125 includes/init.php:134 includes/init.php:143
-#: includes/init.php:152 release/tsatu/includes/init.php:119
+#: includes/init.php:126 includes/init.php:135 includes/init.php:144
+#: includes/init.php:153 release/tsatu/includes/init.php:119
 #: release/tsatu/includes/init.php:128 release/tsatu/includes/init.php:137
 #: release/tsatu/includes/init.php:146
 msgid "Footer %s"
@@ -1316,6 +1316,10 @@ msgstr ""
 
 #: release/tsatu/footer.php:71
 msgid "Terms of Use"
+msgstr ""
+
+#: release/tsatu/header.php:49
+msgid "Tavria State Agrotechnological University"
 msgstr ""
 
 #: release/tsatu/header.php:68
