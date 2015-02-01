@@ -101,3 +101,8 @@ function annointed_admin_bar_remove() {
 
 add_action('wp_before_admin_bar_render', 'annointed_admin_bar_remove', 0);
 
+function remove_menus() {
+  remove_menu_page( 'edit-comments.php' );
+}
+add_action( 'admin_menu', 'remove_menus' );
+

@@ -55,22 +55,20 @@
 
             > li {
 
-                > a {
+                > a,
+                > a:hover,
+                > a:focus {
                     padding-top: 5px;
                     padding-bottom: 5px;
                     color: @text-color;
                     font-size: @font-size-small;
                     font-weight: bold;
                 }
-                > a:hover {
-                    color: @text-color;
-                }
             }
             > li.active {
-                > a {
-                    color: @text-color;
-                }
-                > a:hover {
+                > a,
+                > a:hover,
+                > a:focus {
                     color: @text-color;
                 }
             }
@@ -99,6 +97,9 @@
 
         .navbar-nav {
 
+            margin-left: -@grid-gutter-width / 2;
+            margin-right: -@grid-gutter-width / 2;
+
             > li {
                 > a {
                     padding-top: 0;
@@ -106,7 +107,8 @@
                     color: #fff;
                     text-decoration: underline;
                 }
-                > a:hover {
+                > a:hover,
+                > a:focus {
                     color: #fff;
                     text-decoration: none;
                 }
@@ -116,7 +118,8 @@
                     color: #fff;
                     text-decoration: underline;
                 }
-                > a:hover {
+                > a:hover,
+                > a:focus {
                     color: #fff;
                     text-decoration: none;
                 }

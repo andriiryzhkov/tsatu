@@ -56,15 +56,10 @@ if (!function_exists('tsatu_setup')) :
         // This theme uses wp_nav_menu() in one location.
         register_nav_menus(array(
             'primary' => __('Primary Menu', 'tsatu'),
+            'footer' => __('Footer Menu', 'tsatu'),
+            'top' => __('Top Menu', 'tsatu'),
+            'info' => __('Information Menu', 'tsatu'),
         ));
-
-        //if (is_main_site()) {
-            register_nav_menus(array(
-                'footer' => __('Footer Menu', 'tsatu'),
-                'top' => __('Top Menu', 'tsatu'),
-                'info' => __('Information Menu', 'tsatu'),
-            ));
-        //}
 
         /*
          * Switch default core markup for search form, comment form, and comments

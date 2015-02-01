@@ -1,0 +1,12 @@
+# used to remove files from deployment using `git archive`
+.gitattributes export-ignore
+.gitignore export-ignore
+.bowerrc export-ignore
+.jshintrc export-ignore
+.editconfig export-ignore
+Gruntfile.js export-ignore
+bower.json export-ignore
+package.json export-ignore
+assets/less/ export-ignore
+assets/js/plugins/ export-ignore
+assets/js/_*.js export-ignore

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Тема ТДАТУ\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
-"POT-Creation-Date: 2015-01-31 10:29:15+00:00\n"
+"POT-Creation-Date: 2015-02-01 12:35:29+00:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Andrii Ryzhkv <andri.ryzhkov@gmail.com>\n"
 "Language-Team: \n"
@@ -15,45 +15,42 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: 404.php:19 release/tsatu/404.php:19
+#: 404.php:19
 msgid "Oops! Something went wrong here."
 msgstr "Ой! Щось тут пішло не так."
 
-#: 404.php:24 release/tsatu/404.php:24
+#: 404.php:24
 msgid "Nothing could be found at this location. Maybe try a search?"
 msgstr "Нічого не знайдено в цьому місці. Може скористаєтесь пошуком?"
 
-#: comments.php:40 comments.php:57 release/tsatu/comments.php:40
-#: release/tsatu/comments.php:57
+#: comments.php:40 comments.php:57
 msgid "Comment navigation"
 msgstr "Навігація по коментарям"
 
-#: comments.php:41 comments.php:58 release/tsatu/comments.php:41
-#: release/tsatu/comments.php:58
+#: comments.php:41 comments.php:58
 msgid "&larr; Older Comments"
 msgstr "&larr; Старі коментарі"
 
-#: comments.php:42 comments.php:59 release/tsatu/comments.php:42
-#: release/tsatu/comments.php:59
+#: comments.php:42 comments.php:59
 msgid "Newer Comments &rarr;"
 msgstr "Нові коментарі &rarr;"
 
-#: comments.php:69 release/tsatu/comments.php:69
+#: comments.php:69
 msgid "Comments are closed."
 msgstr "Коментарі закриті."
 
-#: content-none.php:19 release/tsatu/content-none.php:19
+#: content-none.php:19
 msgid "Nothing Found"
 msgstr "Нічого не знайдено"
 
-#: content-none.php:25 release/tsatu/content-none.php:25
+#: content-none.php:25
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 "Готові публікувати вашу першу публікацію? <a href=\"%1$s\">Початок роботи "
 "тут</a>."
 
-#: content-none.php:29 release/tsatu/content-none.php:29
+#: content-none.php:29
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
@@ -61,37 +58,30 @@ msgstr ""
 "На жаль, нічого не відповідає вашим пошуковим термінам. Будь ласка, "
 "спробуйте ще раз з іншими ключовими словами."
 
-#: content-none.php:34 release/tsatu/content-none.php:34
+#: content-none.php:34
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
 "Здається, ми не можемо знайти те, що ви шукаєте. Можливо пошук допоможе."
 
-#: content-page.php:25 content-single.php:23 release/tsatu/content-page.php:25
-#: release/tsatu/content-single.php:23
+#: content-page.php:25 content-single.php:23
 msgid "Pages:"
 msgstr "Сторінки:"
 
-#: footer.php:44 footer.php:49 release/tsatu/footer.php:43
-#: release/tsatu/footer.php:46
+#: footer.php:44 footer.php:49
 msgid "All rights reserved."
 msgstr "Всі права захищені."
 
-#: footer.php:48 header.php:55 release/tsatu/header.php:49
-msgid "Tavria State Agrotechnological University"
-msgstr "Таврійський державний агротехнологічний університет"
-
-#: footer.php:81 release/tsatu/footer.php:80
+#: footer.php:81
 msgid "Back to top"
 msgstr "Повернутись вгору"
 
-#: functions.php:56 includes/shortcodes.php:39 release/tsatu/functions.php:56
-#: release/tsatu/includes/shortcodes.php:39
+#: functions.php:56 includes/shortcodes.php:39
 msgid "Error locating %s for inclusion"
 msgstr "Помилка при пошуку %s для включення"
 
-#: header.php:32 release/tsatu/header.php:32
+#: header.php:32
 msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
@@ -101,16 +91,14 @@ msgstr ""
 "досвід."
 
 #: includes/activation.php:28 includes/activation.php:29
-#: release/tsatu/includes/activation.php:28
-#: release/tsatu/includes/activation.php:29
 msgid "Theme Activation"
 msgstr "Активація теми"
 
-#: includes/activation.php:50 release/tsatu/includes/activation.php:50
+#: includes/activation.php:50
 msgid "%s Theme Activation"
 msgstr "Активація теми %s"
 
-#: includes/activation.php:52 release/tsatu/includes/activation.php:52
+#: includes/activation.php:52
 msgid ""
 "These settings are optional and should usually be used only on a fresh "
 "installation"
@@ -119,104 +107,77 @@ msgstr ""
 "новій установці"
 
 #: includes/activation.php:59 includes/activation.php:62
-#: release/tsatu/includes/activation.php:59
-#: release/tsatu/includes/activation.php:62
 msgid "Create static front page?"
 msgstr "Створити статичну головну сторінку?"
 
 #: includes/activation.php:64 includes/activation.php:76
 #: includes/activation.php:88 includes/activation.php:100
-#: release/tsatu/includes/activation.php:64
-#: release/tsatu/includes/activation.php:76
-#: release/tsatu/includes/activation.php:88
-#: release/tsatu/includes/activation.php:100
 msgid "Yes"
 msgstr "Так"
 
 #: includes/activation.php:65 includes/activation.php:77
 #: includes/activation.php:89 includes/activation.php:101
-#: release/tsatu/includes/activation.php:65
-#: release/tsatu/includes/activation.php:77
-#: release/tsatu/includes/activation.php:89
-#: release/tsatu/includes/activation.php:101
 msgid "No"
 msgstr "Ні"
 
-#: includes/activation.php:67 release/tsatu/includes/activation.php:67
+#: includes/activation.php:67
 msgid "Create a page called Home and set it to be the static front page"
 msgstr "Створити сторінку з назвою Home та призначити її статичною сторінкою"
 
-#: includes/activation.php:71 release/tsatu/includes/activation.php:71
+#: includes/activation.php:71
 msgid "Change permalink structure?"
 msgstr "Змінити структуру постійних посилань?"
 
-#: includes/activation.php:74 release/tsatu/includes/activation.php:74
+#: includes/activation.php:74
 msgid "Update permalink structure?"
 msgstr "Оновити структуру постійних посилань?"
 
-#: includes/activation.php:79 release/tsatu/includes/activation.php:79
+#: includes/activation.php:79
 msgid "Change permalink structure to /&#37;postname&#37;/"
 msgstr "Змінити структуру постійних посилань на /&#37;postname&#37;/"
 
 #: includes/activation.php:83 includes/activation.php:86
-#: release/tsatu/includes/activation.php:83
-#: release/tsatu/includes/activation.php:86
 msgid "Create navigation menu?"
 msgstr "Створити меню навігації?"
 
-#: includes/activation.php:91 release/tsatu/includes/activation.php:91
+#: includes/activation.php:91
 msgid "Create the Primary Navigation menu and set the location"
 msgstr "Створити Головне меню та визначити місце"
 
 #: includes/activation.php:95 includes/activation.php:98
-#: release/tsatu/includes/activation.php:95
-#: release/tsatu/includes/activation.php:98
 msgid "Add pages to menu?"
 msgstr "Додати сторінки до меню?"
 
-#: includes/activation.php:103 release/tsatu/includes/activation.php:103
+#: includes/activation.php:103
 msgid "Add all current published pages to the Primary Navigation"
 msgstr "Додати всі поточні сторінки до Головного меню"
 
 #: includes/activation.php:126 includes/activation.php:147
-#: release/tsatu/includes/activation.php:126
-#: release/tsatu/includes/activation.php:147
 msgid "Home"
 msgstr "Головна сторінка"
 
 #: includes/activation.php:173 includes/activation.php:176
-#: includes/activation.php:190 release/tsatu/includes/activation.php:173
-#: release/tsatu/includes/activation.php:176
-#: release/tsatu/includes/activation.php:190
+#: includes/activation.php:190
 msgid "Primary Navigation"
 msgstr "Головне меню"
 
 #: includes/class-tgm-plugin-activation.php:161 includes/plugins.php:72
-#: release/tsatu/includes/class-tgm-plugin-activation.php:161
-#: release/tsatu/includes/plugins.php:72
 msgid "Install Required Plugins"
 msgstr "Встановіть необхідні плаґіни"
 
 #: includes/class-tgm-plugin-activation.php:162 includes/plugins.php:73
-#: release/tsatu/includes/class-tgm-plugin-activation.php:162
-#: release/tsatu/includes/plugins.php:73
 msgid "Install Plugins"
 msgstr "Встановити плаґіни"
 
 #: includes/class-tgm-plugin-activation.php:163 includes/plugins.php:74
-#: release/tsatu/includes/class-tgm-plugin-activation.php:163
-#: release/tsatu/includes/plugins.php:74
 msgid "Installing Plugin: %s"
 msgstr "Встановити плаґін: %s"
 
 #: includes/class-tgm-plugin-activation.php:164
-#: release/tsatu/includes/class-tgm-plugin-activation.php:164
 msgid "Something went wrong."
 msgstr "Щось пішло не так."
 
 #: includes/class-tgm-plugin-activation.php:165 includes/plugins.php:76
-#: release/tsatu/includes/class-tgm-plugin-activation.php:165
-#: release/tsatu/includes/plugins.php:76
 msgid "This theme requires the following plugin: %1$s."
 msgid_plural "This theme requires the following plugins: %1$s."
 msgstr[0] "Ця тема потребує наступного плаґіну: %1$s."
@@ -224,8 +185,6 @@ msgstr[1] "Ця тема потребує наступних плаґінів: %
 msgstr[2] "Ця тема потребує наступних плаґінів: %1$s."
 
 #: includes/class-tgm-plugin-activation.php:166 includes/plugins.php:77
-#: release/tsatu/includes/class-tgm-plugin-activation.php:166
-#: release/tsatu/includes/plugins.php:77
 msgid "This theme recommends the following plugin: %1$s."
 msgid_plural "This theme recommends the following plugins: %1$s."
 msgstr[0] "Ця тема рекомендує наступний плагін: %1$s."
@@ -233,8 +192,6 @@ msgstr[1] "Ця тема рекомендує наступні плагіни: %
 msgstr[2] "Ця тема рекомендує наступні плагіни: %1$s."
 
 #: includes/class-tgm-plugin-activation.php:167 includes/plugins.php:78
-#: release/tsatu/includes/class-tgm-plugin-activation.php:167
-#: release/tsatu/includes/plugins.php:78
 msgid ""
 "Sorry, but you do not have the correct permissions to install the %s plugin. "
 "Contact the administrator of this site for help on getting the plugin "
@@ -254,26 +211,20 @@ msgstr[2] ""
 "допомоги в установці плаґінів, зверніться до адміністратора цього сайту."
 
 #: includes/class-tgm-plugin-activation.php:168 includes/plugins.php:79
-#: release/tsatu/includes/class-tgm-plugin-activation.php:168
-#: release/tsatu/includes/plugins.php:79
 msgid "The following required plugin is currently inactive: %1$s."
 msgid_plural "The following required plugins are currently inactive: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Наступний необхідний плаґін наразі неактивний: %1$s."
+msgstr[1] "Наступні необхідні плаґіни наразі неактивні: %1$s."
+msgstr[2] "Наступні необхідні плаґіни наразі неактивні: %1$s."
 
 #: includes/class-tgm-plugin-activation.php:169 includes/plugins.php:80
-#: release/tsatu/includes/class-tgm-plugin-activation.php:169
-#: release/tsatu/includes/plugins.php:80
 msgid "The following recommended plugin is currently inactive: %1$s."
 msgid_plural "The following recommended plugins are currently inactive: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Наступний рекомендований плаґін наразі неактивний: %1$s."
+msgstr[1] "Наступні рекомендовані плаґіни наразі неактивні: %1$s."
+msgstr[2] "Наступні рекомендовані плаґіни наразі неактивні: %1$s."
 
 #: includes/class-tgm-plugin-activation.php:170 includes/plugins.php:81
-#: release/tsatu/includes/class-tgm-plugin-activation.php:170
-#: release/tsatu/includes/plugins.php:81
 msgid ""
 "Sorry, but you do not have the correct permissions to activate the %s "
 "plugin. Contact the administrator of this site for help on getting the "
@@ -283,12 +234,16 @@ msgid_plural ""
 "plugins. Contact the administrator of this site for help on getting the "
 "plugins activated."
 msgstr[0] ""
+"Вибачте, але у нас немає необхідних дозволів для активації плаґіну %s. "
+"Зв'яжіться з адміністратором цього сайту для допомоги з активації плаґіну."
 msgstr[1] ""
+"Вибачте, але у нас немає необхідних дозволів для активації плаґінів %s. "
+"Зв'яжіться з адміністратором цього сайту для допомоги з активації плаґінів."
 msgstr[2] ""
+"Вибачте, але у нас немає необхідних дозволів для активації плаґінів %s. "
+"Зв'яжіться з адміністратором цього сайту для допомоги з активації плаґінів."
 
 #: includes/class-tgm-plugin-activation.php:171 includes/plugins.php:82
-#: release/tsatu/includes/class-tgm-plugin-activation.php:171
-#: release/tsatu/includes/plugins.php:82
 msgid ""
 "The following plugin needs to be updated to its latest version to ensure "
 "maximum compatibility with this theme: %1$s."
@@ -296,12 +251,16 @@ msgid_plural ""
 "The following plugins need to be updated to their latest version to ensure "
 "maximum compatibility with this theme: %1$s."
 msgstr[0] ""
+"Наступний плаґін має бути оновлений до останньої версії для забезпечення "
+"максимальної сумісності з темою: %1$s."
 msgstr[1] ""
+"Наступні плаґіни мають бути оновлені до останньої версії для забезпечення "
+"максимальної сумісності з темою: %1$s."
 msgstr[2] ""
+"Наступні плаґіни мають бути оновлені до останньої версії для забезпечення "
+"максимальної сумісності з темою: %1$s."
 
 #: includes/class-tgm-plugin-activation.php:172 includes/plugins.php:83
-#: release/tsatu/includes/class-tgm-plugin-activation.php:172
-#: release/tsatu/includes/plugins.php:83
 msgid ""
 "Sorry, but you do not have the correct permissions to update the %s plugin. "
 "Contact the administrator of this site for help on getting the plugin "
@@ -311,12 +270,16 @@ msgid_plural ""
 "Contact the administrator of this site for help on getting the plugins "
 "updated."
 msgstr[0] ""
+"Вибачте, але у нас немає необхідних дозволів для оновлення плаґіну %s. "
+"Зв'яжіться з адміністратором цього сайту для допомоги з оновлення плаґіну."
 msgstr[1] ""
+"Вибачте, але у нас немає необхідних дозволів для оновлення плаґінів %s. "
+"Зв'яжіться з адміністратором цього сайту для допомоги з оновлення плаґінів."
 msgstr[2] ""
+"Вибачте, але у нас немає необхідних дозволів для оновлення плаґінів %s. "
+"Зв'яжіться з адміністратором цього сайту для допомоги з оновлення плаґінів."
 
 #: includes/class-tgm-plugin-activation.php:173 includes/plugins.php:84
-#: release/tsatu/includes/class-tgm-plugin-activation.php:173
-#: release/tsatu/includes/plugins.php:84
 msgid "Begin installing plugin"
 msgid_plural "Begin installing plugins"
 msgstr[0] "Встановити плаґін"
@@ -324,8 +287,6 @@ msgstr[1] "Встановити плаґіни"
 msgstr[2] "Встановити плаґіни"
 
 #: includes/class-tgm-plugin-activation.php:174 includes/plugins.php:85
-#: release/tsatu/includes/class-tgm-plugin-activation.php:174
-#: release/tsatu/includes/plugins.php:85
 msgid "Begin activating plugin"
 msgid_plural "Begin activating plugins"
 msgstr[0] "Активувати плаґін"
@@ -333,252 +294,205 @@ msgstr[1] "Активувати плаґіни"
 msgstr[2] "Активувати плаґіни"
 
 #: includes/class-tgm-plugin-activation.php:175 includes/plugins.php:86
-#: release/tsatu/includes/class-tgm-plugin-activation.php:175
-#: release/tsatu/includes/plugins.php:86
 msgid "Return to Required Plugins Installer"
 msgstr "Повернутись до встановлювача необхідних плаґінів"
 
 #: includes/class-tgm-plugin-activation.php:176
-#: release/tsatu/includes/class-tgm-plugin-activation.php:176
 msgid "Return to the dashboard"
 msgstr "Повернутися до Майстерні"
 
 #: includes/class-tgm-plugin-activation.php:177
 #: includes/class-tgm-plugin-activation.php:1939 includes/plugins.php:87
-#: release/tsatu/includes/class-tgm-plugin-activation.php:177
-#: release/tsatu/includes/class-tgm-plugin-activation.php:1939
-#: release/tsatu/includes/plugins.php:87
 msgid "Plugin activated successfully."
 msgstr "Плаґін успішно активовано."
 
 #: includes/class-tgm-plugin-activation.php:178
 #: includes/class-tgm-plugin-activation.php:1630
-#: release/tsatu/includes/class-tgm-plugin-activation.php:178
-#: release/tsatu/includes/class-tgm-plugin-activation.php:1630
 msgid "The following plugin was activated successfully:"
 msgstr "Наступні плаґіни були успішно активовані:"
 
 #: includes/class-tgm-plugin-activation.php:179
-#: release/tsatu/includes/class-tgm-plugin-activation.php:179
 msgid "All plugins installed and activated successfully. %1$s"
-msgstr ""
+msgstr "Всі плаґіни успішно встановлені та активовані. %1$s"
 
 #: includes/class-tgm-plugin-activation.php:180
-#: release/tsatu/includes/class-tgm-plugin-activation.php:180
 msgid "Dismiss this notice"
 msgstr "Прибрати це повідомлення"
 
 #: includes/class-tgm-plugin-activation.php:531
 #: includes/class-tgm-plugin-activation.php:2156
-#: release/tsatu/includes/class-tgm-plugin-activation.php:531
-#: release/tsatu/includes/class-tgm-plugin-activation.php:2156
 msgid "Return to the Dashboard"
 msgstr "Повернутися до Майстерні"
 
 #: includes/class-tgm-plugin-activation.php:1166
-#: release/tsatu/includes/class-tgm-plugin-activation.php:1166
 msgid "Private Repository"
 msgstr "Приватне сховище"
 
 #: includes/class-tgm-plugin-activation.php:1169
-#: release/tsatu/includes/class-tgm-plugin-activation.php:1169
 msgid "Pre-Packaged"
 msgstr "Попередньо упаковані"
 
 #: includes/class-tgm-plugin-activation.php:1174
-#: release/tsatu/includes/class-tgm-plugin-activation.php:1174
 msgid "WordPress Repository"
 msgstr "Сховище WordPress"
 
 #: includes/class-tgm-plugin-activation.php:1177
-#: release/tsatu/includes/class-tgm-plugin-activation.php:1177
 msgid "Required"
 msgstr "Обов'язковий"
 
 #: includes/class-tgm-plugin-activation.php:1177
-#: release/tsatu/includes/class-tgm-plugin-activation.php:1177
 msgid "Recommended"
 msgstr "Рекомендований"
 
 #: includes/class-tgm-plugin-activation.php:1180
-#: release/tsatu/includes/class-tgm-plugin-activation.php:1180
 msgid "Not Installed"
 msgstr "Не встановлений"
 
 #: includes/class-tgm-plugin-activation.php:1182
-#: release/tsatu/includes/class-tgm-plugin-activation.php:1182
 msgid "Installed But Not Activated"
 msgstr "Встановлений але не активований"
 
 #: includes/class-tgm-plugin-activation.php:1287
 #: includes/class-tgm-plugin-activation.php:1395
-#: release/tsatu/includes/class-tgm-plugin-activation.php:1287
-#: release/tsatu/includes/class-tgm-plugin-activation.php:1395
 msgid "Install"
 msgstr "Встановити"
 
 #: includes/class-tgm-plugin-activation.php:1309
 #: includes/class-tgm-plugin-activation.php:1396
-#: release/tsatu/includes/class-tgm-plugin-activation.php:1309
-#: release/tsatu/includes/class-tgm-plugin-activation.php:1396
 msgid "Activate"
 msgstr "Активувати"
 
 #: includes/class-tgm-plugin-activation.php:1358
-#: release/tsatu/includes/class-tgm-plugin-activation.php:1358
 msgid ""
 "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
 "Dashboard\">Return to the Dashboard</a>"
 msgstr ""
+"Немає плаґінів для установки та активації. <a href=\"%1$s\" title="
+"\"Повернутись до Майстерні\">Повернутись до Майстерні</a>"
 
 #: includes/class-tgm-plugin-activation.php:1374
-#: release/tsatu/includes/class-tgm-plugin-activation.php:1374
 msgid "Plugin"
 msgstr "Плаґін"
 
 #: includes/class-tgm-plugin-activation.php:1375
-#: release/tsatu/includes/class-tgm-plugin-activation.php:1375
 msgid "Source"
 msgstr "Джерело"
 
 #: includes/class-tgm-plugin-activation.php:1376
-#: release/tsatu/includes/class-tgm-plugin-activation.php:1376
 msgid "Type"
 msgstr "Тип"
 
 #: includes/class-tgm-plugin-activation.php:1377
-#: release/tsatu/includes/class-tgm-plugin-activation.php:1377
 msgid "Status"
 msgstr "Статус"
 
 #: includes/class-tgm-plugin-activation.php:1922
-#: release/tsatu/includes/class-tgm-plugin-activation.php:1922
 msgid "Install package not available."
-msgstr ""
+msgstr "Пакет установки не доступний."
 
 #: includes/class-tgm-plugin-activation.php:1923
-#: release/tsatu/includes/class-tgm-plugin-activation.php:1923
 msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
-msgstr ""
+msgstr "Завантаження пакету установки з <span class=\"code\">%s</span>&#8230;"
 
 #: includes/class-tgm-plugin-activation.php:1924
-#: release/tsatu/includes/class-tgm-plugin-activation.php:1924
 msgid "Unpacking the package&#8230;"
-msgstr ""
+msgstr "Розпаковка пакету&#8230;"
 
 #: includes/class-tgm-plugin-activation.php:1925
-#: release/tsatu/includes/class-tgm-plugin-activation.php:1925
 msgid "Installing the plugin&#8230;"
-msgstr ""
+msgstr "Установка плаґіну&#8230;"
 
 #: includes/class-tgm-plugin-activation.php:1926
-#: release/tsatu/includes/class-tgm-plugin-activation.php:1926
 msgid "Plugin install failed."
-msgstr ""
+msgstr "Невдала установка плаґіну"
 
 #: includes/class-tgm-plugin-activation.php:1927
-#: release/tsatu/includes/class-tgm-plugin-activation.php:1927
 msgid "Plugin installed successfully."
-msgstr ""
+msgstr "Плаґін успішно встановлено."
 
 #: includes/class-tgm-plugin-activation.php:1938
-#: release/tsatu/includes/class-tgm-plugin-activation.php:1938
 msgid "Plugin activation failed."
-msgstr ""
+msgstr "Невдала активація плаґіну."
 
 #: includes/class-tgm-plugin-activation.php:2052
-#: release/tsatu/includes/class-tgm-plugin-activation.php:2052
 msgid ""
 "The installation and activation process is starting. This process may take a "
 "while on some hosts, so please be patient."
 msgstr ""
+"Починається процес установки та активації. Цей процес може зайняти певний "
+"час на деяких серверах, тому, будь ласка, будьте терплячі."
 
 #: includes/class-tgm-plugin-activation.php:2053
-#: release/tsatu/includes/class-tgm-plugin-activation.php:2053
 msgid "%1$s installed and activated successfully."
-msgstr ""
+msgstr "%1$s успішно встановлений і активований."
 
 #: includes/class-tgm-plugin-activation.php:2053
 #: includes/class-tgm-plugin-activation.php:2062
-#: release/tsatu/includes/class-tgm-plugin-activation.php:2053
-#: release/tsatu/includes/class-tgm-plugin-activation.php:2062
 msgid "Show Details"
 msgstr "Показати деталі"
 
 #: includes/class-tgm-plugin-activation.php:2053
 #: includes/class-tgm-plugin-activation.php:2062
-#: release/tsatu/includes/class-tgm-plugin-activation.php:2053
-#: release/tsatu/includes/class-tgm-plugin-activation.php:2062
 msgid "Hide Details"
 msgstr "Приховати деталі"
 
 #: includes/class-tgm-plugin-activation.php:2054
-#: release/tsatu/includes/class-tgm-plugin-activation.php:2054
 msgid "All installations and activations have been completed."
-msgstr ""
+msgstr "Всі установки та активації завершені."
 
 #: includes/class-tgm-plugin-activation.php:2055
-#: release/tsatu/includes/class-tgm-plugin-activation.php:2055
 msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
-msgstr ""
+msgstr "Встановлення і активація плаґіну %1$s (%2$d/%3$d)"
 
 #: includes/class-tgm-plugin-activation.php:2059
-#: release/tsatu/includes/class-tgm-plugin-activation.php:2059
 msgid ""
 "The installation process is starting. This process may take a while on some "
 "hosts, so please be patient."
 msgstr ""
+"Починається процес установки. Цей процес може зайняти певний час на деяких "
+"серверах, тому, будь ласка, будьте терплячі."
 
 #: includes/class-tgm-plugin-activation.php:2060
-#: release/tsatu/includes/class-tgm-plugin-activation.php:2060
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
-msgstr ""
+msgstr "Виникла помилка під час установки %1$s: <strong>%2$s</strong>."
 
 #: includes/class-tgm-plugin-activation.php:2061
-#: release/tsatu/includes/class-tgm-plugin-activation.php:2061
 msgid "The installation of %1$s failed."
-msgstr ""
+msgstr "Установка %1$s не вдалась."
 
 #: includes/class-tgm-plugin-activation.php:2062
-#: release/tsatu/includes/class-tgm-plugin-activation.php:2062
 msgid "%1$s installed successfully."
-msgstr ""
+msgstr "%1$s успішно встановлено."
 
 #: includes/class-tgm-plugin-activation.php:2063
-#: release/tsatu/includes/class-tgm-plugin-activation.php:2063
 msgid "All installations have been completed."
-msgstr ""
+msgstr "Всі установки завершені."
 
 #: includes/class-tgm-plugin-activation.php:2064
-#: release/tsatu/includes/class-tgm-plugin-activation.php:2064
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
-msgstr ""
+msgstr "Встановлення плаґіну %1$s (%2$d/%3$d)"
 
-#: includes/customizer.php:27 release/tsatu/includes/customizer.php:27
+#: includes/customizer.php:27
 msgid "Abbreviation"
 msgstr "Абревіатура"
 
 #: includes/customizer.php:34 includes/widgets/widget-slider.php:12
-#: release/tsatu/includes/customizer.php:34
-#: release/tsatu/includes/widgets/widget-slider.php:12
 msgid "Slider"
 msgstr "Слайдер"
 
-#: includes/customizer.php:43 release/tsatu/includes/customizer.php:43
+#: includes/customizer.php:43
 msgid "Show slider on front page"
 msgstr "Показувати слайдер на головній сорінці"
 
 #: includes/customizer.php:53 includes/widgets/widget-slider.php:38
-#: release/tsatu/includes/customizer.php:53
-#: release/tsatu/includes/widgets/widget-slider.php:38
 msgid "Number of slides"
 msgstr "Кількість слайдів"
 
-#: includes/customizer.php:60 release/tsatu/includes/customizer.php:60
+#: includes/customizer.php:60
 msgid "Solial Icons"
 msgstr "Соціальні іконки"
 
-#: includes/customizer.php:61 release/tsatu/includes/customizer.php:61
+#: includes/customizer.php:61
 msgid ""
 "Enter links to accounts in social networks. If you do not use a certain "
 "network, leave the field empty."
@@ -586,480 +500,408 @@ msgstr ""
 "Введіть посилання на облікові записи в соціальних мережах. Якщо ви не "
 "використовуєте певну мережу, залиште поле порожнім."
 
-#: includes/customizer.php:70 release/tsatu/includes/customizer.php:70
+#: includes/customizer.php:70
 msgid "Facebook"
 msgstr "Facebook"
 
-#: includes/customizer.php:81 release/tsatu/includes/customizer.php:81
+#: includes/customizer.php:81
 msgid "VKontakte"
 msgstr "ВКонтакте"
 
-#: includes/customizer.php:92 release/tsatu/includes/customizer.php:92
+#: includes/customizer.php:92
 msgid "Twitter"
 msgstr "Twitter"
 
-#: includes/customizer.php:103 release/tsatu/includes/customizer.php:103
+#: includes/customizer.php:103
 msgid "Google+"
 msgstr "Google+"
 
-#: includes/customizer.php:114 release/tsatu/includes/customizer.php:114
+#: includes/customizer.php:114
 msgid "Youtube"
 msgstr "Youtube"
 
-#: includes/customizer.php:125 release/tsatu/includes/customizer.php:125
+#: includes/customizer.php:125
 msgid "Vimeo"
 msgstr "Vimeo"
 
-#: includes/customizer.php:136 release/tsatu/includes/customizer.php:136
+#: includes/customizer.php:136
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: includes/customizer.php:147 release/tsatu/includes/customizer.php:147
+#: includes/customizer.php:147
 msgid "Pinterest"
 msgstr "Pinterest"
 
-#: includes/customizer.php:158 release/tsatu/includes/customizer.php:158
+#: includes/customizer.php:158
 msgid "RSS"
 msgstr "RSS"
 
-#: includes/customizer.php:169 release/tsatu/includes/customizer.php:169
+#: includes/customizer.php:169
 msgid "Tumblr"
 msgstr "Tumblr"
 
-#: includes/customizer.php:180 release/tsatu/includes/customizer.php:180
+#: includes/customizer.php:180
 msgid "Flickr"
 msgstr "Flickr"
 
-#: includes/customizer.php:191 release/tsatu/includes/customizer.php:191
+#: includes/customizer.php:191
 msgid "Instagram"
 msgstr "Instagram"
 
-#: includes/customizer.php:202 release/tsatu/includes/customizer.php:202
+#: includes/customizer.php:202
 msgid "Dribbble"
 msgstr "Dribbble"
 
-#: includes/customizer.php:213 release/tsatu/includes/customizer.php:213
+#: includes/customizer.php:213
 msgid "Skype"
 msgstr "Skype"
 
-#: includes/customizer.php:224 release/tsatu/includes/customizer.php:224
+#: includes/customizer.php:224
 msgid "Foursquare"
 msgstr "Foursquare"
 
-#: includes/customizer.php:235 release/tsatu/includes/customizer.php:235
+#: includes/customizer.php:235
 msgid "SoundCloud"
 msgstr "SoundCloud"
 
-#: includes/customizer.php:246 release/tsatu/includes/customizer.php:246
+#: includes/customizer.php:246
 msgid "GitHub"
 msgstr "GitHub"
 
-#: includes/extras.php:58 release/tsatu/includes/extras.php:55
+#: includes/extras.php:58
 msgid "Page %s"
 msgstr " Сторінка %s "
 
-#: includes/extras.php:128 release/tsatu/includes/extras.php:119
+#: includes/extras.php:128
 msgid "Read more"
 msgstr "Читайте також"
 
-#: includes/extras.php:142 release/tsatu/includes/extras.php:131
+#: includes/extras.php:142
 msgid "Permalink to %s"
 msgstr "Постійне посилання на %s"
 
-#: includes/extras.php:225 release/tsatu/includes/extras.php:211
+#: includes/extras.php:225
 msgid "Follow us on "
 msgstr "Слідкуйте за нами в "
 
-#: includes/init.php:58 release/tsatu/includes/init.php:58
+#: includes/init.php:58
 msgid "Primary Menu"
 msgstr "Головне меню"
 
-#: includes/init.php:63 release/tsatu/includes/init.php:59
+#: includes/init.php:59
 msgid "Footer Menu"
 msgstr "Меню нижнього колонтитула"
 
-#: includes/init.php:64
+#: includes/init.php:60
 msgid "Top Menu"
 msgstr "Меню заголовка"
 
-#: includes/init.php:106 release/tsatu/includes/init.php:100
+#: includes/init.php:61
+msgid "Information Menu"
+msgstr "Інформаційне меню"
+
+#: includes/init.php:102
 msgid "Deafult Sidebar"
 msgstr "Основна бічна панель"
 
-#: includes/init.php:115 release/tsatu/includes/init.php:109
+#: includes/init.php:111
 msgid "Page Sidebar"
 msgstr "Бічна панель сторінок"
 
-#: includes/init.php:125 includes/init.php:134 includes/init.php:143
-#: includes/init.php:152 release/tsatu/includes/init.php:119
-#: release/tsatu/includes/init.php:128 release/tsatu/includes/init.php:137
-#: release/tsatu/includes/init.php:146
+#: includes/init.php:121 includes/init.php:130 includes/init.php:139
+#: includes/init.php:148
 msgid "Footer %s"
 msgstr "Нижній колонтитул %s"
 
-#: includes/plugins.php:27 release/tsatu/includes/plugins.php:27
+#: includes/plugins.php:27
 msgid "TSATU Educational Tools"
 msgstr "ТДАТУ Освітні утиліти"
 
-#: includes/plugins.php:75 release/tsatu/includes/plugins.php:75
+#: includes/plugins.php:75
 msgid "Something went wrong with the plugin API."
-msgstr ""
+msgstr "Щось пішло не так з API плаґіну."
 
-#: includes/plugins.php:88 release/tsatu/includes/plugins.php:88
+#: includes/plugins.php:88
 msgid "All plugins installed and activated successfully. %s"
-msgstr ""
+msgstr "Всі плаґіни успішно встановлені та активовані. %s"
 
 #: includes/post_types/banner_post_type.php:21
-#: release/tsatu/includes/post_types/banner_post_type.php:21
 msgid "Banners"
 msgstr "Банери"
 
 #: includes/post_types/banner_post_type.php:22
-#: release/tsatu/includes/post_types/banner_post_type.php:22
 msgid "All Banners"
 msgstr "Всі банери"
 
 #: includes/post_types/banner_post_type.php:23
-#: release/tsatu/includes/post_types/banner_post_type.php:23
 msgid "View Banner"
 msgstr "Переглянути банер"
 
 #: includes/post_types/banner_post_type.php:24
-#: release/tsatu/includes/post_types/banner_post_type.php:24
 msgid "Add New Banner"
 msgstr "Додати новий банер"
 
 #: includes/post_types/banner_post_type.php:25
 #: includes/post_types/slide_post_type.php:25
 #: includes/post_types/tab_post_type.php:25
-#: release/tsatu/includes/post_types/banner_post_type.php:25
-#: release/tsatu/includes/post_types/slide_post_type.php:25
-#: release/tsatu/includes/post_types/tab_post_type.php:25
 msgid "Add New"
 msgstr "Додати новий"
 
 #: includes/post_types/banner_post_type.php:26
-#: release/tsatu/includes/post_types/banner_post_type.php:26
 msgid "Edit Banner"
 msgstr "Редагувати банер"
 
 #: includes/post_types/banner_post_type.php:27
-#: release/tsatu/includes/post_types/banner_post_type.php:27
 msgid "Update Banner"
 msgstr "Оновити банер"
 
 #: includes/post_types/banner_post_type.php:28
-#: release/tsatu/includes/post_types/banner_post_type.php:28
 msgid "Search Banners"
 msgstr "Шукати банер"
 
 #: includes/post_types/banner_post_type.php:29
-#: release/tsatu/includes/post_types/banner_post_type.php:29
 msgid "No Banners found"
 msgstr "Жодного банеру не знайдено"
 
 #: includes/post_types/banner_post_type.php:30
-#: release/tsatu/includes/post_types/banner_post_type.php:30
 msgid "Not Banners found in Trash"
 msgstr "Жодного банеру в Кошику не знайдено"
 
 #: includes/post_types/banner_post_type.php:33
-#: release/tsatu/includes/post_types/banner_post_type.php:33
 msgid "banners"
 msgstr "банери"
 
 #: includes/post_types/banner_post_type.php:34
 #: includes/widgets/widget-banner.php:17
-#: release/tsatu/includes/post_types/banner_post_type.php:34
-#: release/tsatu/includes/widgets/widget-banner.php:17
 msgid "Banner"
 msgstr "Банер"
 
 #: includes/post_types/banner_post_type.php:62
-#: release/tsatu/includes/post_types/banner_post_type.php:62
 msgid "Banner details"
 msgstr "Деталі банеру"
 
 #: includes/post_types/banner_post_type.php:76
-#: release/tsatu/includes/post_types/banner_post_type.php:76
 msgid "URL:"
 msgstr "Посилання:"
 
 #: includes/post_types/slide_post_type.php:21
-#: release/tsatu/includes/post_types/slide_post_type.php:21
 msgid "Slides"
 msgstr "Слайди"
 
 #: includes/post_types/slide_post_type.php:22
-#: release/tsatu/includes/post_types/slide_post_type.php:22
 msgid "All Slides"
 msgstr "Всі слайди"
 
 #: includes/post_types/slide_post_type.php:23
-#: release/tsatu/includes/post_types/slide_post_type.php:23
 msgid "View Slide"
 msgstr "Переглянути слайд"
 
 #: includes/post_types/slide_post_type.php:24
-#: release/tsatu/includes/post_types/slide_post_type.php:24
 msgid "Add New Slide"
 msgstr "Додати новий слайд"
 
 #: includes/post_types/slide_post_type.php:26
-#: release/tsatu/includes/post_types/slide_post_type.php:26
 msgid "Edit Slide"
 msgstr "Редагувати слайд"
 
 #: includes/post_types/slide_post_type.php:27
-#: release/tsatu/includes/post_types/slide_post_type.php:27
 msgid "Update Slide"
 msgstr "Оновити слайд"
 
 #: includes/post_types/slide_post_type.php:28
-#: release/tsatu/includes/post_types/slide_post_type.php:28
 msgid "Search Slides"
 msgstr "Пошук слайдів"
 
 #: includes/post_types/slide_post_type.php:29
-#: release/tsatu/includes/post_types/slide_post_type.php:29
 msgid "No Slides found"
 msgstr "Жодного слайду не знайдено"
 
 #: includes/post_types/slide_post_type.php:30
-#: release/tsatu/includes/post_types/slide_post_type.php:30
 msgid "Not Slides found in Trash"
 msgstr "Жодного слайду в Кошику не знайдено"
 
 #: includes/post_types/slide_post_type.php:33
-#: release/tsatu/includes/post_types/slide_post_type.php:33
 msgid "slides"
 msgstr "слайди"
 
 #: includes/post_types/slide_post_type.php:34
-#: release/tsatu/includes/post_types/slide_post_type.php:34
 msgid "Slide"
 msgstr "Слайд"
 
 #: includes/post_types/slide_post_type.php:62
-#: release/tsatu/includes/post_types/slide_post_type.php:62
 msgid "Slide details"
 msgstr "Деталі слайду"
 
 #: includes/post_types/slide_post_type.php:76
-#: release/tsatu/includes/post_types/slide_post_type.php:76
 msgid "Internal relative URL:"
 msgstr "Внутрішнє відносне посилання:"
 
 #: includes/post_types/tab_post_type.php:21
 #: includes/widgets/widget-tabs.php:17
-#: release/tsatu/includes/post_types/tab_post_type.php:21
-#: release/tsatu/includes/widgets/widget-tabs.php:17
 msgid "Tabs"
 msgstr "Вкладки"
 
 #: includes/post_types/tab_post_type.php:22
-#: release/tsatu/includes/post_types/tab_post_type.php:22
 msgid "All Tabs"
 msgstr "Всі вкладки"
 
 #: includes/post_types/tab_post_type.php:23
-#: release/tsatu/includes/post_types/tab_post_type.php:23
 msgid "View Tab"
 msgstr "Переглянути вкладку"
 
 #: includes/post_types/tab_post_type.php:24
-#: release/tsatu/includes/post_types/tab_post_type.php:24
 msgid "Add New Tab"
 msgstr "Додати нову вкладку"
 
 #: includes/post_types/tab_post_type.php:26
-#: release/tsatu/includes/post_types/tab_post_type.php:26
 msgid "Edit Tab"
 msgstr "Редагувати вкладку"
 
 #: includes/post_types/tab_post_type.php:27
-#: release/tsatu/includes/post_types/tab_post_type.php:27
 msgid "Update Tab"
 msgstr "Оновити вкладку"
 
 #: includes/post_types/tab_post_type.php:28
-#: release/tsatu/includes/post_types/tab_post_type.php:28
 msgid "Search Tabs"
 msgstr "Шукати вкладку"
 
 #: includes/post_types/tab_post_type.php:29
-#: release/tsatu/includes/post_types/tab_post_type.php:29
 msgid "No Tabs found"
 msgstr "Жодної вкладки не знайдено"
 
 #: includes/post_types/tab_post_type.php:30
-#: release/tsatu/includes/post_types/tab_post_type.php:30
 msgid "Not Tabs found in Trash"
 msgstr "Жодної вкладки в Кошику не знайдено"
 
 #: includes/post_types/tab_post_type.php:33
-#: release/tsatu/includes/post_types/tab_post_type.php:33
 msgid "tabs"
 msgstr "вкладки"
 
 #: includes/post_types/tab_post_type.php:34
-#: release/tsatu/includes/post_types/tab_post_type.php:34
 msgid "Tab"
 msgstr "Вкладка"
 
 #: includes/post_types/tab_post_type.php:68
-#: release/tsatu/includes/post_types/tab_post_type.php:68
 msgid "Categories"
 msgstr "Категорії"
 
 #: includes/post_types/tab_post_type.php:69
-#: release/tsatu/includes/post_types/tab_post_type.php:69
 msgid "All Categories"
 msgstr "Всі категорії"
 
 #: includes/post_types/tab_post_type.php:72
-#: release/tsatu/includes/post_types/tab_post_type.php:72
 msgid "New Category Name"
 msgstr "Нова назва категорії"
 
 #: includes/post_types/tab_post_type.php:73
-#: release/tsatu/includes/post_types/tab_post_type.php:73
 msgid "Add New Category"
 msgstr "Додати нову категорію"
 
 #: includes/post_types/tab_post_type.php:74
-#: release/tsatu/includes/post_types/tab_post_type.php:74
 msgid "Edit Category"
 msgstr "редагувати категорію"
 
 #: includes/post_types/tab_post_type.php:75
-#: release/tsatu/includes/post_types/tab_post_type.php:75
 msgid "Update Category"
 msgstr "Оновити категорію"
 
 #: includes/post_types/tab_post_type.php:76
-#: release/tsatu/includes/post_types/tab_post_type.php:76
 msgid "Separate categories with commas"
 msgstr "Відокремлюйте категорії комами"
 
 #: includes/post_types/tab_post_type.php:77
-#: release/tsatu/includes/post_types/tab_post_type.php:77
 msgid "Search Category"
 msgstr "Шукати категорію"
 
 #: includes/post_types/tab_post_type.php:78
-#: release/tsatu/includes/post_types/tab_post_type.php:78
 msgid "Add or remove Categories"
 msgstr "Додати або видалити категорію"
 
 #: includes/post_types/tab_post_type.php:79
-#: release/tsatu/includes/post_types/tab_post_type.php:79
 msgid "Choose from the most used categories"
 msgstr "Вибрати серед найбільш вживаних категорій"
 
 #: includes/post_types/tab_post_type.php:80
-#: release/tsatu/includes/post_types/tab_post_type.php:80
 msgid "Not Found"
 msgstr "Не знайдено"
 
 #: includes/post_types/tab_post_type.php:101
-#: release/tsatu/includes/post_types/tab_post_type.php:101
 msgid "Tab defaults"
 msgstr "Стан за замовчуванням вкладки"
 
 #: includes/post_types/tab_post_type.php:115
-#: release/tsatu/includes/post_types/tab_post_type.php:115
 msgid "Active tab"
 msgstr "Активна вкладка"
 
 #: includes/shortcodes/shortcode_cta.php:15 includes/widgets/widget-cta.php:19
-#: release/tsatu/includes/shortcodes/shortcode_cta.php:15
-#: release/tsatu/includes/widgets/widget-cta.php:19
 msgid "Call to Action"
 msgstr "Заклик до дії"
 
 #: includes/shortcodes/shortcode_cta.php:16
-#: release/tsatu/includes/shortcodes/shortcode_cta.php:16
 msgid "Button"
 msgstr "Кнопка"
 
 #: includes/shortcodes/shortcode_map.php:136
-#: release/tsatu/includes/shortcodes/shortcode_map.php:136
 msgid "No location found for the entered address."
-msgstr ""
+msgstr "За введеною адресою жодного місця не знайдено."
 
 #: includes/shortcodes/shortcode_map.php:138
-#: release/tsatu/includes/shortcodes/shortcode_map.php:138
 msgid "Invalid request. Address is missing"
-msgstr ""
+msgstr "Невірний запит. Відсутня адреса."
 
 #: includes/shortcodes/shortcode_map.php:140
-#: release/tsatu/includes/shortcodes/shortcode_map.php:140
 msgid "Something went wrong while retrieving your map."
-msgstr ""
+msgstr "Щось пішло не так під час отримання вашої карти."
 
 #: includes/shortcodes/shortcode_map.php:143
-#: release/tsatu/includes/shortcodes/shortcode_map.php:143
 msgid "Unable to contact Google API service."
-msgstr ""
+msgstr "Не можу встановити зв'язок з службою Google API."
 
 #: includes/shortcodes/shortcode_widget.php:138
-#: release/tsatu/includes/shortcodes/shortcode_widget.php:138
 msgid "Arbitrary"
 msgstr "Довільний"
 
 #: includes/shortcodes/shortcode_widget.php:140
-#: release/tsatu/includes/shortcodes/shortcode_widget.php:140
 msgid "This widget area can be used for [widget] shortcode."
 msgstr "Ця область віджетів може використовуватися для шорткодів [widget]."
 
 #: includes/shortcodes/shortcode_widget.php:154
-#: release/tsatu/includes/shortcodes/shortcode_widget.php:154
 msgid "Shortcode"
 msgstr "Шорткод"
 
 #: includes/shortcodes/shortcode_widget.php:154
-#: release/tsatu/includes/shortcodes/shortcode_widget.php:154
 msgid "Please save this first."
 msgstr "Будь ласка, спочатку збережіть віджет."
 
 #: includes/shortcodes/tinymce/grid.php:97
-#: release/tsatu/includes/shortcodes/tinymce/grid.php:97
 msgid "Text..."
 msgstr "Текст..."
 
 #: includes/shortcodes/tinymce/grid.php:120
-#: release/tsatu/includes/shortcodes/tinymce/grid.php:120
 msgid "Click to edit"
 msgstr "Клацніть, щоб змінити"
 
 #: includes/shortcodes/tinymce/grid.php:134
-#: release/tsatu/includes/shortcodes/tinymce/grid.php:134
 msgid "Number of columns"
 msgstr "Кількість стовпців"
 
 #: includes/shortcodes/tinymce/grid.php:144
-#: release/tsatu/includes/shortcodes/tinymce/grid.php:144
 msgid "Input number from 1 - 12"
 msgstr "Введіть число від 1-12"
 
 #: includes/shortcodes/tinymce/grid.php:150
-#: release/tsatu/includes/shortcodes/tinymce/grid.php:150
 msgid "Grid"
 msgstr "Сітка"
 
 #: includes/shortcodes/tinymce/grid.php:165
-#: release/tsatu/includes/shortcodes/tinymce/grid.php:165
 msgid "Offset"
 msgstr "Зсув"
 
 #: includes/shortcodes/tinymce/grid.php:181
-#: release/tsatu/includes/shortcodes/tinymce/grid.php:181
 msgid "Preview"
 msgstr "Попередній перегляд"
 
 #: includes/shortcodes/tinymce/grid.php:185
-#: release/tsatu/includes/shortcodes/tinymce/grid.php:185
 msgid "Insert"
 msgstr "Вставити"
 
@@ -1067,92 +909,89 @@ msgstr "Вставити"
 msgid "Choose widget you want to insert."
 msgstr "Виберіть віджет який ви хочете вставити."
 
-#: includes/template-tags.php:29 release/tsatu/includes/template-tags.php:29
+#: includes/template-tags.php:29
 msgid "Posts navigation"
 msgstr "Навігація публікації"
 
-#: includes/template-tags.php:33 release/tsatu/includes/template-tags.php:33
+#: includes/template-tags.php:33
 msgid "Older posts"
 msgstr "Старі публікації"
 
-#: includes/template-tags.php:37 release/tsatu/includes/template-tags.php:37
+#: includes/template-tags.php:37
 msgid "Newer posts"
 msgstr "Нові публікації"
 
-#: includes/template-tags.php:64 release/tsatu/includes/template-tags.php:64
+#: includes/template-tags.php:64
 msgid "Post navigation"
 msgstr "Навігація публікації"
 
 #. translators: used between list items, there is a space after the comma
 #: includes/template-tags.php:108 includes/template-tags.php:114
-#: release/tsatu/includes/template-tags.php:108
-#: release/tsatu/includes/template-tags.php:114
 msgid ", "
 msgstr ", "
 
-#: includes/template-tags.php:110 release/tsatu/includes/template-tags.php:110
+#: includes/template-tags.php:110
 msgid "Posted in %1$s"
 msgstr "Опубліковано в %1$s"
 
-#: includes/template-tags.php:116 release/tsatu/includes/template-tags.php:116
+#: includes/template-tags.php:116
 msgid "Tagged %1$s"
 msgstr "Відмічено %1$s"
 
-#: includes/template-tags.php:122 release/tsatu/includes/template-tags.php:122
+#: includes/template-tags.php:122
 msgid "Leave a comment"
 msgstr "Залишити коментар"
 
-#: includes/template-tags.php:122 release/tsatu/includes/template-tags.php:122
+#: includes/template-tags.php:122
 msgid "1 Comment"
 msgstr "1 коментар"
 
-#: includes/template-tags.php:122 release/tsatu/includes/template-tags.php:122
+#: includes/template-tags.php:122
 msgid "% Comments"
 msgstr "% коментарів"
 
-#: includes/template-tags.php:126 release/tsatu/includes/template-tags.php:126
+#: includes/template-tags.php:126
 msgid "Edit"
 msgstr "Редагувати"
 
-#: includes/template-tags.php:143 release/tsatu/includes/template-tags.php:143
+#: includes/template-tags.php:143
 msgid "Category: %s"
 msgstr "Категорія: %s"
 
-#: includes/template-tags.php:145 release/tsatu/includes/template-tags.php:145
+#: includes/template-tags.php:145
 msgid "Tag: %s"
 msgstr "Теґ: %s"
 
-#: includes/template-tags.php:147 release/tsatu/includes/template-tags.php:147
+#: includes/template-tags.php:147
 msgid "Author: %s"
 msgstr "Автор: %s"
 
-#: includes/template-tags.php:149 release/tsatu/includes/template-tags.php:149
+#: includes/template-tags.php:149
 msgid "Year: %s"
 msgstr "Рік: %s"
 
-#: includes/template-tags.php:151 release/tsatu/includes/template-tags.php:151
+#: includes/template-tags.php:151
 msgid "Month: %s"
 msgstr "Місяць: %s"
 
-#: includes/template-tags.php:153 release/tsatu/includes/template-tags.php:153
+#: includes/template-tags.php:153
 msgid "Day: %s"
 msgstr "День: %s"
 
-#: includes/template-tags.php:175 release/tsatu/includes/template-tags.php:175
+#: includes/template-tags.php:175
 msgid "Archives: %s"
 msgstr "Архіви: %s"
 
 #. translators: 1: Taxonomy singular name, 2: Current taxonomy term
-#: includes/template-tags.php:179 release/tsatu/includes/template-tags.php:179
+#: includes/template-tags.php:179
 msgid "%1$s: %2$s"
 msgstr "%1$s: %2$s"
 
-#: includes/template-tags.php:181 release/tsatu/includes/template-tags.php:181
+#: includes/template-tags.php:181
 msgid "Archives"
 msgstr "Архіви"
 
 #: includes/widgets/widget-banner.php:16
-#: release/tsatu/includes/widgets/widget-banner.php:16
 msgid "Add banners to the page"
 msgstr "Додати банери на сторінку"
 
@@ -1160,215 +999,146 @@ msgstr "Додати банери на сторінку"
 #: includes/widgets/widget-department.php:67
 #: includes/widgets/widget-service.php:61
 #: includes/widgets/widget-social.php:48 includes/widgets/widget-tabs.php:66
-#: release/tsatu/includes/widgets/widget-banner.php:60
-#: release/tsatu/includes/widgets/widget-cta.php:73
-#: release/tsatu/includes/widgets/widget-department.php:67
-#: release/tsatu/includes/widgets/widget-service.php:61
-#: release/tsatu/includes/widgets/widget-social.php:48
-#: release/tsatu/includes/widgets/widget-tabs.php:66
 msgid "Title:"
 msgstr "Назва:"
 
 #: includes/widgets/widget-cta.php:18
-#: release/tsatu/includes/widgets/widget-cta.php:18
 msgid "Add a Call to action box"
 msgstr "Додати текст заклику до дії"
 
 #: includes/widgets/widget-cta.php:76
 #: includes/widgets/widget-department.php:70
-#: release/tsatu/includes/widgets/widget-cta.php:76
-#: release/tsatu/includes/widgets/widget-department.php:70
 msgid "Image URL:"
 msgstr "Посилання зображення:"
 
 #: includes/widgets/widget-cta.php:79
-#: release/tsatu/includes/widgets/widget-cta.php:79
 msgid "Call text:"
 msgstr "Текст заклику:"
 
 #: includes/widgets/widget-cta.php:82
 #: includes/widgets/widget-department.php:76
-#: release/tsatu/includes/widgets/widget-cta.php:82
-#: release/tsatu/includes/widgets/widget-department.php:76
 msgid "Button Text:"
 msgstr "Текст кнопки:"
 
 #: includes/widgets/widget-cta.php:85
 #: includes/widgets/widget-department.php:79
-#: release/tsatu/includes/widgets/widget-cta.php:85
-#: release/tsatu/includes/widgets/widget-department.php:79
 msgid "Button URL:"
 msgstr "Посилання кнопки:"
 
 #: includes/widgets/widget-department.php:12
-#: release/tsatu/includes/widgets/widget-department.php:12
 msgid "Add a department welcome screen"
 msgstr "Додає екран вітання кафедри"
 
 #: includes/widgets/widget-department.php:13
-#: release/tsatu/includes/widgets/widget-department.php:13
 msgid "Department Welcome"
 msgstr "Вітання кафедри"
 
 #: includes/widgets/widget-department.php:73
-#: release/tsatu/includes/widgets/widget-department.php:73
 msgid "Welcome text:"
 msgstr "Текст вітання:"
 
 #: includes/widgets/widget-pagenav.php:16
-#: release/tsatu/includes/widgets/widget-pagenav.php:16
 msgid "List of correspoding pages"
 msgstr "Список відповідних сторінок"
 
 #: includes/widgets/widget-pagenav.php:17
-#: release/tsatu/includes/widgets/widget-pagenav.php:17
 msgid "Pages Navigation"
 msgstr "Навігація сторінок"
 
 #: includes/widgets/widget-pagenav.php:69
-#: release/tsatu/includes/widgets/widget-pagenav.php:69
 msgid "Exclude:"
 msgstr "Виключити:"
 
 #: includes/widgets/widget-pagenav.php:71
-#: release/tsatu/includes/widgets/widget-pagenav.php:71
 msgid "Page IDs, separated by commas."
 msgstr "Ідентифікатори сторінки, розділені комами."
 
 #: includes/widgets/widget-recent-posts.php:38
-#: release/tsatu/includes/widgets/widget-recent-posts.php:38
 msgid "Recent Posts"
 msgstr "Останні публікації"
 
 #: includes/widgets/widget-recent-posts.php:95
-#: release/tsatu/includes/widgets/widget-recent-posts.php:95
 msgid "View All News"
 msgstr "Переглянути всі новини"
 
 #: includes/widgets/widget-service.php:16
-#: release/tsatu/includes/widgets/widget-service.php:16
 msgid "Service item with url"
 msgstr "Служба з посиланням"
 
 #: includes/widgets/widget-service.php:17
 #: includes/widgets/widget-service.php:54
-#: release/tsatu/includes/widgets/widget-service.php:17
-#: release/tsatu/includes/widgets/widget-service.php:54
 msgid "Service"
 msgstr "Служба"
 
 #: includes/widgets/widget-service.php:69
-#: release/tsatu/includes/widgets/widget-service.php:69
 msgid "Icon:"
 msgstr "Іконка:"
 
 #: includes/widgets/widget-service.php:78
-#: release/tsatu/includes/widgets/widget-service.php:78
 msgid "Link:"
 msgstr "Посилання:"
 
 #: includes/widgets/widget-shortlink.php:16
 #: includes/widgets/widget-shortlink.php:17
 #: includes/widgets/widget-shortlink.php:48
-#: release/tsatu/includes/widgets/widget-shortlink.php:16
-#: release/tsatu/includes/widgets/widget-shortlink.php:17
-#: release/tsatu/includes/widgets/widget-shortlink.php:48
 msgid "Shortlink"
 msgstr "Корисне посилання"
 
 #: includes/widgets/widget-shortlink.php:23
-#: release/tsatu/includes/widgets/widget-shortlink.php:23
 msgid "Shortlink Title"
 msgstr "Назва короткого посилання"
 
 #: includes/widgets/widget-shortlink.php:24
 #: includes/widgets/widget-shortlink.php:65
-#: release/tsatu/includes/widgets/widget-shortlink.php:24
-#: release/tsatu/includes/widgets/widget-shortlink.php:65
 msgid "Icon"
 msgstr "Іконка"
 
 #: includes/widgets/widget-shortlink.php:25
 #: includes/widgets/widget-shortlink.php:77
-#: release/tsatu/includes/widgets/widget-shortlink.php:25
-#: release/tsatu/includes/widgets/widget-shortlink.php:77
 msgid "Link"
 msgstr "Посилання"
 
 #: includes/widgets/widget-shortlink.php:57
-#: release/tsatu/includes/widgets/widget-shortlink.php:57
 msgid "Title"
 msgstr "Заголовок"
 
 #: includes/widgets/widget-shortlink.php:72
-#: release/tsatu/includes/widgets/widget-shortlink.php:72
 msgid "Name of Font Awesome icon."
 msgstr "Назва іконки Font Awesome."
 
 #: includes/widgets/widget-slider.php:11
-#: release/tsatu/includes/widgets/widget-slider.php:11
 msgid "Add slider to the page"
 msgstr "Додає слайдер на сторінку"
 
 #: includes/widgets/widget-social.php:16
-#: release/tsatu/includes/widgets/widget-social.php:16
 msgid "Social icons list"
 msgstr "Список іконок соціальних мереж"
 
 #: includes/widgets/widget-social.php:17
-#: release/tsatu/includes/widgets/widget-social.php:17
 msgid "Social icons"
 msgstr "Соціальні іконки"
 
 #: includes/widgets/widget-social.php:44
-#: release/tsatu/includes/widgets/widget-social.php:44
 msgid "Follow us"
 msgstr "Ми в соцмережах"
 
 #: includes/widgets/widget-tabs.php:16
-#: release/tsatu/includes/widgets/widget-tabs.php:16
 msgid "Add tabs to the page"
 msgstr "Додає вкладки на сторінку"
 
 #: includes/widgets/widget-thumbnail.php:16
-#: release/tsatu/includes/widgets/widget-thumbnail.php:16
 msgid "Thumbnail for current post or page"
 msgstr "Мініатюра для поточної публікації або сторінки"
 
 #: includes/widgets/widget-thumbnail.php:17
-#: release/tsatu/includes/widgets/widget-thumbnail.php:17
 msgid "Thumbnail"
 msgstr "Мініатюра"
 
-#: release/tsatu/footer.php:69
-msgid "Contact Information"
-msgstr "Контактна інформація"
-
-#: release/tsatu/footer.php:70
-msgid "Site Map"
-msgstr "Мапа сайту"
-
-#: release/tsatu/footer.php:71
-msgid "Terms of Use"
-msgstr "Умови використання"
-
-#: release/tsatu/header.php:68
-msgid "Subdivisions"
-msgstr "Підрозділи"
-
-#: release/tsatu/header.php:69
-msgid "On-line Services"
-msgstr "Он-лайн служби"
-
-#: release/tsatu/header.php:70
-msgid "Sign In"
-msgstr "Вхід"
-
-#: release/tsatu/search.php:18 search.php:18
+#: search.php:18
 msgid "Search Results for: %s"
 msgstr "Результати пошуку для: %s"
 
-#: release/tsatu/searchform.php:15 searchform.php:15
+#: searchform.php:15
 msgid "Search"
 msgstr "Пошук"
 
@@ -1407,7 +1177,7 @@ msgstr "https://github.com/andriiryzhkov/"
 msgid "Full Page"
 msgstr "Повна сторінка"
 
-#: comments.php:33 release/tsatu/comments.php:33
+#: comments.php:33
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
@@ -1416,112 +1186,125 @@ msgstr[1] "%1$s коменти до &ldquo;%2$s&rdquo;"
 msgstr[2] "%1$s коментів до &ldquo;%2$s&rdquo;"
 
 #: includes/post_types/banner_post_type.php:19
-#: release/tsatu/includes/post_types/banner_post_type.php:19
 msgctxt "Post Type General Name"
 msgid "Banners"
 msgstr "Банери"
 
 #: includes/post_types/slide_post_type.php:19
-#: release/tsatu/includes/post_types/slide_post_type.php:19
 msgctxt "Post Type General Name"
 msgid "Slides"
 msgstr "Слайди"
 
 #: includes/post_types/tab_post_type.php:19
-#: release/tsatu/includes/post_types/tab_post_type.php:19
 msgctxt "Post Type General Name"
 msgid "Tabs"
 msgstr "Вкладки"
 
 #: includes/post_types/banner_post_type.php:20
-#: release/tsatu/includes/post_types/banner_post_type.php:20
 msgctxt "Post Type Singular Name"
 msgid "Banner"
 msgstr "Банер"
 
 #: includes/post_types/slide_post_type.php:20
-#: release/tsatu/includes/post_types/slide_post_type.php:20
 msgctxt "Post Type Singular Name"
 msgid "Slide"
 msgstr "Слайд"
 
 #: includes/post_types/tab_post_type.php:20
-#: release/tsatu/includes/post_types/tab_post_type.php:20
 msgctxt "Post Type Singular Name"
 msgid "Tab"
 msgstr "Вкладка"
 
 #: includes/post_types/tab_post_type.php:66
-#: release/tsatu/includes/post_types/tab_post_type.php:66
 msgctxt "Taxonomy General Name"
 msgid "Categories"
 msgstr "Категорії"
 
 #: includes/post_types/tab_post_type.php:67
-#: release/tsatu/includes/post_types/tab_post_type.php:67
 msgctxt "Taxonomy Singular Name"
 msgid "Category"
 msgstr "Категорія"
 
-#: includes/template-tags.php:149 release/tsatu/includes/template-tags.php:149
+#: includes/template-tags.php:149
 msgctxt "yearly archives date format"
 msgid "Y"
 msgstr "Y"
 
-#: includes/template-tags.php:151 release/tsatu/includes/template-tags.php:151
+#: includes/template-tags.php:151
 msgctxt "monthly archives date format"
 msgid "F Y"
 msgstr "F Y"
 
-#: includes/template-tags.php:153 release/tsatu/includes/template-tags.php:153
+#: includes/template-tags.php:153
 msgctxt "daily archives date format"
 msgid "j F Y"
 msgstr "j F Y"
 
-#: includes/template-tags.php:156 release/tsatu/includes/template-tags.php:156
+#: includes/template-tags.php:156
 msgctxt "post format archive title"
 msgid "Asides"
 msgstr "Примітка"
 
-#: includes/template-tags.php:158 release/tsatu/includes/template-tags.php:158
+#: includes/template-tags.php:158
 msgctxt "post format archive title"
 msgid "Galleries"
 msgstr "Галерея"
 
-#: includes/template-tags.php:160 release/tsatu/includes/template-tags.php:160
+#: includes/template-tags.php:160
 msgctxt "post format archive title"
 msgid "Images"
 msgstr "Зображення"
 
-#: includes/template-tags.php:162 release/tsatu/includes/template-tags.php:162
+#: includes/template-tags.php:162
 msgctxt "post format archive title"
 msgid "Videos"
 msgstr "Відео"
 
-#: includes/template-tags.php:164 release/tsatu/includes/template-tags.php:164
+#: includes/template-tags.php:164
 msgctxt "post format archive title"
 msgid "Quotes"
 msgstr "Цитата"
 
-#: includes/template-tags.php:166 release/tsatu/includes/template-tags.php:166
+#: includes/template-tags.php:166
 msgctxt "post format archive title"
 msgid "Links"
 msgstr "Посилання"
 
-#: includes/template-tags.php:168 release/tsatu/includes/template-tags.php:168
+#: includes/template-tags.php:168
 msgctxt "post format archive title"
 msgid "Statuses"
 msgstr "Статус"
 
-#: includes/template-tags.php:170 release/tsatu/includes/template-tags.php:170
+#: includes/template-tags.php:170
 msgctxt "post format archive title"
 msgid "Audio"
 msgstr "Аудіо"
 
-#: includes/template-tags.php:172 release/tsatu/includes/template-tags.php:172
+#: includes/template-tags.php:172
 msgctxt "post format archive title"
 msgid "Chats"
 msgstr "Чат"
+
+#~ msgid "Contact Information"
+#~ msgstr "Контактна інформація"
+
+#~ msgid "Site Map"
+#~ msgstr "Мапа сайту"
+
+#~ msgid "Terms of Use"
+#~ msgstr "Умови використання"
+
+#~ msgid "Tavria State Agrotechnological University"
+#~ msgstr "Таврійський державний агротехнологічний університет"
+
+#~ msgid "Subdivisions"
+#~ msgstr "Підрозділи"
+
+#~ msgid "On-line Services"
+#~ msgstr "Он-лайн служби"
+
+#~ msgid "Sign In"
+#~ msgstr "Вхід"
 
 #~ msgid "Archive by category \""
 #~ msgstr "Архів категорії \""

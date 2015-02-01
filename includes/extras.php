@@ -248,14 +248,6 @@ if (!function_exists('the_terms_list')) {
     }
 }
 
-function tsatu_change_language( $locale )
-{
-    global $locale;
-    $locale = pll_current_language('locale');
-    return $locale; }
-add_filter( 'locale', 'tsatu_change_language');
-
-
 
 if (!function_exists('get_network_bloginfo')) {
     /**
@@ -271,6 +263,26 @@ if (!function_exists('get_network_bloginfo')) {
             $output = get_bloginfo($show);
         }
         return $output;
+    }
+}
+
+if (!function_exists('tsatu_home_url')) {
+    /**
+     * Display the home page url in current language (Polylang)
+     */
+    function tsatu_home_url($blog_id = null) {
+
+        if (!function_exists('pll_home_url'))
+            return esc_url(get_home_url( $blog_id, '/' ));
+
+        if (!is_multisite() || ($blog_id == null))
+            return esc_url(pll_home_url());
+
+        switch_to_blog($blog_id);
+        $url = pll_home_url();
+        restore_current_blog();
+
+        return esc_url($url);
     }
 }
 
@@ -300,28 +312,14 @@ if (function_exists('pll_default_language')) {
     }
 }
 
-if (!function_exists('tsatu_home_url')) {
+if (function_exists('pll_default_language')) {
     /**
-     * Display the home page url in current language (Polylang)
+     * Set preferred admin language (Polylang)
      */
-    function tsatu_home_url($blog_id = null) {
-
-        if (!function_exists('pll_home_url'))
-            return esc_url(get_home_url( $blog_id, '/' ));
-
-        if (!is_multisite() || ($blog_id == null))
-            return esc_url(pll_home_url());
-
-        switch_to_blog($blog_id);
-        $url = pll_home_url();
-        restore_current_blog();
-
-        return esc_url($url);
+    add_filter('pll_admin_preferred_language', 'my_preferred_language');
+    function my_preferred_language($lang)
+    {
+        global $polylang;
+        return $polylang->model->get_language(pll_default_language());
     }
-}
-
-add_filter('pll_admin_preferred_language', 'my_preferred_language');
-function my_preferred_language($lang) {
-    global $polylang;
-    return $polylang->model->get_language('uk');
 }
