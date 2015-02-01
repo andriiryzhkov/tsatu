@@ -3,7 +3,7 @@
 .gitignore export-ignore
 .bowerrc export-ignore
 .jshintrc export-ignore
-.editconfig export-ignore
+.editorconfig export-ignore
 Gruntfile.js export-ignore
 bower.json export-ignore
 package.json export-ignore

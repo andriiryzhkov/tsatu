@@ -25,6 +25,8 @@ add_theme_support('jquery-cdn');            // Enable to load jQuery from the Go
  */
 define('UI_FRAMEWORK', 'Bootstrap'); // 
 
+define('COMMENTS', 0); // Set comments
+
 define('GOOGLE_ANALYTICS_ID', ''); // UA-XXXXX-Y (Note: Universal Analytics only, not Classic Analytics)
 
 if (!defined('WP_ENV')) {
@@ -90,19 +92,3 @@ function tsatu_display_sidebar() {
 if (!isset($content_width)) {
     $content_width = 848; //1140;
 }
-
-function annointed_admin_bar_remove() {
-  global $wp_admin_bar;
-
-  /* Remove their stuff */
-  $wp_admin_bar->remove_menu('wp-logo');
-  $wp_admin_bar->remove_menu('comments');
-}
-
-add_action('wp_before_admin_bar_render', 'annointed_admin_bar_remove', 0);
-
-function remove_menus() {
-  remove_menu_page( 'edit-comments.php' );
-}
-add_action( 'admin_menu', 'remove_menus' );
-

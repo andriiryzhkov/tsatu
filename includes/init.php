@@ -53,6 +53,15 @@ if (!function_exists('tsatu_setup')) :
         // Decrease WordPress JPEG Image Compression
         add_filter('jpeg_quality', function($arg){return 80;});
 
+        // Disable 'W' menu in admin bar
+        add_action('wp_before_admin_bar_render', function(){global $wp_admin_bar; $wp_admin_bar->remove_menu('wp-logo');}, 0);
+
+        // Disable comments in admin if COMMENTS is set
+        if (COMMENTS == 0) {
+            add_action('admin_menu', function(){remove_menu_page('edit-comments.php');}, 0);
+            add_action('wp_before_admin_bar_render', function(){global $wp_admin_bar; $wp_admin_bar->remove_menu('comments');}, 0);
+        }
+
         // This theme uses wp_nav_menu() in one location.
         register_nav_menus(array(
             'primary' => __('Primary Menu', 'tsatu'),
