@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Тема ТДАТУ\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
-"POT-Creation-Date: 2015-02-01 12:35:29+00:00\n"
+"POT-Creation-Date: 2015-02-02 15:22:26+00:00\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Andrii Ryzhkv <andri.ryzhkov@gmail.com>\n"
+"Last-Translator: Andrii Ryzhkov <andrii.ryzhkov@gmail.com>\n"
 "Language-Team: \n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -65,7 +65,8 @@ msgid ""
 msgstr ""
 "Здається, ми не можемо знайти те, що ви шукаєте. Можливо пошук допоможе."
 
-#: content-page.php:25 content-single.php:23
+#: content-page.php:25 content-single.php:23 single-course.php:49
+#: single-people.php:69
 msgid "Pages:"
 msgstr "Сторінки:"
 
@@ -77,7 +78,7 @@ msgstr "Всі права захищені."
 msgid "Back to top"
 msgstr "Повернутись вгору"
 
-#: functions.php:56 includes/shortcodes.php:39
+#: functions.php:58 includes/shortcodes.php:39
 msgid "Error locating %s for inclusion"
 msgstr "Помилка при пошуку %s для включення"
 
@@ -161,15 +162,15 @@ msgstr "Головна сторінка"
 msgid "Primary Navigation"
 msgstr "Головне меню"
 
-#: includes/class-tgm-plugin-activation.php:161 includes/plugins.php:72
+#: includes/class-tgm-plugin-activation.php:161 includes/plugins.php:64
 msgid "Install Required Plugins"
 msgstr "Встановіть необхідні плаґіни"
 
-#: includes/class-tgm-plugin-activation.php:162 includes/plugins.php:73
+#: includes/class-tgm-plugin-activation.php:162 includes/plugins.php:65
 msgid "Install Plugins"
 msgstr "Встановити плаґіни"
 
-#: includes/class-tgm-plugin-activation.php:163 includes/plugins.php:74
+#: includes/class-tgm-plugin-activation.php:163 includes/plugins.php:66
 msgid "Installing Plugin: %s"
 msgstr "Встановити плаґін: %s"
 
@@ -177,21 +178,21 @@ msgstr "Встановити плаґін: %s"
 msgid "Something went wrong."
 msgstr "Щось пішло не так."
 
-#: includes/class-tgm-plugin-activation.php:165 includes/plugins.php:76
+#: includes/class-tgm-plugin-activation.php:165 includes/plugins.php:68
 msgid "This theme requires the following plugin: %1$s."
 msgid_plural "This theme requires the following plugins: %1$s."
 msgstr[0] "Ця тема потребує наступного плаґіну: %1$s."
 msgstr[1] "Ця тема потребує наступних плаґінів: %1$s."
 msgstr[2] "Ця тема потребує наступних плаґінів: %1$s."
 
-#: includes/class-tgm-plugin-activation.php:166 includes/plugins.php:77
+#: includes/class-tgm-plugin-activation.php:166 includes/plugins.php:69
 msgid "This theme recommends the following plugin: %1$s."
 msgid_plural "This theme recommends the following plugins: %1$s."
 msgstr[0] "Ця тема рекомендує наступний плагін: %1$s."
 msgstr[1] "Ця тема рекомендує наступні плагіни: %1$s."
 msgstr[2] "Ця тема рекомендує наступні плагіни: %1$s."
 
-#: includes/class-tgm-plugin-activation.php:167 includes/plugins.php:78
+#: includes/class-tgm-plugin-activation.php:167 includes/plugins.php:70
 msgid ""
 "Sorry, but you do not have the correct permissions to install the %s plugin. "
 "Contact the administrator of this site for help on getting the plugin "
@@ -210,21 +211,21 @@ msgstr[2] ""
 "Вибачте, але ви не маєте правильного дозволу для установки плаґінів %s. Для "
 "допомоги в установці плаґінів, зверніться до адміністратора цього сайту."
 
-#: includes/class-tgm-plugin-activation.php:168 includes/plugins.php:79
+#: includes/class-tgm-plugin-activation.php:168 includes/plugins.php:71
 msgid "The following required plugin is currently inactive: %1$s."
 msgid_plural "The following required plugins are currently inactive: %1$s."
 msgstr[0] "Наступний необхідний плаґін наразі неактивний: %1$s."
 msgstr[1] "Наступні необхідні плаґіни наразі неактивні: %1$s."
 msgstr[2] "Наступні необхідні плаґіни наразі неактивні: %1$s."
 
-#: includes/class-tgm-plugin-activation.php:169 includes/plugins.php:80
+#: includes/class-tgm-plugin-activation.php:169 includes/plugins.php:72
 msgid "The following recommended plugin is currently inactive: %1$s."
 msgid_plural "The following recommended plugins are currently inactive: %1$s."
 msgstr[0] "Наступний рекомендований плаґін наразі неактивний: %1$s."
 msgstr[1] "Наступні рекомендовані плаґіни наразі неактивні: %1$s."
 msgstr[2] "Наступні рекомендовані плаґіни наразі неактивні: %1$s."
 
-#: includes/class-tgm-plugin-activation.php:170 includes/plugins.php:81
+#: includes/class-tgm-plugin-activation.php:170 includes/plugins.php:73
 msgid ""
 "Sorry, but you do not have the correct permissions to activate the %s "
 "plugin. Contact the administrator of this site for help on getting the "
@@ -243,7 +244,7 @@ msgstr[2] ""
 "Вибачте, але у нас немає необхідних дозволів для активації плаґінів %s. "
 "Зв'яжіться з адміністратором цього сайту для допомоги з активації плаґінів."
 
-#: includes/class-tgm-plugin-activation.php:171 includes/plugins.php:82
+#: includes/class-tgm-plugin-activation.php:171 includes/plugins.php:74
 msgid ""
 "The following plugin needs to be updated to its latest version to ensure "
 "maximum compatibility with this theme: %1$s."
@@ -260,7 +261,7 @@ msgstr[2] ""
 "Наступні плаґіни мають бути оновлені до останньої версії для забезпечення "
 "максимальної сумісності з темою: %1$s."
 
-#: includes/class-tgm-plugin-activation.php:172 includes/plugins.php:83
+#: includes/class-tgm-plugin-activation.php:172 includes/plugins.php:75
 msgid ""
 "Sorry, but you do not have the correct permissions to update the %s plugin. "
 "Contact the administrator of this site for help on getting the plugin "
@@ -279,21 +280,21 @@ msgstr[2] ""
 "Вибачте, але у нас немає необхідних дозволів для оновлення плаґінів %s. "
 "Зв'яжіться з адміністратором цього сайту для допомоги з оновлення плаґінів."
 
-#: includes/class-tgm-plugin-activation.php:173 includes/plugins.php:84
+#: includes/class-tgm-plugin-activation.php:173 includes/plugins.php:76
 msgid "Begin installing plugin"
 msgid_plural "Begin installing plugins"
 msgstr[0] "Встановити плаґін"
 msgstr[1] "Встановити плаґіни"
 msgstr[2] "Встановити плаґіни"
 
-#: includes/class-tgm-plugin-activation.php:174 includes/plugins.php:85
+#: includes/class-tgm-plugin-activation.php:174 includes/plugins.php:77
 msgid "Begin activating plugin"
 msgid_plural "Begin activating plugins"
 msgstr[0] "Активувати плаґін"
 msgstr[1] "Активувати плаґіни"
 msgstr[2] "Активувати плаґіни"
 
-#: includes/class-tgm-plugin-activation.php:175 includes/plugins.php:86
+#: includes/class-tgm-plugin-activation.php:175 includes/plugins.php:78
 msgid "Return to Required Plugins Installer"
 msgstr "Повернутись до встановлювача необхідних плаґінів"
 
@@ -302,7 +303,7 @@ msgid "Return to the dashboard"
 msgstr "Повернутися до Майстерні"
 
 #: includes/class-tgm-plugin-activation.php:177
-#: includes/class-tgm-plugin-activation.php:1939 includes/plugins.php:87
+#: includes/class-tgm-plugin-activation.php:1939 includes/plugins.php:79
 msgid "Plugin activated successfully."
 msgstr "Плаґін успішно активовано."
 
@@ -568,6 +569,18 @@ msgstr "SoundCloud"
 msgid "GitHub"
 msgstr "GitHub"
 
+#: includes/customizer.php:254
+msgid "People & Courses"
+msgstr "Співробітники та дисципліни"
+
+#: includes/customizer.php:263
+msgid "People archive page"
+msgstr "Сторінка каталогу співробітників"
+
+#: includes/customizer.php:273
+msgid "Course archive page"
+msgstr "Сторінка каталогу дисциплін"
+
 #: includes/extras.php:58
 msgid "Page %s"
 msgstr " Сторінка %s "
@@ -584,44 +597,44 @@ msgstr "Постійне посилання на %s"
 msgid "Follow us on "
 msgstr "Слідкуйте за нами в "
 
-#: includes/init.php:58
+#: includes/extras.php:315
+msgid "Show All %s"
+msgstr "Показати всі %s"
+
+#: includes/init.php:67
 msgid "Primary Menu"
 msgstr "Головне меню"
 
-#: includes/init.php:59
+#: includes/init.php:68
 msgid "Footer Menu"
 msgstr "Меню нижнього колонтитула"
 
-#: includes/init.php:60
+#: includes/init.php:69
 msgid "Top Menu"
 msgstr "Меню заголовка"
 
-#: includes/init.php:61
+#: includes/init.php:70
 msgid "Information Menu"
 msgstr "Інформаційне меню"
 
-#: includes/init.php:102
+#: includes/init.php:111
 msgid "Deafult Sidebar"
 msgstr "Основна бічна панель"
 
-#: includes/init.php:111
+#: includes/init.php:120
 msgid "Page Sidebar"
 msgstr "Бічна панель сторінок"
 
-#: includes/init.php:121 includes/init.php:130 includes/init.php:139
-#: includes/init.php:148
+#: includes/init.php:130 includes/init.php:139 includes/init.php:148
+#: includes/init.php:157
 msgid "Footer %s"
 msgstr "Нижній колонтитул %s"
 
-#: includes/plugins.php:27
-msgid "TSATU Educational Tools"
-msgstr "ТДАТУ Освітні утиліти"
-
-#: includes/plugins.php:75
+#: includes/plugins.php:67
 msgid "Something went wrong with the plugin API."
 msgstr "Щось пішло не так з API плаґіну."
 
-#: includes/plugins.php:88
+#: includes/plugins.php:80
 msgid "All plugins installed and activated successfully. %s"
 msgstr "Всі плаґіни успішно встановлені та активовані. %s"
 
@@ -642,10 +655,12 @@ msgid "Add New Banner"
 msgstr "Додати новий банер"
 
 #: includes/post_types/banner_post_type.php:25
+#: includes/post_types/course_post_type.php:25
+#: includes/post_types/people_post_type.php:28
 #: includes/post_types/slide_post_type.php:25
 #: includes/post_types/tab_post_type.php:25
 msgid "Add New"
-msgstr "Додати новий"
+msgstr "Додати"
 
 #: includes/post_types/banner_post_type.php:26
 msgid "Edit Banner"
@@ -683,6 +698,420 @@ msgstr "Деталі банеру"
 #: includes/post_types/banner_post_type.php:76
 msgid "URL:"
 msgstr "Посилання:"
+
+#: includes/post_types/course_post_type.php:21
+msgid "Courses"
+msgstr "Дисципліни"
+
+#: includes/post_types/course_post_type.php:22
+msgid "All Courses"
+msgstr "Всі дисципліни"
+
+#: includes/post_types/course_post_type.php:23
+msgid "View Course"
+msgstr "Переглянути дисципліну"
+
+#: includes/post_types/course_post_type.php:24
+msgid "Add New Course"
+msgstr "Додати нову дисципліну"
+
+#: includes/post_types/course_post_type.php:26
+msgid "Edit Course"
+msgstr "Редагувати дисципліну"
+
+#: includes/post_types/course_post_type.php:27
+msgid "Update Course"
+msgstr "Оновити дисципліну"
+
+#: includes/post_types/course_post_type.php:28
+msgid "Search Courses"
+msgstr "Шукати дисципліну"
+
+#: includes/post_types/course_post_type.php:29
+msgid "No Courses found"
+msgstr "Жодної дисципліни не знайдено"
+
+#: includes/post_types/course_post_type.php:30
+msgid "Not Courses found in Trash"
+msgstr "Жодної дисципліни в Кошику не знайдено"
+
+#: includes/post_types/course_post_type.php:33
+msgid "course"
+msgstr "дисципліна"
+
+#: includes/post_types/course_post_type.php:34
+msgid "Course"
+msgstr "Дисципліна"
+
+#: includes/post_types/course_post_type.php:85
+msgid "Lecture"
+msgstr "Провідний викладач"
+
+#: includes/post_types/course_post_type.php:88
+msgid "Not selected"
+msgstr "Не вибрано"
+
+#: includes/post_types/course_post_type.php:99 single-course.php:40
+msgid "Links"
+msgstr "Посилання"
+
+#: includes/post_types/course_post_type.php:101
+msgid "Separate links with commas"
+msgstr "Відокремлюйте посилання комами"
+
+#: includes/post_types/course_post_type.php:152
+msgid "Enter title of the course here"
+msgstr "Введіть тут назву дисципліни"
+
+#: includes/post_types/course_post_type.php:169
+msgid "Majors"
+msgstr "Напрямки"
+
+#: includes/post_types/course_post_type.php:170
+msgid "All Majors"
+msgstr "Всі напрямки"
+
+#: includes/post_types/course_post_type.php:173
+msgid "New Major Name"
+msgstr "Нова назва напрямку"
+
+#: includes/post_types/course_post_type.php:174
+msgid "Add New Major"
+msgstr "Додати новий напрямок"
+
+#: includes/post_types/course_post_type.php:175
+msgid "Edit Major"
+msgstr "Редагувати напрямок"
+
+#: includes/post_types/course_post_type.php:176
+msgid "Update Major"
+msgstr "Оновити напрямок"
+
+#: includes/post_types/course_post_type.php:177
+msgid "Separate majors with commas"
+msgstr "Відокремлюйте напрямки комами"
+
+#: includes/post_types/course_post_type.php:178
+msgid "Search Majors"
+msgstr "Шукати напрямок"
+
+#: includes/post_types/course_post_type.php:179
+msgid "Add or remove majors"
+msgstr "Додати або видалити напрямок"
+
+#: includes/post_types/course_post_type.php:180
+msgid "Choose from the most used majors"
+msgstr "Вибрати серед найбільш вживаних напрямків"
+
+#: includes/post_types/course_post_type.php:181
+#: includes/post_types/course_post_type.php:219
+#: includes/post_types/course_post_type.php:257
+#: includes/post_types/people_post_type.php:226
+#: includes/post_types/people_post_type.php:265
+#: includes/post_types/people_post_type.php:324
+#: includes/post_types/tab_post_type.php:80
+msgid "Not Found"
+msgstr "Не знайдено"
+
+#: includes/post_types/course_post_type.php:207
+msgid "Levels"
+msgstr "ОКР"
+
+#: includes/post_types/course_post_type.php:208
+msgid "All Levels"
+msgstr "Всі ОКР"
+
+#: includes/post_types/course_post_type.php:211
+msgid "New Level Name"
+msgstr "Нова назва ОКР"
+
+#: includes/post_types/course_post_type.php:212
+msgid "Add New Level"
+msgstr "Додати новий ОКР"
+
+#: includes/post_types/course_post_type.php:213
+msgid "Edit Level"
+msgstr "Редагувати ОКР"
+
+#: includes/post_types/course_post_type.php:214
+msgid "Update Level"
+msgstr "Оновити ОКР"
+
+#: includes/post_types/course_post_type.php:215
+msgid "Separate levels with commas"
+msgstr "Відокремлюйте ОКР комами"
+
+#: includes/post_types/course_post_type.php:216
+msgid "Search Levels"
+msgstr "Шукати ОКР"
+
+#: includes/post_types/course_post_type.php:217
+msgid "Add or remove levels"
+msgstr "Додати або видалити ОКР"
+
+#: includes/post_types/course_post_type.php:218
+msgid "Choose from the most used levels"
+msgstr "Вибрати серед найбільш вживаних ОКР"
+
+#: includes/post_types/course_post_type.php:245
+msgid "Years"
+msgstr "Курси"
+
+#: includes/post_types/course_post_type.php:246
+msgid "All Years"
+msgstr "Всі курси"
+
+#: includes/post_types/course_post_type.php:249
+msgid "New Year Name"
+msgstr "Нова назва курсу"
+
+#: includes/post_types/course_post_type.php:250
+msgid "Add New Year"
+msgstr "Додати новий курс"
+
+#: includes/post_types/course_post_type.php:251
+msgid "Edit Year"
+msgstr "Редагувати курс"
+
+#: includes/post_types/course_post_type.php:252
+msgid "Update Year"
+msgstr "Оновити курс"
+
+#: includes/post_types/course_post_type.php:253
+msgid "Separate years with commas"
+msgstr "Відокремлюйте курси комами"
+
+#: includes/post_types/course_post_type.php:254
+msgid "Search Years"
+msgstr "Шукати курс"
+
+#: includes/post_types/course_post_type.php:255
+msgid "Add or remove years"
+msgstr "Додати або видалити курс"
+
+#: includes/post_types/course_post_type.php:256
+msgid "Choose from the most used years"
+msgstr "Вибрати серед найбільш вживаних курсів"
+
+#: includes/post_types/people_post_type.php:23
+msgid "People"
+msgstr "Співробітники"
+
+#: includes/post_types/people_post_type.php:24
+msgid "Parent Profile:"
+msgstr "Батьківський профіль"
+
+#: includes/post_types/people_post_type.php:25
+msgid "All People"
+msgstr "Всі співробітники"
+
+#: includes/post_types/people_post_type.php:26
+msgid "View Profile"
+msgstr "Переглянути профіль"
+
+#: includes/post_types/people_post_type.php:27
+msgid "Add New Profile"
+msgstr "Додати новий профіль"
+
+#: includes/post_types/people_post_type.php:29
+msgid "Edit Profile"
+msgstr "Редагувати профіль"
+
+#: includes/post_types/people_post_type.php:30
+msgid "Update Profile"
+msgstr "Оновити профіль"
+
+#: includes/post_types/people_post_type.php:31
+msgid "Search Profiles"
+msgstr "Шукати профілі"
+
+#: includes/post_types/people_post_type.php:32
+msgid "No Profiles found"
+msgstr "Не знайдено жодного профілю"
+
+#: includes/post_types/people_post_type.php:33
+msgid "Not Profiles found in Trash"
+msgstr "Жодного профілю в Кошику не знайдено"
+
+#: includes/post_types/people_post_type.php:36
+msgid "people"
+msgstr "співробітники"
+
+#: includes/post_types/people_post_type.php:37
+msgid "Faculty and Staff"
+msgstr "Співробітники"
+
+#: includes/post_types/people_post_type.php:70
+msgid "Profile details"
+msgstr "Деталі профілю"
+
+#: includes/post_types/people_post_type.php:95
+msgid "Contact Details"
+msgstr "Контактна інформація"
+
+#: includes/post_types/people_post_type.php:98
+msgid "Office:"
+msgstr "Кабінет:"
+
+#: includes/post_types/people_post_type.php:102
+msgid "Phone number:"
+msgstr "Номер телефону:"
+
+#: includes/post_types/people_post_type.php:106
+msgid "Email:"
+msgstr "Електронна пошта:"
+
+#: includes/post_types/people_post_type.php:110
+msgid "Moodle:"
+msgstr "Moodle:"
+
+#: includes/post_types/people_post_type.php:114
+msgid "Social Networks"
+msgstr "Соціальні мережі"
+
+#: includes/post_types/people_post_type.php:117
+msgid "Facebook:"
+msgstr "Facebook:"
+
+#: includes/post_types/people_post_type.php:121
+msgid "Google Plus:"
+msgstr "Google Plus:"
+
+#: includes/post_types/people_post_type.php:125
+msgid "Twitter:"
+msgstr "Twitter:"
+
+#: includes/post_types/people_post_type.php:129
+msgid "LinkedIn:"
+msgstr "LinkedIn:"
+
+#: includes/post_types/people_post_type.php:195
+msgid "Enter the last name and first name of the individual here"
+msgstr "Введіть тут прізвище, ім'я та по батькові співробітника"
+
+#: includes/post_types/people_post_type.php:214
+msgid "Positions"
+msgstr "Посади"
+
+#: includes/post_types/people_post_type.php:215
+msgid "All Positions"
+msgstr "Всі посади"
+
+#: includes/post_types/people_post_type.php:218
+msgid "New Position Name"
+msgstr "Нова назва посади"
+
+#: includes/post_types/people_post_type.php:219
+msgid "Add New Position"
+msgstr "Додати нову посаду"
+
+#: includes/post_types/people_post_type.php:220
+msgid "Edit Position"
+msgstr "Редагувати посаду"
+
+#: includes/post_types/people_post_type.php:221
+msgid "Update Position"
+msgstr "Оновити посаду"
+
+#: includes/post_types/people_post_type.php:222
+msgid "Separate positions with commas"
+msgstr "Відокремлюйте посади комами"
+
+#: includes/post_types/people_post_type.php:223
+msgid "Search Position"
+msgstr "Пошук посад"
+
+#: includes/post_types/people_post_type.php:224
+msgid "Add or remove Positions"
+msgstr "Додати або видалити посаду"
+
+#: includes/post_types/people_post_type.php:225
+msgid "Choose from the most used positions"
+msgstr "Вибрати серед найбільш вживаних посад"
+
+#: includes/post_types/people_post_type.php:253
+msgid "Degrees"
+msgstr "Ступені"
+
+#: includes/post_types/people_post_type.php:254
+msgid "All Degrees"
+msgstr "Всі ступені"
+
+#: includes/post_types/people_post_type.php:257
+msgid "New Degree Name"
+msgstr "Нова назва ступеню"
+
+#: includes/post_types/people_post_type.php:258
+msgid "Add New Degree"
+msgstr "Додати нову ступінь"
+
+#: includes/post_types/people_post_type.php:259
+msgid "Edit Degree"
+msgstr "Редагувати ступінь"
+
+#: includes/post_types/people_post_type.php:260
+msgid "Update Degree"
+msgstr "Оновити ступінь"
+
+#: includes/post_types/people_post_type.php:261
+msgid "Separate degrees with commas"
+msgstr "Відокремлюйте ступені комами"
+
+#: includes/post_types/people_post_type.php:262
+msgid "Search Degree"
+msgstr "Шукати ступені"
+
+#: includes/post_types/people_post_type.php:263
+msgid "Add or remove Degrees"
+msgstr "Додати або видалити ступінь"
+
+#: includes/post_types/people_post_type.php:264
+msgid "Choose from the most used degrees"
+msgstr "Вибрати серед найбільш вживаних ступеней"
+
+#: includes/post_types/people_post_type.php:312
+msgid "Titles"
+msgstr "Звання"
+
+#: includes/post_types/people_post_type.php:313
+msgid "All Titles"
+msgstr "Всі звання"
+
+#: includes/post_types/people_post_type.php:316
+msgid "New Title Name"
+msgstr "Нова назва звання"
+
+#: includes/post_types/people_post_type.php:317
+msgid "Add New Title"
+msgstr "Додати нове звання"
+
+#: includes/post_types/people_post_type.php:318
+msgid "Edit Title"
+msgstr "Редагувати звання"
+
+#: includes/post_types/people_post_type.php:319
+msgid "Update Title"
+msgstr "Оновити звання"
+
+#: includes/post_types/people_post_type.php:320
+msgid "Separate titles with commas"
+msgstr "Відокремлюйте звання комами"
+
+#: includes/post_types/people_post_type.php:321
+msgid "Search Titles"
+msgstr "Шукати звання"
+
+#: includes/post_types/people_post_type.php:322
+msgid "Add or remove titles"
+msgstr "Додати або видалити звання"
+
+#: includes/post_types/people_post_type.php:323
+msgid "Choose from the most used titles"
+msgstr "Вибрати серед найбільш вживаних звань"
+
+#: includes/post_types/people_post_type.php:374
+msgid "<h2>Biography</h2>"
+msgstr "<h2>Біографія</h2>"
 
 #: includes/post_types/slide_post_type.php:21
 msgid "Slides"
@@ -820,10 +1249,6 @@ msgstr "Додати або видалити категорію"
 #: includes/post_types/tab_post_type.php:79
 msgid "Choose from the most used categories"
 msgstr "Вибрати серед найбільш вживаних категорій"
-
-#: includes/post_types/tab_post_type.php:80
-msgid "Not Found"
-msgstr "Не знайдено"
 
 #: includes/post_types/tab_post_type.php:101
 msgid "Tab defaults"
@@ -1142,6 +1567,10 @@ msgstr "Результати пошуку для: %s"
 msgid "Search"
 msgstr "Пошук"
 
+#: single-course.php:36
+msgid "Lecture:"
+msgstr "Провідний викладач:"
+
 #: tribe-events/views/widgets/list-widget.php:63
 msgid "View All Events"
 msgstr "Показати всі події"
@@ -1190,6 +1619,16 @@ msgctxt "Post Type General Name"
 msgid "Banners"
 msgstr "Банери"
 
+#: includes/post_types/course_post_type.php:19 sidebar-course.php:25
+msgctxt "Post Type General Name"
+msgid "Courses"
+msgstr "Дисципліни"
+
+#: includes/post_types/people_post_type.php:21 sidebar-people.php:25
+msgctxt "Post Type General Name"
+msgid "People"
+msgstr "Співробітники"
+
 #: includes/post_types/slide_post_type.php:19
 msgctxt "Post Type General Name"
 msgid "Slides"
@@ -1205,6 +1644,16 @@ msgctxt "Post Type Singular Name"
 msgid "Banner"
 msgstr "Банер"
 
+#: includes/post_types/course_post_type.php:20
+msgctxt "Post Type Singular Name"
+msgid "Course"
+msgstr "Дисципліна"
+
+#: includes/post_types/people_post_type.php:22
+msgctxt "Post Type Singular Name"
+msgid "People"
+msgstr "Співробітник"
+
 #: includes/post_types/slide_post_type.php:20
 msgctxt "Post Type Singular Name"
 msgid "Slide"
@@ -1215,10 +1664,70 @@ msgctxt "Post Type Singular Name"
 msgid "Tab"
 msgstr "Вкладка"
 
+#: includes/post_types/course_post_type.php:167 single-course.php:24
+msgctxt "Taxonomy General Name"
+msgid "Major"
+msgstr "Напрямок"
+
+#: includes/post_types/course_post_type.php:205 single-course.php:28
+msgctxt "Taxonomy General Name"
+msgid "Level"
+msgstr "ОКР"
+
+#: includes/post_types/course_post_type.php:243 single-course.php:32
+msgctxt "Taxonomy General Name"
+msgid "Year"
+msgstr "Курс"
+
+#: includes/post_types/people_post_type.php:212
+msgctxt "Taxonomy General Name"
+msgid "Positions"
+msgstr "Посади"
+
+#: includes/post_types/people_post_type.php:251
+msgctxt "Taxonomy General Name"
+msgid "Degrees"
+msgstr "Ступені"
+
+#: includes/post_types/people_post_type.php:310
+msgctxt "Taxonomy General Name"
+msgid "Title"
+msgstr "Звання"
+
 #: includes/post_types/tab_post_type.php:66
 msgctxt "Taxonomy General Name"
 msgid "Categories"
 msgstr "Категорії"
+
+#: includes/post_types/course_post_type.php:168
+msgctxt "Taxonomy Singular Name"
+msgid "Major"
+msgstr "Напрямок"
+
+#: includes/post_types/course_post_type.php:206
+msgctxt "Taxonomy Singular Name"
+msgid "Level"
+msgstr "ОКР"
+
+#: includes/post_types/course_post_type.php:244
+msgctxt "Taxonomy Singular Name"
+msgid "Year"
+msgstr "Курс"
+
+#: includes/post_types/people_post_type.php:213 single-people.php:35
+msgctxt "Taxonomy Singular Name"
+msgid "Position"
+msgstr "Посада"
+
+#: includes/post_types/people_post_type.php:252 single-people.php:39
+msgctxt "Taxonomy Singular Name"
+msgid "Degree"
+msgstr "Ступінь"
+
+#: includes/post_types/people_post_type.php:311 single-people.php:43
+msgctxt "Taxonomy Singular Name"
+msgid "Title"
+msgstr "Звання"
 
 #: includes/post_types/tab_post_type.php:67
 msgctxt "Taxonomy Singular Name"
@@ -1284,6 +1793,21 @@ msgstr "Аудіо"
 msgctxt "post format archive title"
 msgid "Chats"
 msgstr "Чат"
+
+#~ msgid "TSATU Educational Tools"
+#~ msgstr "ТДАТУ Освітні утиліти"
+
+#~ msgid "Show All Majors"
+#~ msgstr "Показати всі напрями"
+
+#~ msgid "Show All Levels"
+#~ msgstr "Показати всі ОКР"
+
+#~ msgid "Show All Years"
+#~ msgstr "Показати всі курси"
+
+#~ msgid "Faculty Profile details"
+#~ msgstr "Деталі профілю співробітника"
 
 #~ msgid "Contact Information"
 #~ msgstr "Контактна інформація"
@@ -1442,146 +1966,8 @@ msgstr "Чат"
 #~ msgid "Front Page Area "
 #~ msgstr "Область головної сторінки "
 
-#~ msgid "Courses"
-#~ msgstr "Дисципліни"
-
-#~ msgid "All Courses"
-#~ msgstr "Всі дисципліни"
-
-#~ msgid "View Course"
-#~ msgstr "Переглянути дисципліну"
-
-#~ msgid "Add New Course"
-#~ msgstr "Додати нову дисципліну"
-
-#~ msgid "Edit Course"
-#~ msgstr "Редагувати дисципліну"
-
-#~ msgid "Update Course"
-#~ msgstr "Оновити дисципліну"
-
-#~ msgid "Search Courses"
-#~ msgstr "Шукати дисципліну"
-
-#~ msgid "No Courses found"
-#~ msgstr "Жодної дисципліни не знайдено"
-
-#~ msgid "Not Courses found in Trash"
-#~ msgstr "Жодної дисципліни в Кошику не знайдено"
-
-#~ msgid "course"
-#~ msgstr "дисципліна"
-
-#~ msgid "Course"
-#~ msgstr "Дисципліна"
-
-#~ msgid "Lecture"
-#~ msgstr "Провідний викладач"
-
-#~ msgid "Not selected"
-#~ msgstr "Не вибрано"
-
-#~ msgid "Links"
-#~ msgstr "Посилання"
-
-#~ msgid "Separate links with commas"
-#~ msgstr "Відокремлюйте посилання комами"
-
-#~ msgid "Majors"
-#~ msgstr "Напрямки"
-
-#~ msgid "All Majors"
-#~ msgstr "Всі напрямки"
-
-#~ msgid "New Major Name"
-#~ msgstr "Нова назва напрямку"
-
-#~ msgid "Add New Major"
-#~ msgstr "Додати новий напрямок"
-
-#~ msgid "Edit Major"
-#~ msgstr "Редагувати напрямок"
-
-#~ msgid "Update Major"
-#~ msgstr "Оновити напрямок"
-
-#~ msgid "Separate majors with commas"
-#~ msgstr "Відокремлюйте напрямки комами"
-
-#~ msgid "Search Majors"
-#~ msgstr "Шукати напрямок"
-
-#~ msgid "Add or remove majors"
-#~ msgstr "Додати або видалити напрямок"
-
-#~ msgid "Choose from the most used majors"
-#~ msgstr "Вибрати серед найбільш вживаних напрямків"
-
-#~ msgid "Levels"
-#~ msgstr "ОКР"
-
-#~ msgid "All Levels"
-#~ msgstr "Всі ОКР"
-
-#~ msgid "New Level Name"
-#~ msgstr "Нова назва ОКР"
-
-#~ msgid "Add New Level"
-#~ msgstr "Додати новий ОКР"
-
-#~ msgid "Edit Level"
-#~ msgstr "Редагувати ОКР"
-
-#~ msgid "Update Level"
-#~ msgstr "Оновити ОКР"
-
-#~ msgid "Separate levels with commas"
-#~ msgstr "Відокремлюйте ОКР комами"
-
-#~ msgid "Search Levels"
-#~ msgstr "Шукати ОКР"
-
-#~ msgid "Add or remove levels"
-#~ msgstr "Додати або видалити ОКР"
-
-#~ msgid "Choose from the most used levels"
-#~ msgstr "Вибрати серед найбільш вживаних ОКР"
-
-#~ msgid "Years"
-#~ msgstr "Курси"
-
-#~ msgid "All Years"
-#~ msgstr "Всі курси"
-
-#~ msgid "New Year Name"
-#~ msgstr "Нова назва курсу"
-
-#~ msgid "Add New Year"
-#~ msgstr "Додати новий курс"
-
-#~ msgid "Edit Year"
-#~ msgstr "Редагувати курс"
-
-#~ msgid "Update Year"
-#~ msgstr "Оновити курс"
-
-#~ msgid "Separate years with commas"
-#~ msgstr "Відокремлюйте курси комами"
-
-#~ msgid "Search Years"
-#~ msgstr "Шукати курс"
-
-#~ msgid "Add or remove years"
-#~ msgstr "Додати або видалити курс"
-
-#~ msgid "Choose from the most used years"
-#~ msgstr "Вибрати серед найбільш вживаних курсів"
-
 #~ msgid "courses"
 #~ msgstr "дисципліни"
-
-#~ msgid "Lecture:"
-#~ msgstr "Провідний викладач:"
 
 #~ msgid "Moodle link:"
 #~ msgstr "Moodle посилання:"
@@ -1589,225 +1975,19 @@ msgstr "Чат"
 #~ msgid "Faculties"
 #~ msgstr "Співробітники"
 
-#~ msgid "Parent Profile:"
-#~ msgstr "Батьківський профіль"
-
 #~ msgid "All Faculties"
 #~ msgstr "Всі співробітники"
 
-#~ msgid "View Profile"
-#~ msgstr "Переглянути профіль"
-
-#~ msgid "Add New Profile"
-#~ msgstr "Додати новий профіль"
-
-#~ msgid "Edit Profile"
-#~ msgstr "Редагувати профіль"
-
-#~ msgid "Update Profile"
-#~ msgstr "Оновити профіль"
-
-#~ msgid "Search Profiles"
-#~ msgstr "Шукати профілі"
-
-#~ msgid "No Profiles found"
-#~ msgstr "Не знайдено жодного профілю"
-
-#~ msgid "Not Profiles found in Trash"
-#~ msgstr "Жодного профілю в Кошику не знайдено"
-
 #~ msgid "faculties"
 #~ msgstr "співробітники"
-
-#~ msgid "Faculty and Staff"
-#~ msgstr "Співробітники"
-
-#~ msgid "Faculty Profile details"
-#~ msgstr "Деталі профілю співробітника"
-
-#~ msgid "Contact Details"
-#~ msgstr "Контактна інформація"
-
-#~ msgid "Office:"
-#~ msgstr "Кабінет:"
-
-#~ msgid "Phone number:"
-#~ msgstr "Номер телефону:"
-
-#~ msgid "Email:"
-#~ msgstr "Електронна пошта:"
-
-#~ msgid "Moodle:"
-#~ msgstr "Moodle:"
-
-#~ msgid "Social Networks"
-#~ msgstr "Соціальні мережі"
-
-#~ msgid "Facebook:"
-#~ msgstr "Facebook:"
-
-#~ msgid "Google Plus:"
-#~ msgstr "Google Plus:"
-
-#~ msgid "Twitter:"
-#~ msgstr "Twitter:"
-
-#~ msgid "LinkedIn:"
-#~ msgstr "LinkedIn:"
-
-#~ msgid "Positions"
-#~ msgstr "Посади"
-
-#~ msgid "All Positions"
-#~ msgstr "Всі посади"
-
-#~ msgid "New Position Name"
-#~ msgstr "Нова назва посади"
-
-#~ msgid "Add New Position"
-#~ msgstr "Додати нову посаду"
-
-#~ msgid "Edit Position"
-#~ msgstr "Редагувати посаду"
-
-#~ msgid "Update Position"
-#~ msgstr "Оновити посаду"
-
-#~ msgid "Separate positions with commas"
-#~ msgstr "Відокремлюйте посади комами"
-
-#~ msgid "Search Position"
-#~ msgstr "Пошук посад"
-
-#~ msgid "Add or remove Positions"
-#~ msgstr "Додати або видалити посаду"
-
-#~ msgid "Choose from the most used positions"
-#~ msgstr "Вибрати серед найбільш вживаних посад"
-
-#~ msgid "Degrees"
-#~ msgstr "Ступені"
-
-#~ msgid "All Degrees"
-#~ msgstr "Всі ступені"
-
-#~ msgid "New Degree Name"
-#~ msgstr "Нова назва ступеню"
-
-#~ msgid "Add New Degree"
-#~ msgstr "Додати нову ступінь"
-
-#~ msgid "Edit Degree"
-#~ msgstr "Редагувати ступінь"
-
-#~ msgid "Update Degree"
-#~ msgstr "Оновити ступінь"
-
-#~ msgid "Separate degrees with commas"
-#~ msgstr "Відокремлюйте ступені комами"
-
-#~ msgid "Search Degree"
-#~ msgstr "Шукати ступені"
-
-#~ msgid "Add or remove Degrees"
-#~ msgstr "Додати або видалити ступінь"
-
-#~ msgid "Choose from the most used degrees"
-#~ msgstr "Вибрати серед найбільш вживаних ступеней"
-
-#~ msgid "Titles"
-#~ msgstr "Звання"
-
-#~ msgid "All Titles"
-#~ msgstr "Всі звання"
-
-#~ msgid "New Title Name"
-#~ msgstr "Нова назва звання"
-
-#~ msgid "Add New Title"
-#~ msgstr "Додати нове звання"
-
-#~ msgid "Edit Title"
-#~ msgstr "Редагувати звання"
-
-#~ msgid "Update Title"
-#~ msgstr "Оновити звання"
-
-#~ msgid "Separate titles with commas"
-#~ msgstr "Відокремлюйте звання комами"
-
-#~ msgid "Search Titles"
-#~ msgstr "Шукати звання"
-
-#~ msgid "Add or remove titles"
-#~ msgstr "Додати або видалити звання"
-
-#~ msgid "Choose from the most used titles"
-#~ msgstr "Вибрати серед найбільш вживаних звань"
-
-#~ msgctxt "Post Type General Name"
-#~ msgid "Courses"
-#~ msgstr "Дисципліни"
 
 #~ msgctxt "Post Type General Name"
 #~ msgid "Faculties"
 #~ msgstr "Співробітники"
 
 #~ msgctxt "Post Type Singular Name"
-#~ msgid "Course"
-#~ msgstr "Дисципліна"
-
-#~ msgctxt "Post Type Singular Name"
 #~ msgid "Faculty"
 #~ msgstr "Співробітник"
-
-#~ msgctxt "Taxonomy General Name"
-#~ msgid "Major"
-#~ msgstr "Напрямок"
-
-#~ msgctxt "Taxonomy General Name"
-#~ msgid "Level"
-#~ msgstr "ОКР"
-
-#~ msgctxt "Taxonomy General Name"
-#~ msgid "Year"
-#~ msgstr "Курс"
-
-#~ msgctxt "Taxonomy General Name"
-#~ msgid "Positions"
-#~ msgstr "Посади"
-
-#~ msgctxt "Taxonomy General Name"
-#~ msgid "Degrees"
-#~ msgstr "Ступені"
-
-#~ msgctxt "Taxonomy General Name"
-#~ msgid "Title"
-#~ msgstr "Звання"
-
-#~ msgctxt "Taxonomy Singular Name"
-#~ msgid "Major"
-#~ msgstr "Напрямок"
-
-#~ msgctxt "Taxonomy Singular Name"
-#~ msgid "Level"
-#~ msgstr "ОКР"
-
-#~ msgctxt "Taxonomy Singular Name"
-#~ msgid "Year"
-#~ msgstr "Курс"
-
-#~ msgctxt "Taxonomy Singular Name"
-#~ msgid "Position"
-#~ msgstr "Посада"
-
-#~ msgctxt "Taxonomy Singular Name"
-#~ msgid "Degree"
-#~ msgstr "Ступінь"
-
-#~ msgctxt "Taxonomy Singular Name"
-#~ msgid "Title"
-#~ msgstr "Звання"
 
 #~ msgid "Sorry, but the page you were trying to view does not exist."
 #~ msgstr "Вибачте, але сторінка, яку ви намагаєтеся переглянути, не існує."

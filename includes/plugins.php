@@ -22,14 +22,6 @@ function tsatu_register_required_plugins() {
      * If the source is NOT from the .org repo, then source is also required.
      */
     $plugins = array(
-        // Plugin from a private repo.
-        array(
-            'name' => __( 'TSATU Educational Tools', 'tsatu' ),
-            'slug' => 'tsatu-edu',
-            'source' => 'https://github.com/andriiryzhkov/tsatu-edu/releases/latest',
-            'required' => false,
-            'external_url' => 'https://github.com/andriiryzhkov/tsatu-edu',
-        ),
         // Plugins from the WordPress Plugin Repository.
         array(
             'name' => 'Polylang',

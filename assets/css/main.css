@@ -10089,6 +10089,57 @@ div.sharedaddy div.sd-block .sd-title {
 div.sharedaddy div.sd-block .sd-title:before {
   display: none;
 }
+/*
+Copyright (C) 2015 Andrii
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+*/
+/* 
+    Created on : 16 січ 2015, 19:23:09
+    Author     : Andrii
+*/
+.type-people.hentry .entry-title {
+  font-size: 24px;
+}
+.type-people.hentry .wp-post-image {
+  margin-bottom: 20px;
+}
+.people-info td {
+  padding: 5px 10px;
+  text-align: left;
+  vertical-align: text-top;
+}
+.people-info td.head {
+  font-weight: bold;
+}
+.people-info td .people-contacts {
+  margin: 15px 25px 15px 0;
+  display: inline-block;
+}
+.people-info td .people-contacts > i {
+  margin-right: 10px;
+  display: inline-block;
+}
+.course-info td {
+  padding: 10px;
+  text-align: left;
+  vertical-align: text-top;
+}
+.course-info td.head {
+  font-weight: bold;
+}
 .wrap {
   margin-top: 40px;
   margin-bottom: 30px;
@@ -10199,13 +10250,32 @@ div.sharedaddy div.sd-block .sd-title:before {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-top: 27px;
+  margin-top: 26px;
 }
 @media (min-width: 768px) {
   .sidebar {
     float: left;
     width: 25%;
   }
+}
+.sidebar .sidebar-title {
+  padding-bottom: 9.5px;
+  margin: 42px 0 21px;
+  border-bottom: 1px solid #eeeeee;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  font-size: 26px;
+}
+.sidebar .sidebar-title > h1 {
+  margin-top: 0;
+}
+.sidebar .people-item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.sidebar .course-item {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .footer-area {
   background-color: #f9f9f9;

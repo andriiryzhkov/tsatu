@@ -4,10 +4,18 @@
         <custom-type translate="1">banner</custom-type>
         <custom-type translate="1">slide</custom-type>
         <custom-type translate="1">tab</custom-type>
+        <custom-type translate="1">people</custom-type>
+        <custom-type translate="1">course</custom-type>
     </custom-types>
 
     <taxonomies>
         <taxonomy translate="1">tab_category</taxonomy>
+        <taxonomy translate="1">people_position</taxonomy>
+        <taxonomy translate="1">people_degree</taxonomy>
+        <taxonomy translate="1">people_title</taxonomy>
+        <taxonomy translate="1">course_major</taxonomy>
+        <taxonomy translate="1">course_level</taxonomy>
+        <taxonomy translate="1">course_year</taxonomy>
     </taxonomies>
 
     <admin-texts>

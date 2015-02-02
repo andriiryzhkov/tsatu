@@ -152,7 +152,7 @@ function tsatu_related_posts()
     <?php endif;
 }
 
-if (!function_exists('tsatu_slider')) :
+if (!function_exists('tsatu_slider')) {
     /**
      * Featured image slider, displayed on front page for static page and blog
      */
@@ -188,9 +188,9 @@ if (!function_exists('tsatu_slider')) :
         endif;
     }
 
-endif;
+}
 
-if (!function_exists('tsatu_social')) :
+if (!function_exists('tsatu_social')) {
     /**
      * Display social links in footer and widgets if enabled
      */
@@ -229,7 +229,7 @@ if (!function_exists('tsatu_social')) :
         echo '</div>';
     }
 
-endif;
+}
 
 
 if (!function_exists('the_terms_list')) {
@@ -239,6 +239,7 @@ if (!function_exists('the_terms_list')) {
     function the_terms_list($post_id, $taxonomy)
     {
         $terms = get_the_terms($post_id, $taxonomy);
+        $terms_list = '';
         if (!empty($terms) && !is_wp_error($terms)) {
             foreach ($terms as $term) {
                 $terms_list .= '<div>' . $term->name . '</div>';
@@ -286,40 +287,108 @@ if (!function_exists('tsatu_home_url')) {
     }
 }
 
-if (function_exists('pll_default_language')) {
+
+if (!function_exists('tsatu_taxonomy_filter_restrict_manage_posts')) {
     /**
-     * Display the default language post if the translation does not exists (Polylang)
+     * Filter the request to just give posts for the given taxonomy, if applicable
      */
-    add_filter('pre_get_posts', 'get_default_language_posts');
-    function get_default_language_posts($query)
+    function tsatu_taxonomy_filter_restrict_manage_posts()
     {
-        if ($query->is_main_query() && function_exists('pll_default_language') && !is_admin()) {
-            $terms = get_terms('post_translations'); //polylang stores translated post IDs in a serialized array in the description field of this custom taxonomy
-            $defLang = pll_default_language(); //default lanuage of the blog
-            $curLang = pll_current_language(); //current selected language requested on the broswer
-            $filterPostIDs = array();
-            foreach ($terms as $translation) {
-                $transPost = unserialize($translation->description);
-                //if the current language is not the default, lets pick up the default language post
-                if ($defLang != $curLang) $filterPostIDs[] = $transPost[$defLang];
-            }
-            if ($defLang != $curLang) {
-                $query->set('lang', $defLang . ',' . $curLang);  //select both default and current language post
-                $query->set('post__not_in', $filterPostIDs); // remove the duplicate post in the default language
+        global $typenow;
+
+        // If you only want this to work for your specific post type,
+        // check for that $type here and then return.
+        // This function, if unmodified, will add the dropdown for each
+        // post type / taxonomy combination.
+
+        $post_types = get_post_types(array('_builtin' => false));
+
+        if (in_array($typenow, $post_types)) {
+            $filters = get_object_taxonomies($typenow);
+            $filters = array_diff($filters, array('language'));
+
+            foreach ($filters as $tax_slug) {
+                $tax_terms = get_terms($tax_slug);
+                if ( !empty( $tax_terms ) && !is_wp_error( $tax_terms ) ) {
+                    $tax_obj = get_taxonomy($tax_slug);
+                    wp_dropdown_categories(array(
+                        'show_option_all' => sprintf(__('Show All %s', 'tsatu'), $tax_obj->label),
+                        //'show_option_all' => __('Show All ', 'tsatu' ) . $tax_obj->label,
+                        'taxonomy' => $tax_slug,
+                        'name' => $tax_obj->name,
+                        'orderby' => 'name',
+                        'selected' => $_GET[$tax_slug],
+                        'hierarchical' => $tax_obj->hierarchical,
+                        'show_count' => false,
+                        'hide_empty' => true
+                    ));
+                }
             }
         }
-        return $query;
     }
+
+    add_action('restrict_manage_posts', 'tsatu_taxonomy_filter_restrict_manage_posts');
 }
 
-if (function_exists('pll_default_language')) {
+if (!function_exists('tsatu_taxonomy_filter_post_type_request')) {
     /**
-     * Set preferred admin language (Polylang)
+     * Add a filter to the query
      */
-    add_filter('pll_admin_preferred_language', 'my_preferred_language');
-    function my_preferred_language($lang)
+    function tsatu_taxonomy_filter_post_type_request($query)
     {
-        global $polylang;
-        return $polylang->model->get_language(pll_default_language());
+        global $pagenow, $typenow;
+
+        if ('edit.php' == $pagenow) {
+            $filters = get_object_taxonomies($typenow);
+            foreach ($filters as $tax_slug) {
+                $var = &$query->query_vars[$tax_slug];
+                if (isset($var)) {
+                    $term = get_term_by('id', $var, $tax_slug);
+                    $var = $term->slug;
+                }
+            }
+        }
     }
+
+    add_filter('parse_query', 'tsatu_taxonomy_filter_post_type_request');
 }
+
+
+//if (function_exists('pll_default_language')) {
+//    /**
+//     * Display the default language post if the translation does not exists (Polylang)
+//     */
+//    add_filter('pre_get_posts', 'get_default_language_posts');
+//    function get_default_language_posts($query)
+//    {
+//        if ($query->is_main_query() && function_exists('pll_default_language') && !is_admin()) {
+//            $terms = get_terms('post_translations'); //polylang stores translated post IDs in a serialized array in the description field of this custom taxonomy
+//            $defLang = pll_default_language(); //default lanuage of the blog
+//            $curLang = pll_current_language(); //current selected language requested on the broswer
+//            $filterPostIDs = array();
+//            foreach ($terms as $translation) {
+//                $transPost = unserialize($translation->description);
+//                //if the current language is not the default, lets pick up the default language post
+//                if ($defLang != $curLang) $filterPostIDs[] = $transPost[$defLang];
+//            }
+//            if ($defLang != $curLang) {
+//                $query->set('lang', $defLang . ',' . $curLang);  //select both default and current language post
+//                $query->set('post__not_in', $filterPostIDs); // remove the duplicate post in the default language
+//            }
+//        }
+//        return $query;
+//    }
+//}
+
+//if (function_exists('pll_default_language')) {
+//    /**
+//     * Set preferred admin language (Polylang)
+//     */
+//    add_filter('pll_admin_preferred_language', 'my_preferred_language');
+//    function my_preferred_language($lang)
+//    {
+//        global $polylang;
+//        return $polylang->model->get_language(pll_default_language());
+//    }
+//}
+

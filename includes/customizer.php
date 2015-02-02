@@ -248,10 +248,35 @@ function tsatu_customize_register($wp_customize) {
                     'section'    => 'social_section',
                     'type'       => 'text'
     ) );
-    
+
+    // People and courses
+    $wp_customize->add_section( 'people_courses_section' , array(
+        'title'      => __( 'People & Courses', 'tsatu' ),
+        'priority'   => 150,
+    ) );
+
+    $wp_customize->add_setting( 'people_page' , array(
+        'default'    => '',
+    ) );
+
+    $wp_customize->add_control( 'people_page', array(
+        'label'      => __( 'People archive page', 'tsatu' ),
+        'section'    => 'people_courses_section',
+        'type'       => 'dropdown-pages'
+    ) );
+
+    $wp_customize->add_setting( 'course_page' , array(
+        'default'    => '',
+    ) );
+
+    $wp_customize->add_control( 'course_page', array(
+        'label'      => __( 'Course archive page', 'tsatu' ),
+        'section'    => 'people_courses_section',
+        'type'       => 'dropdown-pages'
+    ) );
+
     $wp_customize->get_setting('blogname')->transport = 'postMessage';
     $wp_customize->get_setting('blogdescription')->transport = 'postMessage';
-    $wp_customize->get_setting('header_textcolor')->transport = 'postMessage';
 }
 
 add_action('customize_register', 'tsatu_customize_register');

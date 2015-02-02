@@ -2,9 +2,9 @@
 # This file is distributed under the GNU General Public License v2.
 msgid ""
 msgstr ""
-"Project-Id-Version: TSATU 0.2.0\n"
+"Project-Id-Version: TSATU x.x.x\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
-"POT-Creation-Date: 2015-02-01 12:35:29+00:00\n"
+"POT-Creation-Date: 2015-02-02 15:22:26+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -57,7 +57,8 @@ msgid ""
 "searching can help."
 msgstr ""
 
-#: content-page.php:25 content-single.php:23
+#: content-page.php:25 content-single.php:23 single-course.php:49
+#: single-people.php:69
 msgid "Pages:"
 msgstr ""
 
@@ -69,7 +70,7 @@ msgstr ""
 msgid "Back to top"
 msgstr ""
 
-#: functions.php:56 includes/shortcodes.php:39
+#: functions.php:58 includes/shortcodes.php:39
 msgid "Error locating %s for inclusion"
 msgstr ""
 
@@ -149,15 +150,15 @@ msgstr ""
 msgid "Primary Navigation"
 msgstr ""
 
-#: includes/class-tgm-plugin-activation.php:161 includes/plugins.php:72
+#: includes/class-tgm-plugin-activation.php:161 includes/plugins.php:64
 msgid "Install Required Plugins"
 msgstr ""
 
-#: includes/class-tgm-plugin-activation.php:162 includes/plugins.php:73
+#: includes/class-tgm-plugin-activation.php:162 includes/plugins.php:65
 msgid "Install Plugins"
 msgstr ""
 
-#: includes/class-tgm-plugin-activation.php:163 includes/plugins.php:74
+#: includes/class-tgm-plugin-activation.php:163 includes/plugins.php:66
 msgid "Installing Plugin: %s"
 msgstr ""
 
@@ -165,19 +166,19 @@ msgstr ""
 msgid "Something went wrong."
 msgstr ""
 
-#: includes/class-tgm-plugin-activation.php:165 includes/plugins.php:76
+#: includes/class-tgm-plugin-activation.php:165 includes/plugins.php:68
 msgid "This theme requires the following plugin: %1$s."
 msgid_plural "This theme requires the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/class-tgm-plugin-activation.php:166 includes/plugins.php:77
+#: includes/class-tgm-plugin-activation.php:166 includes/plugins.php:69
 msgid "This theme recommends the following plugin: %1$s."
 msgid_plural "This theme recommends the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/class-tgm-plugin-activation.php:167 includes/plugins.php:78
+#: includes/class-tgm-plugin-activation.php:167 includes/plugins.php:70
 msgid ""
 "Sorry, but you do not have the correct permissions to install the %s "
 "plugin. Contact the administrator of this site for help on getting the "
@@ -189,19 +190,19 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/class-tgm-plugin-activation.php:168 includes/plugins.php:79
+#: includes/class-tgm-plugin-activation.php:168 includes/plugins.php:71
 msgid "The following required plugin is currently inactive: %1$s."
 msgid_plural "The following required plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/class-tgm-plugin-activation.php:169 includes/plugins.php:80
+#: includes/class-tgm-plugin-activation.php:169 includes/plugins.php:72
 msgid "The following recommended plugin is currently inactive: %1$s."
 msgid_plural "The following recommended plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/class-tgm-plugin-activation.php:170 includes/plugins.php:81
+#: includes/class-tgm-plugin-activation.php:170 includes/plugins.php:73
 msgid ""
 "Sorry, but you do not have the correct permissions to activate the %s "
 "plugin. Contact the administrator of this site for help on getting the "
@@ -213,7 +214,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/class-tgm-plugin-activation.php:171 includes/plugins.php:82
+#: includes/class-tgm-plugin-activation.php:171 includes/plugins.php:74
 msgid ""
 "The following plugin needs to be updated to its latest version to ensure "
 "maximum compatibility with this theme: %1$s."
@@ -223,7 +224,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/class-tgm-plugin-activation.php:172 includes/plugins.php:83
+#: includes/class-tgm-plugin-activation.php:172 includes/plugins.php:75
 msgid ""
 "Sorry, but you do not have the correct permissions to update the %s plugin. "
 "Contact the administrator of this site for help on getting the plugin "
@@ -235,19 +236,19 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/class-tgm-plugin-activation.php:173 includes/plugins.php:84
+#: includes/class-tgm-plugin-activation.php:173 includes/plugins.php:76
 msgid "Begin installing plugin"
 msgid_plural "Begin installing plugins"
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/class-tgm-plugin-activation.php:174 includes/plugins.php:85
+#: includes/class-tgm-plugin-activation.php:174 includes/plugins.php:77
 msgid "Begin activating plugin"
 msgid_plural "Begin activating plugins"
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/class-tgm-plugin-activation.php:175 includes/plugins.php:86
+#: includes/class-tgm-plugin-activation.php:175 includes/plugins.php:78
 msgid "Return to Required Plugins Installer"
 msgstr ""
 
@@ -256,7 +257,7 @@ msgid "Return to the dashboard"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:177
-#: includes/class-tgm-plugin-activation.php:1939 includes/plugins.php:87
+#: includes/class-tgm-plugin-activation.php:1939 includes/plugins.php:79
 msgid "Plugin activated successfully."
 msgstr ""
 
@@ -514,6 +515,18 @@ msgstr ""
 msgid "GitHub"
 msgstr ""
 
+#: includes/customizer.php:254
+msgid "People & Courses"
+msgstr ""
+
+#: includes/customizer.php:263
+msgid "People archive page"
+msgstr ""
+
+#: includes/customizer.php:273
+msgid "Course archive page"
+msgstr ""
+
 #: includes/extras.php:58
 msgid "Page %s"
 msgstr ""
@@ -530,44 +543,44 @@ msgstr ""
 msgid "Follow us on "
 msgstr ""
 
-#: includes/init.php:58
+#: includes/extras.php:315
+msgid "Show All %s"
+msgstr ""
+
+#: includes/init.php:67
 msgid "Primary Menu"
 msgstr ""
 
-#: includes/init.php:59
+#: includes/init.php:68
 msgid "Footer Menu"
 msgstr ""
 
-#: includes/init.php:60
+#: includes/init.php:69
 msgid "Top Menu"
 msgstr ""
 
-#: includes/init.php:61
+#: includes/init.php:70
 msgid "Information Menu"
 msgstr ""
 
-#: includes/init.php:102
+#: includes/init.php:111
 msgid "Deafult Sidebar"
 msgstr ""
 
-#: includes/init.php:111
+#: includes/init.php:120
 msgid "Page Sidebar"
 msgstr ""
 
-#: includes/init.php:121 includes/init.php:130 includes/init.php:139
-#: includes/init.php:148
+#: includes/init.php:130 includes/init.php:139 includes/init.php:148
+#: includes/init.php:157
 msgid "Footer %s"
 msgstr ""
 
-#: includes/plugins.php:27
-msgid "TSATU Educational Tools"
-msgstr ""
-
-#: includes/plugins.php:75
+#: includes/plugins.php:67
 msgid "Something went wrong with the plugin API."
 msgstr ""
 
-#: includes/plugins.php:88
+#: includes/plugins.php:80
 msgid "All plugins installed and activated successfully. %s"
 msgstr ""
 
@@ -588,6 +601,8 @@ msgid "Add New Banner"
 msgstr ""
 
 #: includes/post_types/banner_post_type.php:25
+#: includes/post_types/course_post_type.php:25
+#: includes/post_types/people_post_type.php:28
 #: includes/post_types/slide_post_type.php:25
 #: includes/post_types/tab_post_type.php:25
 msgid "Add New"
@@ -628,6 +643,420 @@ msgstr ""
 
 #: includes/post_types/banner_post_type.php:76
 msgid "URL:"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:21
+msgid "Courses"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:22
+msgid "All Courses"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:23
+msgid "View Course"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:24
+msgid "Add New Course"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:26
+msgid "Edit Course"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:27
+msgid "Update Course"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:28
+msgid "Search Courses"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:29
+msgid "No Courses found"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:30
+msgid "Not Courses found in Trash"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:33
+msgid "course"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:34
+msgid "Course"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:85
+msgid "Lecture"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:88
+msgid "Not selected"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:99 single-course.php:40
+msgid "Links"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:101
+msgid "Separate links with commas"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:152
+msgid "Enter title of the course here"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:169
+msgid "Majors"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:170
+msgid "All Majors"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:173
+msgid "New Major Name"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:174
+msgid "Add New Major"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:175
+msgid "Edit Major"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:176
+msgid "Update Major"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:177
+msgid "Separate majors with commas"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:178
+msgid "Search Majors"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:179
+msgid "Add or remove majors"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:180
+msgid "Choose from the most used majors"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:181
+#: includes/post_types/course_post_type.php:219
+#: includes/post_types/course_post_type.php:257
+#: includes/post_types/people_post_type.php:226
+#: includes/post_types/people_post_type.php:265
+#: includes/post_types/people_post_type.php:324
+#: includes/post_types/tab_post_type.php:80
+msgid "Not Found"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:207
+msgid "Levels"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:208
+msgid "All Levels"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:211
+msgid "New Level Name"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:212
+msgid "Add New Level"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:213
+msgid "Edit Level"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:214
+msgid "Update Level"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:215
+msgid "Separate levels with commas"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:216
+msgid "Search Levels"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:217
+msgid "Add or remove levels"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:218
+msgid "Choose from the most used levels"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:245
+msgid "Years"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:246
+msgid "All Years"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:249
+msgid "New Year Name"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:250
+msgid "Add New Year"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:251
+msgid "Edit Year"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:252
+msgid "Update Year"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:253
+msgid "Separate years with commas"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:254
+msgid "Search Years"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:255
+msgid "Add or remove years"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:256
+msgid "Choose from the most used years"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:23
+msgid "People"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:24
+msgid "Parent Profile:"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:25
+msgid "All People"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:26
+msgid "View Profile"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:27
+msgid "Add New Profile"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:29
+msgid "Edit Profile"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:30
+msgid "Update Profile"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:31
+msgid "Search Profiles"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:32
+msgid "No Profiles found"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:33
+msgid "Not Profiles found in Trash"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:36
+msgid "people"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:37
+msgid "Faculty and Staff"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:70
+msgid "Profile details"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:95
+msgid "Contact Details"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:98
+msgid "Office:"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:102
+msgid "Phone number:"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:106
+msgid "Email:"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:110
+msgid "Moodle:"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:114
+msgid "Social Networks"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:117
+msgid "Facebook:"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:121
+msgid "Google Plus:"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:125
+msgid "Twitter:"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:129
+msgid "LinkedIn:"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:195
+msgid "Enter the last name and first name of the individual here"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:214
+msgid "Positions"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:215
+msgid "All Positions"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:218
+msgid "New Position Name"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:219
+msgid "Add New Position"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:220
+msgid "Edit Position"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:221
+msgid "Update Position"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:222
+msgid "Separate positions with commas"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:223
+msgid "Search Position"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:224
+msgid "Add or remove Positions"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:225
+msgid "Choose from the most used positions"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:253
+msgid "Degrees"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:254
+msgid "All Degrees"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:257
+msgid "New Degree Name"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:258
+msgid "Add New Degree"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:259
+msgid "Edit Degree"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:260
+msgid "Update Degree"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:261
+msgid "Separate degrees with commas"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:262
+msgid "Search Degree"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:263
+msgid "Add or remove Degrees"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:264
+msgid "Choose from the most used degrees"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:312
+msgid "Titles"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:313
+msgid "All Titles"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:316
+msgid "New Title Name"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:317
+msgid "Add New Title"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:318
+msgid "Edit Title"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:319
+msgid "Update Title"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:320
+msgid "Separate titles with commas"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:321
+msgid "Search Titles"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:322
+msgid "Add or remove titles"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:323
+msgid "Choose from the most used titles"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:374
+msgid "<h2>Biography</h2>"
 msgstr ""
 
 #: includes/post_types/slide_post_type.php:21
@@ -764,10 +1193,6 @@ msgstr ""
 
 #: includes/post_types/tab_post_type.php:79
 msgid "Choose from the most used categories"
-msgstr ""
-
-#: includes/post_types/tab_post_type.php:80
-msgid "Not Found"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:101
@@ -1084,6 +1509,10 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
+#: single-course.php:36
+msgid "Lecture:"
+msgstr ""
+
 #: tribe-events/views/widgets/list-widget.php:63
 msgid "View All Events"
 msgstr ""
@@ -1128,6 +1557,16 @@ msgctxt "Post Type General Name"
 msgid "Banners"
 msgstr ""
 
+#: includes/post_types/course_post_type.php:19 sidebar-course.php:25
+msgctxt "Post Type General Name"
+msgid "Courses"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:21 sidebar-people.php:25
+msgctxt "Post Type General Name"
+msgid "People"
+msgstr ""
+
 #: includes/post_types/slide_post_type.php:19
 msgctxt "Post Type General Name"
 msgid "Slides"
@@ -1143,6 +1582,16 @@ msgctxt "Post Type Singular Name"
 msgid "Banner"
 msgstr ""
 
+#: includes/post_types/course_post_type.php:20
+msgctxt "Post Type Singular Name"
+msgid "Course"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:22
+msgctxt "Post Type Singular Name"
+msgid "People"
+msgstr ""
+
 #: includes/post_types/slide_post_type.php:20
 msgctxt "Post Type Singular Name"
 msgid "Slide"
@@ -1153,9 +1602,69 @@ msgctxt "Post Type Singular Name"
 msgid "Tab"
 msgstr ""
 
+#: includes/post_types/course_post_type.php:167 single-course.php:24
+msgctxt "Taxonomy General Name"
+msgid "Major"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:205 single-course.php:28
+msgctxt "Taxonomy General Name"
+msgid "Level"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:243 single-course.php:32
+msgctxt "Taxonomy General Name"
+msgid "Year"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:212
+msgctxt "Taxonomy General Name"
+msgid "Positions"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:251
+msgctxt "Taxonomy General Name"
+msgid "Degrees"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:310
+msgctxt "Taxonomy General Name"
+msgid "Title"
+msgstr ""
+
 #: includes/post_types/tab_post_type.php:66
 msgctxt "Taxonomy General Name"
 msgid "Categories"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:168
+msgctxt "Taxonomy Singular Name"
+msgid "Major"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:206
+msgctxt "Taxonomy Singular Name"
+msgid "Level"
+msgstr ""
+
+#: includes/post_types/course_post_type.php:244
+msgctxt "Taxonomy Singular Name"
+msgid "Year"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:213 single-people.php:35
+msgctxt "Taxonomy Singular Name"
+msgid "Position"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:252 single-people.php:39
+msgctxt "Taxonomy Singular Name"
+msgid "Degree"
+msgstr ""
+
+#: includes/post_types/people_post_type.php:311 single-people.php:43
+msgctxt "Taxonomy Singular Name"
+msgid "Title"
 msgstr ""
 
 #: includes/post_types/tab_post_type.php:67
