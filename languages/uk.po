@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Тема ТДАТУ\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
-"POT-Creation-Date: 2015-02-03 10:25:26+00:00\n"
+"POT-Creation-Date: 2015-02-03 10:58:32+00:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Andrii Ryzhkov <andrii.ryzhkov@gmail.com>\n"
 "Language-Team: \n"
@@ -65,7 +65,7 @@ msgid ""
 msgstr ""
 "Здається, ми не можемо знайти те, що ви шукаєте. Можливо пошук допоможе."
 
-#: content-page.php:25 content-single.php:23 single-course.php:49
+#: content-page.php:25 content-single.php:23 single-course.php:53
 #: single-people.php:89
 msgid "Pages:"
 msgstr "Сторінки:"
@@ -771,7 +771,7 @@ msgstr "Провідний викладач"
 msgid "Not selected"
 msgstr "Не вибрано"
 
-#: includes/post_types/course_post_type.php:99 single-course.php:40
+#: includes/post_types/course_post_type.php:99 single-course.php:43
 msgid "Links"
 msgstr "Посилання"
 
@@ -913,7 +913,7 @@ msgstr "Додати або видалити курс"
 msgid "Choose from the most used years"
 msgstr "Вибрати серед найбільш вживаних курсів"
 
-#: includes/post_types/course_post_type.php:351
+#: includes/post_types/course_post_type.php:354
 msgid "Insert Courses"
 msgstr "Додати дисципліни"
 
@@ -1591,7 +1591,7 @@ msgstr "Результати пошуку для: %s"
 msgid "Search"
 msgstr "Пошук"
 
-#: single-course.php:36
+#: single-course.php:37
 msgid "Lecture:"
 msgstr "Провідний викладач:"
 
