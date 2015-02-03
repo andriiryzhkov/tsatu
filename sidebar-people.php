@@ -25,7 +25,7 @@ if (!defined('ABSPATH')) {
         <h3 class="sidebar-title"><?php _ex('People', 'Post Type General Name', 'tsatu'); ?></h3>
 
         <?php
-        $query = new WP_Query(array('post_type' => 'people', 'order' => 'ASC', 'post_status' => 'publish'));
+        $query = new WP_Query(array('post_type' => 'people', 'orderby' => 'menu_order title', 'order' => 'ASC', 'post_status' => 'publish'));
         if ($query->have_posts()) {
             while ($query->have_posts()) {
                 $query->the_post();

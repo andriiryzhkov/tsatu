@@ -97,7 +97,7 @@ if (!function_exists('display_course_metabox')) {
             </tr>
             <tr>
                 <td><?php _e('Links', 'tsatu'); ?>:</td>
-                <td><input type="text" size="80" name="course_links" value="<?php echo $course_lecture; ?>"/><br/>
+                <td><input type="text" size="80" name="course_links" value="<?php echo $course_links; ?>"/><br/>
                     <small><?php _e('Separate links with commas', 'tsatu'); ?></small>
                 </td>
             </tr>
@@ -131,7 +131,7 @@ if (!function_exists('add_course_fields')) {
                     update_post_meta($course_post_id, 'course_lecture', $_POST['course_lecture']);
                 }
             }
-            if (isset($_POST['course_links']) && $_POST['course_links'] != '') {
+            if (isset($_POST['course_links'])) {
                 update_post_meta($course_post_id, 'course_links', $_POST['course_links']);
             }
         }
@@ -277,6 +277,7 @@ if (!function_exists('the_lecture')) {
      */
     function the_lecture($course_ID) {
         $lecture_ID = esc_html( get_post_meta( $course_ID, 'course_lecture', true ) );
+        if ($lecture_ID == '') return false;
         $lecture_post = get_post($lecture_ID);
         return '<a href="' . get_permalink($lecture_post->ID) . '" ><div>' . $lecture_post->post_title . '</div></a>' ;
     }
@@ -287,8 +288,10 @@ if (!function_exists('the_course_links')) {
      * Get the course links
      */
     function the_course_links($course_ID) {
+        if (esc_html(get_post_meta($course_ID, 'course_links', true )) == '') return false;
         $links = explode(',', esc_html( get_post_meta( $course_ID, 'course_links', true ) ) );
         if (!empty($links) && !is_wp_error($links)) {
+            $links_list = '';
             foreach ($links as $link) {
                 $links_list .= '<div><a href="' . $link . '">' . $link . '</a></div>';
             }
@@ -307,7 +310,7 @@ if (!function_exists('insert_course')) {
 
             ob_start();
 
-            $query = new WP_Query(array('post_type' => 'course', 'order' => 'ASC', 'post_status' => 'publish'));
+            $query = new WP_Query(array('post_type' => 'course', 'orderby' => 'menu_order title', 'order' => 'ASC', 'post_status' => 'publish'));
             if ($query->have_posts()) :
                 while ($query->have_posts()) : $query->the_post(); ?>
                     <?php get_template_part('content', 'course'); ?>
@@ -342,3 +345,14 @@ if (!function_exists('course_editor_content')) {
     add_filter( 'default_content', 'course_editor_content' );
 }
 
+if (!function_exists('courses_media_button')) {
+    /**
+     * Set default editor content
+     */
+    function courses_media_button()
+    {
+        echo '<a href="#" id="insert-courses" class="button add-courses" data-editor="content"><span class="wp-media-buttons-icon"></span> ' .  __('Insert Courses', 'tsatu') . '</a>';
+    }
+
+    add_action('media_buttons', 'courses_media_button', 15);
+}

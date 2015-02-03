@@ -134,7 +134,7 @@ if (!function_exists('display_people_metabox')) {
     }
 }
 
-if (!function_exists('add_people_metabox')) {
+if (!function_exists('add_people_fields')) {
     /**
      * Save people function
      */
@@ -153,28 +153,28 @@ if (!function_exists('add_people_metabox')) {
         // Check post type for movie reviews
         if ($people_post->post_type == 'people') {
             // Store data in post meta table if present in post data
-            if (isset($_POST['people_office']) && $_POST['people_office'] != '') {
+            if (isset($_POST['people_office'])) {
                 update_post_meta($people_post_id, 'people_office', $_POST['people_office']);
             }
-            if (isset($_POST['people_phone']) && $_POST['people_phone'] != '') {
+            if (isset($_POST['people_phone'])) {
                 update_post_meta($people_post_id, 'people_phone', $_POST['people_phone']);
             }
-            if (isset($_POST['people_email']) && $_POST['people_email'] != '') {
+            if (isset($_POST['people_email'])) {
                 update_post_meta($people_post_id, 'people_email', $_POST['people_email']);
             }
-            if (isset($_POST['people_moodle']) && $_POST['people_moodle'] != '') {
+            if (isset($_POST['people_moodle'])) {
                 update_post_meta($people_post_id, 'people_moodle', $_POST['people_moodle']);
             }
-            if (isset($_POST['people_facebook']) && $_POST['people_facebook'] != '') {
+            if (isset($_POST['people_facebook'])) {
                 update_post_meta($people_post_id, 'people_facebook', $_POST['people_facebook']);
             }
-            if (isset($_POST['people_google']) && $_POST['people_google'] != '') {
+            if (isset($_POST['people_google'])) {
                 update_post_meta($people_post_id, 'people_google', $_POST['people_google']);
             }
-            if (isset($_POST['people_twitter']) && $_POST['people_twitter'] != '') {
-                update_post_meta($people_post_id, 'people_tweeter', $_POST['people_tweeter']);
+            if (isset($_POST['people_twitter'])) {
+                update_post_meta($people_post_id, 'people_twitter', $_POST['people_twitter']);
             }
-            if (isset($_POST['people_linkedin']) && $_POST['people_linkedin'] != '') {
+            if (isset($_POST['people_linkedin'])) {
                 update_post_meta($people_post_id, 'people_linkedin', $_POST['people_linkedin']);
             }
         }
@@ -290,14 +290,10 @@ if (!function_exists('people_degree_taxonomy')) {
 }
 
 // Add nonexistent degree terms
-if(!term_exists('Доктор філософії', 'people_degree'))
-    wp_insert_term('Доктор філософії', 'people_degree', array('slug' => 'phd'));
-//if(!term_exists('[:uk]Доктор філософії[:en]Doctor of Philosophy', 'people_degree'))
-//    wp_insert_term('[:uk]Доктор філософії[:en]Doctor of Philosophy', 'people_degree', array('slug' => 'phd'));
-if(!term_exists('<!--:uk-->Доктор наук<!--:--><!--:en-->Doctor of Science<!--:-->', 'people_degree'))
-    wp_insert_term('<!--:uk-->Доктор наук<!--:--><!--:en-->Doctor of Science<!--:-->', 'people_degree', array('slug' => 'dsc'));
-if(!term_exists('<!--:uk-->Ступінь<!--:--><!--:en-->Degree<!--:-->', 'people_degree'))
-    wp_insert_term('<!--:uk-->Ступінь<!--:--><!--:en-->Degree<!--:-->', 'people_degree', array('slug' => 'dsc'));
+//if(!term_exists('Доктор філософії', 'people_degree'))
+//    wp_insert_term('Доктор філософії', 'people_degree', array('slug' => 'phd'));
+//if(!term_exists('Доктор наук', 'people_degree'))
+//    wp_insert_term('Доктор наук', 'people_degree', array('slug' => 'dsc'));
 
 if (!function_exists('people_title_taxonomy')) {
     /**
@@ -348,11 +344,15 @@ if (!function_exists('inject_people')) {
 
             ob_start();
 
-            $query = new WP_Query(array('post_type' => 'people', 'order' => 'ASC', 'post_status' => 'publish'));
-            if ($query->have_posts()) :
-                while ($query->have_posts()) : $query->the_post(); ?>
-                    <?php get_template_part('content', 'people'); ?>
-                <?php endwhile;
+            $query = new WP_Query(array('post_type' => 'people', 'orderby' => 'menu_order title', 'order' => 'ASC', 'post_status' => 'publish'));
+            if ($query->have_posts()) : ?>
+                <div class="row">
+                    <?php
+                    while ($query->have_posts()) : $query->the_post();
+                        get_template_part('content', 'people');
+                    endwhile; ?>
+                </div>
+            <?php
             endif;
 
             $content .= ob_get_clean();

@@ -3,12 +3,12 @@
   "querystring": true,
   "assets/css/main.min.css": {
     "path": "assets/css/main.min.css",
-    "hash": "0b464751a704a3d8be9588dbab5fd917",
+    "hash": "f39004eaa58aef304c5de16eb8d43e24",
     "handle": "tsatu_css"
   },
   "assets/js/scripts.min.js": {
     "path": "assets/js/scripts.min.js",
-    "hash": "e30d6773921f59c6f1fac7f9d211f91b",
+    "hash": "0b1bba0fef1bdecba9df0582d1db32ba",
     "handle": "tsatu_js"
   }
 }

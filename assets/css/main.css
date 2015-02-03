@@ -10111,7 +10111,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
     Author     : Andrii
 */
 .type-people.hentry .entry-title {
-  font-size: 24px;
+  font-size: 20px;
 }
 .type-people.hentry .wp-post-image {
   margin-bottom: 20px;
@@ -10132,6 +10132,10 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
   margin-right: 10px;
   display: inline-block;
 }
+.people-social {
+  font-size: 27px;
+  margin-right: 10px;
+}
 .course-info td {
   padding: 10px;
   text-align: left;
@@ -10139,6 +10143,9 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 }
 .course-info td.head {
   font-weight: bold;
+}
+.wp-media-buttons .add-courses span.wp-media-buttons-icon:before {
+  content: "\f118";
 }
 .wrap {
   margin-top: 40px;

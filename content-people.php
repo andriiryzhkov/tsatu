@@ -15,6 +15,7 @@ if (!defined('ABSPATH')) {
 ?>
 
     <!-- People -->
+<div class="col-md-6">
     <article <?php post_class(); ?>>
         <div class="row">
             <div class="col-md-4 entry-image <?php echo get_post_format(); ?>">
@@ -40,3 +41,4 @@ if (!defined('ABSPATH')) {
             </div>
         </div>
     </article>
+</div>

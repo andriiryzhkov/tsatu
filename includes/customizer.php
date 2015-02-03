@@ -18,7 +18,7 @@ if (!defined('ABSPATH')) {
  */
 function tsatu_customize_register($wp_customize) {
 
-    //Abbreviation
+    //Site title
     $wp_customize->add_setting('abbr', array(
         'default' => '',
     ));
@@ -27,6 +27,22 @@ function tsatu_customize_register($wp_customize) {
         'label'   => __('Abbreviation', 'tsatu'),
         'section' => 'title_tagline',
         'type'    => 'text'
+    ));
+
+    $wp_customize->add_setting('type', array(
+        'default' => '',
+    ));
+
+    $wp_customize->add_control('type', array(
+        'label'   => __('Division type', 'tsatu'),
+        'section' => 'title_tagline',
+        'type'    => 'select',
+        'choices' => array(
+            'none' => __('&mdash; Select &mdash;', 'tsatu'),
+            'department'  => __('Department', 'tsatu'),
+            'faculty'  => __('Faculty', 'tsatu'),
+            'office'  => __('Office', 'tsatu'),
+        ),
     ));
 
     // Slider on front page

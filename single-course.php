@@ -32,14 +32,18 @@ get_header(); ?>
                     <td class="head"><?php echo _x('Year', 'Taxonomy General Name', 'tsatu'); ?>:</td>
                     <td><?php echo the_terms_list(get_the_ID(), 'course_year'); ?></td>
                 </tr>
-                <tr>
-                    <td class="head"><?php _e('Lecture:', 'tsatu'); ?></td>
-                    <td><?php echo the_lecture(get_the_ID()); ?></td>
-                </tr>
-                <tr>
-                    <td class="head"><?php _e('Links', 'tsatu'); ?>:</td>
-                    <td><?php echo the_course_links(get_the_ID()); ?></td>
-                </tr>
+                <?php if (the_lecture(get_the_ID())) : ?>
+                    <tr>
+                        <td class="head"><?php _e('Lecture:', 'tsatu'); ?></td>
+                        <td><?php echo the_lecture(get_the_ID()); ?></td>
+                    </tr>
+                <?php endif; ?>
+                <?php if (the_course_links(get_the_ID())) : ?>
+                    <tr>
+                        <td class="head"><?php _e('Links', 'tsatu'); ?>:</td>
+                        <td><?php echo the_course_links(get_the_ID()); ?></td>
+                    </tr>
+                <?php endif; ?>
             </table>
         </div>
         <div class="entry-content">

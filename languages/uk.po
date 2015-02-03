@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Тема ТДАТУ\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
-"POT-Creation-Date: 2015-02-02 15:22:26+00:00\n"
+"POT-Creation-Date: 2015-02-03 10:25:26+00:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Andrii Ryzhkov <andrii.ryzhkov@gmail.com>\n"
 "Language-Team: \n"
@@ -66,7 +66,7 @@ msgstr ""
 "Здається, ми не можемо знайти те, що ви шукаєте. Можливо пошук допоможе."
 
 #: content-page.php:25 content-single.php:23 single-course.php:49
-#: single-people.php:69
+#: single-people.php:89
 msgid "Pages:"
 msgstr "Сторінки:"
 
@@ -477,23 +477,43 @@ msgstr "Встановлення плаґіну %1$s (%2$d/%3$d)"
 msgid "Abbreviation"
 msgstr "Абревіатура"
 
-#: includes/customizer.php:34 includes/widgets/widget-slider.php:12
+#: includes/customizer.php:37
+msgid "Division type"
+msgstr "Тип підрозділу"
+
+#: includes/customizer.php:41
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Оберіть &mdash;"
+
+#: includes/customizer.php:42
+msgid "Department"
+msgstr "Кафедра"
+
+#: includes/customizer.php:43
+msgid "Faculty"
+msgstr "Факультет"
+
+#: includes/customizer.php:44
+msgid "Office"
+msgstr "Відділ"
+
+#: includes/customizer.php:50 includes/widgets/widget-slider.php:12
 msgid "Slider"
 msgstr "Слайдер"
 
-#: includes/customizer.php:43
+#: includes/customizer.php:59
 msgid "Show slider on front page"
 msgstr "Показувати слайдер на головній сорінці"
 
-#: includes/customizer.php:53 includes/widgets/widget-slider.php:38
+#: includes/customizer.php:69 includes/widgets/widget-slider.php:38
 msgid "Number of slides"
 msgstr "Кількість слайдів"
 
-#: includes/customizer.php:60
+#: includes/customizer.php:76
 msgid "Solial Icons"
 msgstr "Соціальні іконки"
 
-#: includes/customizer.php:61
+#: includes/customizer.php:77
 msgid ""
 "Enter links to accounts in social networks. If you do not use a certain "
 "network, leave the field empty."
@@ -501,83 +521,83 @@ msgstr ""
 "Введіть посилання на облікові записи в соціальних мережах. Якщо ви не "
 "використовуєте певну мережу, залиште поле порожнім."
 
-#: includes/customizer.php:70
+#: includes/customizer.php:86
 msgid "Facebook"
 msgstr "Facebook"
 
-#: includes/customizer.php:81
+#: includes/customizer.php:97
 msgid "VKontakte"
 msgstr "ВКонтакте"
 
-#: includes/customizer.php:92
+#: includes/customizer.php:108
 msgid "Twitter"
 msgstr "Twitter"
 
-#: includes/customizer.php:103
+#: includes/customizer.php:119
 msgid "Google+"
 msgstr "Google+"
 
-#: includes/customizer.php:114
+#: includes/customizer.php:130
 msgid "Youtube"
 msgstr "Youtube"
 
-#: includes/customizer.php:125
+#: includes/customizer.php:141
 msgid "Vimeo"
 msgstr "Vimeo"
 
-#: includes/customizer.php:136
+#: includes/customizer.php:152
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: includes/customizer.php:147
+#: includes/customizer.php:163
 msgid "Pinterest"
 msgstr "Pinterest"
 
-#: includes/customizer.php:158
+#: includes/customizer.php:174
 msgid "RSS"
 msgstr "RSS"
 
-#: includes/customizer.php:169
+#: includes/customizer.php:185
 msgid "Tumblr"
 msgstr "Tumblr"
 
-#: includes/customizer.php:180
+#: includes/customizer.php:196
 msgid "Flickr"
 msgstr "Flickr"
 
-#: includes/customizer.php:191
+#: includes/customizer.php:207
 msgid "Instagram"
 msgstr "Instagram"
 
-#: includes/customizer.php:202
+#: includes/customizer.php:218
 msgid "Dribbble"
 msgstr "Dribbble"
 
-#: includes/customizer.php:213
+#: includes/customizer.php:229
 msgid "Skype"
 msgstr "Skype"
 
-#: includes/customizer.php:224
+#: includes/customizer.php:240
 msgid "Foursquare"
 msgstr "Foursquare"
 
-#: includes/customizer.php:235
+#: includes/customizer.php:251
 msgid "SoundCloud"
 msgstr "SoundCloud"
 
-#: includes/customizer.php:246
+#: includes/customizer.php:262
 msgid "GitHub"
 msgstr "GitHub"
 
-#: includes/customizer.php:254
+#: includes/customizer.php:270
 msgid "People & Courses"
 msgstr "Співробітники та дисципліни"
 
-#: includes/customizer.php:263
+#: includes/customizer.php:279
 msgid "People archive page"
 msgstr "Сторінка каталогу співробітників"
 
-#: includes/customizer.php:273
+#: includes/customizer.php:289
 msgid "Course archive page"
 msgstr "Сторінка каталогу дисциплін"
 
@@ -597,7 +617,7 @@ msgstr "Постійне посилання на %s"
 msgid "Follow us on "
 msgstr "Слідкуйте за нами в "
 
-#: includes/extras.php:315
+#: includes/extras.php:313
 msgid "Show All %s"
 msgstr "Показати всі %s"
 
@@ -808,7 +828,7 @@ msgstr "Вибрати серед найбільш вживаних напрям
 #: includes/post_types/course_post_type.php:257
 #: includes/post_types/people_post_type.php:226
 #: includes/post_types/people_post_type.php:265
-#: includes/post_types/people_post_type.php:324
+#: includes/post_types/people_post_type.php:320
 #: includes/post_types/tab_post_type.php:80
 msgid "Not Found"
 msgstr "Не знайдено"
@@ -892,6 +912,10 @@ msgstr "Додати або видалити курс"
 #: includes/post_types/course_post_type.php:256
 msgid "Choose from the most used years"
 msgstr "Вибрати серед найбільш вживаних курсів"
+
+#: includes/post_types/course_post_type.php:351
+msgid "Insert Courses"
+msgstr "Додати дисципліни"
 
 #: includes/post_types/people_post_type.php:23
 msgid "People"
@@ -1069,43 +1093,43 @@ msgstr "Додати або видалити ступінь"
 msgid "Choose from the most used degrees"
 msgstr "Вибрати серед найбільш вживаних ступеней"
 
-#: includes/post_types/people_post_type.php:312
+#: includes/post_types/people_post_type.php:308
 msgid "Titles"
 msgstr "Звання"
 
-#: includes/post_types/people_post_type.php:313
+#: includes/post_types/people_post_type.php:309
 msgid "All Titles"
 msgstr "Всі звання"
 
-#: includes/post_types/people_post_type.php:316
+#: includes/post_types/people_post_type.php:312
 msgid "New Title Name"
 msgstr "Нова назва звання"
 
-#: includes/post_types/people_post_type.php:317
+#: includes/post_types/people_post_type.php:313
 msgid "Add New Title"
 msgstr "Додати нове звання"
 
-#: includes/post_types/people_post_type.php:318
+#: includes/post_types/people_post_type.php:314
 msgid "Edit Title"
 msgstr "Редагувати звання"
 
-#: includes/post_types/people_post_type.php:319
+#: includes/post_types/people_post_type.php:315
 msgid "Update Title"
 msgstr "Оновити звання"
 
-#: includes/post_types/people_post_type.php:320
+#: includes/post_types/people_post_type.php:316
 msgid "Separate titles with commas"
 msgstr "Відокремлюйте звання комами"
 
-#: includes/post_types/people_post_type.php:321
+#: includes/post_types/people_post_type.php:317
 msgid "Search Titles"
 msgstr "Шукати звання"
 
-#: includes/post_types/people_post_type.php:322
+#: includes/post_types/people_post_type.php:318
 msgid "Add or remove titles"
 msgstr "Додати або видалити звання"
 
-#: includes/post_types/people_post_type.php:323
+#: includes/post_types/people_post_type.php:319
 msgid "Choose from the most used titles"
 msgstr "Вибрати серед найбільш вживаних звань"
 
@@ -1571,6 +1595,10 @@ msgstr "Пошук"
 msgid "Lecture:"
 msgstr "Провідний викладач:"
 
+#: single-people.php:66
+msgid "Education and Information Portal of TSATU"
+msgstr "Навчально-інформаційний портал ТДАТУ"
+
 #: tribe-events/views/widgets/list-widget.php:63
 msgid "View All Events"
 msgstr "Показати всі події"
@@ -1689,7 +1717,7 @@ msgctxt "Taxonomy General Name"
 msgid "Degrees"
 msgstr "Ступені"
 
-#: includes/post_types/people_post_type.php:310
+#: includes/post_types/people_post_type.php:306
 msgctxt "Taxonomy General Name"
 msgid "Title"
 msgstr "Звання"
@@ -1719,12 +1747,12 @@ msgctxt "Taxonomy Singular Name"
 msgid "Position"
 msgstr "Посада"
 
-#: includes/post_types/people_post_type.php:252 single-people.php:39
+#: includes/post_types/people_post_type.php:252 single-people.php:40
 msgctxt "Taxonomy Singular Name"
 msgid "Degree"
 msgstr "Ступінь"
 
-#: includes/post_types/people_post_type.php:311 single-people.php:43
+#: includes/post_types/people_post_type.php:307 single-people.php:46
 msgctxt "Taxonomy Singular Name"
 msgid "Title"
 msgstr "Звання"
@@ -1793,6 +1821,9 @@ msgstr "Аудіо"
 msgctxt "post format archive title"
 msgid "Chats"
 msgstr "Чат"
+
+#~ msgid "Main"
+#~ msgstr "Головний"
 
 #~ msgid "TSATU Educational Tools"
 #~ msgstr "ТДАТУ Освітні утиліти"
