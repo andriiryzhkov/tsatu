@@ -3,7 +3,6 @@
     <custom-types>
         <custom-type translate="1">banner</custom-type>
         <custom-type translate="1">slide</custom-type>
-        <custom-type translate="1">tab</custom-type>
         <custom-type translate="1">people</custom-type>
         <custom-type translate="1">course</custom-type>
     </custom-types>

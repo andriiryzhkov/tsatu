@@ -173,7 +173,6 @@ function tsatu_widgets_init() {
     register_widget( 'TSATU_CTA_Widget' );
     register_widget( 'TSATU_Thumbnail_Widget' );
     register_widget( 'TSATU_Banner_Widget' );
-    register_widget( 'TSATU_Tabs_Widget' );
     register_widget( 'TSATU_Slider_Widget' );
     register_widget( 'TSATU_Department_Widget' );
 
