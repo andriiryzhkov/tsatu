@@ -1695,7 +1695,7 @@ msgstr "Вкладка"
 #: includes/post_types/course_post_type.php:167 single-course.php:24
 msgctxt "Taxonomy General Name"
 msgid "Major"
-msgstr "Напрямок"
+msgstr "Напрями"
 
 #: includes/post_types/course_post_type.php:205 single-course.php:28
 msgctxt "Taxonomy General Name"
@@ -1705,7 +1705,7 @@ msgstr "ОКР"
 #: includes/post_types/course_post_type.php:243 single-course.php:32
 msgctxt "Taxonomy General Name"
 msgid "Year"
-msgstr "Курс"
+msgstr "Курси"
 
 #: includes/post_types/people_post_type.php:212
 msgctxt "Taxonomy General Name"
@@ -1730,7 +1730,7 @@ msgstr "Категорії"
 #: includes/post_types/course_post_type.php:168
 msgctxt "Taxonomy Singular Name"
 msgid "Major"
-msgstr "Напрямок"
+msgstr "Напрям"
 
 #: includes/post_types/course_post_type.php:206
 msgctxt "Taxonomy Singular Name"

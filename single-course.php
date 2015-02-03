@@ -21,15 +21,15 @@ get_header(); ?>
         <div class="well course-info">
             <table>
                 <tr>
-                    <td class="head"><?php echo _x('Major', 'Taxonomy General Name', 'tsatu'); ?>:</td>
+                    <td class="head"><?php echo _x('Major', 'Taxonomy Singular Name', 'tsatu'); ?>:</td>
                     <td><?php echo the_terms_list(get_the_ID(), 'course_major'); ?></td>
                 </tr>
                 <tr>
-                    <td class="head"><?php echo _x('Level', 'Taxonomy General Name', 'tsatu'); ?>:</td>
+                    <td class="head"><?php echo _x('Level', 'Taxonomy Singular Name', 'tsatu'); ?>:</td>
                     <td><?php echo the_terms_list(get_the_ID(), 'course_level'); ?></td>
                 </tr>
                 <tr>
-                    <td class="head"><?php echo _x('Year', 'Taxonomy General Name', 'tsatu'); ?>:</td>
+                    <td class="head"><?php echo _x('Year', 'Taxonomy Singular Name', 'tsatu'); ?>:</td>
                     <td><?php echo the_terms_list(get_the_ID(), 'course_year'); ?></td>
                 </tr>
                 <?php if (the_lecture(get_the_ID())) : ?>
