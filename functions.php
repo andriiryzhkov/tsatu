@@ -37,7 +37,6 @@ $tsatu_includes = array(
     'includes/plugins.php',                     // Register the required plugins
     'includes/post_types/banner_post_type.php', // Banners
     'includes/post_types/slide_post_type.php',  // Slies
-    'includes/post_types/tab_post_type.php',    // Tabs
     'includes/post_types/course_post_type.php', // Courses
     'includes/post_types/people_post_type.php', // People
     'includes/widgets/widget-recent-posts.php', // Recent Posts Widget
@@ -48,7 +47,6 @@ $tsatu_includes = array(
     'includes/widgets/widget-social.php',       // Social icons Widget
     'includes/widgets/widget-thumbnail.php',    // Thumbnail Widget
     'includes/widgets/widget-banner.php',       // Banner Widget
-    'includes/widgets/widget-tabs.php',         // Tabs Widget
     'includes/widgets/widget-slider.php',       // Slider Widget
     'includes/widgets/widget-department.php',   // Department Widget
 );
