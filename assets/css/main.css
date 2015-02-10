@@ -6609,6 +6609,8 @@ button.close {
 .panel-body:after,
 .modal-footer:before,
 .modal-footer:after,
+.flex-caption:before,
+.flex-caption:after,
 .form-horizontal .comment-form p:before,
 .form-horizontal .comment-form p:after {
   content: " ";
@@ -6629,6 +6631,7 @@ button.close {
 .pager:after,
 .panel-body:after,
 .modal-footer:after,
+.flex-caption:after,
 .form-horizontal .comment-form p:after {
   clear: both;
 }
@@ -7752,16 +7755,44 @@ html[xmlns] .flexslider .slides {
   max-height: 300px;
 }
 .flex-caption {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
   position: absolute;
+  display: inline-block;
+  float: left;
   left: 0;
   right: 0;
-  z-index: 1;
-  padding: 30px;
-  display: inline-block;
-  max-width: 1200px;
-  float: left;
-  margin: auto;
   bottom: 50px;
+  z-index: 1;
+}
+@media (min-width: 768px) {
+  .flex-caption {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .flex-caption {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .flex-caption {
+    width: 1170px;
+  }
+}
+.flex-caption > .navbar-header,
+.flex-caption > .navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+@media (min-width: 768px) {
+  .flex-caption > .navbar-header,
+  .flex-caption > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
 .flex-caption .excerpt {
   background: #eeeeee;
