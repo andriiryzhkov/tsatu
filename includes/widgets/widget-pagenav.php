@@ -46,7 +46,7 @@ class TSATU_Pagenav_Widget extends WP_Widget {
             }
             ?>
             <ul id="pagenav">
-            <?php echo $out; ?>
+                <?php echo $out; ?>
             </ul>
             <?php
             echo $args['after_widget'];

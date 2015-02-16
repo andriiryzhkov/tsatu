@@ -173,7 +173,7 @@ if (!function_exists('tsatu_slider')) {
                 echo '<div class="flex-caption">';
                 echo '<a href="' . esc_html(get_post_meta(get_the_ID(), 'slide_url', true)) . '">';
                 if (get_the_title() != '') {
-                    echo '<h2 class="entry-title">' . get_the_title() . '</h2>';
+                    echo '<h1 class="entry-title">' . get_the_title() . '</h1>';
                 }
                 if (get_the_excerpt() != '') {
                     echo '<div class="excerpt">' . get_the_excerpt() . '</div>';

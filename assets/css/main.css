@@ -7764,7 +7764,7 @@ html[xmlns] .flexslider .slides {
   float: left;
   left: 0;
   right: 0;
-  bottom: 50px;
+  bottom: 70px;
   z-index: 1;
 }
 @media (min-width: 768px) {
@@ -7795,30 +7795,26 @@ html[xmlns] .flexslider .slides {
   }
 }
 .flex-caption .excerpt {
-  background: #eeeeee;
-  opacity: 0.9;
   display: block;
-  color: #555555;
+  color: #fff;
+  text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.9);
+  font-size: 20px;
+  line-height: 1.1;
   max-width: 700px;
-  padding: 12px 20px;
-  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  padding-top: 15px;
 }
 .flex-caption .excerpt:hover {
   text-decoration: none;
 }
-.flex-caption h2 {
-  background: #0ea474;
-  opacity: 0.9;
-  font-weight: 400;
-  font-size: 38px;
-  max-width: 740px;
+.flex-caption .entry-title {
   display: inline-block;
-  padding: 15px 20px;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 1.1;
+  max-width: 740px;
   margin: 0;
   color: #fff;
-  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
 }
 .carousel li {
   margin-right: 5px;
