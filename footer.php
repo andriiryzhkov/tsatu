@@ -70,7 +70,7 @@ if (!defined('ABSPATH')) {
                     </nav>
                 </div>
             </div>
-            <div class="col-md-6 col-xs-12">
+            <div class="col-md-6 col-xs-12 footer-social">
                 <?php if (function_exists('tsatu_slider')) {
                     tsatu_social();
                 } ?>

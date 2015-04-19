@@ -14,10 +14,11 @@
   ],
   "dependencies": {
     "modernizr": "2.8.3",
-    "jquery": "1.11.2",
+    "jquery": "1.11.1",
     "bootstrap": "3.3.2",
     "respond": "1.4.2",
     "fontawesome": "~4.3.0",
-    "flexslider": "*"
+    "flexslider": "*",
+    "social-likes": "3.0.14"
   }
 }

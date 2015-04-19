@@ -33,7 +33,7 @@ $tsatu_includes = array(
     'includes/jetpack.php',                     // Jetpack compatibility file
     'includes/translit.php',                    // Cyr to Lat titles
     'includes/shortcodes.php',                  // Shortcodes declarations
-    'includes/class-tgm-plugin-activation.php', // Plugin installation and activation for WordPress themes
+    //'includes/class-tgm-plugin-activation.php', // Plugin installation and activation for WordPress themes
     'includes/plugins.php',                     // Register the required plugins
     'includes/post_types/banner_post_type.php', // Banners
     'includes/post_types/slide_post_type.php',  // Slies

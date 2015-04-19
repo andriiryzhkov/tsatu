@@ -93,7 +93,7 @@ header('Content-Type: text/html; charset=' . get_bloginfo('charset'));
             var shortcodes = '[row]';
             $('#demo_grid > div').each(function() {
                 $(this).removeClass('demo_col active');
-                var clss = $(this).attr('class');
+                var clss = $(this).attr('class').replace("xs-", "md-");
                 shortcodes += '<br class="nc"/>[col type="' + clss + '"]<?php _e("Text...", "tsatu"); ?>[/col]';
 
             });

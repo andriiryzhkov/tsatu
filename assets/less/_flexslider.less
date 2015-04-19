@@ -530,7 +530,7 @@
  * RESPONSIVE
  * ====================================================================================================================*/
 
-@media (max-width: 768px) {
+@media (max-width: @screen-sm-min) {
 
     .flex-caption {
 
@@ -539,7 +539,7 @@
     }
 }
 
-@media screen and ( max-width: 860px ) {
+@media screen and ( max-width: @screen-md-min ) {
 
     .flex-direction-nav{
 
@@ -557,4 +557,20 @@
 
         }
     }
+}
+
+@media screen and ( max-width: @screen-lg-min ) {
+
+  .flex-caption {
+    bottom: 70px;
+
+    .excerpt {
+      font-size: 18px;
+    }
+
+    .entry-title {
+      font-size: 42px;
+    }
+
+  }
 }

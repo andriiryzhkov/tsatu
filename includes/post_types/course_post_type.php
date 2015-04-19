@@ -345,14 +345,14 @@ if (!function_exists('course_editor_content')) {
     add_filter( 'default_content', 'course_editor_content' );
 }
 
-if (!function_exists('courses_media_button')) {
-    /**
-     * Set default editor content
-     */
-    function courses_media_button()
-    {
-        echo '<a href="#" id="insert-courses" class="button add-courses" data-editor="content"><span class="wp-media-buttons-icon"></span> ' .  __('Insert Courses', 'tsatu') . '</a>';
-    }
-
-    add_action('media_buttons', 'courses_media_button', 15);
-}
+//if (!function_exists('courses_media_button')) {
+//    /**
+//     * Set default editor content
+//     */
+//    function courses_media_button()
+//    {
+//        echo '<a href="#TB_inline?width=600&height=550&inlineId=add-courses-id" class="thickbox" id="insert-courses" class="button add-courses" data-editor="content"><span class="wp-media-buttons-icon"></span> ' .  __('Insert Courses', 'tsatu') . '</a>';
+//    }
+//
+//    add_action('media_buttons', 'courses_media_button', 15);
+//}

@@ -18,8 +18,9 @@ module.exports = function (grunt) {
         'assets/vendor/bootstrap/js/scrollspy.js',
         'assets/vendor/bootstrap/js/tab.js',
         'assets/vendor/bootstrap/js/affix.js',
-        'assets/vendor/jquery/dist/jquery.js',
+        //'assets/vendor/jquery/dist/jquery.js',
         'assets/vendor/flexslider/jquery.flexslider.js',
+        'assets/vendor/social-likes/social-likes.min.js',
         'assets/js/plugins/*.js',
         'assets/js/_*.js'
     ];
@@ -98,7 +99,6 @@ module.exports = function (grunt) {
                 src: [
                     'assets/vendor/bootstrap/dist/js/bootstrap.min.js',
                     'assets/vendor/jquery/dist/jquery.min.js',
-
                 ],
                 dest: 'includes/shortcodes/tinymce/js'
             }

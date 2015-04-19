@@ -20,23 +20,18 @@ function shortcode_table($params, $content = null) {
     $type = (in_array($type, array('striped', 'bordered', 'hover', 'condensed'))) ? $placement : 'default';
     //$content = preg_replace('/<br class="nc".\/>/', '', $content);
     $result = '<div class="table-responsive"><table class="table table-' . $type . '"><tbody>';
-    
-    $content = str_replace(array('<br />', '<br/>', '<br>'), array('', '', ''), $content);
-    //$content = str_replace('<p>', '<tr>', $content);
-    //$content = str_replace('</p>', '</tr>', $content);
-    
-    //$content = str_replace('<p>', '<tr>', $content);
-    //preg_match_all('/<p>(.+?)<\/p>/', $content, $trs);
-    //$content = preg_replace('/<p>(.+?)<\/p>/', '${1}#', $content);
-    $content = str_replace(array('<p>', '</p>'), array('', '#'), $content);
-    //$content = str_replace('\n', '', $content);
-    //$content = rtrim($content, '#');
-    $trs = explode('\n\r', $content);
+    $content = nl2br($content);
+    //$content = str_replace(array('<br />', '<br/>', '<br>'), array('', '', ''), $content);
+    $content = str_replace(array('<br/>', '<br>'), array('<br />', '<br />'), $content);
+    $content = str_replace(array('<p>', '</p>'), array('', ''), $content);
+    $trs = explode('<br />', $content);
     foreach( $trs as $tr ){
         $result .= '<tr>';
-            $tds = explode($delimiter, $tr);
-            foreach( $tds as $td ){
-                $result .= '<td>' . $td . '</td>';
+            if ($trs != '') {
+                $tds = explode($delimiter, $tr);
+                foreach( $tds as $td ){
+                    $result .= '<td>' . $td . '</td>';
+                }
             }
         $result .= '</tr>';
     }

@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic|PT+Mono|PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic);
+@import "../vendor/social-likes/social-likes_birman.css";
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -6933,7 +6934,10 @@ button.close {
   padding-left: 10px;
   padding-right: 10px;
 }
-.navbar-top .navbar-lang > li.lang-item > a {
+.navbar-top .navbar-lang > #lang_sel_list > ul > li > a {
+  padding-top: 8px;
+}
+.navbar-top .navbar-lang ul > li {
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -7518,7 +7522,7 @@ select.comment-form textarea:focus {
   margin-top: 0;
 }
 .dropdown-menu > li > a {
-  padding: 12px 15px;
+  padding: 7px 15px;
 }
 .dropdown-header {
   padding-left: 15px;
@@ -7965,7 +7969,7 @@ html[xmlns] .flexslider .slides {
     display: none;
   }
 }
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 992px) {
   .flex-direction-nav .flex-prev {
     opacity: 1;
     left: 10px;
@@ -7973,6 +7977,17 @@ html[xmlns] .flexslider .slides {
   .flex-direction-nav .flex-next {
     opacity: 1;
     right: 10px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .flex-caption {
+    bottom: 70px;
+  }
+  .flex-caption .excerpt {
+    font-size: 18px;
+  }
+  .flex-caption .entry-title {
+    font-size: 42px;
   }
 }
 /*!
@@ -9879,11 +9894,6 @@ figure.alignnone {
     padding-left: 40px;
   }
 }
-#footer-area .social-icons a {
-  margin-right: 7px;
-  background-color: transparent;
-  color: #fff;
-}
 .social-icons {
   position: relative;
   display: block;
@@ -9904,62 +9914,66 @@ figure.alignnone {
   border-radius: 3px;
   color: #fff;
   background-color: transparent;
-  -webkit-transition: background-color 0.5s;
-  -o-transition: background-color 0.5s;
-  transition: background-color 0.5s;
-  -webkit-transition: all background-color 0.5s ease;
-  -o-transition: all background-color 0.5s ease;
-  transition: all background-color 0.5s ease;
+  -webkit-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+  -webkit-transition: all opacity 0.5s ease;
+  -o-transition: all opacity 0.5s ease;
+  transition: all opacity 0.5s ease;
 }
-.social-icons > a.facebook:hover {
+.social-icons > a:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+.social-icons > a.facebook {
   background-color: #4265b9 !important;
 }
-.social-icons > a.vk:hover {
+.social-icons > a.vk {
   background-color: #4C75A3 !important;
 }
-.social-icons > a.twitter:hover {
+.social-icons > a.twitter {
   background-color: #55ACEE !important;
 }
-.social-icons > a.dribbble:hover {
+.social-icons > a.dribbble {
   background-color: #ea4c89 !important;
 }
-.social-icons > a.flickr:hover {
+.social-icons > a.flickr {
   background-color: #ff0084 !important;
 }
-.social-icons > a.googleplus:hover {
+.social-icons > a.googleplus {
   background-color: #d62408 !important;
 }
-.social-icons > a.skype:hover {
+.social-icons > a.skype {
   background-color: #0bbff2 !important;
 }
-.social-icons > a.pinterest:hover {
+.social-icons > a.pinterest {
   background-color: #c31e26 !important;
 }
-.social-icons > a.linkedin:hover {
+.social-icons > a.linkedin {
   background-color: #005987 !important;
 }
-.social-icons > a.vimeo:hover {
+.social-icons > a.vimeo {
   background-color: #1bb6ec !important;
 }
-.social-icons > a.tumblr:hover {
+.social-icons > a.tumblr {
   background-color: #35506b !important;
 }
-.social-icons > a.youtube:hover {
+.social-icons > a.youtube {
   background-color: #df3333 !important;
 }
-.social-icons > a.instagram:hover {
+.social-icons > a.instagram {
   background-color: #F95B60 !important;
 }
-.social-icons > a.rss:hover {
+.social-icons > a.rss {
   background-color: #f39c12 !important;
 }
-.social-icons > a.foursquare:hover {
+.social-icons > a.foursquare {
   background-color: #2398C9 !important;
 }
-.social-icons > a.soundcloud:hover {
+.social-icons > a.soundcloud {
   background-color: #F50 !important;
 }
-.social-icons > a.github:hover {
+.social-icons > a.github {
   background-color: #4183C4 !important;
 }
 .fa-googleplus:before {
@@ -9968,67 +9982,86 @@ figure.alignnone {
 .fa-vimeo:before {
   content: "\f194";
 }
-.sidebar .social-icons > a {
-  -webkit-transition: opacity 0.5s;
-  -o-transition: opacity 0.5s;
-  transition: opacity 0.5s;
-  -webkit-transition: all opacity 0.5s ease;
-  -o-transition: all opacity 0.5s ease;
-  transition: all opacity 0.5s ease;
+.footer-social > .social-icons > a {
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+  -webkit-transition: all background-color 0.5s ease;
+  -o-transition: all background-color 0.5s ease;
+  transition: all background-color 0.5s ease;
 }
-.sidebar .social-icons > a:hover {
-  opacity: 0.7;
-  filter: alpha(opacity=70);
+.footer-social > .social-icons > a.facebook,
+.footer-social > .social-icons > a.vk,
+.footer-social > .social-icons > a.twitter,
+.footer-social > .social-icons > a.dribbble,
+.footer-social > .social-icons > a.flickr,
+.footer-social > .social-icons > a.googleplus,
+.footer-social > .social-icons > a.skype,
+.footer-social > .social-icons > a.pinterest,
+.footer-social > .social-icons > a.linkedin,
+.footer-social > .social-icons > a.vimeo,
+.footer-social > .social-icons > a.tumblr,
+.footer-social > .social-icons > a.youtube,
+.footer-social > .social-icons > a.instagram,
+.footer-social > .social-icons > a.rss,
+.footer-social > .social-icons > a.foursquare,
+.footer-social > .social-icons > a.soundcloud,
+.footer-social > .social-icons > a.github {
+  background-color: transparent !important;
 }
-.sidebar .social-icons > a.facebook {
+.footer-social > .social-icons > a:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.footer-social > .social-icons > a.facebook:hover {
   background-color: #4265b9 !important;
 }
-.sidebar .social-icons > a.vk {
+.footer-social > .social-icons > a.vk:hover {
   background-color: #4C75A3 !important;
 }
-.sidebar .social-icons > a.twitter {
+.footer-social > .social-icons > a.twitter:hover {
   background-color: #55ACEE !important;
 }
-.sidebar .social-icons > a.dribbble {
+.footer-social > .social-icons > a.dribbble:hover {
   background-color: #ea4c89 !important;
 }
-.sidebar .social-icons > a.flickr {
+.footer-social > .social-icons > a.flickr:hover {
   background-color: #ff0084 !important;
 }
-.sidebar .social-icons > a.googleplus {
+.footer-social > .social-icons > a.googleplus:hover {
   background-color: #d62408 !important;
 }
-.sidebar .social-icons > a.skype {
+.footer-social > .social-icons > a.skype:hover {
   background-color: #0bbff2 !important;
 }
-.sidebar .social-icons > a.pinterest {
+.footer-social > .social-icons > a.pinterest:hover {
   background-color: #c31e26 !important;
 }
-.sidebar .social-icons > a.linkedin {
+.footer-social > .social-icons > a.linkedin:hover {
   background-color: #005987 !important;
 }
-.sidebar .social-icons > a.vimeo {
+.footer-social > .social-icons > a.vimeo:hover {
   background-color: #1bb6ec !important;
 }
-.sidebar .social-icons > a.tumblr {
+.footer-social > .social-icons > a.tumblr:hover {
   background-color: #35506b !important;
 }
-.sidebar .social-icons > a.youtube {
+.footer-social > .social-icons > a.youtube:hover {
   background-color: #df3333 !important;
 }
-.sidebar .social-icons > a.instagram {
+.footer-social > .social-icons > a.instagram:hover {
   background-color: #F95B60 !important;
 }
-.sidebar .social-icons > a.rss {
+.footer-social > .social-icons > a.rss:hover {
   background-color: #f39c12 !important;
 }
-.sidebar .social-icons > a.foursquare {
+.footer-social > .social-icons > a.foursquare:hover {
   background-color: #2398C9 !important;
 }
-.sidebar .social-icons > a.soundcloud {
+.footer-social > .social-icons > a.soundcloud:hover {
   background-color: #F50 !important;
 }
-.sidebar .social-icons > a.github {
+.footer-social > .social-icons > a.github:hover {
   background-color: #4183C4 !important;
 }
 .tagcloud {
@@ -10100,21 +10133,6 @@ figure.alignnone {
 }
 #return-to-top:hover i {
   color: #fff;
-}
-div.sharedaddy {
-  display: block;
-  margin: 40px 0;
-}
-div.sharedaddy div.sd-block {
-  display: block;
-  border: none;
-  padding: 0;
-}
-div.sharedaddy div.sd-block .sd-title {
-  font-size: 15px;
-}
-div.sharedaddy div.sd-block .sd-title:before {
-  display: none;
 }
 /*
 Copyright (C) 2015 Andrii

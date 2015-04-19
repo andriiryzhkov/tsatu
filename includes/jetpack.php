@@ -52,7 +52,7 @@ function tsatu_blacklist_jetpack_modules( $modules ){
         // 'after-the-deadline',
         // 'carousel',
         // 'photon',
-        // 'sharedaddy',
+        //'sharedaddy',
         // 'omnisearch',
         // 'mobile-push',
         // 'likes',

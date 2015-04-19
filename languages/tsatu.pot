@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TSATU 0.1.4\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
-"POT-Creation-Date: 2015-02-16 12:23:16+00:00\n"
+"POT-Creation-Date: 2015-04-19 16:31:06+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -81,73 +81,50 @@ msgid ""
 "experience."
 msgstr ""
 
-#: includes/activation.php:28 includes/activation.php:29
+#: includes/activation.php:33 includes/activation.php:34
 msgid "Theme Activation"
 msgstr ""
 
-#: includes/activation.php:50
+#: includes/activation.php:58
 msgid "%s Theme Activation"
 msgstr ""
 
-#: includes/activation.php:52
+#: includes/activation.php:61
 msgid ""
 "These settings are optional and should usually be used only on a fresh "
 "installation"
 msgstr ""
 
-#: includes/activation.php:59 includes/activation.php:62
+#: includes/activation.php:69 includes/activation.php:73
 msgid "Create static front page?"
 msgstr ""
 
-#: includes/activation.php:64 includes/activation.php:76
-#: includes/activation.php:88 includes/activation.php:100
+#: includes/activation.php:75 includes/activation.php:90
 msgid "Yes"
 msgstr ""
 
-#: includes/activation.php:65 includes/activation.php:77
-#: includes/activation.php:89 includes/activation.php:101
+#: includes/activation.php:76 includes/activation.php:91
 msgid "No"
 msgstr ""
 
-#: includes/activation.php:67
+#: includes/activation.php:79
 msgid "Create a page called Home and set it to be the static front page"
 msgstr ""
 
-#: includes/activation.php:71
-msgid "Change permalink structure?"
+#: includes/activation.php:84
+msgid "Set default settings?"
 msgstr ""
 
-#: includes/activation.php:74
-msgid "Update permalink structure?"
+#: includes/activation.php:88
+msgid "Set default options?"
 msgstr ""
 
-#: includes/activation.php:79
-msgid "Change permalink structure to /&#37;postname&#37;/"
+#: includes/activation.php:94
+msgid "Change site options to default values"
 msgstr ""
 
-#: includes/activation.php:83 includes/activation.php:86
-msgid "Create navigation menu?"
-msgstr ""
-
-#: includes/activation.php:91
-msgid "Create the Primary Navigation menu and set the location"
-msgstr ""
-
-#: includes/activation.php:95 includes/activation.php:98
-msgid "Add pages to menu?"
-msgstr ""
-
-#: includes/activation.php:103
-msgid "Add all current published pages to the Primary Navigation"
-msgstr ""
-
-#: includes/activation.php:126 includes/activation.php:147
+#: includes/activation.php:118 includes/activation.php:139
 msgid "Home"
-msgstr ""
-
-#: includes/activation.php:173 includes/activation.php:176
-#: includes/activation.php:190
-msgid "Primary Navigation"
 msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:161 includes/plugins.php:64
@@ -563,7 +540,7 @@ msgstr ""
 msgid "Follow us on "
 msgstr ""
 
-#: includes/extras.php:313
+#: includes/extras.php:303
 msgid "Show All %s"
 msgstr ""
 
@@ -855,10 +832,6 @@ msgstr ""
 
 #: includes/post_types/course_post_type.php:256
 msgid "Choose from the most used years"
-msgstr ""
-
-#: includes/post_types/course_post_type.php:354
-msgid "Insert Courses"
 msgstr ""
 
 #: includes/post_types/people_post_type.php:23

@@ -134,7 +134,7 @@ function tsatu_related_posts()
                             <a href="<?php the_permalink(); ?>">
                                 <?php if (has_post_thumbnail()) : ?>
                                     <div class="entry-image">
-                                        <?php the_post_thumbnail('tsatu-mini'); ?>
+                                        <?php the_post_thumbnail('tsatu-small'); ?>
                                     </div>
                                 <?php endif; ?>
                                 <header>
@@ -273,17 +273,7 @@ if (!function_exists('tsatu_home_url')) {
      */
     function tsatu_home_url($blog_id = null) {
 
-        if (!function_exists('pll_home_url'))
-            return esc_url(get_home_url( $blog_id, '/' ));
-
-        if (!is_multisite() || ($blog_id == null))
-            return esc_url(pll_home_url());
-
-        switch_to_blog($blog_id);
-        $url = pll_home_url();
-        restore_current_blog();
-
-        return esc_url($url);
+        return esc_url(get_home_url( $blog_id, '/' ));
     }
 }
 
@@ -292,8 +282,8 @@ if (!function_exists('tsatu_taxonomy_filter_restrict_manage_posts')) {
     /**
      * Filter the request to just give posts for the given taxonomy, if applicable
      */
-    function tsatu_taxonomy_filter_restrict_manage_posts()
-    {
+    function tsatu_taxonomy_filter_restrict_manage_posts() {
+
         global $typenow;
 
         // If you only want this to work for your specific post type,
@@ -391,5 +381,4 @@ if (!function_exists('tsatu_taxonomy_filter_post_type_request')) {
 //}
 
 
-wp_insert_term('Доктор філософії', 'people_degree');
 

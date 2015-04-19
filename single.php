@@ -16,6 +16,8 @@ get_header(); ?>
 
     <?php get_template_part('content', 'single'); ?>
 
+    <?php get_template_part('content', 'social'); ?>
+
     <?php tsatu_related_posts(); ?>
 
     <?php tsatu_post_navigation(); ?>

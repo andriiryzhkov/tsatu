@@ -32,9 +32,6 @@ if (!defined('ABSPATH')) {
 <?php _e('You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.', 'tsatu'); ?>
     </div>
 <![endif]-->
-<div style="position: absolute; left: 0; top: 0; z-index: 1500">
-    <img src="<?php echo get_template_directory_uri() ?>/assets/img/test.png">
-</div>
 <header class="site-header" role="banner">
     <!-- Branding -->
     <!-- Top menu -->
@@ -76,8 +73,8 @@ if (!defined('ABSPATH')) {
                     ?>
                     <div>
                         <ul class="nav navbar-nav navbar-right navbar-lang">
-                            <?php if (function_exists('pll_the_languages')) {
-                                pll_the_languages(array('show_flags' => 1, 'show_names' => 0));
+                            <?php if (function_exists('icl_language_selector')) {
+                                do_action('icl_language_selector');
                             } ?>
                         </ul>
                     </div>
