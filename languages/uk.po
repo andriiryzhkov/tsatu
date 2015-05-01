@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Тема ТДАТУ\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
-"POT-Creation-Date: 2015-02-03 10:58:32+00:00\n"
+"POT-Creation-Date: 2015-04-19 16:36:58+00:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Andrii Ryzhkov <andrii.ryzhkov@gmail.com>\n"
 "Language-Team: \n"
@@ -10,7 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.4\n"
+"X-Generator: Poedit 1.7.5\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -70,6 +70,26 @@ msgstr ""
 msgid "Pages:"
 msgstr "Сторінки:"
 
+#: content-social.php:18
+msgid "Share link on Facebook"
+msgstr "Поділитись посиланням на Фейсбуці"
+
+#: content-social.php:19
+msgid "Share link on Twitter"
+msgstr "Поділитись посиланням в Твітері"
+
+#: content-social.php:20
+msgid "Share link on VKontakte"
+msgstr "Поділитись посиланням у Вконтакті"
+
+#: content-social.php:21
+msgid "Share link on Google+"
+msgstr "Поділитись посиланням в Гугл-плюсі"
+
+#: content-social.php:22
+msgid "Share link on Pinterest"
+msgstr "Поділитись посиланням на Пінтересті"
+
 #: footer.php:44 footer.php:49
 msgid "All rights reserved."
 msgstr "Всі права захищені."
@@ -78,7 +98,7 @@ msgstr "Всі права захищені."
 msgid "Back to top"
 msgstr "Повернутись вгору"
 
-#: functions.php:58 includes/shortcodes.php:39
+#: functions.php:56 includes/shortcodes.php:39
 msgid "Error locating %s for inclusion"
 msgstr "Помилка при пошуку %s для включення"
 
@@ -91,15 +111,15 @@ msgstr ""
 "\"http://browsehappy.com/\">поновіть ваш браузер</a>, щоб поліпшити ваш "
 "досвід."
 
-#: includes/activation.php:28 includes/activation.php:29
+#: includes/activation.php:33 includes/activation.php:34
 msgid "Theme Activation"
 msgstr "Активація теми"
 
-#: includes/activation.php:50
+#: includes/activation.php:58
 msgid "%s Theme Activation"
 msgstr "Активація теми %s"
 
-#: includes/activation.php:52
+#: includes/activation.php:61
 msgid ""
 "These settings are optional and should usually be used only on a fresh "
 "installation"
@@ -107,60 +127,37 @@ msgstr ""
 "Ці параметри є необов'язковими і зазвичай слід використовувати тільки на "
 "новій установці"
 
-#: includes/activation.php:59 includes/activation.php:62
+#: includes/activation.php:69 includes/activation.php:73
 msgid "Create static front page?"
 msgstr "Створити статичну головну сторінку?"
 
-#: includes/activation.php:64 includes/activation.php:76
-#: includes/activation.php:88 includes/activation.php:100
+#: includes/activation.php:75 includes/activation.php:90
 msgid "Yes"
 msgstr "Так"
 
-#: includes/activation.php:65 includes/activation.php:77
-#: includes/activation.php:89 includes/activation.php:101
+#: includes/activation.php:76 includes/activation.php:91
 msgid "No"
 msgstr "Ні"
 
-#: includes/activation.php:67
+#: includes/activation.php:79
 msgid "Create a page called Home and set it to be the static front page"
 msgstr "Створити сторінку з назвою Home та призначити її статичною сторінкою"
 
-#: includes/activation.php:71
-msgid "Change permalink structure?"
-msgstr "Змінити структуру постійних посилань?"
+#: includes/activation.php:84
+msgid "Set default settings?"
+msgstr ""
 
-#: includes/activation.php:74
-msgid "Update permalink structure?"
-msgstr "Оновити структуру постійних посилань?"
+#: includes/activation.php:88
+msgid "Set default options?"
+msgstr ""
 
-#: includes/activation.php:79
-msgid "Change permalink structure to /&#37;postname&#37;/"
-msgstr "Змінити структуру постійних посилань на /&#37;postname&#37;/"
+#: includes/activation.php:94
+msgid "Change site options to default values"
+msgstr ""
 
-#: includes/activation.php:83 includes/activation.php:86
-msgid "Create navigation menu?"
-msgstr "Створити меню навігації?"
-
-#: includes/activation.php:91
-msgid "Create the Primary Navigation menu and set the location"
-msgstr "Створити Головне меню та визначити місце"
-
-#: includes/activation.php:95 includes/activation.php:98
-msgid "Add pages to menu?"
-msgstr "Додати сторінки до меню?"
-
-#: includes/activation.php:103
-msgid "Add all current published pages to the Primary Navigation"
-msgstr "Додати всі поточні сторінки до Головного меню"
-
-#: includes/activation.php:126 includes/activation.php:147
+#: includes/activation.php:118 includes/activation.php:139
 msgid "Home"
 msgstr "Головна сторінка"
-
-#: includes/activation.php:173 includes/activation.php:176
-#: includes/activation.php:190
-msgid "Primary Navigation"
-msgstr "Головне меню"
 
 #: includes/class-tgm-plugin-activation.php:161 includes/plugins.php:64
 msgid "Install Required Plugins"
@@ -617,7 +614,7 @@ msgstr "Постійне посилання на %s"
 msgid "Follow us on "
 msgstr "Слідкуйте за нами в "
 
-#: includes/extras.php:313
+#: includes/extras.php:303
 msgid "Show All %s"
 msgstr "Показати всі %s"
 
@@ -678,7 +675,6 @@ msgstr "Додати новий банер"
 #: includes/post_types/course_post_type.php:25
 #: includes/post_types/people_post_type.php:28
 #: includes/post_types/slide_post_type.php:25
-#: includes/post_types/tab_post_type.php:25
 msgid "Add New"
 msgstr "Додати"
 
@@ -829,7 +825,6 @@ msgstr "Вибрати серед найбільш вживаних напрям
 #: includes/post_types/people_post_type.php:226
 #: includes/post_types/people_post_type.php:265
 #: includes/post_types/people_post_type.php:320
-#: includes/post_types/tab_post_type.php:80
 msgid "Not Found"
 msgstr "Не знайдено"
 
@@ -912,10 +907,6 @@ msgstr "Додати або видалити курс"
 #: includes/post_types/course_post_type.php:256
 msgid "Choose from the most used years"
 msgstr "Вибрати серед найбільш вживаних курсів"
-
-#: includes/post_types/course_post_type.php:354
-msgid "Insert Courses"
-msgstr "Додати дисципліни"
 
 #: includes/post_types/people_post_type.php:23
 msgid "People"
@@ -1189,99 +1180,6 @@ msgstr "Деталі слайду"
 msgid "Internal relative URL:"
 msgstr "Внутрішнє відносне посилання:"
 
-#: includes/post_types/tab_post_type.php:21
-#: includes/widgets/widget-tabs.php:17
-msgid "Tabs"
-msgstr "Вкладки"
-
-#: includes/post_types/tab_post_type.php:22
-msgid "All Tabs"
-msgstr "Всі вкладки"
-
-#: includes/post_types/tab_post_type.php:23
-msgid "View Tab"
-msgstr "Переглянути вкладку"
-
-#: includes/post_types/tab_post_type.php:24
-msgid "Add New Tab"
-msgstr "Додати нову вкладку"
-
-#: includes/post_types/tab_post_type.php:26
-msgid "Edit Tab"
-msgstr "Редагувати вкладку"
-
-#: includes/post_types/tab_post_type.php:27
-msgid "Update Tab"
-msgstr "Оновити вкладку"
-
-#: includes/post_types/tab_post_type.php:28
-msgid "Search Tabs"
-msgstr "Шукати вкладку"
-
-#: includes/post_types/tab_post_type.php:29
-msgid "No Tabs found"
-msgstr "Жодної вкладки не знайдено"
-
-#: includes/post_types/tab_post_type.php:30
-msgid "Not Tabs found in Trash"
-msgstr "Жодної вкладки в Кошику не знайдено"
-
-#: includes/post_types/tab_post_type.php:33
-msgid "tabs"
-msgstr "вкладки"
-
-#: includes/post_types/tab_post_type.php:34
-msgid "Tab"
-msgstr "Вкладка"
-
-#: includes/post_types/tab_post_type.php:68
-msgid "Categories"
-msgstr "Категорії"
-
-#: includes/post_types/tab_post_type.php:69
-msgid "All Categories"
-msgstr "Всі категорії"
-
-#: includes/post_types/tab_post_type.php:72
-msgid "New Category Name"
-msgstr "Нова назва категорії"
-
-#: includes/post_types/tab_post_type.php:73
-msgid "Add New Category"
-msgstr "Додати нову категорію"
-
-#: includes/post_types/tab_post_type.php:74
-msgid "Edit Category"
-msgstr "редагувати категорію"
-
-#: includes/post_types/tab_post_type.php:75
-msgid "Update Category"
-msgstr "Оновити категорію"
-
-#: includes/post_types/tab_post_type.php:76
-msgid "Separate categories with commas"
-msgstr "Відокремлюйте категорії комами"
-
-#: includes/post_types/tab_post_type.php:77
-msgid "Search Category"
-msgstr "Шукати категорію"
-
-#: includes/post_types/tab_post_type.php:78
-msgid "Add or remove Categories"
-msgstr "Додати або видалити категорію"
-
-#: includes/post_types/tab_post_type.php:79
-msgid "Choose from the most used categories"
-msgstr "Вибрати серед найбільш вживаних категорій"
-
-#: includes/post_types/tab_post_type.php:101
-msgid "Tab defaults"
-msgstr "Стан за замовчуванням вкладки"
-
-#: includes/post_types/tab_post_type.php:115
-msgid "Active tab"
-msgstr "Активна вкладка"
-
 #: includes/shortcodes/shortcode_cta.php:15 includes/widgets/widget-cta.php:19
 msgid "Call to Action"
 msgstr "Заклик до дії"
@@ -1447,7 +1345,7 @@ msgstr "Додати банери на сторінку"
 #: includes/widgets/widget-banner.php:60 includes/widgets/widget-cta.php:73
 #: includes/widgets/widget-department.php:67
 #: includes/widgets/widget-service.php:61
-#: includes/widgets/widget-social.php:48 includes/widgets/widget-tabs.php:66
+#: includes/widgets/widget-social.php:48
 msgid "Title:"
 msgstr "Назва:"
 
@@ -1571,10 +1469,6 @@ msgstr "Соціальні іконки"
 msgid "Follow us"
 msgstr "Ми в соцмережах"
 
-#: includes/widgets/widget-tabs.php:16
-msgid "Add tabs to the page"
-msgstr "Додає вкладки на сторінку"
-
 #: includes/widgets/widget-thumbnail.php:16
 msgid "Thumbnail for current post or page"
 msgstr "Мініатюра для поточної публікації або сторінки"
@@ -1662,11 +1556,6 @@ msgctxt "Post Type General Name"
 msgid "Slides"
 msgstr "Слайди"
 
-#: includes/post_types/tab_post_type.php:19
-msgctxt "Post Type General Name"
-msgid "Tabs"
-msgstr "Вкладки"
-
 #: includes/post_types/banner_post_type.php:20
 msgctxt "Post Type Singular Name"
 msgid "Banner"
@@ -1687,22 +1576,17 @@ msgctxt "Post Type Singular Name"
 msgid "Slide"
 msgstr "Слайд"
 
-#: includes/post_types/tab_post_type.php:20
-msgctxt "Post Type Singular Name"
-msgid "Tab"
-msgstr "Вкладка"
-
-#: includes/post_types/course_post_type.php:167 single-course.php:24
+#: includes/post_types/course_post_type.php:167
 msgctxt "Taxonomy General Name"
 msgid "Major"
 msgstr "Напрями"
 
-#: includes/post_types/course_post_type.php:205 single-course.php:28
+#: includes/post_types/course_post_type.php:205
 msgctxt "Taxonomy General Name"
 msgid "Level"
 msgstr "ОКР"
 
-#: includes/post_types/course_post_type.php:243 single-course.php:32
+#: includes/post_types/course_post_type.php:243
 msgctxt "Taxonomy General Name"
 msgid "Year"
 msgstr "Курси"
@@ -1722,22 +1606,17 @@ msgctxt "Taxonomy General Name"
 msgid "Title"
 msgstr "Звання"
 
-#: includes/post_types/tab_post_type.php:66
-msgctxt "Taxonomy General Name"
-msgid "Categories"
-msgstr "Категорії"
-
-#: includes/post_types/course_post_type.php:168
+#: includes/post_types/course_post_type.php:168 single-course.php:24
 msgctxt "Taxonomy Singular Name"
 msgid "Major"
 msgstr "Напрям"
 
-#: includes/post_types/course_post_type.php:206
+#: includes/post_types/course_post_type.php:206 single-course.php:28
 msgctxt "Taxonomy Singular Name"
 msgid "Level"
 msgstr "ОКР"
 
-#: includes/post_types/course_post_type.php:244
+#: includes/post_types/course_post_type.php:244 single-course.php:32
 msgctxt "Taxonomy Singular Name"
 msgid "Year"
 msgstr "Курс"
@@ -1756,11 +1635,6 @@ msgstr "Ступінь"
 msgctxt "Taxonomy Singular Name"
 msgid "Title"
 msgstr "Звання"
-
-#: includes/post_types/tab_post_type.php:67
-msgctxt "Taxonomy Singular Name"
-msgid "Category"
-msgstr "Категорія"
 
 #: includes/template-tags.php:149
 msgctxt "yearly archives date format"
@@ -1821,6 +1695,121 @@ msgstr "Аудіо"
 msgctxt "post format archive title"
 msgid "Chats"
 msgstr "Чат"
+
+#~ msgid "Change permalink structure?"
+#~ msgstr "Змінити структуру постійних посилань?"
+
+#~ msgid "Update permalink structure?"
+#~ msgstr "Оновити структуру постійних посилань?"
+
+#~ msgid "Change permalink structure to /&#37;postname&#37;/"
+#~ msgstr "Змінити структуру постійних посилань на /&#37;postname&#37;/"
+
+#~ msgid "Create navigation menu?"
+#~ msgstr "Створити меню навігації?"
+
+#~ msgid "Create the Primary Navigation menu and set the location"
+#~ msgstr "Створити Головне меню та визначити місце"
+
+#~ msgid "Add pages to menu?"
+#~ msgstr "Додати сторінки до меню?"
+
+#~ msgid "Add all current published pages to the Primary Navigation"
+#~ msgstr "Додати всі поточні сторінки до Головного меню"
+
+#~ msgid "Primary Navigation"
+#~ msgstr "Головне меню"
+
+#~ msgid "Insert Courses"
+#~ msgstr "Додати дисципліни"
+
+#~ msgid "Tabs"
+#~ msgstr "Вкладки"
+
+#~ msgid "All Tabs"
+#~ msgstr "Всі вкладки"
+
+#~ msgid "View Tab"
+#~ msgstr "Переглянути вкладку"
+
+#~ msgid "Add New Tab"
+#~ msgstr "Додати нову вкладку"
+
+#~ msgid "Edit Tab"
+#~ msgstr "Редагувати вкладку"
+
+#~ msgid "Update Tab"
+#~ msgstr "Оновити вкладку"
+
+#~ msgid "Search Tabs"
+#~ msgstr "Шукати вкладку"
+
+#~ msgid "No Tabs found"
+#~ msgstr "Жодної вкладки не знайдено"
+
+#~ msgid "Not Tabs found in Trash"
+#~ msgstr "Жодної вкладки в Кошику не знайдено"
+
+#~ msgid "tabs"
+#~ msgstr "вкладки"
+
+#~ msgid "Tab"
+#~ msgstr "Вкладка"
+
+#~ msgid "Categories"
+#~ msgstr "Категорії"
+
+#~ msgid "All Categories"
+#~ msgstr "Всі категорії"
+
+#~ msgid "New Category Name"
+#~ msgstr "Нова назва категорії"
+
+#~ msgid "Add New Category"
+#~ msgstr "Додати нову категорію"
+
+#~ msgid "Edit Category"
+#~ msgstr "редагувати категорію"
+
+#~ msgid "Update Category"
+#~ msgstr "Оновити категорію"
+
+#~ msgid "Separate categories with commas"
+#~ msgstr "Відокремлюйте категорії комами"
+
+#~ msgid "Search Category"
+#~ msgstr "Шукати категорію"
+
+#~ msgid "Add or remove Categories"
+#~ msgstr "Додати або видалити категорію"
+
+#~ msgid "Choose from the most used categories"
+#~ msgstr "Вибрати серед найбільш вживаних категорій"
+
+#~ msgid "Tab defaults"
+#~ msgstr "Стан за замовчуванням вкладки"
+
+#~ msgid "Active tab"
+#~ msgstr "Активна вкладка"
+
+#~ msgid "Add tabs to the page"
+#~ msgstr "Додає вкладки на сторінку"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Tabs"
+#~ msgstr "Вкладки"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "Tab"
+#~ msgstr "Вкладка"
+
+#~ msgctxt "Taxonomy General Name"
+#~ msgid "Categories"
+#~ msgstr "Категорії"
+
+#~ msgctxt "Taxonomy Singular Name"
+#~ msgid "Category"
+#~ msgstr "Категорія"
 
 #~ msgid "Main"
 #~ msgstr "Головний"

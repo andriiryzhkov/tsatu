@@ -20,7 +20,7 @@ module.exports = function (grunt) {
         'assets/vendor/bootstrap/js/affix.js',
         //'assets/vendor/jquery/dist/jquery.js',
         'assets/vendor/flexslider/jquery.flexslider.js',
-        'assets/vendor/social-likes/social-likes.min.js',
+        'assets/vendor/social-likes/src/social-likes.js',
         'assets/js/plugins/*.js',
         'assets/js/_*.js'
     ];

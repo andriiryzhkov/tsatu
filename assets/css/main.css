@@ -9816,6 +9816,10 @@ html[xmlns] .flexslider .slides {
 .fa-medium:before {
   content: "\f23a";
 }
+.social-likes {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
 .screen-reader-text {
   display: none;
 }
