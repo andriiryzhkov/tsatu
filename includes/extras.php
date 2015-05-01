@@ -345,8 +345,7 @@ if (!function_exists('tsatu_pdf_blank')) {
     /**
      * Add a filter to open all PDF files in a blank page
      */
-    function tsatu_pdf_blank($content)
-    {
+    function tsatu_pdf_blank($content) {
         global $post;
         $pattern = "/<a(.*?)href=('|\")([^>]*).pdf('|\")(.*?)>(.*?)<\/a>/i";
         $replacement = '<a$1href=$2$3.pdf$4$5 target="_blank">$6</a>';
@@ -354,6 +353,16 @@ if (!function_exists('tsatu_pdf_blank')) {
         return $content;
     }
    add_filter('the_content', 'tsatu_pdf_blank', 1);
+}
+
+if (!function_exists('tsatu_remove_version')) {
+    /**
+     * Remove WordPress version number
+     */
+    function tsatu_remove_version() {
+        return '';
+    }
+    add_filter('the_generator', 'tsatu_remove_version');
 }
 
 //if (function_exists('pll_default_language')) {
