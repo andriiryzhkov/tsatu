@@ -30,7 +30,7 @@ $tsatu_shortcode_includes = array(
     'includes/shortcodes/shortcode_tooltip.php',
     'includes/shortcodes/shortcode_cta.php',
     'includes/shortcodes/shortcode_map.php',
-    'includes/shortcodes/shortcode_table.php',
+    //'includes/shortcodes/shortcode_table.php',
     'includes/shortcodes/shortcode_widget.php',
 );
 
