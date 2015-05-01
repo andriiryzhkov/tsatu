@@ -62,7 +62,7 @@ function tsatu_blacklist_jetpack_modules( $modules ){
         // 'monitor',
         // 'markdown',
         // 'verification-tools',
-        // 'related-posts',
+        'related-posts',
         'custom-content-types',
         'site-icon',
     );
