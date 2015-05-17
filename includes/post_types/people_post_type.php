@@ -344,7 +344,7 @@ if (!function_exists('inject_people')) {
 
             ob_start();
 
-            $query = new WP_Query(array('post_type' => 'people', 'orderby' => 'menu_order title', 'order' => 'ASC', 'post_status' => 'publish'));
+            $query = new WP_Query(array('post_type' => 'people', 'orderby' => 'menu_order title', 'order' => 'ASC', 'post_status' => 'publish', 'posts_per_page' => -1));
             if ($query->have_posts()) : ?>
                 <div class="row">
                     <?php

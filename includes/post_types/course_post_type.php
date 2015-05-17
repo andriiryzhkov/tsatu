@@ -78,7 +78,7 @@ if (!function_exists('display_course_metabox')) {
         // Retrieve current name of the Director and Movie Rating based on review ID
         $course_lecture = esc_html(get_post_meta($course_post->ID, 'course_lecture', true));
         $course_links = esc_html(get_post_meta($course_post->ID, 'course_links', true));
-        $people_query = new WP_Query(array('post_type' => 'people', 'order' => 'ASC', 'post_status' => 'publish'))
+        $people_query = new WP_Query(array('post_type' => 'people', 'order' => 'ASC', 'post_status' => 'publish', 'posts_per_page' => -1))
         ?>
         <table>
             <tr>
@@ -310,7 +310,7 @@ if (!function_exists('insert_course')) {
 
             ob_start();
 
-            $query = new WP_Query(array('post_type' => 'course', 'orderby' => 'menu_order title', 'order' => 'ASC', 'post_status' => 'publish'));
+            $query = new WP_Query(array('post_type' => 'course', 'orderby' => 'menu_order title', 'order' => 'ASC', 'post_status' => 'publish', 'posts_per_page' => -1));
             if ($query->have_posts()) :
                 while ($query->have_posts()) : $query->the_post(); ?>
                     <?php get_template_part('content', 'course'); ?>

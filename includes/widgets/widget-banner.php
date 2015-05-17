@@ -27,7 +27,7 @@ class TSATU_Banner_Widget extends WP_Widget {
         }
         ?>        						
 
-        <?php $query = new WP_Query(array('post_type' => 'banner', 'order' => 'ASC', 'post_status' => 'publish'));
+        <?php $query = new WP_Query(array('post_type' => 'banner', 'order' => 'ASC', 'post_status' => 'publish', 'posts_per_page' => -1));
         if ($query->have_posts()) :
             while ($query->have_posts()) : $query->the_post();
                 global $more;
