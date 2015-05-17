@@ -36,8 +36,9 @@
                             },
                             {
                                 text: 'Table',
-                                value: 'Text from sub sub menu',
-                                onclick: function(e) { e.stopPropagation(); ed.insertContent(this.value()); }
+                                onclick: function(e) {
+                                    ed.insertContent( '[table]<br class="nc"/>[/table]');
+                                }
                             }
                         ]
                     },
@@ -83,7 +84,7 @@
                                             
                                         ],
                                         onsubmit: function(e) {
-                                            ed.insertContent( '[button type="' + e.data.type + '" size="' + e.data.size + '"]' + e.data.title + '<br class="nc"/>[/button]');
+                                            ed.insertContent( '[button type="' + e.data.type + '" size="' + e.data.size + '"]' + e.data.title + '[/button]');
                                         }
                                     });
                                 }
@@ -233,7 +234,7 @@
                                             
                                         ],
                                         onsubmit: function(e) {
-                                            ed.insertContent( '[well size="' + e.data.size + '"]' + e.data.title + '[/button]');
+                                            ed.insertContent( '[well size="' + e.data.size + '"]' + e.data.title + '[/well]');
                                         }
                                     });
                                 }
@@ -326,7 +327,7 @@
                                             }
                                         ],
                                         onsubmit: function(e) {
-                                            ed.insertContent( '[tabs]' + e.data.content + '[/tabs]');
+                                            ed.insertContent( '[tabs][tab]' + e.data.content + '[/tab][/tabs]');
                                         }
                                     });
                                 }
@@ -420,7 +421,7 @@
                                             {
                                                 type: 'textbox',
                                                 name: 'info',
-                                                label: 'Info windows'
+                                                label: 'Info window'
                                             },
                                             {
                                                 type: 'textbox',

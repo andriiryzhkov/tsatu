@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Тема ТДАТУ\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
-"POT-Creation-Date: 2015-04-19 16:36:58+00:00\n"
+"POT-Creation-Date: 2015-05-02 10:07:20+00:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Andrii Ryzhkov <andrii.ryzhkov@gmail.com>\n"
 "Language-Team: \n"
@@ -1493,14 +1493,6 @@ msgstr "Провідний викладач:"
 msgid "Education and Information Portal of TSATU"
 msgstr "Навчально-інформаційний портал ТДАТУ"
 
-#: tribe-events/views/widgets/list-widget.php:63
-msgid "View All Events"
-msgstr "Показати всі події"
-
-#: tribe-events/views/widgets/list-widget.php:70
-msgid "There are no upcoming events at this time."
-msgstr "Наразі немає майбутніх подій."
-
 #. Theme Name of the plugin/theme
 msgid "TSATU"
 msgstr "ТДАТУ"
@@ -1695,6 +1687,12 @@ msgstr "Аудіо"
 msgctxt "post format archive title"
 msgid "Chats"
 msgstr "Чат"
+
+#~ msgid "View All Events"
+#~ msgstr "Показати всі події"
+
+#~ msgid "There are no upcoming events at this time."
+#~ msgstr "Наразі немає майбутніх подій."
 
 #~ msgid "Change permalink structure?"
 #~ msgstr "Змінити структуру постійних посилань?"

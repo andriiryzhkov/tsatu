@@ -167,7 +167,8 @@ if (!defined('ABSPATH')) {
 <!-- Front page -->
 <?php
 if (function_exists('tsatu_slider') && is_front_page() && is_main_site() && get_theme_mod('show_slider') == 1) {
-    tsatu_slider(get_theme_mod('num_slides'));
+    //tsatu_slider(get_theme_mod('num_slides'));
+    tsatu_slider(3);
 }
 ?>
 <!-- Main container -->
