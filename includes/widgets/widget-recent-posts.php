@@ -56,6 +56,7 @@ class TSATU_Recent_Posts_Widget extends WP_Widget_Recent_Posts
          */
         $r = new WP_Query(apply_filters('widget_posts_args', array(
             'posts_per_page' => $number,
+            'category_name' => 'news',
             'no_found_rows' => true,
             'post_status' => 'publish',
             'ignore_sticky_posts' => false
