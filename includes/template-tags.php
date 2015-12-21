@@ -89,9 +89,10 @@ if (!function_exists('tsatu_posted_on')) :
 
         $posted_on = '<i class="fa fa-calendar"></i> ' . $time_string;
 
-        $byline = '<i class="fa fa-pencil"></i> <span class="author vcard"><a class="url fn n" href="' . esc_url(get_author_posts_url(get_the_author_meta('ID'))) . '">' . esc_html(get_the_author()) . '</a></span>';
+        //$byline = '<i class="fa fa-pencil"></i> <span class="author vcard"><a class="url fn n" href="' . esc_url(get_author_posts_url(get_the_author_meta('ID'))) . '">' . esc_html(get_the_author()) . '</a></span>';
 
-        echo '<span class="posted-on">' . $posted_on . '</span><span class="byline"> ' . $byline . '</span>';
+        //echo '<span class="posted-on">' . $posted_on . '</span><span class="byline"> ' . $byline . '</span>';
+        echo '<span class="posted-on">' . $posted_on . '</span>';
     }
 
 endif;
@@ -140,7 +141,8 @@ if (!function_exists('tsatu_archive_title')) :
      */
     function tsatu_archive_title($before = '', $after = '') {
         if (is_category()) {
-            $title = sprintf(__('Category: %s', 'tsatu'), single_cat_title('', false));
+            $title = single_cat_title('', false);
+            //$title = sprintf(__('Category: %s', 'tsatu'), single_cat_title('', false));
         } elseif (is_tag()) {
             $title = sprintf(__('Tag: %s', 'tsatu'), single_tag_title('', false));
         } elseif (is_author()) {
