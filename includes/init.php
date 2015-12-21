@@ -169,7 +169,6 @@ function tsatu_widgets_init() {
     register_widget( 'TSATU_Recent_Posts_Widget' );
     register_widget( 'TSATU_Service_Widget' );
     register_widget( 'TSATU_Social_Widget' );
-    register_widget( 'TSATU_Pagenav_Widget' );
     register_widget( 'TSATU_Shortlink_Widget' );
     register_widget( 'TSATU_CTA_Widget' );
     register_widget( 'TSATU_Thumbnail_Widget' );

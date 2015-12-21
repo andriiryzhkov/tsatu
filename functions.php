@@ -41,7 +41,6 @@ $tsatu_includes = array(
     'includes/post_types/people_post_type.php', // People
     'includes/widgets/widget-recent-posts.php', // Recent Posts Widget
     'includes/widgets/widget-service.php',      // Service Widget
-    'includes/widgets/widget-pagenav.php',      // Page Sidebar Navigation Widget
     'includes/widgets/widget-shortlink.php',    // Shortlink Widget
     'includes/widgets/widget-cta.php',          // Call to Action Widget
     'includes/widgets/widget-social.php',       // Social icons Widget
