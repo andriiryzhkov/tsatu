@@ -364,3 +364,15 @@ if (!function_exists('tsatu_remove_version')) {
     }
     add_filter('the_generator', 'tsatu_remove_version');
 }
+
+if(!function_exists('extract_from_string')) {
+    /**
+     * Extract first occurance of text from a string
+     */
+    function extract_from_string($start, $end, $tring)
+    {
+        $tring = stristr($tring, $start);
+        $trimmed = stristr($tring, $end);
+        return substr($tring, strlen($start), -strlen($trimmed));
+    }
+}
